@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { SYSTEMS, evaluateStock } from "../lib/framework.mjs";
+import { SYSTEMS, evaluateStock, weeklyBreakoutStatus } from "../lib/framework.mjs";
 
 const makeBars = (count = 90, slope = 0.2) => Array.from({ length: count }, (_, i) => {
   const close = 100 + i * slope;
@@ -11,6 +11,11 @@ const makeBars = (count = 90, slope = 0.2) => Array.from({ length: count }, (_, 
 test("framework has exactly 20 systems and excludes removed proposals", () => {
   assert.equal(SYSTEMS.length, 20);
   assert.equal(SYSTEMS.some(s => /Monthly 51|50-Day SMA/i.test(s.name)), false);
+});
+
+test("Weekly 51 breakout stays in progress through Thursday and confirms on Friday", () => {
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-03T13:30:00Z"), "2026-08-31"), "week-in-progress");
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-04T13:30:00Z"), "2026-08-31"), "confirmed");
 });
 
 test("SMA proximity accepts ±2% regardless of SMA direction and reports direction", () => {
