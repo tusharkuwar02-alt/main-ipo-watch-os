@@ -1,0 +1,48 @@
+.freshness.stale { border-color: #805621; color: #ffd28b; }
+.freshness.stale .pulse { background: var(--amber); }
+.statusPanel { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 14px 0; }
+.status, .sourceHealth { background: #091725; border: 1px solid var(--line); border-radius: 13px; padding: 13px; }
+.status span { display: block; color: var(--muted); font-size: 11px; margin-bottom: 6px; }
+.status b { font-size: 13px; }
+.sourceHealth { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.sourceHealth > b { margin-right: 4px; }
+.sourceHealth span { font-size: 11px; border-radius: 999px; padding: 5px 8px; background: #102439; color: #a9bece; }
+.sourceHealth .ok { color: var(--teal); background: #12302d; }
+.sourceHealth .partial { color: var(--amber); background: #322817; }
+.allReasons, .reasonButton { border: 1px solid #286a72; background: #0b292e; color: var(--teal); border-radius: 10px; padding: 10px 12px; cursor: pointer; white-space: nowrap; }
+.reasonButton { font-size: 11px; }
+.score { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 12px; background: linear-gradient(135deg, #25d3b122, #47a7ff22); border: 1px solid #2b6770; color: var(--teal); }
+.whyHeader { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; margin-bottom: 14px; }
+.whyHeader h3 { margin: 0 0 5px; }
+.whyHeader p { margin: 0; color: var(--muted); font-size: 12px; }
+.diagnostics { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.diagnostics span { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 9px; padding: 7px; }
+.diagnostics b { color: var(--text); margin-left: 4px; }
+.reasonTitle em { display: inline-block; color: var(--blue); font-size: 10px; font-style: normal; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+.measures { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.measures small { background: #102236; border-radius: 7px; padding: 5px 7px; color: var(--muted); }
+.measures b { color: var(--text); }
+.backtest { border-top: 1px solid var(--line); margin-top: 11px; padding-top: 9px; font-size: 10px; color: var(--muted); }
+.backtest b, .backtest span, .systemGrid button small { display: block; }
+.backtest b { color: #b8d4e8; margin-bottom: 4px; }
+.backtest.pending { color: #6f8aa1; }
+.systemGrid button span { display: block; }
+.systemGrid button small { color: var(--muted); font-size: 9px; margin-top: 4px; }
+.chips span { white-space: normal; }
+.details td { padding: 18px; }
+.reasonGrid article { min-width: 0; }
+@media (max-width: 1100px) {
+  .statusPanel { grid-template-columns: 1fr 1fr; }
+  .filters { flex-wrap: wrap; }
+  .reasonGrid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 900px) {
+  .whyHeader { flex-direction: column; }
+  .diagnostics { justify-content: flex-start; }
+  .stockRow td:last-child { position: relative; right: auto; top: auto; padding: 7px 5px 7px 42%; }
+  .reasonButton { width: 100%; }
+}
+@media (max-width: 520px) {
+  .statusPanel, .reasonGrid { grid-template-columns: 1fr; }
+  .sourceHealth { grid-column: auto; }
+}

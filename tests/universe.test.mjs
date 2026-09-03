@@ -14,6 +14,7 @@ test("SME section is excluded and rolling five-year window is enforced", () => {
   const performance = [{ company: "Alpha", issuePrice: 100, year: 2026 }, { company: "Small", issuePrice: 50, year: 2026 }, { company: "Old", issuePrice: 10, year: 2020 }];
   const result = buildRollingUniverse(parseNseListingCsv(csv), performance, [], new Date("2026-09-02T00:00:00Z"));
   assert.deepEqual(result.universe.map(x => x.symbol), ["ALPHA"]);
+  assert.equal(result.universe[0].matchConfidence, 1);
 });
 
 test("listing-date disagreement fails validation", () => {
@@ -27,4 +28,10 @@ test("mainboard BE surveillance series is retained while SME SM series is exclud
   const csv = `SYMBOL,NAME OF COMPANY, SERIES, DATE OF LISTING,PAID UP VALUE,MARKET LOT,ISIN NUMBER,FACE VALUE\nWATCH,Watch Limited,BE,10-AUG-2026,10,1,INE000A01001,10\nSMALL,Small Limited,SM,10-AUG-2026,10,1,INE000A01002,10`;
   const result = buildRollingUniverse(parseNseListingCsv(csv), [{ company: "Watch", issuePrice: 100 }], [], new Date("2026-09-02T00:00:00Z"));
   assert.deepEqual(result.universe.map(x => x.symbol), ["WATCH"]);
+});
+
+test("renamed and known IPO companies use validated NSE symbol aliases", () => {
+  const csv = `SYMBOL,NAME OF COMPANY, SERIES, DATE OF LISTING,PAID UP VALUE,MARKET LOT,ISIN NUMBER,FACE VALUE\nLODHA,Lodha Developers Limited,EQ,19-APR-2022,10,1,INE000A01001,10\nARKADE,Arkade Developers Limited,EQ,24-SEP-2024,10,1,INE000A01002,10`;
+  const result = buildRollingUniverse(parseNseListingCsv(csv), [{ company: "Lodha Developers", issuePrice: 486, year: 2021 }], [], new Date("2026-09-02T00:00:00Z"));
+  assert.deepEqual(result.universe.map(row => row.symbol), ["LODHA"]);
 });

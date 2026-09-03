@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { SYSTEMS, evaluateStock, weeklyBreakoutStatus } from "../lib/framework.mjs";
+import { SYSTEMS, evaluateStock, scoreConfluence, weeklyBreakoutStatus } from "../lib/framework.mjs";
 
 const makeBars = (count = 90, slope = 0.2) => Array.from({ length: count }, (_, i) => {
   const close = 100 + i * slope;
@@ -14,8 +14,18 @@ test("framework has exactly 20 systems and excludes removed proposals", () => {
 });
 
 test("Weekly 51 breakout stays in progress through Thursday and confirms on Friday", () => {
-  assert.equal(weeklyBreakoutStatus(new Date("2026-09-03T13:30:00Z"), "2026-08-31"), "week-in-progress");
-  assert.equal(weeklyBreakoutStatus(new Date("2026-09-04T13:30:00Z"), "2026-08-31"), "confirmed");
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-03T13:30:00Z"), "2026-08-31", "2026-09-03"), "week-in-progress");
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-04T13:30:00Z"), "2026-08-31", "2026-09-04"), "confirmed");
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-04T13:30:00Z"), "2026-08-31", "2026-09-03", ["2026-09-04"]), "confirmed");
+  assert.equal(weeklyBreakoutStatus(new Date("2026-09-04T13:30:00Z"), "2026-08-31", "2026-09-03"), "week-in-progress");
+});
+
+test("confluence score rewards independent signal families without hiding duplicate matches", () => {
+  const related = scoreConfluence([{ id: "ath" }, { id: "high-20d" }]);
+  const independent = scoreConfluence([{ id: "ath" }, { id: "volume-expansion" }]);
+  assert.equal(related.signalFamilies.length, 1);
+  assert.equal(independent.signalFamilies.length, 2);
+  assert.ok(independent.confluenceScore > related.confluenceScore);
 });
 
 test("SMA proximity accepts ±2% regardless of SMA direction and reports direction", () => {

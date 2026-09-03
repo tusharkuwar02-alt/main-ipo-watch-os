@@ -10,8 +10,18 @@ Production NSE Mainboard IPO scanner using the user's locked 20-system framework
 - IPO Base depth must be at or below 12%.
 - Volume Dry-Up requires volume at or below 60% of its 20-day average while price is within ±2% of Daily SMA21.
 - Weekly-51 distinguishes a confirmed completed-week breakout from a week-in-progress signal.
+- Weekly confirmation follows the official NSE holiday calendar when available and refuses to confirm against stale market data.
 - IPOWatch parsing reads the actual `Listing Date` column, never `Open Date`; NSE listing master validates symbol, segment, and listing date.
 - Monthly 51 and 50-Day SMA proximity are deliberately absent.
+
+## Reliability and explanation layer
+
+- Every qualifying stock displays every matching system, the exact trigger reason, supporting values, and signal family.
+- Confluence ranking counts independent evidence families so several related breakout rules cannot artificially dominate ranking. The one-match inclusion rule remains unchanged.
+- Each system includes indicative 5/10/20-session historical forward-return context from recent signals.
+- Yahoo history automatically retries through a second endpoint.
+- Scan quality guards block an empty, badly reduced, or failure-heavy refresh and preserve the last successful snapshot.
+- The dashboard and health API expose market date, freshness, scan quality, source status, and failure counts.
 
 ## Data path
 
