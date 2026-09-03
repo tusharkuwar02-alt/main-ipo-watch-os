@@ -81,7 +81,7 @@ async function main() {
   const stocks = rows.filter(Boolean).sort((a, b) => b.matchCount - a.matchCount || b.priority - a.priority);
   const scan = {
     meta: {
-      name: "Main IPO Watch OS", frameworkVersion: "locked-20-v1", asOf: now.toISOString(),
+      name: "Main IPO Watch OS", frameworkVersion: "locked-20-v1.1", asOf: now.toISOString(),
       exchange: "NSE", segment: "Mainboard", rollingWindowStart: built.cutoff,
       universeCount: built.universe.length, qualifyingCount: stocks.length,
       historyFailures: historyFailures.length, validationFailures: built.failures.length,
