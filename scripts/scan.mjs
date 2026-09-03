@@ -109,7 +109,7 @@ async function main() {
   const systems = aggregateBacktests(rows.map(row => row.backtest).filter(Boolean));
   const scan = {
     meta: {
-      name: "Main IPO Watch OS", frameworkVersion: "locked-20-v2", asOf: now.toISOString(), lastSuccessfulScanAt: now.toISOString(),
+      name: "Main IPO Watch OS", frameworkVersion: "locked-20-v2.1", asOf: now.toISOString(), lastSuccessfulScanAt: now.toISOString(),
       exchange: "NSE", segment: "Mainboard", rollingWindowStart: built.cutoff,
       marketDate, expectedMarketDate, dataFreshness: marketDate >= expectedMarketDate ? "fresh" : "stale",
       universeCount: built.universe.length, qualifyingCount: stocks.length,

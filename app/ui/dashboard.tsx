@@ -17,6 +17,8 @@ export default function Dashboard({ initialData }: { initialData: Scan }) {
     `${stock.symbol} ${stock.company}`.toLowerCase().includes(query.toLowerCase())
   ), [initialData, query, system]);
   const performance = useMemo(() => new Map(initialData.systems.map(row => [row.id, row.performance])), [initialData.systems]);
+  const selectedSystemName = system === "all" ? "All 20 Systems" : initialData.systems.find(row => row.id === system)?.name || system;
+  const exportCount = initialData.stocks.filter(stock => system === "all" || stock.matches.some(match => match.id === system)).length;
   const asOf = new Date(initialData.meta.lastSuccessfulScanAt || initialData.meta.asOf);
   const allExpanded = stocks.length > 0 && stocks.every(stock => expanded.has(stock.symbol));
   const toggle = (symbol: string) => setExpanded(current => {
@@ -63,12 +65,21 @@ export default function Dashboard({ initialData }: { initialData: Scan }) {
           <button className="allReasons" onClick={toggleAll}>{allExpanded ? "Hide all reasons" : "Show all reasons"}</button>
         </div>
       </div>
+      <div className="exportBar">
+        <div><b>Download: {selectedSystemName}</b><span>{exportCount} stocks · Select any system above, then download its complete list.</span></div>
+        <div className="exportActions">
+          <a href={`/api/export?format=xlsx&system=${encodeURIComponent(system)}`} download>Download Excel (.xlsx)</a>
+          <a href={`/api/export?format=tradingview&system=${encodeURIComponent(system)}`} download>TradingView List (.txt)</a>
+        </div>
+      </div>
       <div className="tableWrap"><table>
         <thead><tr><th>Stock</th><th>Price</th><th>IPO Details</th><th>Score</th><th>All Matched Setups</th><th>Reasons</th></tr></thead>
         <tbody>{stocks.map(stock => <StockRow key={stock.symbol} stock={stock} open={expanded.has(stock.symbol)} toggle={() => toggle(stock.symbol)} performance={performance} />)}</tbody>
       </table></div>
       {!stocks.length && <div className="empty">No stocks match the current filters.</div>}
     </section>
+
+    <section className="importHelp"><b>TradingViewमध्ये list कशी add करायची?</b><span>TradingView Watchlist उघडा → Watchlist name/menu → Import or Upload list → इथून download केलेली .txt file निवडा.</span></section>
 
     <section className="systems"><div><h2>Locked 20-System Framework + Historical Context</h2><p>Performance uses indicative 5/10/20-session forward returns from recent historical signals. It does not remove any one-system match and is not a return guarantee.</p></div><div className="systemGrid">{initialData.systems.map((row, index) => <button key={row.id} onClick={() => setSystem(row.id)}><b>{String(index + 1).padStart(2, "0")}</b><span>{row.name}<small>{row.family || "Signal"}{row.performance ? ` · ${row.performance.samples} samples · 5D win ${row.performance.winRate5d}%` : " · Backtest pending"}</small></span></button>)}</div></section>
     <footer>Educational screening tool · Historical results do not guarantee future returns · Verify prices with your broker before trading</footer>

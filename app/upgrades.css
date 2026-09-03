@@ -31,6 +31,17 @@
 .chips span { white-space: normal; }
 .details td { padding: 18px; }
 .reasonGrid article { min-width: 0; }
+.exportBar { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 22px; border-top: 1px solid var(--line); background: #081b27; }
+.exportBar b, .exportBar span { display: block; }
+.exportBar b { color: #dff8f3; font-size: 13px; }
+.exportBar span { margin-top: 4px; color: var(--muted); font-size: 11px; }
+.exportActions { display: flex; gap: 8px; flex-wrap: wrap; }
+.exportActions a { border: 1px solid #2a726d; border-radius: 10px; padding: 10px 12px; background: #0d3735; color: var(--teal); font-size: 12px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.exportActions a:hover { border-color: var(--teal); background: #10423f; }
+.exportActions a:last-child { border-color: #315f86; background: #102b42; color: #91caff; }
+.importHelp { display: flex; gap: 12px; align-items: center; margin: 14px 0; padding: 14px 18px; border: 1px solid #315f86; border-radius: 13px; background: #0b1d2c; }
+.importHelp b { color: #91caff; font-size: 13px; }
+.importHelp span { color: var(--muted); font-size: 12px; line-height: 1.5; }
 @media (max-width: 1100px) {
   .statusPanel { grid-template-columns: 1fr 1fr; }
   .filters { flex-wrap: wrap; }
@@ -39,6 +50,8 @@
 @media (max-width: 900px) {
   .whyHeader { flex-direction: column; }
   .diagnostics { justify-content: flex-start; }
+  .exportBar, .importHelp { align-items: stretch; flex-direction: column; }
+  .exportActions a { flex: 1; text-align: center; }
   .stockRow td:last-child { position: relative; right: auto; top: auto; padding: 7px 5px 7px 42%; }
   .reasonButton { width: 100%; }
 }

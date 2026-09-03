@@ -22,6 +22,7 @@ Production NSE Mainboard IPO scanner using the user's locked 20-system framework
 - Yahoo history automatically retries through a second endpoint.
 - Scan quality guards block an empty, badly reduced, or failure-heavy refresh and preserve the last successful snapshot.
 - The dashboard and health API expose market date, freshness, scan quality, source status, and failure counts.
+- Every system-filtered stock list can be downloaded as a formatted `.xlsx` workbook or as a TradingView-compatible `.txt` watchlist using `NSE:SYMBOL` identifiers.
 
 ## Data path
 
