@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Main IPO Watch OS",
-    "frameworkVersion": "locked-20-v1",
+    "frameworkVersion": "locked-20-v1.1",
     "asOf": "2026-09-02T21:27:45.599Z",
     "exchange": "NSE",
     "segment": "Mainboard",
