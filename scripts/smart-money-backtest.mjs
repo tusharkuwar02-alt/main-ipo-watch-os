@@ -106,7 +106,7 @@ function independentOutcomes(signals, histories, config, targetR = 1.5, maxHoldS
     const outcome = simulateLongTrade(histories.get(signal.symbol), signal.barIndex, planFor(signal, config), {
       waitSessions: config.waitSessions, orderType: config.orderType, maxHoldSessions, targetR, frictionPct: .003
     });
-    return { ...signal, ...outcome, year: outcome.exitDate?.slice(0, 4) || signal.signalDate.slice(0, 4) };
+    return Object.assign(Object.create(signal), outcome, { year: outcome.exitDate?.slice(0, 4) || signal.signalDate.slice(0, 4) });
   }).sort((a, b) => a.signalDate.localeCompare(b.signalDate) || a.symbol.localeCompare(b.symbol));
 }
 
@@ -159,10 +159,10 @@ function deepOptimization(signals, histories) {
     { name: "Signal-high + 2ATR stop", entry: "signalHigh", stopAtr: 2, waitSessions: 2, orderType: "stop" },
     { name: "20D breakout + 2ATR stop", entry: "breakout20", stopAtr: 2, waitSessions: 3, orderType: "stop" }
   ];
-  const allCandidates = []; const outcomeCache = new Map();
+  const allCandidates = [];
   for (const config of configs) {
     console.log(`Deep study: ${config.name}`);
-    const outcomes = independentOutcomes(signals, histories, config); outcomeCache.set(config.name, outcomes);
+    const outcomes = independentOutcomes(signals, histories, config);
     let beam = [{ gates: [], families: new Set() }];
     for (let depth = 0; depth <= 6; depth++) {
       const scored = [];
@@ -185,16 +185,21 @@ function deepOptimization(signals, histories) {
       beam = [...unique.values()];
     }
   }
-  const finalists = allCandidates.sort((a, b) => b.score - a.score).slice(0, 20).map(candidate => {
-    const outcomes = outcomeCache.get(candidate.config);
-    const holdout = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, holdoutYears));
-    return {
-      entryStop: candidate.config, filters: candidate.gates.map(g => g.name), score: candidate.score,
-      development: { ...candidate.development, wilsonLower95Pct: wilsonLower(candidate.development.wins, candidate.development.trades) },
-      validation: { ...candidate.validation, wilsonLower95Pct: wilsonLower(candidate.validation.wins, candidate.validation.trades) },
-      holdout: { ...holdout, wilsonLower95Pct: wilsonLower(holdout.wins, holdout.trades) }
-    };
-  });
+  const finalistDefinitions = allCandidates.sort((a, b) => b.score - a.score).slice(0, 20);
+  const finalists = [];
+  for (const config of configs.filter(item => finalistDefinitions.some(candidate => candidate.config === item.name))) {
+    const outcomes = independentOutcomes(signals, histories, config);
+    for (const candidate of finalistDefinitions.filter(item => item.config === config.name)) {
+      const holdout = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, holdoutYears));
+      finalists.push({
+        entryStop: candidate.config, filters: candidate.gates.map(g => g.name), score: candidate.score,
+        development: { ...candidate.development, wilsonLower95Pct: wilsonLower(candidate.development.wins, candidate.development.trades) },
+        validation: { ...candidate.validation, wilsonLower95Pct: wilsonLower(candidate.validation.wins, candidate.validation.trades) },
+        holdout: { ...holdout, wilsonLower95Pct: wilsonLower(holdout.wins, holdout.trades) }
+      });
+    }
+  }
+  finalists.sort((a, b) => b.score - a.score);
   const best = finalists[0]; const selectedConfig = configs.find(config => config.name === best.entryStop);
   const selectedGates = best.filters.map(name => gates.find(g => g.name === name));
   const targets = {};

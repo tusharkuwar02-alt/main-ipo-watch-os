@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: smart-money-full-backtest
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   backtest:
@@ -39,6 +39,7 @@ jobs:
       - name: Run point-in-time backtest
         run: npm run backtest:smart-money
         env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
           BACKTEST_START: "2022-01-01"
           BACKTEST_DOWNLOAD_START: "2021-09-01"
       - name: Commit verified report
