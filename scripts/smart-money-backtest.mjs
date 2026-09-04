@@ -163,27 +163,30 @@ function deepOptimization(signals, histories) {
   for (const config of configs) {
     console.log(`Deep study: ${config.name}`);
     const outcomes = independentOutcomes(signals, histories, config);
-    let beam = [{ gates: [], families: new Set() }];
-    for (let depth = 0; depth <= 6; depth++) {
-      const scored = [];
-      for (const candidate of beam) {
-        const development = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, developmentYears));
-        const validation = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, validationYears));
-        if (development.trades < 200 || validation.trades < 60) continue;
-        const stabilityPenalty = Math.abs(development.winRatePct - validation.winRatePct) * .4;
-        const score = validation.winRatePct + validation.expectancyR * 80 + (validation.profitFactor || 0) * 8 - stabilityPenalty;
-        scored.push({ ...candidate, config: config.name, development, validation, score: +score.toFixed(3) });
-      }
-      allCandidates.push(...scored);
-      if (depth === 6) break;
-      const next = [];
-      for (const candidate of scored.sort((a, b) => b.score - a.score).slice(0, 30)) {
-        for (const gate of gates) if (!candidate.families.has(gate.family)) next.push({ gates: [...candidate.gates, gate], families: new Set([...candidate.families, gate.family]) });
-      }
-      const unique = new Map();
-      for (const candidate of next) unique.set(candidate.gates.map(g => g.name).sort().join("|"), candidate);
-      beam = [...unique.values()];
+    const scoreCandidate = candidateGates => {
+      const development = summarizeTrades(selectNonOverlapping(outcomes, candidateGates, developmentYears));
+      const validation = summarizeTrades(selectNonOverlapping(outcomes, candidateGates, validationYears));
+      if (development.trades < 200 || validation.trades < 60) return null;
+      const stabilityPenalty = Math.abs(development.winRatePct - validation.winRatePct) * .4;
+      const score = validation.winRatePct + validation.expectancyR * 80 + (validation.profitFactor || 0) * 8 - stabilityPenalty;
+      return { gates: candidateGates, config: config.name, development, validation, score: +score.toFixed(3) };
+    };
+    const baseline = scoreCandidate([]); if (baseline) allCandidates.push(baseline);
+    const singles = gates.map(gate => scoreCandidate([gate])).filter(Boolean).sort((a, b) => b.score - a.score);
+    allCandidates.push(...singles);
+    const seedGates = []; const seenFamilies = new Set();
+    for (const candidate of singles) {
+      const gate = candidate.gates[0];
+      if (!seenFamilies.has(gate.family)) { seedGates.push(gate); seenFamilies.add(gate.family); }
+      if (seedGates.length === 8) break;
     }
+    const combinations = [];
+    function combine(start, wanted, chosen) {
+      if (!wanted) { combinations.push([...chosen]); return; }
+      for (let index = start; index <= seedGates.length - wanted; index++) combine(index + 1, wanted - 1, [...chosen, seedGates[index]]);
+    }
+    for (const size of [2, 3, 4]) combine(0, size, []);
+    for (const candidateGates of combinations) { const candidate = scoreCandidate(candidateGates); if (candidate) allCandidates.push(candidate); }
   }
   const finalistDefinitions = allCandidates.sort((a, b) => b.score - a.score).slice(0, 20);
   const finalists = [];
