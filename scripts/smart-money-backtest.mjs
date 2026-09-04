@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { evaluateSmartMoney, sma } from "../lib/smart-money.mjs";
+import { atr, evaluateSmartMoney, sma } from "../lib/smart-money.mjs";
 import { groupSummary, looksLikeCorporateAction, simulateLongTrade, summarizeTrades } from "../lib/smart-money-backtest.mjs";
 
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
@@ -71,6 +71,146 @@ async function mapLimit(items, limit, worker) {
   await Promise.all(Array.from({ length: Math.min(limit, items.length) }, run)); return results;
 }
 
+const pct = value => Number.isFinite(value) ? +(value * 100).toFixed(3) : null;
+
+function enrichSignal(evaluation, bars, breadth20, breadth50) {
+  const latest = bars.at(-1); const a = atr(bars, 14);
+  const return5 = latest.close / bars.at(-6).close - 1;
+  const previous5 = bars.at(-6).close / bars.at(-11).close - 1;
+  return {
+    ...evaluation,
+    signalHigh: latest.high,
+    high20Raw: Math.max(...bars.slice(-21, -1).map(bar => bar.high)),
+    low10Raw: Math.min(...bars.slice(-10).map(bar => bar.low)),
+    atrValue: a,
+    atrPct: pct(a / latest.close),
+    return5Pct: pct(return5),
+    return10Pct: pct(latest.close / bars.at(-11).close - 1),
+    momentumAccelerationPct: pct(return5 - previous5),
+    closeLocation: latest.high === latest.low ? 0.5 : +((latest.close - latest.low) / (latest.high - latest.low)).toFixed(3),
+    breadth20Pct: pct(breadth20), breadth50Pct: pct(breadth50)
+  };
+}
+
+function planFor(signal, config) {
+  let entry = signal.entry; let stopLoss = signal.stopLoss;
+  if (config.entry === "signalHigh") entry = signal.signalHigh + signal.atrValue * 0.1;
+  if (config.entry === "breakout20") entry = signal.high20Raw * 1.002;
+  if (config.entry === "sma21Limit") entry = signal.sma21;
+  if (config.stopAtr) stopLoss = entry - signal.atrValue * config.stopAtr;
+  return { ...signal, entry, stopLoss };
+}
+
+function independentOutcomes(signals, histories, config, targetR = 1.5, maxHoldSessions = 5) {
+  return signals.map(signal => {
+    const outcome = simulateLongTrade(histories.get(signal.symbol), signal.barIndex, planFor(signal, config), {
+      waitSessions: config.waitSessions, orderType: config.orderType, maxHoldSessions, targetR, frictionPct: .003
+    });
+    return { ...signal, ...outcome, year: outcome.exitDate?.slice(0, 4) || signal.signalDate.slice(0, 4) };
+  }).sort((a, b) => a.signalDate.localeCompare(b.signalDate) || a.symbol.localeCompare(b.symbol));
+}
+
+function selectNonOverlapping(outcomes, gates = [], years = null) {
+  const unavailable = new Map(); const selected = [];
+  for (const row of outcomes) {
+    if (years && !years.has(row.year)) continue;
+    if (!gates.every(gate => gate.test(row))) continue;
+    if (row.barIndex <= (unavailable.get(row.symbol) ?? -1)) continue;
+    unavailable.set(row.symbol, row.unavailableUntil ?? row.barIndex);
+    if (row.status === "entered") selected.push(row);
+  }
+  return selected;
+}
+
+function wilsonLower(wins, total, z = 1.96) {
+  if (!total) return 0; const p = wins / total; const d = 1 + z * z / total;
+  return +((p + z * z / (2 * total) - z * Math.sqrt((p * (1 - p) + z * z / (4 * total)) / total)) / d * 100).toFixed(2);
+}
+
+function deepOptimization(signals, histories) {
+  const developmentYears = new Set(["2022", "2023", "2024"]); const validationYears = new Set(["2025"]); const holdoutYears = new Set(["2026"]);
+  const gates = [
+    { family: "setup", name: "Breakout Triggered only", test: r => r.setup === "Breakout Triggered" },
+    { family: "confidence", name: "High confidence", test: r => r.confidence === "High" },
+    { family: "regime", name: "Bullish regime", test: r => r.marketRegime === "Bullish" },
+    { family: "regime", name: "No bearish regime", test: r => r.marketRegime !== "Bearish" },
+    ...[70, 80, 90].map(v => ({ family: "direction", name: `Direction ≥${v}`, test: r => r.directionScore >= v })),
+    ...[65, 75, 85].map(v => ({ family: "accumulation", name: `Accumulation ≥${v}`, test: r => r.accumulationScore >= v })),
+    ...[25, 35, 45].map(v => ({ family: "distribution", name: `Distribution ≤${v}`, test: r => r.distributionScore <= v })),
+    ...[3, 6, 10].map(v => ({ family: "rs20", name: `RS20 ≥${v}%`, test: r => r.relativeStrength20d >= v })),
+    ...[1.3, 1.6, 2].map(v => ({ family: "volume", name: `Volume ≥${v}×`, test: r => r.volumeRatio >= v })),
+    ...[1.1, 1.3, 1.6].map(v => ({ family: "delivery", name: `Delivered value ≥${v}×`, test: r => r.deliveryRatio >= v })),
+    ...[10, 25, 50].map(v => ({ family: "liquidity", name: `Turnover ≥₹${v}cr`, test: r => r.averageTurnoverCr20d >= v })),
+    ...[2, 4].map(v => ({ family: "return5", name: `5D return ≥${v}%`, test: r => r.return5Pct >= v })),
+    ...[4, 8].map(v => ({ family: "return10", name: `10D return ≥${v}%`, test: r => r.return10Pct >= v })),
+    ...[1, 2].map(v => ({ family: "acceleration", name: `Momentum acceleration ≥${v}%`, test: r => r.momentumAccelerationPct >= v })),
+    ...[.65, .75].map(v => ({ family: "closeLocation", name: `Close location ≥${v}`, test: r => r.closeLocation >= v })),
+    { family: "atr", name: "ATR 1–4%", test: r => r.atrPct >= 1 && r.atrPct <= 4 },
+    { family: "atr", name: "ATR 1.5–3.5%", test: r => r.atrPct >= 1.5 && r.atrPct <= 3.5 },
+    { family: "breadth", name: "Breadth20 ≥55%", test: r => r.breadth20Pct >= 55 },
+    { family: "breadth", name: "Breadth20 ≥60%", test: r => r.breadth20Pct >= 60 },
+    { family: "price", name: "Price ≥₹50", test: r => r.price >= 50 }
+  ];
+  const configs = [
+    { name: "OS trigger + OS structure stop", entry: "current", waitSessions: 3, orderType: "stop" },
+    { name: "Signal-high + 1.5ATR stop", entry: "signalHigh", stopAtr: 1.5, waitSessions: 2, orderType: "stop" },
+    { name: "20D breakout + 1.5ATR stop", entry: "breakout20", stopAtr: 1.5, waitSessions: 3, orderType: "stop" },
+    { name: "SMA21 pullback + 1.5ATR stop", entry: "sma21Limit", stopAtr: 1.5, waitSessions: 3, orderType: "limit" },
+    { name: "Signal-high + 2ATR stop", entry: "signalHigh", stopAtr: 2, waitSessions: 2, orderType: "stop" },
+    { name: "20D breakout + 2ATR stop", entry: "breakout20", stopAtr: 2, waitSessions: 3, orderType: "stop" }
+  ];
+  const allCandidates = []; const outcomeCache = new Map();
+  for (const config of configs) {
+    console.log(`Deep study: ${config.name}`);
+    const outcomes = independentOutcomes(signals, histories, config); outcomeCache.set(config.name, outcomes);
+    let beam = [{ gates: [], families: new Set() }];
+    for (let depth = 0; depth <= 6; depth++) {
+      const scored = [];
+      for (const candidate of beam) {
+        const development = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, developmentYears));
+        const validation = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, validationYears));
+        if (development.trades < 200 || validation.trades < 60) continue;
+        const stabilityPenalty = Math.abs(development.winRatePct - validation.winRatePct) * .4;
+        const score = validation.winRatePct + validation.expectancyR * 80 + (validation.profitFactor || 0) * 8 - stabilityPenalty;
+        scored.push({ ...candidate, config: config.name, development, validation, score: +score.toFixed(3) });
+      }
+      allCandidates.push(...scored);
+      if (depth === 6) break;
+      const next = [];
+      for (const candidate of scored.sort((a, b) => b.score - a.score).slice(0, 30)) {
+        for (const gate of gates) if (!candidate.families.has(gate.family)) next.push({ gates: [...candidate.gates, gate], families: new Set([...candidate.families, gate.family]) });
+      }
+      const unique = new Map();
+      for (const candidate of next) unique.set(candidate.gates.map(g => g.name).sort().join("|"), candidate);
+      beam = [...unique.values()];
+    }
+  }
+  const finalists = allCandidates.sort((a, b) => b.score - a.score).slice(0, 20).map(candidate => {
+    const outcomes = outcomeCache.get(candidate.config);
+    const holdout = summarizeTrades(selectNonOverlapping(outcomes, candidate.gates, holdoutYears));
+    return {
+      entryStop: candidate.config, filters: candidate.gates.map(g => g.name), score: candidate.score,
+      development: { ...candidate.development, wilsonLower95Pct: wilsonLower(candidate.development.wins, candidate.development.trades) },
+      validation: { ...candidate.validation, wilsonLower95Pct: wilsonLower(candidate.validation.wins, candidate.validation.trades) },
+      holdout: { ...holdout, wilsonLower95Pct: wilsonLower(holdout.wins, holdout.trades) }
+    };
+  });
+  const best = finalists[0]; const selectedConfig = configs.find(config => config.name === best.entryStop);
+  const selectedGates = best.filters.map(name => gates.find(g => g.name === name));
+  const targets = {};
+  for (const target of [{ name: "T1", r: 1.5, days: 5 }, { name: "T2", r: 2, days: 10 }, { name: "T3", r: 3, days: 15 }]) {
+    const outcomes = independentOutcomes(signals, histories, selectedConfig, target.r, target.days);
+    targets[target.name] = {
+      riskReward: target.r, maxHoldSessions: target.days,
+      development: summarizeTrades(selectNonOverlapping(outcomes, selectedGates, developmentYears)),
+      validation: summarizeTrades(selectNonOverlapping(outcomes, selectedGates, validationYears)),
+      holdout: summarizeTrades(selectNonOverlapping(outcomes, selectedGates, holdoutYears))
+    };
+  }
+  const robust65 = finalists.filter(row => row.development.winRatePct >= 65 && row.validation.winRatePct >= 65 && row.holdout.winRatePct >= 65 && row.development.expectancyR > 0 && row.validation.expectancyR > 0 && row.holdout.expectancyR > 0);
+  return { split: { development: "2022–2024", validation: "2025", untouchedHoldout: "2026" }, minimumSamples: { development: 200, validation: 60 }, candidatesTested: allCandidates.length, finalists, robust65Found: robust65.length > 0, robust65Count: robust65.length, selectedTargetStudy: targets };
+}
+
 function metricTable(groups) {
   return Object.entries(groups).map(([name, m]) => `| ${name} | ${m.trades} | ${m.winRatePct}% | ${m.targetHitRatePct}% | ${m.expectancyR}R | ${m.profitFactor ?? "—"} | ${m.averageHoldSessions} |`).join("\n");
 }
@@ -100,6 +240,23 @@ function reportMarkdown(result) {
     `Daily candles do not reveal intraday path, so same-candle ambiguity is resolved conservatively. Delivery/volume footprints cannot identify a specific institution or link its cash position to its hedge. Corporate actions are detected heuristically rather than from a fully adjusted point-in-time corporate-action master. Trade-sequence drawdown is not a capital-weighted portfolio drawdown because many different stocks can overlap. Results can degrade through future regime change, gaps, liquidity, and execution costs.\n`;
 }
 
+function deepReportMarkdown(study, generatedAt) {
+  const best = study.finalists[0];
+  const rows = study.finalists.slice(0, 10).map((row, index) =>
+    `| ${index + 1} | ${row.entryStop} | ${row.filters.join("; ") || "None"} | ${row.development.trades} / ${row.development.winRatePct}% / ${row.development.expectancyR}R | ${row.validation.trades} / ${row.validation.winRatePct}% / ${row.validation.expectancyR}R | ${row.holdout.trades} / ${row.holdout.winRatePct}% / ${row.holdout.expectancyR}R |`
+  ).join("\n");
+  const targets = Object.entries(study.selectedTargetStudy).map(([name, value]) =>
+    `| ${name} | ${value.riskReward}R | ${value.maxHoldSessions} | ${value.development.targetHitRatePct}% | ${value.validation.targetHitRatePct}% | ${value.holdout.targetHitRatePct}% |`
+  ).join("\n");
+  return `# Smart Money Footprint OS — Deep Entry, Stop and Target Study\n\nGenerated: ${generatedAt}\n\n` +
+    `## Direct answer\n\n${study.robust65Found ? `A robust ≥65% candidate was found in development, validation, and untouched holdout data.` : `No candidate achieved a genuine ≥65% win rate with positive expectancy in development, validation, and untouched holdout data while keeping T1 at 1.5R.`}\n\n` +
+    `The best candidate selected without looking at the 2026 holdout used **${best.entryStop}** with: ${best.filters.join(", ") || "no additional filters"}. Its 2026 holdout result was **${best.holdout.winRatePct}% win rate**, **${best.holdout.expectancyR}R expectancy**, and **${best.holdout.profitFactor ?? "—"} profit factor** over ${best.holdout.trades} trades. The 95% Wilson lower bound for its holdout win rate was ${best.holdout.wilsonLower95Pct}%.\n\n` +
+    `## Validation design\n\n- Development: 2022–2024\n- Validation used for model selection: 2025\n- Untouched holdout: 2026\n- Minimum 200 development and 60 validation trades\n- 0.30% round-trip friction, next-session execution, stop-first same-bar rule\n- T1 never reduced below 1.5R\n- ${study.candidatesTested} rule combinations survived minimum-sample checks\n\n` +
+    `## Top candidates\n\n| Rank | Entry + stop | Filters | Development trades / WR / Exp | Validation trades / WR / Exp | Holdout trades / WR / Exp |\n|---:|---|---|---:|---:|---:|\n${rows}\n\n` +
+    `## T1 / T2 / T3 study for the selected setup\n\n| Target | RR | Max sessions | Development hit rate | Validation hit rate | Holdout hit rate |\n|---|---:|---:|---:|---:|---:|\n${targets}\n\n` +
+    `## Interpretation\n\nA high in-sample win rate is not accepted unless it persists in both later periods with positive expectancy and a useful sample. Delivery and volume remain probabilistic clues, not proof of a named institution or its hedge. The live OS should not be changed solely to force a 65% headline.\n`;
+}
+
 async function main() {
   await fs.mkdir(CACHE, { recursive: true }); await fs.mkdir(path.join(ROOT, "reports"), { recursive: true });
   const dates = datesBetween(DOWNLOAD_START, END);
@@ -124,7 +281,7 @@ async function main() {
       for (let i = 1; i < recent.length; i++) if (looksLikeCorporateAction(recent[i - 1], recent[i])) { actionLike = true; break; }
       if (actionLike) { corporateActionWindowsExcluded++; continue; }
       const evaluation = evaluateSmartMoney(symbol, symbol, bars, { marketReturn20, marketRegime });
-      if (evaluation?.actionable) signals.push({ ...evaluation, signalDate: date, barIndex: bars.length - 1, marketRegime });
+      if (evaluation?.actionable) signals.push({ ...enrichSignal(evaluation, bars, breadth20, breadth50), signalDate: date, barIndex: bars.length - 1, marketRegime });
     }
     if (sessionIndex % 100 === 0) console.log(`Replay ${date}: ${signals.length} signals`);
   }
@@ -155,14 +312,18 @@ async function main() {
     "20d / 2.5R / 0.30%": { ...PRIMARY, maxHoldSessions: 20, targetR: 2.5 }
   };
   const sensitivity = Object.fromEntries(Object.entries(variants).map(([name, options]) => [name, summarizeTrades(runVariant(options))]));
+  const deepStudy = deepOptimization(signals, histories);
+  const generatedAt = new Date().toISOString();
   const result = {
-    meta: { name: "Smart Money Footprint OS full historical backtest", generatedAt: new Date().toISOString(), source: "Official NSE security-wise price/volume/delivery archives", downloadStart: DOWNLOAD_START, signalStart: START, requestedEnd: END, marketEnd: sessions.at(-1)[0].date, sessions: sessions.length, symbols: histories.size, rawSignals: signals.length, corporateActionWindowsExcluded },
+    meta: { name: "Smart Money Footprint OS full historical backtest", generatedAt, source: "Official NSE security-wise price/volume/delivery archives", downloadStart: DOWNLOAD_START, signalStart: START, requestedEnd: END, marketEnd: sessions.at(-1)[0].date, sessions: sessions.length, symbols: histories.size, rawSignals: signals.length, corporateActionWindowsExcluded },
     methodology: { pointInTime: true, nextSessionExecution: true, sameBarPolicy: "stop-first", onePositionPerSymbol: true, survivorshipBias: "historical EQ symbols retained", ...PRIMARY },
     primary: { metrics: summarizeTrades(primaryTrades), unfilled: primaryTrades.filter(t => t.status === "unfilled").length, byYear: groupSummary(primaryTrades, "year"), byRegime: groupSummary(primaryTrades, "marketRegime"), byConfidence: groupSummary(primaryTrades, "confidence"), bySetup: groupSummary(primaryTrades, "setup") },
-    sensitivity
+    sensitivity,
+    deepStudy
   };
   await fs.writeFile(path.join(ROOT, "data", "smart-money-backtest.json"), JSON.stringify(result, null, 2) + "\n");
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-report.md"), reportMarkdown(result));
+  await fs.writeFile(path.join(ROOT, "reports", "smart-money-deep-study-report.md"), deepReportMarkdown(deepStudy, generatedAt));
   const tradeHeader = ["symbol","signalDate","marketRegime","confidence","setup","entryDate","exitDate","entryPrice","exitPrice","exitReason","holdSessions","netReturnPct","netR"];
   const csv = [tradeHeader.join(","), ...primaryTrades.filter(t => t.status === "entered").map(t => tradeHeader.map(k => t[k]).join(","))].join("\n") + "\n";
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-trades.csv"), csv);

@@ -21,6 +21,12 @@ test("unfilled order expires", () => {
   assert.equal(simulateLongTrade(bars, 0, { entry: 101, stopLoss: 98 }, { waitSessions: 2 }).status, "unfilled");
 });
 
+test("limit entry fills on a pullback without look-ahead", () => {
+  const bars = [bar("2026-01-01", 104, 105, 102, 104), bar("2026-01-02", 104, 105, 100, 103), bar("2026-01-03", 103, 106, 102, 105)];
+  const trade = simulateLongTrade(bars, 0, { entry: 101, stopLoss: 98 }, { orderType: "limit", targetR: 1.5, frictionPct: 0 });
+  assert.equal(trade.entryDate, "2026-01-02"); assert.equal(trade.entryPrice, 101);
+});
+
 test("corporate action heuristic detects factor gaps", () => {
   assert.equal(looksLikeCorporateAction(bar("a", 100, 102, 98, 100), bar("b", 50, 52, 49, 51)), true);
   assert.equal(looksLikeCorporateAction(bar("a", 100, 102, 98, 100), bar("b", 92, 98, 90, 95)), false);
