@@ -1,6 +1,6 @@
 # Smart Money Footprint OS — Full Historical Backtest
 
-Generated: 2026-09-04T20:21:40.003Z
+Generated: 2026-09-04T20:57:00.823Z
 
 ## Verdict
 
