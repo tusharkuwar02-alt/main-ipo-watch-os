@@ -38,6 +38,10 @@ The GitHub Action refreshes the scan after Indian market hours on weekdays and c
 - Uses delivered value rather than treating delivery percentage alone as institutional buying.
 - Public data cannot link a named institution's stock position to its derivative hedge, so results are labelled probable rather than confirmed identity.
 
+### Development-only full backtest
+
+`npm run backtest:smart-money` replays the Smart Money rules point-in-time from official NSE daily archives. It uses next-session execution, a conservative stop-first rule for ambiguous daily candles, one pending/open position per symbol, and explicit friction sensitivity. Results are written to `data/smart-money-backtest.json` and `reports/`; they are not exposed as a user-facing Performance Lab.
+
 ## Commands
 
 ```bash
@@ -45,6 +49,7 @@ npm ci
 npm test
 npm run scan
 npm run scan:smart-money
+npm run backtest:smart-money
 npm run build
 ```
 
