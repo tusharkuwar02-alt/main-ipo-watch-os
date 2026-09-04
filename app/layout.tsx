@@ -3,8 +3,8 @@ import "./globals.css";
 import "./upgrades.css";
 
 export const metadata: Metadata = {
-  title: "Main IPO Watch OS",
-  description: "NSE Mainboard IPO scanner across 20 locked technical systems"
+  title: "Tushar Market OS",
+  description: "Independent Main IPO Watch and Smart Money Footprint operating systems"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

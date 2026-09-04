@@ -1,6 +1,6 @@
-# Main IPO Watch OS
+# Tushar Market OS
 
-Production NSE Mainboard IPO scanner using the user's locked 20-system framework.
+Two independent NSE operating systems in one website: Main IPO Watch and Smart Money Footprint.
 
 ## Locked rules
 
@@ -18,7 +18,7 @@ Production NSE Mainboard IPO scanner using the user's locked 20-system framework
 
 - Every qualifying stock displays every matching system, the exact trigger reason, supporting values, and signal family.
 - Confluence ranking counts independent evidence families so several related breakout rules cannot artificially dominate ranking. The one-match inclusion rule remains unchanged.
-- Each system includes indicative 5/10/20-session historical forward-return context from recent signals.
+- Historical checks remain development-only; there is no user-facing Performance Lab or backtest work.
 - Yahoo history automatically retries through a second endpoint.
 - Scan quality guards block an empty, badly reduced, or failure-heavy refresh and preserve the last successful snapshot.
 - The dashboard and health API expose market date, freshness, scan quality, source status, and failure counts.
@@ -30,13 +30,22 @@ Production NSE Mainboard IPO scanner using the user's locked 20-system framework
 
 The GitHub Action refreshes the scan after Indian market hours on weekdays and commits the latest snapshot. Vercel automatically deploys the committed result.
 
+## Independent Smart Money OS
+
+- Lives at `/smart-money`; it does not change IPO inclusion, ranking, or the locked 20 systems.
+- Scans the NSE `EQ` universe from official security-wise price, volume, turnover, and delivery archives.
+- Separately reports direction, accumulation, distribution, confidence, setup, evidence, Entry, SL, T1, and T2.
+- Uses delivered value rather than treating delivery percentage alone as institutional buying.
+- Public data cannot link a named institution's stock position to its derivative hedge, so results are labelled probable rather than confirmed identity.
+
 ## Commands
 
 ```bash
 npm ci
 npm test
 npm run scan
+npm run scan:smart-money
 npm run build
 ```
 
-API endpoints: `/api/health` and `/api/scan`.
+API endpoints: `/api/health`, `/api/scan`, and `/api/smart-money`.

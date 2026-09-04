@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Smart Money Footprint OS",
+    "asOf": "2026-09-04T00:00:00.000Z",
+    "marketDate": "",
+    "dataFreshness": "first-scan-pending",
+    "exchange": "NSE",
+    "segment": "EQ",
+    "source": "Official NSE security-wise price, volume and delivery archives",
+    "scannedCount": 0,
+    "resultCount": 0,
+    "actionableCount": 0,
+    "sessions": 0,
+    "marketRegime": "Pending",
+    "breadth20": 0,
+    "breadth50": 0,
+    "publicDataLimits": "Institution-level stock and derivative hedge positions cannot be linked from public daily data",
+    "userBacktestRequired": false
+  },
+  "stocks": []
+}

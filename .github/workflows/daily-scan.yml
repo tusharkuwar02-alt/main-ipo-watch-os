@@ -1,7 +1,12 @@
-name: Daily NSE IPO scan
+name: Daily NSE IPO and Smart Money scans
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/smart-money-scan.mjs"
+      - "lib/smart-money.mjs"
   schedule:
     - cron: "30 13 * * 1-5"
 
@@ -15,7 +20,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,11 +31,13 @@ jobs:
       - run: npm test
       - name: Build safe refreshed snapshot
         run: npm run scan
+      - name: Build Smart Money snapshot
+        run: npm run scan:smart-money
       - run: npm run build
       - name: Commit refreshed scan
         run: |
           git config user.name "main-ipo-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest-scan.json
+          git add data/latest-scan.json data/smart-money-latest.json
           git diff --cached --quiet || git commit -m "data: refresh NSE IPO scan"
           git push
