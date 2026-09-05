@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { looksLikeCorporateAction, simulateLongTrade, summarizeTrades } from "../lib/smart-money-backtest.mjs";
+import { looksLikeCorporateAction, simulateLongTrade, simulateTwoTargetTrade, summarizeTrades } from "../lib/smart-money-backtest.mjs";
 
 const bar = (date, open, high, low, close) => ({ date, open, high, low, close });
 
@@ -35,4 +35,22 @@ test("corporate action heuristic detects factor gaps", () => {
 test("summary reports net profitable win rate and expectancy", () => {
   const result = summarizeTrades([{ status: "entered", netR: 1, netReturnPct: 2, holdSessions: 2, targetHit: true, exitReason: "Target", exitDate: "2026-01-02", symbol: "A" }, { status: "entered", netR: -1, netReturnPct: -2, holdSessions: 3, targetHit: false, exitReason: "Stop", exitDate: "2026-01-03", symbol: "B" }]);
   assert.equal(result.winRatePct, 50); assert.equal(result.expectancyR, 0); assert.equal(result.profitFactor, 1);
+});
+
+test("two-target simulator blends a 50% T1 and 50% T2 exit", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 104.2, 99.5, 104)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1R: 1.5, t2R: 2, t1ExitPct: 0.5, frictionPct: 0 });
+  assert.equal(trade.t1Hit, true); assert.equal(trade.t2Hit, true); assert.equal(trade.grossR, 1.75);
+});
+
+test("breakeven stop activates only after the T1 session", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 103.2, 99.5, 102.5), bar("2026-01-03", 101, 101.5, 99.8, 100)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1R: 1.5, t2R: 2, t1ExitPct: 0.5, afterT1Stop: "breakeven", frictionPct: 0 });
+  assert.equal(trade.exitReason, "Runner Stop"); assert.equal(trade.grossR, 0.75);
+});
+
+test("initial stop wins when stop and T1 share a daily candle", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 103.2, 97.5, 101)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1R: 1.5, t2R: 2, t1ExitPct: 0.5, frictionPct: 0 });
+  assert.equal(trade.exitReason, "Initial Stop (Same Bar)"); assert.equal(trade.grossR, -1);
 });

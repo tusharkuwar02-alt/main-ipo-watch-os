@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { atr, evaluateSmartMoney, sma } from "../lib/smart-money.mjs";
-import { groupSummary, looksLikeCorporateAction, simulateLongTrade, summarizeTrades } from "../lib/smart-money-backtest.mjs";
+import { groupSummary, looksLikeCorporateAction, simulateLongTrade, simulateTwoTargetTrade, summarizeTrades } from "../lib/smart-money-backtest.mjs";
 
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
 const CACHE = path.join(ROOT, ".cache", "smart-money-bhavcopy");
@@ -122,6 +122,17 @@ function selectNonOverlapping(outcomes, gates = [], years = null) {
   return selected;
 }
 
+function managedOutcomes(signals, histories, config, management) {
+  return signals.map(signal => {
+    const outcome = simulateTwoTargetTrade(histories.get(signal.symbol), signal.barIndex, planFor(signal, config), {
+      waitSessions: config.waitSessions, orderType: config.orderType, frictionPct: .003,
+      maxHoldSessions: management.maxHoldSessions, t1R: 1.5, t2R: 2,
+      t1ExitPct: management.t1ExitPct, afterT1Stop: management.afterT1Stop
+    });
+    return Object.assign(Object.create(signal), outcome, { year: outcome.exitDate?.slice(0, 4) || signal.signalDate.slice(0, 4) });
+  }).sort((a, b) => a.signalDate.localeCompare(b.signalDate) || a.symbol.localeCompare(b.symbol));
+}
+
 function wilsonLower(wins, total, z = 1.96) {
   if (!total) return 0; const p = wins / total; const d = 1 + z * z / total;
   return +((p + z * z / (2 * total) - z * Math.sqrt((p * (1 - p) + z * z / (4 * total)) / total)) / d * 100).toFixed(2);
@@ -216,7 +227,56 @@ function deepOptimization(signals, histories) {
     };
   }
   const robust65 = finalists.filter(row => row.development.winRatePct >= 65 && row.validation.winRatePct >= 65 && row.holdout.winRatePct >= 65 && row.development.expectancyR > 0 && row.validation.expectancyR > 0 && row.holdout.expectancyR > 0);
-  return { split: { development: "2022–2024", validation: "2025", untouchedHoldout: "2026" }, minimumSamples: { development: 200, validation: 60 }, candidatesTested: allCandidates.length, finalists, robust65Found: robust65.length > 0, robust65Count: robust65.length, selectedTargetStudy: targets };
+  const management = twoTargetManagementStudy(signals, histories, best, configs, gates);
+  return { split: { development: "2022–2024", validation: "2025", untouchedHoldout: "2026" }, minimumSamples: { development: 200, validation: 60 }, candidatesTested: allCandidates.length, finalists, robust65Found: robust65.length > 0, robust65Count: robust65.length, selectedTargetStudy: targets, twoTargetManagement: management };
+}
+
+function twoTargetManagementStudy(signals, histories, selectedRule, configs, gates) {
+  const developmentYears = new Set(["2022", "2023", "2024"]);
+  const validationYears = new Set(["2025"]);
+  const holdoutYears = new Set(["2026"]);
+  const config = configs.find(item => item.name === selectedRule.entryStop);
+  const selectedGates = selectedRule.filters.map(name => gates.find(gate => gate.name === name));
+  const variants = [
+    { name: "100% at T1", t1ExitPct: 1, afterT1Stop: "initial", maxHoldSessions: 5 },
+    { name: "100% runner to T2; initial SL", t1ExitPct: 0, afterT1Stop: "initial", maxHoldSessions: 5 },
+    { name: "100% runner to T2; BE after T1", t1ExitPct: 0, afterT1Stop: "breakeven", maxHoldSessions: 5 },
+    ...[.25, .5, .75].flatMap(t1ExitPct => [
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; initial SL`, t1ExitPct, afterT1Stop: "initial", maxHoldSessions: 5 },
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; BE after T1`, t1ExitPct, afterT1Stop: "breakeven", maxHoldSessions: 5 },
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; lock 0.25R`, t1ExitPct, afterT1Stop: "lock0.25R", maxHoldSessions: 5 },
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; 2-day-low trail`, t1ExitPct, afterT1Stop: "twoDayLow", maxHoldSessions: 5 },
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; 1ATR trail`, t1ExitPct, afterT1Stop: "atr1", maxHoldSessions: 5 },
+      { name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% T2; 1.5ATR trail`, t1ExitPct, afterT1Stop: "atr1.5", maxHoldSessions: 5 }
+    ])
+  ];
+  const developmentValidation = variants.map(variant => {
+    const outcomes = managedOutcomes(signals, histories, config, variant);
+    const development = summarizeTrades(selectNonOverlapping(outcomes, selectedGates, developmentYears));
+    const validation = summarizeTrades(selectNonOverlapping(outcomes, selectedGates, validationYears));
+    const worstExpectancy = Math.min(development.expectancyR, validation.expectancyR);
+    const worstPayoff = Math.min(development.realizedPayoffRatio || 0, validation.realizedPayoffRatio || 0);
+    const stabilityPenalty = Math.abs(development.expectancyR - validation.expectancyR) * 20;
+    const score = worstExpectancy * 100 + worstPayoff * 5 - stabilityPenalty;
+    return { ...variant, development, validation, selectionScore: +score.toFixed(3) };
+  });
+  const baseline = developmentValidation.find(row => row.name === "100% at T1");
+  const eligible = developmentValidation.filter(row =>
+    row.development.trades >= 200 && row.validation.trades >= 60 &&
+    row.development.expectancyR > 0 && row.validation.expectancyR > 0 &&
+    row.validation.winRatePct >= baseline.validation.winRatePct - 5
+  ).sort((a, b) => b.selectionScore - a.selectionScore);
+  const selected = eligible[0] || baseline;
+  const holdoutOutcomes = managedOutcomes(signals, histories, config, selected);
+  const holdout = summarizeTrades(selectNonOverlapping(holdoutOutcomes, selectedGates, holdoutYears));
+  return {
+    objective: "Raise out-of-sample expectancy and realized payoff while keeping validation win rate within 5 percentage points of full-T1 baseline",
+    targets: { t1R: 1.5, t2R: 2, maxHoldSessions: 5 },
+    variantsTested: variants.length,
+    holdoutPolicy: "Only the management rule selected on 2022-2025 is evaluated on 2026",
+    baseline, rankings: developmentValidation.sort((a, b) => b.selectionScore - a.selectionScore),
+    selected: { ...selected, holdout }
+  };
 }
 
 function metricTable(groups) {
@@ -263,6 +323,20 @@ function deepReportMarkdown(study, generatedAt) {
     `## Top candidates\n\n| Rank | Entry + stop | Filters | Development trades / WR / Exp | Validation trades / WR / Exp | Holdout trades / WR / Exp |\n|---:|---|---|---:|---:|---:|\n${rows}\n\n` +
     `## T1 / T2 / T3 study for the selected setup\n\n| Target | RR | Max sessions | Development hit rate | Validation hit rate | Holdout hit rate |\n|---|---:|---:|---:|---:|---:|\n${targets}\n\n` +
     `## Interpretation\n\nA high in-sample win rate is not accepted unless it persists in both later periods with positive expectancy and a useful sample. Delivery and volume remain probabilistic clues, not proof of a named institution or its hedge. The live OS should not be changed solely to force a 65% headline.\n`;
+}
+
+function managementReportMarkdown(study, generatedAt) {
+  const m = study.twoTargetManagement;
+  const s = m.selected;
+  const rows = m.rankings.slice(0, 12).map((row, index) =>
+    `| ${index + 1} | ${row.name} | ${row.development.winRatePct}% / ${row.development.expectancyR}R / ${row.development.realizedPayoffRatio} | ${row.validation.winRatePct}% / ${row.validation.expectancyR}R / ${row.validation.realizedPayoffRatio} |`
+  ).join("\n");
+  return `# Smart Money Footprint OS — T1/T2 Management Study\n\nGenerated: ${generatedAt}\n\n` +
+    `## Direct answer\n\nThe rule selected without using 2026 was **${s.name}**. Its untouched 2026 holdout produced **${s.holdout.winRatePct}% profitable trades**, **${s.holdout.expectancyR}R expectancy**, **${s.holdout.realizedPayoffRatio} realized payoff ratio**, and **${s.holdout.profitFactor ?? "—"} profit factor** across ${s.holdout.trades} trades.\n\n` +
+    `## Frozen inputs\n\n- Entry model and filters were not re-optimized: ${study.finalists[0].entryStop}; ${study.finalists[0].filters.join("; ")}\n- Initial stop remained 1.5 ATR\n- T1 remained 1.5R and T2 remained 2R\n- Maximum hold remained 5 sessions\n- 0.30% round-trip friction and conservative stop-first same-bar handling\n- ${m.variantsTested} bounded management variants; 2022-2024 development, 2025 validation, 2026 untouched holdout\n\n` +
+    `## Top development/validation variants\n\n| Rank | Management | Development WR / Exp / Payoff | Validation WR / Exp / Payoff |\n|---:|---|---:|---:|\n${rows}\n\n` +
+    `## Untouched holdout\n\n| Trades | Win rate | T1 hit | T2 hit | Expectancy | Profit factor | Avg win | Avg loss | Payoff |\n|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n| ${s.holdout.trades} | ${s.holdout.winRatePct}% | ${s.holdout.t1HitRatePct}% | ${s.holdout.t2HitRatePct}% | ${s.holdout.expectancyR}R | ${s.holdout.profitFactor ?? "—"} | ${s.holdout.averageWinR}R | ${s.holdout.averageLossR}R | ${s.holdout.realizedPayoffRatio} |\n\n` +
+    `## Interpretation\n\nPartial exits change the payoff distribution; they do not create extra market edge. The selected rule is accepted only if it improves the pre-holdout objective and remains positive on the untouched holdout. The live OS is not changed by this research report.\n`;
 }
 
 async function main() {
@@ -332,6 +406,7 @@ async function main() {
   await fs.writeFile(path.join(ROOT, "data", "smart-money-backtest.json"), JSON.stringify(result, null, 2) + "\n");
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-report.md"), reportMarkdown(result));
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-deep-study-report.md"), deepReportMarkdown(deepStudy, generatedAt));
+  await fs.writeFile(path.join(ROOT, "reports", "smart-money-t1-t2-study-report.md"), managementReportMarkdown(deepStudy, generatedAt));
   const tradeHeader = ["symbol","signalDate","marketRegime","confidence","setup","entryDate","exitDate","entryPrice","exitPrice","exitReason","holdSessions","netReturnPct","netR"];
   const csv = [tradeHeader.join(","), ...primaryTrades.filter(t => t.status === "entered").map(t => tradeHeader.map(k => t[k]).join(","))].join("\n") + "\n";
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-trades.csv"), csv);
