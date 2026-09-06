@@ -1,0 +1,55 @@
+name: Institutional Confirmation full backtest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/institutional-confirmation-backtest.mjs"
+      - "lib/institutional-confirmation.mjs"
+      - "tests/institutional-confirmation.test.mjs"
+      - ".github/workflows/institutional-confirmation-backtest.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: institutional-confirmation-full-backtest
+  cancel-in-progress: true
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Restore official NSE caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/smart-money-bhavcopy
+            .cache/institutional-confirmation
+          key: nse-institutional-confirmation-v1-${{ github.run_id }}
+          restore-keys: |
+            nse-institutional-confirmation-v1-
+            nse-smart-money-bhavcopy-v2-
+      - name: Run point-in-time institutional confirmation test
+        run: npm run backtest:institutional-confirmation
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+          BACKTEST_START: "2022-01-01"
+          BACKTEST_DOWNLOAD_START: "2020-12-01"
+      - name: Commit verified report
+        run: |
+          git config user.name "main-ipo-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/institutional-confirmation-backtest.json reports/institutional-confirmation-backtest-report.md reports/institutional-confirmation-2026-trades.csv
+          git diff --cached --quiet || git commit -m "data: publish institutional confirmation backtest"
+          git pull --rebase
+          git push
