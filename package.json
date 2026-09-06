@@ -11,7 +11,8 @@
     "scan": "node scripts/scan.mjs",
     "scan:smart-money": "node scripts/smart-money-scan.mjs",
     "backtest:smart-money": "node scripts/smart-money-backtest.mjs",
-    "backtest:smart-money-strategies": "node scripts/smart-money-strategy-tournament.mjs"
+    "backtest:smart-money-strategies": "node scripts/smart-money-strategy-tournament.mjs",
+    "backtest:quality-momentum": "node scripts/quality-momentum-pullback-backtest.mjs"
   },
   "dependencies": {
     "cheerio": "1.0.0",
