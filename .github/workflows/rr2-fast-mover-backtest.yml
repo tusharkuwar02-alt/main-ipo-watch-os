@@ -1,0 +1,51 @@
+name: RR2 Fast-Mover full backtest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/institutional-fast-mover-rr2-backtest.mjs"
+      - "lib/institutional-fast-mover-rr2.mjs"
+      - "tests/institutional-fast-mover-rr2.test.mjs"
+      - ".github/workflows/rr2-fast-mover-backtest.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rr2-fast-mover-full-backtest
+  cancel-in-progress: true
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Restore NSE archive cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/smart-money-bhavcopy
+          key: nse-smart-money-bhavcopy-v2-${{ github.run_id }}
+          restore-keys: nse-smart-money-bhavcopy-v2-
+      - name: Run frozen RR2 fast-mover tournament
+        run: npm run backtest:rr2-fast-mover
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+          BACKTEST_START: "2022-01-01"
+          BACKTEST_DOWNLOAD_START: "2020-12-01"
+      - name: Commit verified report
+        run: |
+          git config user.name "main-ipo-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/institutional-fast-mover-rr2.json reports/institutional-fast-mover-rr2-report.md reports/institutional-fast-mover-rr2-2026-trades.csv
+          git diff --cached --quiet || git commit -m "data: publish RR2 fast-mover backtest"
+          git pull --rebase
+          git push
