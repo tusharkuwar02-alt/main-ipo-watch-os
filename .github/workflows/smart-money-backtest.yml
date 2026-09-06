@@ -6,9 +6,12 @@ on:
     branches: [main]
     paths:
       - "scripts/smart-money-backtest.mjs"
+      - "scripts/smart-money-strategy-tournament.mjs"
       - "lib/smart-money-backtest.mjs"
+      - "lib/smart-money-strategy-tournament.mjs"
       - "lib/smart-money.mjs"
       - "tests/smart-money-backtest.test.mjs"
+      - "tests/smart-money-strategy-tournament.test.mjs"
       - ".github/workflows/smart-money-backtest.yml"
 
 permissions:
@@ -42,11 +45,17 @@ jobs:
           NODE_OPTIONS: "--max-old-space-size=4096"
           BACKTEST_START: "2022-01-01"
           BACKTEST_DOWNLOAD_START: "2021-09-01"
+      - name: Run independent strategy tournament
+        run: npm run backtest:smart-money-strategies
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+          BACKTEST_START: "2022-01-01"
+          BACKTEST_DOWNLOAD_START: "2021-09-01"
       - name: Commit verified report
         run: |
           git config user.name "main-ipo-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/smart-money-backtest.json reports/smart-money-backtest-report.md reports/smart-money-backtest-trades.csv reports/smart-money-deep-study-report.md reports/smart-money-t1-t2-study-report.md reports/smart-money-conditional-runner-report.md
+          git add data/smart-money-backtest.json data/smart-money-strategy-tournament.json reports/smart-money-backtest-report.md reports/smart-money-backtest-trades.csv reports/smart-money-deep-study-report.md reports/smart-money-t1-t2-study-report.md reports/smart-money-conditional-runner-report.md reports/smart-money-strategy-tournament-report.md reports/smart-money-strategy-tournament-champion-2026-trades.csv
           git diff --cached --quiet || git commit -m "data: publish Smart Money full backtest"
           git pull --rebase
           git push
