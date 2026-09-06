@@ -309,7 +309,7 @@ function conditionalRunnerStudy(signals, histories, selectedRule, configs, gates
       for (const confirmation of ["strongClose", "strongCloseVolume12"]) {
         for (const afterT1Stop of ["breakeven", "atr1"]) {
           variants.push({
-            name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% conditional T2; ${gateNames[runnerGate]}; ${confirmationNames[confirmation]}; ${afterT1Stop === "breakeven" ? "BE" : "1ATR"} stop`,
+            name: `${Math.round(t1ExitPct * 100)}% T1 / ${Math.round((1 - t1ExitPct) * 100)}% conditional T2; ${gateNames[runnerGate]}; ${confirmationNames[confirmation]}; ${afterT1Stop === "breakeven" ? "BE" : "1ATR"} stop`,
             t1ExitPct, runnerGate, confirmation, afterT1Stop, maxHoldSessions: 5
           });
         }

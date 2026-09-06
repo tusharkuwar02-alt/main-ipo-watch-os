@@ -3602,7 +3602,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; BE stop",
+          "name": "80% T1 / 20% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "bullish",
           "confirmation": "strongCloseVolume12",
@@ -3656,7 +3656,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "bullish",
           "confirmation": "strongCloseVolume12",
@@ -3710,7 +3710,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "bullish",
           "confirmation": "strongClose",
@@ -3764,7 +3764,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; BE stop",
+          "name": "80% T1 / 20% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "bullish",
           "confirmation": "strongClose",
@@ -3818,7 +3818,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "breadth55",
           "confirmation": "strongCloseVolume12",
@@ -3872,7 +3872,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; BE stop",
+          "name": "80% T1 / 20% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "breadth55",
           "confirmation": "strongClose",
@@ -3926,7 +3926,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "breadth55",
           "confirmation": "strongClose",
@@ -3980,7 +3980,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; BE stop",
+          "name": "80% T1 / 20% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "breadth55",
           "confirmation": "strongCloseVolume12",
@@ -4466,7 +4466,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; all signals; T1 close ≥T1 and CLV ≥0.65; BE stop",
+          "name": "80% T1 / 20% conditional T2; all signals; T1 close ≥T1 and CLV ≥0.65; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "all",
           "confirmation": "strongClose",
@@ -4520,7 +4520,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; all signals; strong T1 close and volume ≥1.2×; BE stop",
+          "name": "80% T1 / 20% conditional T2; all signals; strong T1 close and volume ≥1.2×; BE stop",
           "t1ExitPct": 0.8,
           "runnerGate": "all",
           "confirmation": "strongCloseVolume12",
@@ -4574,7 +4574,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; all signals; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; all signals; T1 close ≥T1 and CLV ≥0.65; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "all",
           "confirmation": "strongClose",
@@ -4628,7 +4628,7 @@
           "qualifies": false
         },
         {
-          "name": "80% T1 / 19.999999999999996% conditional T2; all signals; strong T1 close and volume ≥1.2×; 1ATR stop",
+          "name": "80% T1 / 20% conditional T2; all signals; strong T1 close and volume ≥1.2×; 1ATR stop",
           "t1ExitPct": 0.8,
           "runnerGate": "all",
           "confirmation": "strongCloseVolume12",

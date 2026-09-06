@@ -21,14 +21,14 @@ The pre-holdout selection chose **100% at T1**. No conditional runner passed the
 | Rank | Rule | Development WR / Exp / Payoff | Validation WR / Exp / Payoff | Qualified |
 |---:|---|---:|---:|---:|
 | 1 | 100% at T1 | 59.34% / 0.348R / 1.411 | 57.61% / 0.314R / 1.406 | No |
-| 2 | 80% T1 / 19.999999999999996% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; BE stop | 59.34% / 0.343R / 1.399 | 57.61% / 0.309R / 1.394 | No |
-| 3 | 80% T1 / 19.999999999999996% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; 1ATR stop | 59.34% / 0.343R / 1.4 | 57.61% / 0.309R / 1.394 | No |
-| 4 | 80% T1 / 19.999999999999996% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; 1ATR stop | 59.34% / 0.342R / 1.399 | 57.61% / 0.309R / 1.394 | No |
-| 5 | 80% T1 / 19.999999999999996% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; BE stop | 59.34% / 0.342R / 1.398 | 57.61% / 0.309R / 1.394 | No |
-| 6 | 80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; 1ATR stop | 59.34% / 0.342R / 1.397 | 57.61% / 0.319R / 1.415 | No |
-| 7 | 80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; BE stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.32R / 1.417 | No |
-| 8 | 80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; 1ATR stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.32R / 1.417 | No |
-| 9 | 80% T1 / 19.999999999999996% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; BE stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.319R / 1.415 | No |
+| 2 | 80% T1 / 20% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; BE stop | 59.34% / 0.343R / 1.399 | 57.61% / 0.309R / 1.394 | No |
+| 3 | 80% T1 / 20% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; 1ATR stop | 59.34% / 0.343R / 1.4 | 57.61% / 0.309R / 1.394 | No |
+| 4 | 80% T1 / 20% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; 1ATR stop | 59.34% / 0.342R / 1.399 | 57.61% / 0.309R / 1.394 | No |
+| 5 | 80% T1 / 20% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; BE stop | 59.34% / 0.342R / 1.398 | 57.61% / 0.309R / 1.394 | No |
+| 6 | 80% T1 / 20% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; 1ATR stop | 59.34% / 0.342R / 1.397 | 57.61% / 0.319R / 1.415 | No |
+| 7 | 80% T1 / 20% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; BE stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.32R / 1.417 | No |
+| 8 | 80% T1 / 20% conditional T2; signal breadth ≥55%; T1 close ≥T1 and CLV ≥0.65; 1ATR stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.32R / 1.417 | No |
+| 9 | 80% T1 / 20% conditional T2; signal breadth ≥55%; strong T1 close and volume ≥1.2×; BE stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.319R / 1.415 | No |
 | 10 | 75% T1 / 25% conditional T2; bullish signal regime; T1 close ≥T1 and CLV ≥0.65; 1ATR stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.307R / 1.391 | No |
 | 11 | 75% T1 / 25% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; BE stop | 59.34% / 0.341R / 1.396 | 57.61% / 0.307R / 1.391 | No |
 | 12 | 75% T1 / 25% conditional T2; bullish signal regime; strong T1 close and volume ≥1.2×; 1ATR stop | 59.34% / 0.342R / 1.397 | 57.61% / 0.307R / 1.391 | No |
