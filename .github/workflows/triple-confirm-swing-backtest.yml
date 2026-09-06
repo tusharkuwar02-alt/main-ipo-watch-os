@@ -1,0 +1,51 @@
+name: Triple-Confirm Swing full backtest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/smart-money-triple-confirm-swing-backtest.mjs"
+      - "lib/smart-money-triple-confirm-swing.mjs"
+      - "tests/smart-money-triple-confirm-swing.test.mjs"
+      - ".github/workflows/triple-confirm-swing-backtest.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: triple-confirm-swing-full-backtest
+  cancel-in-progress: true
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Restore NSE archive cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/smart-money-bhavcopy
+          key: nse-smart-money-bhavcopy-v2-${{ github.run_id }}
+          restore-keys: nse-smart-money-bhavcopy-v2-
+      - name: Run Triple-Confirm Swing backtest
+        run: npm run backtest:triple-confirm-swing
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+          BACKTEST_START: "2022-01-01"
+          BACKTEST_DOWNLOAD_START: "2020-12-01"
+      - name: Commit verified report
+        run: |
+          git config user.name "main-ipo-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/smart-money-triple-confirm-swing.json reports/smart-money-triple-confirm-swing-report.md reports/smart-money-triple-confirm-swing-2026-trades.csv
+          git diff --cached --quiet || git commit -m "data: publish Triple-Confirm Swing backtest"
+          git pull --rebase
+          git push
