@@ -127,10 +127,25 @@ function managedOutcomes(signals, histories, config, management) {
     const outcome = simulateTwoTargetTrade(histories.get(signal.symbol), signal.barIndex, planFor(signal, config), {
       waitSessions: config.waitSessions, orderType: config.orderType, frictionPct: .003,
       maxHoldSessions: management.maxHoldSessions, t1R: 1.5, t2R: 2,
-      t1ExitPct: management.t1ExitPct, afterT1Stop: management.afterT1Stop
+      t1ExitPct: management.t1ExitPct, afterT1Stop: management.afterT1Stop,
+      runnerEligible: management.runnerGate ? ({ plan }) => runnerGatePass(plan, management.runnerGate) : undefined,
+      runnerCondition: management.confirmation ? context => runnerConfirmationPass(context, management.confirmation) : undefined
     });
     return Object.assign(Object.create(signal), outcome, { year: outcome.exitDate?.slice(0, 4) || signal.signalDate.slice(0, 4) });
   }).sort((a, b) => a.signalDate.localeCompare(b.signalDate) || a.symbol.localeCompare(b.symbol));
+}
+
+function runnerGatePass(plan, gate) {
+  if (gate === "bullish") return plan.marketRegime === "Bullish";
+  if (gate === "breadth55") return plan.breadth20Pct >= 55;
+  return true;
+}
+
+function runnerConfirmationPass({ bar, t1, averagePriorVolume }, confirmation) {
+  const closeLocation = bar.high === bar.low ? .5 : (bar.close - bar.low) / (bar.high - bar.low);
+  const strongClose = bar.close >= t1 && closeLocation >= .65;
+  if (confirmation === "strongCloseVolume12") return strongClose && averagePriorVolume > 0 && bar.volume >= averagePriorVolume * 1.2;
+  return strongClose;
 }
 
 function wilsonLower(wins, total, z = 1.96) {
@@ -228,7 +243,8 @@ function deepOptimization(signals, histories) {
   }
   const robust65 = finalists.filter(row => row.development.winRatePct >= 65 && row.validation.winRatePct >= 65 && row.holdout.winRatePct >= 65 && row.development.expectancyR > 0 && row.validation.expectancyR > 0 && row.holdout.expectancyR > 0);
   const management = twoTargetManagementStudy(signals, histories, best, configs, gates);
-  return { split: { development: "2022–2024", validation: "2025", untouchedHoldout: "2026" }, minimumSamples: { development: 200, validation: 60 }, candidatesTested: allCandidates.length, finalists, robust65Found: robust65.length > 0, robust65Count: robust65.length, selectedTargetStudy: targets, twoTargetManagement: management };
+  const conditionalRunner = conditionalRunnerStudy(signals, histories, best, configs, gates);
+  return { split: { development: "2022–2024", validation: "2025", untouchedHoldout: "2026" }, minimumSamples: { development: 200, validation: 60 }, candidatesTested: allCandidates.length, finalists, robust65Found: robust65.length > 0, robust65Count: robust65.length, selectedTargetStudy: targets, twoTargetManagement: management, conditionalRunner };
 }
 
 function twoTargetManagementStudy(signals, histories, selectedRule, configs, gates) {
@@ -275,6 +291,60 @@ function twoTargetManagementStudy(signals, histories, selectedRule, configs, gat
     variantsTested: variants.length,
     holdoutPolicy: "Only the management rule selected on 2022-2025 is evaluated on 2026",
     baseline, rankings: developmentValidation.sort((a, b) => b.selectionScore - a.selectionScore),
+    selected: { ...selected, holdout }
+  };
+}
+
+function conditionalRunnerStudy(signals, histories, selectedRule, configs, gates) {
+  const developmentYears = new Set(["2022", "2023", "2024"]);
+  const validationYears = new Set(["2025"]);
+  const holdoutYears = new Set(["2026"]);
+  const config = configs.find(item => item.name === selectedRule.entryStop);
+  const selectedGates = selectedRule.filters.map(name => gates.find(gate => gate.name === name));
+  const gateNames = { all: "all signals", bullish: "bullish signal regime", breadth55: "signal breadth ≥55%" };
+  const confirmationNames = { strongClose: "T1 close ≥T1 and CLV ≥0.65", strongCloseVolume12: "strong T1 close and volume ≥1.2×" };
+  const variants = [{ name: "100% at T1", t1ExitPct: 1, afterT1Stop: "initial", maxHoldSessions: 5 }];
+  for (const t1ExitPct of [.8, .75]) {
+    for (const runnerGate of ["all", "bullish", "breadth55"]) {
+      for (const confirmation of ["strongClose", "strongCloseVolume12"]) {
+        for (const afterT1Stop of ["breakeven", "atr1"]) {
+          variants.push({
+            name: `${t1ExitPct * 100}% T1 / ${(1 - t1ExitPct) * 100}% conditional T2; ${gateNames[runnerGate]}; ${confirmationNames[confirmation]}; ${afterT1Stop === "breakeven" ? "BE" : "1ATR"} stop`,
+            t1ExitPct, runnerGate, confirmation, afterT1Stop, maxHoldSessions: 5
+          });
+        }
+      }
+    }
+  }
+  const results = variants.map(variant => {
+    const outcomes = managedOutcomes(signals, histories, config, variant);
+    const development = summarizeTrades(selectNonOverlapping(outcomes, selectedGates, developmentYears));
+    const validation = summarizeTrades(selectNonOverlapping(outcomes, selectedGates, validationYears));
+    return { ...variant, development, validation };
+  });
+  const baseline = results[0];
+  for (const row of results) {
+    const devPayoffGain = (row.development.realizedPayoffRatio || 0) / baseline.development.realizedPayoffRatio - 1;
+    const valPayoffGain = (row.validation.realizedPayoffRatio || 0) / baseline.validation.realizedPayoffRatio - 1;
+    const devExpectancyRetention = row.development.expectancyR / baseline.development.expectancyR;
+    const valExpectancyRetention = row.validation.expectancyR / baseline.validation.expectancyR;
+    const winRatePenalty = Math.max(0, baseline.validation.winRatePct - row.validation.winRatePct) / 100;
+    row.selectionScore = +(Math.min(devPayoffGain, valPayoffGain) * 100 + Math.min(devExpectancyRetention, valExpectancyRetention) * 10 - winRatePenalty * 50).toFixed(3);
+    row.qualifies = row.name !== baseline.name && devPayoffGain > 0 && valPayoffGain > 0 &&
+      devExpectancyRetention >= .97 && valExpectancyRetention >= .97 &&
+      row.validation.winRatePct >= baseline.validation.winRatePct - 2;
+  }
+  const qualifying = results.filter(row => row.qualifies).sort((a, b) => b.selectionScore - a.selectionScore);
+  const selected = qualifying[0] || baseline;
+  const holdout = summarizeTrades(selectNonOverlapping(managedOutcomes(signals, histories, config, selected), selectedGates, holdoutYears));
+  return {
+    objective: "Improve realized payoff in development and validation while retaining at least 97% of baseline expectancy and keeping validation win rate within 2 percentage points",
+    targets: { t1R: 1.5, t2R: 2, maxHoldSessions: 5 },
+    variantsTested: variants.length,
+    qualifyingAlternatives: qualifying.length,
+    holdoutPolicy: "Only the rule selected on 2022-2025 is evaluated on 2026",
+    baseline,
+    rankings: results.sort((a, b) => b.selectionScore - a.selectionScore),
     selected: { ...selected, holdout }
   };
 }
@@ -337,6 +407,19 @@ function managementReportMarkdown(study, generatedAt) {
     `## Top development/validation variants\n\n| Rank | Management | Development WR / Exp / Payoff | Validation WR / Exp / Payoff |\n|---:|---|---:|---:|\n${rows}\n\n` +
     `## Untouched holdout\n\n| Trades | Win rate | T1 hit | T2 hit | Expectancy | Profit factor | Avg win | Avg loss | Payoff |\n|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n| ${s.holdout.trades} | ${s.holdout.winRatePct}% | ${s.holdout.t1HitRatePct}% | ${s.holdout.t2HitRatePct}% | ${s.holdout.expectancyR}R | ${s.holdout.profitFactor ?? "—"} | ${s.holdout.averageWinR}R | ${s.holdout.averageLossR}R | ${s.holdout.realizedPayoffRatio} |\n\n` +
     `## Interpretation\n\nPartial exits change the payoff distribution; they do not create extra market edge. The selected rule is accepted only if it improves the pre-holdout objective and remains positive on the untouched holdout. The live OS is not changed by this research report.\n`;
+}
+
+function conditionalRunnerReportMarkdown(study, generatedAt) {
+  const c = study.conditionalRunner; const s = c.selected;
+  const rows = c.rankings.slice(0, 12).map((row, index) =>
+    `| ${index + 1} | ${row.name} | ${row.development.winRatePct}% / ${row.development.expectancyR}R / ${row.development.realizedPayoffRatio} | ${row.validation.winRatePct}% / ${row.validation.expectancyR}R / ${row.validation.realizedPayoffRatio} | ${row.qualifies ? "Yes" : "No"} |`
+  ).join("\n");
+  return `# Smart Money Footprint OS — Final Conditional T2 Runner Backtest\n\nGenerated: ${generatedAt}\n\n` +
+    `## Direct answer\n\nThe pre-holdout selection chose **${s.name}**. ${c.qualifyingAlternatives ? `${c.qualifyingAlternatives} conditional alternative(s) passed the strict improvement gate.` : `No conditional runner passed the strict improvement gate, so the 100% T1 baseline remained selected.`} Its untouched 2026 result was **${s.holdout.winRatePct}% win rate**, **${s.holdout.expectancyR}R expectancy**, **${s.holdout.realizedPayoffRatio} payoff ratio**, and **${s.holdout.profitFactor ?? "—"} profit factor** over ${s.holdout.trades} trades.\n\n` +
+    `## Rules and controls\n\n- Frozen entry: ${study.finalists[0].entryStop}; ${study.finalists[0].filters.join("; ")}\n- T1 1.5R, T2 2R, maximum five sessions, 0.30% friction\n- Conditional runners used 20% or 25% size\n- Eligibility used only signal-time bullish regime or breadth; confirmation used T1-day close and volume known at that close\n- Runner confirmation required close ≥T1 and close-location ≥0.65, optionally volume ≥1.2× prior 20-session average\n- Selection: 2022-2024 development and 2025 validation; 2026 opened only for the frozen winner\n- Improvement gate: payoff higher in both samples, at least 97% expectancy retained, and validation win rate no more than two points below baseline\n\n` +
+    `## Rankings\n\n| Rank | Rule | Development WR / Exp / Payoff | Validation WR / Exp / Payoff | Qualified |\n|---:|---|---:|---:|---:|\n${rows}\n\n` +
+    `## Untouched holdout for selected rule\n\n| Trades | Win rate | T1 hit | T2 hit | Runner eligible | Runner held | Expectancy | PF | Payoff |\n|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n| ${s.holdout.trades} | ${s.holdout.winRatePct}% | ${s.holdout.t1HitRatePct}% | ${s.holdout.t2HitRatePct}% | ${s.holdout.runnerEligibleRatePct}% | ${s.holdout.runnerHeldRatePct}% | ${s.holdout.expectancyR}R | ${s.holdout.profitFactor ?? "—"} | ${s.holdout.realizedPayoffRatio} |\n\n` +
+    `## Decision\n\nUse the conditional runner only if it passed the predefined gate and stayed positive on holdout. Otherwise retain 100% exit at T1. The live OS/UI is unchanged by this research run.\n`;
 }
 
 async function main() {
@@ -407,6 +490,7 @@ async function main() {
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-report.md"), reportMarkdown(result));
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-deep-study-report.md"), deepReportMarkdown(deepStudy, generatedAt));
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-t1-t2-study-report.md"), managementReportMarkdown(deepStudy, generatedAt));
+  await fs.writeFile(path.join(ROOT, "reports", "smart-money-conditional-runner-report.md"), conditionalRunnerReportMarkdown(deepStudy, generatedAt));
   const tradeHeader = ["symbol","signalDate","marketRegime","confidence","setup","entryDate","exitDate","entryPrice","exitPrice","exitReason","holdSessions","netReturnPct","netR"];
   const csv = [tradeHeader.join(","), ...primaryTrades.filter(t => t.status === "entered").map(t => tradeHeader.map(k => t[k]).join(","))].join("\n") + "\n";
   await fs.writeFile(path.join(ROOT, "reports", "smart-money-backtest-trades.csv"), csv);

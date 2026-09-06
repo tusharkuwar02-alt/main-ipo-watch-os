@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "main-ipo-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/smart-money-backtest.json reports/smart-money-backtest-report.md reports/smart-money-backtest-trades.csv reports/smart-money-deep-study-report.md reports/smart-money-t1-t2-study-report.md
+          git add data/smart-money-backtest.json reports/smart-money-backtest-report.md reports/smart-money-backtest-trades.csv reports/smart-money-deep-study-report.md reports/smart-money-t1-t2-study-report.md reports/smart-money-conditional-runner-report.md
           git diff --cached --quiet || git commit -m "data: publish Smart Money full backtest"
           git pull --rebase
           git push

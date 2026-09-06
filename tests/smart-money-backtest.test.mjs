@@ -54,3 +54,21 @@ test("initial stop wins when stop and T1 share a daily candle", () => {
   const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1R: 1.5, t2R: 2, t1ExitPct: 0.5, frictionPct: 0 });
   assert.equal(trade.exitReason, "Initial Stop (Same Bar)"); assert.equal(trade.grossR, -1);
 });
+
+test("an ineligible conditional runner exits the full position at T1", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 103.2, 99.5, 102.8)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1ExitPct: 0.75, runnerEligible: () => false, frictionPct: 0 });
+  assert.equal(trade.runnerEligible, false); assert.equal(trade.t1ExitPct, 1); assert.equal(trade.grossR, 1.5);
+});
+
+test("a failed T1-day condition exits only the runner at that close", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 103.2, 99.5, 102)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1ExitPct: 0.75, runnerCondition: () => false, frictionPct: 0 });
+  assert.equal(trade.exitReason, "Runner Condition Exit"); assert.equal(trade.grossR, 1.375); assert.equal(trade.runnerHeldAfterT1, false);
+});
+
+test("a confirmed runner can reach T2 on a later session", () => {
+  const bars = [bar("2026-01-01", 100, 101, 99, 100), bar("2026-01-02", 100, 103.2, 99.5, 103), bar("2026-01-03", 103, 104.2, 102, 104)];
+  const trade = simulateTwoTargetTrade(bars, 0, { entry: 100, stopLoss: 98 }, { t1ExitPct: 0.75, runnerCondition: () => true, frictionPct: 0 });
+  assert.equal(trade.t2Hit, true); assert.equal(trade.grossR, 1.625); assert.equal(trade.runnerHeldAfterT1, true);
+});
