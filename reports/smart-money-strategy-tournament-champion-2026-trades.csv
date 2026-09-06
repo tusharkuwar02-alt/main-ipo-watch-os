@@ -1,0 +1,1216 @@
+symbol,strategy,signalDate,footprintScore,deliveryRatio,volumeRatio,entryDate,exitDate,entryPrice,stop,target,exitName,exitReason,holdSessions,netReturnPct,netR
+3MINDIA,Relative-strength leader breakout,2026-01-01,93,1.264,1.305,2026-01-02,2026-01-07,36137.13,34691.5,39751.19,2.5R fixed target,Stop,4,-4.3,-1.075
+ADANIENSOL,Relative-strength leader breakout,2026-01-01,68,1.278,2.898,2026-01-02,2026-01-08,1063.82,1022.48,1167.18,2.5R fixed target,Stop,5,-4.186,-1.077
+AJANTPHARM,Relative-strength leader breakout,2026-01-01,78,1.851,3.582,2026-01-02,2026-01-06,2967.92,2820.19,3337.27,2.5R fixed target,Stop,3,-5.278,-1.06
+ASHOKLEY,Relative-strength leader breakout,2026-01-01,93,1.217,1.793,2026-01-02,2026-01-08,185.93,178.91,203.49,2.5R fixed target,Time Exit,5,-1.059,-0.28
+AVANTIFEED,Relative-strength leader breakout,2026-01-01,88,2.463,2.61,2026-01-02,2026-01-08,885.52,836.97,1006.88,2.5R fixed target,Stop,5,-5.782,-1.055
+BANKBARODA,Relative-strength leader breakout,2026-01-01,69,0.91,1.234,2026-01-02,2026-01-08,303.51,294.84,325.18,2.5R fixed target,Time Exit,5,-1.603,-0.561
+CUPID,Relative-strength leader breakout,2026-01-01,93,1.265,0.821,2026-01-02,2026-01-02,526.05,497.86,596.52,2.5R fixed target,Stop,1,-5.658,-1.056
+IIFL,Relative-strength leader breakout,2026-01-01,75,0.805,0.752,2026-01-02,2026-01-08,623.5,594.23,696.67,2.5R fixed target,Time Exit,5,3.557,0.758
+IIFLCAPS,Relative-strength leader breakout,2026-01-01,100,2.594,2.193,2026-01-05,2026-01-09,384.67,356.33,455.51,2.5R fixed target,Time Exit,5,-0.682,-0.093
+INDUSINDBK,Relative-strength leader breakout,2026-01-01,93,1.28,1.418,2026-01-02,2026-01-08,896,860.73,984.17,2.5R fixed target,Time Exit,5,-1.701,-0.432
+INDUSTOWER,Relative-strength leader breakout,2026-01-01,66,2.43,2.822,2026-01-02,2026-01-08,440.73,421.08,489.85,2.5R fixed target,Time Exit,5,-2.542,-0.57
+KEI,Relative-strength leader breakout,2026-01-01,63,0.665,0.725,2026-01-02,2026-01-08,4532.05,4355.92,4972.36,2.5R fixed target,Time Exit,5,-3.117,-0.802
+PNBHOUSING,Relative-strength leader breakout,2026-01-01,88,2.045,2.725,2026-01-02,2026-01-08,1000,950.88,1122.78,2.5R fixed target,Time Exit,5,-2.345,-0.477
+POCL,Relative-strength leader breakout,2026-01-01,100,2.9,4.338,2026-01-05,2026-01-05,1557.31,1474.05,1765.46,2.5R fixed target,Stop,1,-5.647,-1.056
+UPL,Relative-strength leader breakout,2026-01-01,75,0.852,0.951,2026-01-02,2026-01-08,808.11,779.03,880.83,2.5R fixed target,Time Exit,5,-1.985,-0.551
+BHEL,Relative-strength leader breakout,2026-01-02,100,2.856,2.341,2026-01-05,2026-01-08,301.45,289.48,331.37,2.5R fixed target,Stop,4,-4.27,-1.076
+COALINDIA,Relative-strength leader breakout,2026-01-02,100,5.256,5.978,2026-01-05,2026-01-09,430.95,415.6,469.32,2.5R fixed target,Time Exit,5,-3.224,-0.905
+CRAFTSMAN,Relative-strength leader breakout,2026-01-02,75,0.988,1.342,2026-01-06,2026-01-09,8066.1,7558.91,9334.07,2.5R fixed target,Stop,4,-6.588,-1.048
+ICICIPRULI,Relative-strength leader breakout,2026-01-02,55,0.218,0.306,2026-01-05,2026-01-09,682.86,664.43,728.96,2.5R fixed target,Time Exit,5,0.079,0.029
+INFOBEAN,Relative-strength leader breakout,2026-01-02,100,3.05,5.171,2026-01-06,2026-01-12,924.7,833.32,1153.13,2.5R fixed target,Time Exit,5,-3.257,-0.33
+JAMNAAUTO,Relative-strength leader breakout,2026-01-02,80,3.027,3.373,2026-01-05,2026-01-09,133.67,127.29,149.6,2.5R fixed target,Stop,5,-5.069,-1.063
+JBCHEPHARM,Relative-strength leader breakout,2026-01-02,74,1.835,1.903,2026-01-05,2026-01-09,1864.7,1810.68,1999.74,2.5R fixed target,Time Exit,5,0.982,0.339
+LUMAXTECH,Relative-strength leader breakout,2026-01-02,92,2.119,1.859,2026-01-05,2026-01-08,1668.13,1555.04,1950.85,2.5R fixed target,Stop,4,-7.079,-1.044
+NATIONALUM,Relative-strength leader breakout,2026-01-02,92,1.552,1.847,2026-01-05,2026-01-09,332.06,315.13,374.41,2.5R fixed target,Time Exit,5,4.515,0.885
+PHOENIXLTD,Relative-strength leader breakout,2026-01-02,53,1.089,0.981,2026-01-05,2026-01-09,1912.72,1858.57,2048.09,2.5R fixed target,Time Exit,5,-0.745,-0.263
+PRICOLLTD,Relative-strength leader breakout,2026-01-02,81,1.23,1.455,2026-01-05,2026-01-09,686.37,646.39,786.32,2.5R fixed target,Stop,5,-6.125,-1.052
+SANDUMA,Relative-strength leader breakout,2026-01-02,100,3.381,3.091,2026-01-05,2026-01-08,269.34,243.42,334.12,2.5R fixed target,Stop,4,-9.921,-1.031
+SANSERA,Relative-strength leader breakout,2026-01-02,92,2.874,4.463,2026-01-05,2026-01-09,1893.58,1785.07,2164.86,2.5R fixed target,Time Exit,5,-4.566,-0.797
+SBIN,Relative-strength leader breakout,2026-01-02,68,1.071,1.04,2026-01-05,2026-01-09,1011.52,992.33,1059.5,2.5R fixed target,Time Exit,5,-1.389,-0.732
+SENORES,Relative-strength leader breakout,2026-01-02,63,1.381,1.517,2026-01-05,2026-01-08,870.74,820.87,995.41,2.5R fixed target,Stop,4,-6.027,-1.052
+SILVERTUC,Relative-strength leader breakout,2026-01-02,100,2.325,5.901,2026-01-05,2026-01-08,1330,1203.68,1645.79,2.5R fixed target,Target,4,23.444,2.468
+TORNTPHARM,Relative-strength leader breakout,2026-01-02,63,0.307,0.353,2026-01-05,2026-01-09,3898.98,3797.18,4153.48,2.5R fixed target,Time Exit,5,1.352,0.518
+HINDALCO,Relative-strength leader breakout,2026-01-05,60,1.288,1.071,2026-01-06,2026-01-08,939.78,908.4,1018.21,2.5R fixed target,Stop,3,-3.639,-1.09
+HINDCOPPER,Relative-strength leader breakout,2026-01-05,87,1.624,1.142,2026-01-06,2026-01-08,571.14,521.03,696.42,2.5R fixed target,Stop,3,-9.074,-1.034
+KARURVYSYA,Relative-strength leader breakout,2026-01-05,100,2.098,1.384,2026-01-06,2026-01-09,279.31,265,315.07,2.5R fixed target,Stop,4,-5.422,-1.059
+MUTHOOTFIN,Relative-strength leader breakout,2026-01-05,92,1.958,1.958,2026-01-06,2026-01-12,3950,3790.17,4349.57,2.5R fixed target,Time Exit,5,-1.338,-0.331
+SAILIFE,Relative-strength leader breakout,2026-01-05,100,3.428,5.656,2026-01-06,2026-01-09,968.83,927.28,1072.71,2.5R fixed target,Stop,4,-4.589,-1.07
+TARC,Relative-strength leader breakout,2026-01-05,90,2.069,1.316,2026-01-06,2026-01-12,181.31,169.34,211.24,2.5R fixed target,Time Exit,5,-2.926,-0.443
+TITAN,Relative-strength leader breakout,2026-01-05,59,0.9,0.837,2026-01-06,2026-01-12,4102.19,4012.94,4325.31,2.5R fixed target,Time Exit,5,2.855,1.312
+UJJIVANSFB,Relative-strength leader breakout,2026-01-05,92,5.412,5.804,2026-01-06,2026-01-12,58.87,56.39,65.07,2.5R fixed target,Time Exit,5,-1.23,-0.292
+UNIONBANK,Relative-strength leader breakout,2026-01-05,100,2.853,3.256,2026-01-06,2026-01-12,163.6,158.1,177.35,2.5R fixed target,Time Exit,5,-0.068,-0.02
+EMCURE,Relative-strength leader breakout,2026-01-06,92,1.926,2.109,2026-01-07,2026-01-13,1547.89,1456.01,1777.58,2.5R fixed target,Time Exit,5,-0.125,-0.021
+GODREJCP,Relative-strength leader breakout,2026-01-06,59,0.784,0.765,2026-01-07,2026-01-09,1273.9,1221.59,1404.68,2.5R fixed target,Stop,3,-4.407,-1.073
+LUPIN,Relative-strength leader breakout,2026-01-06,86,3.177,2.788,2026-01-07,2026-01-13,2164.32,2106.58,2308.66,2.5R fixed target,Time Exit,5,0.378,0.142
+SHREEJISPG,Relative-strength leader breakout,2026-01-06,100,2.106,1.441,2026-01-07,2026-01-13,390.13,359.82,465.91,2.5R fixed target,Time Exit,5,-6.305,-0.812
+SMSPHARMA,Relative-strength leader breakout,2026-01-06,100,2.025,1.94,2026-01-07,2026-01-13,348.6,329.4,396.58,2.5R fixed target,Time Exit,5,-3.124,-0.567
+VBL,Relative-strength leader breakout,2026-01-06,78,1.938,1.85,2026-01-07,2026-01-13,503,484.42,549.47,2.5R fixed target,Time Exit,5,-0.659,-0.178
+BAJAJ-AUTO,Relative-strength leader breakout,2026-01-07,53,1.164,1.058,2026-01-08,2026-01-12,9826.61,9500.11,10642.86,2.5R fixed target,Stop,3,-3.623,-1.09
+NMDC,Relative-strength leader breakout,2026-01-07,78,1.492,1.688,2026-01-08,2026-01-08,86.57,82.8,96.01,2.5R fixed target,Stop,1,-4.66,-1.069
+THANGAMAYL,Relative-strength leader breakout,2026-01-07,92,5.582,8.691,2026-01-08,2026-01-09,3843.37,3589.72,4477.5,2.5R fixed target,Stop,2,-6.9,-1.045
+IPCALAB,Relative-strength leader breakout,2026-01-08,92,1.94,2.189,2026-01-09,2026-01-14,1553.1,1473.02,1753.29,2.5R fixed target,Time Exit,5,-2.624,-0.509
+AXISILVER,Relative-strength leader breakout,2026-01-12,70,1.661,1.412,2026-01-13,2026-01-19,256.13,229.6,322.45,2.5R fixed target,Time Exit,5,14.005,1.352
+GOLD1,Relative-strength leader breakout,2026-01-12,63,1.367,1.396,2026-01-13,2026-01-19,119,113.74,132.14,2.5R fixed target,Time Exit,5,1.28,0.29
+MOGOLD,Relative-strength leader breakout,2026-01-12,87,1.21,1.224,2026-01-13,2026-01-19,139.75,133.95,154.26,2.5R fixed target,Time Exit,5,1.918,0.462
+MOSILVER,Relative-strength leader breakout,2026-01-12,80,1.439,1.174,2026-01-13,2026-01-19,255.69,232.81,312.89,2.5R fixed target,Time Exit,5,13.079,1.462
+RMDRIP,Relative-strength leader breakout,2026-01-12,100,2.158,4.241,2026-01-13,2026-01-19,91.8,89.02,98.75,2.5R fixed target,Time Exit,5,3.774,1.246
+SBISILVER,Relative-strength leader breakout,2026-01-12,63,1.157,1.403,2026-01-13,2026-01-19,251.5,231.93,300.42,2.5R fixed target,Time Exit,5,14.558,1.871
+SILVER1,Relative-strength leader breakout,2026-01-12,90,4.451,3.048,2026-01-13,2026-01-19,254.38,228.42,319.28,2.5R fixed target,Time Exit,5,11.926,1.169
+SILVERADD,Relative-strength leader breakout,2026-01-12,70,1.501,1.252,2026-01-13,2026-01-19,252.5,226.65,317.12,2.5R fixed target,Time Exit,5,12.223,1.194
+EQUITASBNK,Relative-strength leader breakout,2026-01-13,100,2.32,2.113,2026-01-14,2026-01-20,68.48,65.24,76.57,2.5R fixed target,Time Exit,5,-2.15,-0.455
+HDFCSILVER,Relative-strength leader breakout,2026-01-13,52,1.737,1.579,2026-01-14,2026-01-20,258.5,228.86,332.61,2.5R fixed target,Time Exit,5,16.803,1.465
+SILVERCASE,Relative-strength leader breakout,2026-01-13,59,1.468,1.615,2026-01-14,2026-01-20,27,24.33,33.68,2.5R fixed target,Time Exit,5,16.293,1.647
+CEIGALL,Relative-strength leader breakout,2026-01-14,58,0.805,0.642,2026-01-16,2026-01-21,282.06,268.4,316.21,2.5R fixed target,Stop,4,-5.142,-1.062
+INDUSINDBK,Relative-strength leader breakout,2026-01-14,100,3.936,3.24,2026-01-16,2026-01-20,950.8,907.34,1059.45,2.5R fixed target,Stop,3,-4.871,-1.066
+PNB,Relative-strength leader breakout,2026-01-14,100,2.813,2.516,2026-01-16,2026-01-21,129.26,124.4,141.4,2.5R fixed target,Stop,4,-4.058,-1.08
+PSUBNKBEES,Relative-strength leader breakout,2026-01-14,100,2.14,2.112,2026-01-16,2026-01-22,101.24,96.59,112.88,2.5R fixed target,Time Exit,5,-1.319,-0.287
+SILVERBEES,Relative-strength leader breakout,2026-01-14,70,1.961,1.577,2026-01-16,2026-01-22,264.53,242.31,320.08,2.5R fixed target,Time Exit,5,4.139,0.493
+UNIONBANK,Relative-strength leader breakout,2026-01-14,100,4.695,7.275,2026-01-16,2026-01-21,181.05,172.67,202,2.5R fixed target,Stop,4,-4.927,-1.065
+VEDL,Relative-strength leader breakout,2026-01-14,74,2.403,3.256,2026-01-16,2026-01-22,680.81,650.42,756.79,2.5R fixed target,Time Exit,5,-0.617,-0.138
+BALKRISIND,Relative-strength leader breakout,2026-01-16,74,1.526,1.397,2026-01-19,2026-01-23,2459.11,2375.35,2668.51,2.5R fixed target,Time Exit,5,-2.362,-0.693
+BANKINDIA,Relative-strength leader breakout,2026-01-16,100,1.943,2.2,2026-01-19,2026-01-23,157.9,149.74,178.3,2.5R fixed target,Time Exit,5,0.811,0.157
+DCBBANK,Relative-strength leader breakout,2026-01-16,88,1.391,1.153,2026-01-19,2026-01-20,190.23,181.38,212.35,2.5R fixed target,Stop,2,-4.951,-1.065
+HCLTECH,Relative-strength leader breakout,2026-01-16,63,1.205,1.258,2026-01-19,2026-01-23,1704.3,1645.85,1850.43,2.5R fixed target,Time Exit,5,-0.142,-0.041
+IFCI,Relative-strength leader breakout,2026-01-16,90,6.409,6.95,2026-01-19,2026-01-20,63.12,58.25,75.27,2.5R fixed target,Stop,2,-8.002,-1.039
+SBIN,Relative-strength leader breakout,2026-01-16,100,1.775,1.551,2026-01-20,2026-01-21,1049.54,1022.01,1118.39,2.5R fixed target,Stop,2,-2.924,-1.114
+SILVER,Relative-strength leader breakout,2026-01-16,53,1.348,1.145,2026-01-19,2026-01-22,285.01,260.39,346.55,2.5R fixed target,Stop,4,-8.937,-1.035
+SILVERAG,Relative-strength leader breakout,2026-01-16,82,3.598,2.527,2026-01-19,2026-01-21,276.2,255.84,327.09,2.5R fixed target,Target,3,18.126,2.459
+SOUTHBANK,Relative-strength leader breakout,2026-01-16,95,2.406,2.845,2026-01-19,2026-01-23,45.26,42.18,52.96,2.5R fixed target,Time Exit,5,-0.875,-0.129
+TATSILV,Relative-strength leader breakout,2026-01-16,80,1.881,1.71,2026-01-19,2026-01-23,27.95,25.24,34.73,2.5R fixed target,Time Exit,5,5.675,0.585
+TECHM,Relative-strength leader breakout,2026-01-16,84,2.604,3.134,2026-01-19,2026-01-23,1690,1621.16,1862.1,2.5R fixed target,Time Exit,5,0.357,0.088
+UJJIVANSFB,Relative-strength leader breakout,2026-01-16,92,1.431,1.5,2026-01-19,2026-01-20,60.87,57.19,70.07,2.5R fixed target,Stop,2,-6.346,-1.05
+GOLDBEES,Relative-strength leader breakout,2026-01-19,57,1.785,1.746,2026-01-20,2026-01-21,123.15,119.87,131.35,2.5R fixed target,Target,2,6.359,2.387
+GOLDETF,Relative-strength leader breakout,2026-01-19,57,1.119,1.341,2026-01-20,2026-01-22,145.23,137.77,163.89,2.5R fixed target,Stop,3,-5.439,-1.058
+GOLDIETF,Relative-strength leader breakout,2026-01-19,52,1.611,1.571,2026-01-20,2026-01-23,127.98,119.45,149.29,2.5R fixed target,Time Exit,5,3.169,0.476
+GROWWSLVR,Relative-strength leader breakout,2026-01-19,60,1.92,1.321,2026-01-20,2026-01-22,296.65,274.1,353.02,2.5R fixed target,Stop,3,-7.901,-1.039
+HDFCGOLD,Relative-strength leader breakout,2026-01-19,50,1.345,1.366,2026-01-20,2026-01-21,129,123.72,142.2,2.5R fixed target,Target,2,9.933,2.427
+AXISILVER,Relative-strength leader breakout,2026-01-20,85,1.191,1.607,2026-01-21,2026-01-22,314.7,292.05,371.34,2.5R fixed target,Stop,2,-7.499,-1.042
+GOLD1,Relative-strength leader breakout,2026-01-20,100,2.552,2.664,2026-01-21,2026-01-22,127.9,121.42,144.11,2.5R fixed target,Stop,2,-5.37,-1.059
+GOLDCASE,Relative-strength leader breakout,2026-01-20,94,1.883,2.421,2026-01-21,2026-01-22,24.13,22.56,28.05,2.5R fixed target,Stop,2,-6.807,-1.046
+MOGOLD,Relative-strength leader breakout,2026-01-20,100,1.647,1.622,2026-01-21,2026-01-27,147.29,142.24,159.93,2.5R fixed target,Time Exit,5,5.611,1.634
+MOSILVER,Relative-strength leader breakout,2026-01-20,92,2.048,1.698,2026-01-21,2026-01-22,311.54,292.54,359.03,2.5R fixed target,Stop,2,-6.398,-1.049
+RMDRIP,Relative-strength leader breakout,2026-01-20,100,1.958,1.934,2026-01-21,2026-01-23,96.89,94.58,102.67,2.5R fixed target,Stop (Same Bar),3,-2.684,-1.126
+SBISILVER,Relative-strength leader breakout,2026-01-20,90,2.519,2.699,2026-01-21,2026-01-22,313.89,291.83,369.04,2.5R fixed target,Stop,2,-7.328,-1.043
+SETFGOLD,Relative-strength leader breakout,2026-01-20,70,1.668,2.106,2026-01-21,2026-01-22,134,126.29,153.28,2.5R fixed target,Stop,2,-6.054,-1.052
+SILVER1,Relative-strength leader breakout,2026-01-20,79,2.739,2.409,2026-01-21,2026-01-22,304.7,283.94,356.6,2.5R fixed target,Stop,2,-7.113,-1.044
+SILVERADD,Relative-strength leader breakout,2026-01-20,70,2.375,2.022,2026-01-21,2026-01-21,307.14,285.38,361.55,2.5R fixed target,Stop,1,-7.386,-1.042
+SILVERIETF,Relative-strength leader breakout,2026-01-20,60,1.981,2.159,2026-01-21,2026-01-22,318.32,297.64,370,2.5R fixed target,Stop,2,-6.794,-1.046
+DALBHARAT,Relative-strength leader breakout,2026-01-21,85,1.322,2.387,2026-01-22,2026-01-22,2246.58,2142.45,2506.93,2.5R fixed target,Stop,1,-4.935,-1.065
+HDFCSILVER,Relative-strength leader breakout,2026-01-21,70,1.638,1.404,2026-01-22,2026-01-22,316.23,296,366.81,2.5R fixed target,Stop,1,-6.698,-1.047
+HINDZINC,Relative-strength leader breakout,2026-01-21,82,2.178,1.875,2026-01-23,2026-01-29,702.4,656.04,818.31,2.5R fixed target,Time Exit,5,1.522,0.231
+BAJAJCON,Relative-strength leader breakout,2026-01-22,76,15.977,31.896,2026-01-23,2026-01-29,305.45,275.11,381.29,2.5R fixed target,Time Exit,5,5.397,0.543
+EQUITASBNK,Relative-strength leader breakout,2026-01-22,88,1.52,1.363,2026-01-23,2026-01-29,70.6,66.7,80.35,2.5R fixed target,Time Exit,5,-1.688,-0.306
+UJJIVANSFB,Relative-strength leader breakout,2026-01-22,100,2.427,3.069,2026-01-23,2026-01-29,62.72,58.13,74.18,2.5R fixed target,Time Exit,5,-0.787,-0.108
+APLAPOLLO,Relative-strength leader breakout,2026-01-23,83,2.068,3.35,2026-01-27,2026-02-02,2074.74,1986.08,2296.4,2.5R fixed target,Time Exit,5,-0.08,-0.019
+AWHCL,Relative-strength leader breakout,2026-01-23,100,11.034,21.886,2026-01-27,2026-02-02,586.17,528.57,730.17,2.5R fixed target,Gap Stop,5,-11.58,-1.178
+DCBBANK,Relative-strength leader breakout,2026-01-27,100,4.208,6.779,2026-01-28,2026-02-02,202.4,188.18,237.96,2.5R fixed target,Gap Stop,4,-10.07,-1.433
+KARURVYSYA,Relative-strength leader breakout,2026-01-27,90,8.328,17.058,2026-01-29,2026-02-04,299.55,278.35,352.55,2.5R fixed target,Time Exit,5,5.61,0.793
+TECHM,Relative-strength leader breakout,2026-01-27,100,1.697,1.436,2026-01-28,2026-02-03,1752.5,1680.32,1932.94,2.5R fixed target,Time Exit,5,-2.354,-0.572
+VEDL,Relative-strength leader breakout,2026-01-27,93,1.269,1.04,2026-01-28,2026-02-02,711.1,669.21,815.81,2.5R fixed target,Gap Stop,4,-8.421,-1.43
+ACUTAAS,Relative-strength leader breakout,2026-01-28,92,3.128,4.302,2026-01-29,2026-02-04,1910,1780.26,2234.34,2.5R fixed target,Time Exit,5,3.82,0.562
+COALINDIA,Relative-strength leader breakout,2026-01-28,86,2.083,1.704,2026-01-29,2026-02-02,446.84,425.57,500.01,2.5R fixed target,Gap Stop,3,-6.531,-1.372
+CPSEETF,Relative-strength leader breakout,2026-01-28,100,3.416,3.72,2026-01-29,2026-02-02,99.2,94.76,110.29,2.5R fixed target,Stop,3,-4.772,-1.067
+EGOLD,Relative-strength leader breakout,2026-01-28,50,2.264,1.942,2026-01-29,2026-02-02,174,154.19,223.52,2.5R fixed target,Gap Stop,3,-14.668,-1.288
+GOLD1,Relative-strength leader breakout,2026-01-28,92,1.901,1.66,2026-01-29,2026-01-30,138,128.34,162.16,2.5R fixed target,Stop,2,-7.304,-1.043
+GOLDIETF,Relative-strength leader breakout,2026-01-28,100,1.85,1.598,2026-01-29,2026-02-02,147.36,130.81,188.73,2.5R fixed target,Stop,3,-11.53,-1.027
+HINDALCO,Relative-strength leader breakout,2026-01-28,90,2.459,2.111,2026-01-29,2026-01-30,1010.25,968.45,1114.74,2.5R fixed target,Stop,2,-4.437,-1.073
+HINDCOPPER,Relative-strength leader breakout,2026-01-28,84,2.606,2.79,2026-01-29,2026-02-02,662.5,590.29,843.04,2.5R fixed target,Gap Stop,3,-11.221,-1.029
+JINDALSTEL,Relative-strength leader breakout,2026-01-28,54,1.881,1.538,2026-01-29,2026-02-04,1125,1066.31,1271.73,2.5R fixed target,Time Exit,5,3.46,0.663
+NATIONALUM,Relative-strength leader breakout,2026-01-28,55,0.906,1.085,2026-01-29,2026-01-30,411.9,382.48,485.44,2.5R fixed target,Stop,2,-7.441,-1.042
+OIL,Relative-strength leader breakout,2026-01-28,100,8.361,7.771,2026-01-29,2026-02-04,497.49,466.64,574.62,2.5R fixed target,Time Exit,5,1.631,0.263
+ONGC,Relative-strength leader breakout,2026-01-28,92,5.115,5.612,2026-01-29,2026-02-02,270.19,258.24,300.05,2.5R fixed target,Gap Stop,3,-7.18,-1.624
+PTC,Relative-strength leader breakout,2026-01-28,92,2.293,2.23,2026-01-29,2026-02-02,175.85,167.11,197.69,2.5R fixed target,Stop,3,-5.268,-1.06
+RMDRIP,Relative-strength leader breakout,2026-01-28,65,0.926,0.722,2026-01-29,2026-02-04,103.85,98.1,118.22,2.5R fixed target,Time Exit,5,5.006,0.904
+SBIN,Relative-strength leader breakout,2026-01-28,90,1.51,1.388,2026-01-29,2026-02-02,1067.73,1034.7,1150.31,2.5R fixed target,Gap Stop,3,-4.78,-1.545
+SILVERBEES,Relative-strength leader breakout,2026-01-28,70,1.505,1.262,2026-01-29,2026-01-30,351.2,304.99,466.72,2.5R fixed target,Stop,2,-13.457,-1.023
+TATASTEEL,Relative-strength leader breakout,2026-01-28,60,0.958,1.059,2026-01-29,2026-02-02,195.59,186.33,218.73,2.5R fixed target,Gap Stop,3,-5.52,-1.166
+KIRLPNU,Relative-strength leader breakout,2026-01-29,67,0.473,0.58,2026-01-30,2026-02-05,1153.2,1064.98,1373.76,2.5R fixed target,Time Exit,5,-0.569,-0.074
+TMB,Relative-strength leader breakout,2026-01-29,100,4.008,3.651,2026-01-30,2026-02-05,618.03,580.35,712.25,2.5R fixed target,Time Exit,5,3.837,0.629
+AXISBANK,Relative-strength leader breakout,2026-01-30,100,2.157,1.811,2026-02-03,2026-02-09,1403,1308.66,1638.86,2.5R fixed target,Time Exit,5,-4.691,-0.698
+BAJAJCON,Relative-strength leader breakout,2026-01-30,75,0.993,0.797,2026-02-02,2026-02-02,343.34,313.63,417.6,2.5R fixed target,Stop,1,-8.952,-1.035
+MTARTECH,Relative-strength leader breakout,2026-01-30,85,4.193,5.505,2026-02-02,2026-02-06,3084.16,2833.24,3711.44,2.5R fixed target,Time Exit,5,5.748,0.707
+RAMCOCEM,Relative-strength leader breakout,2026-01-30,100,2.614,2.181,2026-02-03,2026-02-09,1129.25,1074.69,1265.66,2.5R fixed target,Time Exit,5,6.399,1.324
+AETHER,Relative-strength leader breakout,2026-02-02,90,2.69,2.505,2026-02-03,2026-02-03,1070,993.03,1262.42,2.5R fixed target,Stop,1,-7.493,-1.042
+RNBDENIMS,Relative-strength leader breakout,2026-02-03,100,2.134,3.586,2026-02-04,2026-02-10,162.86,148.49,198.78,2.5R fixed target,Time Exit,5,5.41,0.613
+CPSEETF,Relative-strength leader breakout,2026-02-04,83,1.123,1.371,2026-02-05,2026-02-11,100.59,95.8,112.57,2.5R fixed target,Time Exit,5,-0.341,-0.072
+NTPC,Relative-strength leader breakout,2026-02-04,73,1.358,1.292,2026-02-05,2026-02-11,369.75,351.87,414.45,2.5R fixed target,Time Exit,5,-0.652,-0.135
+PFC,Relative-strength leader breakout,2026-02-04,100,2.923,2.906,2026-02-05,2026-02-11,416.73,393.59,474.58,2.5R fixed target,Time Exit,5,-0.512,-0.092
+RUBICON,Relative-strength leader breakout,2026-02-04,100,4.892,8.395,2026-02-05,2026-02-11,790.58,744.87,904.86,2.5R fixed target,Time Exit,5,-1.549,-0.268
+RMDRIP,Relative-strength leader breakout,2026-02-05,53,0.904,0.494,2026-02-06,2026-02-12,110.75,105.29,124.39,2.5R fixed target,Time Exit,5,2.886,0.586
+SBC,Relative-strength leader breakout,2026-02-05,52,1.153,1.099,2026-02-06,2026-02-12,30.77,28.57,36.27,2.5R fixed target,Time Exit,5,-1.312,-0.184
+APLAPOLLO,Relative-strength leader breakout,2026-02-06,100,2.404,1.541,2026-02-09,2026-02-13,2220,2087.51,2551.21,2.5R fixed target,Time Exit,5,0.867,0.145
+AARTIIND,Relative-strength leader breakout,2026-02-09,100,3.228,2.078,2026-02-10,2026-02-16,472.84,440.11,554.67,2.5R fixed target,Time Exit,5,-4.021,-0.581
+BLISSGVS,Relative-strength leader breakout,2026-02-09,100,4.803,3.738,2026-02-10,2026-02-16,208,188.08,257.79,2.5R fixed target,Time Exit,5,6.416,0.67
+BLUESTARCO,Relative-strength leader breakout,2026-02-09,92,4.577,3.169,2026-02-10,2026-02-16,1951,1821.97,2273.58,2.5R fixed target,Time Exit,5,0.951,0.144
+BSE,Relative-strength leader breakout,2026-02-09,64,1.821,1.263,2026-02-10,2026-02-16,3110,2810.37,3859.07,2.5R fixed target,Gap Stop,5,-9.946,-1.032
+FORCEMOT,Relative-strength leader breakout,2026-02-09,82,1.694,1.413,2026-02-10,2026-02-16,22596,20439.65,27986.87,2.5R fixed target,Time Exit,5,8.507,0.891
+GESHIP,Relative-strength leader breakout,2026-02-09,83,1.376,1.19,2026-02-10,2026-02-16,1327.65,1255.94,1506.93,2.5R fixed target,Time Exit,5,-1.486,-0.275
+INDSWFTLAB,Relative-strength leader breakout,2026-02-09,100,1.928,1.711,2026-02-10,2026-02-16,141,126.4,177.49,2.5R fixed target,Time Exit,5,1.643,0.159
+JKTYRE,Relative-strength leader breakout,2026-02-09,85,4.439,7.325,2026-02-10,2026-02-16,583.77,546.34,677.33,2.5R fixed target,Time Exit,5,-0.5,-0.078
+MAHLOG,Relative-strength leader breakout,2026-02-09,90,3.735,0.769,2026-02-10,2026-02-16,378.76,351.8,446.16,2.5R fixed target,Time Exit,5,6.246,0.877
+MRPL,Relative-strength leader breakout,2026-02-09,88,1.502,0.947,2026-02-11,2026-02-17,196.14,177.93,241.68,2.5R fixed target,Time Exit,5,-1.953,-0.21
+NAVINFLUOR,Relative-strength leader breakout,2026-02-09,82,2.32,2.173,2026-02-10,2026-02-16,6899,6218.83,8599.42,2.5R fixed target,Stop,5,-10.159,-1.03
+PTC,Relative-strength leader breakout,2026-02-09,86,1.591,1.268,2026-02-10,2026-02-16,190,177.58,221.04,2.5R fixed target,Stop,5,-6.834,-1.046
+SBIN,Relative-strength leader breakout,2026-02-09,100,3.909,3.978,2026-02-10,2026-02-16,1152.3,1093.61,1299.03,2.5R fixed target,Time Exit,5,4.542,0.892
+TMB,Relative-strength leader breakout,2026-02-09,93,1.345,1.026,2026-02-10,2026-02-16,667.93,615.16,799.86,2.5R fixed target,Time Exit,5,-2.244,-0.284
+AJANTPHARM,Relative-strength leader breakout,2026-02-10,86,1.601,1.226,2026-02-11,2026-02-17,2907.5,2779.58,3227.32,2.5R fixed target,Time Exit,5,1.43,0.325
+BANDHANBNK,Relative-strength leader breakout,2026-02-10,78,2.488,1.525,2026-02-11,2026-02-17,167.73,158.11,191.79,2.5R fixed target,Time Exit,5,0.114,0.02
+INDUSTOWER,Relative-strength leader breakout,2026-02-10,70,1.99,1.7,2026-02-11,2026-02-17,462.52,438.1,523.59,2.5R fixed target,Time Exit,5,1.9,0.36
+MTARTECH,Relative-strength leader breakout,2026-02-10,90,2.17,1.286,2026-02-12,2026-02-18,3696.08,3330.13,4610.95,2.5R fixed target,Time Exit,5,1.024,0.103
+POWERGRID,Relative-strength leader breakout,2026-02-10,88,1.402,1.139,2026-02-11,2026-02-17,297.65,282.33,335.94,2.5R fixed target,Time Exit,5,0.741,0.144
+ABSLAMC,Relative-strength leader breakout,2026-02-11,88,2.34,1.8,2026-02-12,2026-02-18,872.64,820.52,1002.94,2.5R fixed target,Time Exit,5,3.62,0.606
+BAJAJCON,Relative-strength leader breakout,2026-02-11,63,0.386,0.16,2026-02-12,2026-02-18,390.28,354.93,478.65,2.5R fixed target,Time Exit,5,-4.471,-0.494
+BHARATFORG,Relative-strength leader breakout,2026-02-11,82,2.064,2.186,2026-02-12,2026-02-18,1691.78,1593.08,1938.53,2.5R fixed target,Time Exit,5,4.406,0.755
+SANSERA,Relative-strength leader breakout,2026-02-11,90,2.92,3.977,2026-02-12,2026-02-18,2207.41,2013.49,2692.19,2.5R fixed target,Time Exit,5,1.707,0.194
+RNBDENIMS,Relative-strength leader breakout,2026-02-12,100,2.489,2.365,2026-02-13,2026-02-19,177.55,168.76,199.52,2.5R fixed target,Time Exit,5,6.898,1.394
+RMDRIP,Relative-strength leader breakout,2026-02-13,83,1.298,0.708,2026-02-16,2026-02-20,115.6,113.19,121.62,2.5R fixed target,Time Exit,5,3.792,1.821
+ABB,Relative-strength leader breakout,2026-02-16,63,0.649,0.493,2026-02-17,2026-02-19,5925.83,5715.05,6452.78,2.5R fixed target,Stop,3,-3.857,-1.084
+ASTRAL,Relative-strength leader breakout,2026-02-16,62,2.435,2.108,2026-02-17,2026-02-23,1647.79,1571.1,1839.51,2.5R fixed target,Time Exit,5,-1.07,-0.23
+GVPIL,Relative-strength leader breakout,2026-02-16,100,9.451,14.189,2026-02-17,2026-02-19,523.04,471.6,651.65,2.5R fixed target,Stop,3,-10.135,-1.031
+KROSS,Relative-strength leader breakout,2026-02-16,100,2.402,2.178,2026-02-17,2026-02-20,225.24,206.37,272.41,2.5R fixed target,Stop,4,-8.676,-1.036
+MBAPL,Relative-strength leader breakout,2026-02-16,72,2.685,1.696,2026-02-17,2026-02-17,484.9,458.2,551.64,2.5R fixed target,Stop,1,-5.805,-1.054
+PRECWIRE,Relative-strength leader breakout,2026-02-16,100,8.698,35.339,2026-02-17,2026-02-23,306.41,276.8,380.45,2.5R fixed target,Time Exit,5,-2.308,-0.239
+RACLGEAR,Relative-strength leader breakout,2026-02-16,100,15.766,8.048,2026-02-17,2026-02-23,1506.3,1308.95,1999.69,2.5R fixed target,Time Exit,5,-5.631,-0.43
+SHREEJISPG,Relative-strength leader breakout,2026-02-16,61,0.69,0.574,2026-02-18,2026-02-24,419.8,383.19,511.33,2.5R fixed target,Time Exit,5,-4.993,-0.572
+SUPREMEIND,Relative-strength leader breakout,2026-02-16,63,0.699,0.534,2026-02-17,2026-02-23,3901.39,3708.75,4382.98,2.5R fixed target,Time Exit,5,0.705,0.143
+FORCEMOT,Relative-strength leader breakout,2026-02-17,100,1.794,1.708,2026-02-18,2026-02-19,26041.98,23935.1,31309.17,2.5R fixed target,Stop,2,-8.39,-1.037
+MAHLOG,Relative-strength leader breakout,2026-02-17,100,2.179,0.675,2026-02-18,2026-02-24,426.35,391.39,513.76,2.5R fixed target,Time Exit,5,-5.12,-0.624
+PSUBNKBEES,Relative-strength leader breakout,2026-02-17,72,2.969,2.559,2026-02-18,2026-02-24,108.14,100.24,127.9,2.5R fixed target,Time Exit,5,0.958,0.131
+SCHNEIDER,Relative-strength leader breakout,2026-02-17,72,2.537,0.851,2026-02-18,2026-05-19,856.51,796.39,1006.81,2.5R fixed target,Gap Target,5,37.223,5.303
+SHRINGARMS,Relative-strength leader breakout,2026-02-17,100,4.349,3.899,2026-02-18,2026-02-24,256.89,240.53,297.78,2.5R fixed target,Time Exit,5,-4.761,-0.748
+APARINDS,Relative-strength leader breakout,2026-02-18,80,2.707,3.872,2026-02-20,2026-02-26,10444.35,9725.22,12242.16,2.5R fixed target,Time Exit,5,3.172,0.461
+BAJAJ-AUTO,Relative-strength leader breakout,2026-02-18,55,1.351,1.266,2026-02-19,2026-02-24,10029.02,9668.58,10930.11,2.5R fixed target,Stop,4,-3.894,-1.083
+BANDHANBNK,Relative-strength leader breakout,2026-02-18,53,0.396,0.377,2026-02-19,2026-02-25,172.54,163.7,194.65,2.5R fixed target,Time Exit,5,5.69,1.11
+MAHABANK,Relative-strength leader breakout,2026-02-18,50,1.794,1.892,2026-02-19,2026-02-25,69.35,65.44,79.12,2.5R fixed target,Time Exit,5,6.523,1.157
+POWERINDIA,Relative-strength leader breakout,2026-02-18,63,0.612,0.717,2026-02-20,2026-02-26,23764.43,22231.06,27597.87,2.5R fixed target,Time Exit,5,6.587,1.021
+TORNTPOWER,Relative-strength leader breakout,2026-02-18,58,1.81,1.56,2026-02-19,2026-02-25,1538.07,1445.63,1769.16,2.5R fixed target,Time Exit,5,1.496,0.249
+GAEL,Relative-strength leader breakout,2026-02-20,80,2.328,2.291,2026-02-23,2026-02-27,148.45,138.61,173.03,2.5R fixed target,Time Exit,5,-5.357,-0.809
+KEI,Relative-strength leader breakout,2026-02-20,88,1.482,1.351,2026-02-23,2026-02-27,4806,4537.68,5476.79,2.5R fixed target,Time Exit,5,5.41,0.969
+NTPC,Relative-strength leader breakout,2026-02-20,80,1.824,1.579,2026-02-23,2026-02-27,374.4,361.86,405.74,2.5R fixed target,Time Exit,5,1.704,0.509
+RNBDENIMS,Relative-strength leader breakout,2026-02-20,100,2.707,2.434,2026-02-23,2026-05-19,195.07,188.96,210.34,2.5R fixed target,Gap Stop,2,-94.343,-30.128
+BAJAJCON,Relative-strength leader breakout,2026-02-23,71,1.251,0.632,2026-02-24,2026-03-02,402,368.4,486.02,2.5R fixed target,Gap Stop,5,-9.131,-1.092
+BHARATFORG,Relative-strength leader breakout,2026-02-23,90,1.689,1.329,2026-02-24,2026-03-02,1841.68,1743.6,2086.86,2.5R fixed target,Time Exit,5,1.743,0.327
+CENTUM,Relative-strength leader breakout,2026-02-23,90,3.1,3.398,2026-02-24,2026-03-02,2705.4,2478.41,3272.87,2.5R fixed target,Time Exit,5,-0.1,-0.012
+CUMMINSIND,Relative-strength leader breakout,2026-02-23,100,3.078,2.565,2026-02-24,2026-03-02,4909.8,4641.65,5580.17,2.5R fixed target,Time Exit,5,-2.194,-0.402
+INDIANB,Relative-strength leader breakout,2026-02-23,54,1.797,2.116,2026-02-24,2026-03-02,987.97,941.56,1104,2.5R fixed target,Time Exit,5,-1.446,-0.308
+JBCHEPHARM,Relative-strength leader breakout,2026-02-23,77,1.328,1.423,2026-02-24,2026-03-02,2056.1,1982.1,2241.1,2.5R fixed target,Gap Stop,5,-4.186,-1.163
+POWERGRID,Relative-strength leader breakout,2026-02-23,63,0.697,0.623,2026-02-24,2026-03-02,304.91,293.33,333.85,2.5R fixed target,Gap Stop,5,-5.19,-1.367
+RMDRIP,Relative-strength leader breakout,2026-02-23,72,1.92,1.228,2026-02-24,2026-02-25,122.2,120.12,127.41,2.5R fixed target,Stop,2,-2.005,-1.176
+SANSERA,Relative-strength leader breakout,2026-02-23,71,1.25,1.086,2026-02-24,2026-03-02,2392.17,2196.72,2880.8,2.5R fixed target,Stop,5,-8.47,-1.037
+SBIN,Relative-strength leader breakout,2026-02-23,63,0.679,0.608,2026-02-24,2026-02-26,1233.56,1196.8,1325.46,2.5R fixed target,Stop,3,-3.28,-1.101
+AMBER,Relative-strength leader breakout,2026-02-24,63,0.46,0.434,2026-02-25,2026-03-02,8027.02,7598.77,9097.65,2.5R fixed target,Time Exit,5,-2.076,-0.389
+ASTRAL,Relative-strength leader breakout,2026-02-24,53,1.165,1.039,2026-02-25,2026-03-02,1675.54,1607.88,1844.71,2.5R fixed target,Gap Stop,4,-5.376,-1.331
+DEEDEV,Relative-strength leader breakout,2026-02-24,67,16.575,19.831,2026-02-25,2026-02-25,303.41,274.73,375.08,2.5R fixed target,Stop,1,-9.75,-1.032
+KIMS,Relative-strength leader breakout,2026-02-24,81,1.315,1.182,2026-02-26,2026-03-04,741.48,692.22,864.62,2.5R fixed target,Time Exit,5,-5.045,-0.759
+KRN,Relative-strength leader breakout,2026-02-24,100,3.338,4.784,2026-02-25,2026-03-02,959.72,876.85,1166.89,2.5R fixed target,Time Exit,5,-4.589,-0.532
+POLYCAB,Relative-strength leader breakout,2026-02-24,90,3.37,3.049,2026-02-25,2026-03-02,8163.8,7900.05,8823.17,2.5R fixed target,Time Exit,5,4.412,1.366
+TORNTPHARM,Relative-strength leader breakout,2026-02-24,100,1.776,2.172,2026-02-25,2026-03-02,4431.85,4269.88,4836.75,2.5R fixed target,Gap Stop,4,-5.734,-1.569
+AJANTPHARM,Relative-strength leader breakout,2026-02-25,100,2.051,1.904,2026-02-26,2026-03-02,3042.57,2944.07,3288.82,2.5R fixed target,Gap Stop,3,-7.287,-2.251
+GRAPHITE,Relative-strength leader breakout,2026-02-25,100,2.82,3.374,2026-02-26,2026-03-04,728.45,673.94,864.74,2.5R fixed target,Stop,5,-7.783,-1.04
+IOC,Relative-strength leader breakout,2026-02-25,78,1.74,1.434,2026-02-26,2026-03-02,184.17,177.02,202.03,2.5R fixed target,Stop,3,-4.18,-1.077
+LUPIN,Relative-strength leader breakout,2026-02-25,66,1.543,1.345,2026-02-26,2026-03-04,2304.3,2229.6,2491.05,2.5R fixed target,Time Exit,5,-0.274,-0.085
+MANGLMCEM,Relative-strength leader breakout,2026-02-25,88,2.123,1.933,2026-02-26,2026-03-02,926,863.58,1082.05,2.5R fixed target,Gap Stop,3,-10.532,-1.562
+PETRONET,Relative-strength leader breakout,2026-02-25,80,1.848,1.559,2026-02-26,2026-03-04,316.88,304.09,348.87,2.5R fixed target,Gap Stop,5,-6.259,-1.55
+SAIL,Relative-strength leader breakout,2026-02-25,82,3.646,2.782,2026-02-27,2026-03-04,167.53,158.62,189.82,2.5R fixed target,Stop,4,-5.62,-1.056
+SCHAEFFLER,Relative-strength leader breakout,2026-02-25,100,12.68,18.88,2026-02-26,2026-03-04,4343.37,4100.68,4950.09,2.5R fixed target,Stop,5,-5.888,-1.054
+SUPREMEIND,Relative-strength leader breakout,2026-02-25,92,1.462,1.298,2026-02-26,2026-03-02,4072.13,3898.49,4506.22,2.5R fixed target,Gap Stop,3,-5.018,-1.177
+THANGAMAYL,Relative-strength leader breakout,2026-02-25,71,1.043,1.172,2026-02-26,2026-03-04,3899.78,3573.33,4715.91,2.5R fixed target,Time Exit,5,-7.864,-0.939
+TVSMOTOR,Relative-strength leader breakout,2026-02-25,53,0.84,0.915,2026-02-26,2026-03-02,3952.89,3808.16,4314.7,2.5R fixed target,Gap Stop,3,-4.674,-1.277
+VOLTAMP,Relative-strength leader breakout,2026-02-25,67,2.459,2.615,2026-02-26,2026-03-04,9005.98,8512.79,10238.94,2.5R fixed target,Stop,5,-5.776,-1.055
+VTL,Relative-strength leader breakout,2026-02-25,59,0.878,0.41,2026-02-26,2026-03-04,548.6,506.59,653.61,2.5R fixed target,Time Exit,5,-2.195,-0.287
+DATAPATTNS,Relative-strength leader breakout,2026-02-26,100,2.939,2.25,2026-02-27,2026-03-05,3286.56,3061.07,3850.28,2.5R fixed target,Time Exit,5,1.91,0.278
+FINCABLES,Relative-strength leader breakout,2026-02-26,92,5.648,4.624,2026-02-27,2026-03-05,883.76,836.36,1002.28,2.5R fixed target,Time Exit,5,3.574,0.666
+J&KBANK,Relative-strength leader breakout,2026-02-26,90,8.75,8.74,2026-02-27,2026-03-04,122.49,116.15,138.36,2.5R fixed target,Stop,4,-5.48,-1.058
+MAHABANK,Relative-strength leader breakout,2026-02-26,100,2.075,2.099,2026-02-27,2026-03-02,76.05,72.19,85.7,2.5R fixed target,Gap Stop,2,-7.403,-1.459
+SMSPHARMA,Relative-strength leader breakout,2026-02-26,81,1.392,1.164,2026-02-27,2026-03-02,395.04,361.92,477.84,2.5R fixed target,Stop,2,-8.684,-1.036
+CPPLUS,Relative-strength leader breakout,2026-02-27,90,2.511,2.318,2026-03-02,2026-03-06,1713.32,1568.09,2076.38,2.5R fixed target,Time Exit,5,-2.805,-0.331
+PRECWIRE,Relative-strength leader breakout,2026-02-27,70,1.343,0.816,2026-03-02,2026-03-06,321.63,290.85,398.59,2.5R fixed target,Time Exit,5,3.374,0.353
+SAILIFE,Relative-strength leader breakout,2026-02-27,100,5.062,3.193,2026-03-02,2026-03-06,1006.71,948.69,1151.76,2.5R fixed target,Time Exit,5,2.709,0.47
+BALRAMCHIN,Relative-strength leader breakout,2026-03-04,92,5.402,18.771,2026-03-05,2026-03-09,501,473.34,570.14,2.5R fixed target,Stop,3,-5.82,-1.054
+CHENNPETRO,Relative-strength leader breakout,2026-03-04,100,3.73,7.156,2026-03-05,2026-03-09,1019,947.95,1196.63,2.5R fixed target,Stop,3,-7.273,-1.043
+SOLARINDS,Relative-strength leader breakout,2026-03-04,100,6.298,4.974,2026-03-05,2026-03-11,14796,13839.57,17187.07,2.5R fixed target,Time Exit,5,-2.199,-0.34
+ACUTAAS,Relative-strength leader breakout,2026-03-05,65,1.285,1.729,2026-03-06,2026-03-12,2253.5,2102.95,2629.87,2.5R fixed target,Time Exit,5,-3.22,-0.482
+NATCOPHARM,Relative-strength leader breakout,2026-03-05,94,1.781,1.027,2026-03-06,2026-03-12,1006.8,926.61,1207.26,2.5R fixed target,Time Exit,5,0.634,0.08
+ASTERDM,Relative-strength leader breakout,2026-03-06,85,1.77,1.901,2026-03-09,2026-03-09,687.97,650.6,781.41,2.5R fixed target,Stop,1,-5.733,-1.055
+FINCABLES,Relative-strength leader breakout,2026-03-06,100,1.788,1.616,2026-03-10,2026-03-11,978.55,898.87,1177.76,2.5R fixed target,Stop,2,-8.443,-1.037
+MODEFENCE,Relative-strength leader breakout,2026-03-06,100,3.219,3.463,2026-03-09,2026-03-12,94.54,89.68,106.69,2.5R fixed target,Stop,4,-5.441,-1.058
+APOLLOPIPE,Relative-strength leader breakout,2026-03-09,90,10.739,43.069,2026-03-10,2026-03-10,417.73,381,509.56,2.5R fixed target,Stop,1,-9.093,-1.034
+BALRAMCHIN,Relative-strength leader breakout,2026-03-10,100,1.857,1.431,2026-03-11,2026-03-16,509.52,475.49,594.6,2.5R fixed target,Stop,4,-6.979,-1.045
+GLENMARK,Relative-strength leader breakout,2026-03-10,92,2.701,3.676,2026-03-11,2026-03-17,2244.48,2138.65,2509.04,2.5R fixed target,Stop,5,-5.015,-1.064
+JBCHEPHARM,Relative-strength leader breakout,2026-03-10,88,2.492,2.067,2026-03-11,2026-03-17,2132.8,2029.95,2389.93,2.5R fixed target,Time Exit,5,-1.65,-0.342
+SMSPHARMA,Relative-strength leader breakout,2026-03-10,88,2.871,2.536,2026-03-11,2026-03-13,424.75,389.35,513.25,2.5R fixed target,Stop,3,-8.634,-1.036
+ABB,Relative-strength leader breakout,2026-03-11,78,1.855,1.185,2026-03-12,2026-03-18,6337.65,5954.84,7294.68,2.5R fixed target,Time Exit,5,-0.302,-0.05
+J&KBANK,Relative-strength leader breakout,2026-03-11,94,2.083,1.802,2026-03-12,2026-03-18,126.05,115.31,152.91,2.5R fixed target,Time Exit,5,-2.316,-0.272
+AJANTPHARM,Relative-strength leader breakout,2026-03-12,92,2.803,2.825,2026-03-13,2026-03-16,3156.3,2987.21,3579.02,2.5R fixed target,Stop,2,-5.657,-1.056
+COALINDIA,Relative-strength leader breakout,2026-03-12,92,2.409,2.754,2026-03-13,2026-03-18,474.95,451.45,533.68,2.5R fixed target,Stop,4,-5.247,-1.061
+GESHIP,Relative-strength leader breakout,2026-03-12,100,2.128,2.168,2026-03-13,2026-03-16,1495.59,1401.36,1731.15,2.5R fixed target,Stop,2,-6.6,-1.048
+JSWENERGY,Relative-strength leader breakout,2026-03-12,92,5.867,9.249,2026-03-13,2026-03-16,529.06,497.23,608.62,2.5R fixed target,Stop,2,-6.315,-1.05
+LINDEINDIA,Relative-strength leader breakout,2026-03-12,78,2.334,2.603,2026-03-13,2026-03-19,7238.95,6797.95,8341.45,2.5R fixed target,Time Exit,5,-3.442,-0.565
+NTPC,Relative-strength leader breakout,2026-03-12,94,2.067,2.095,2026-03-13,2026-03-19,393.18,374.75,439.26,2.5R fixed target,Gap Stop,5,-5.307,-1.132
+AEROFLEX,Relative-strength leader breakout,2026-03-16,88,1.48,2.042,2026-03-17,2026-03-19,251.5,229.29,307.03,2.5R fixed target,Stop,3,-9.132,-1.034
+KSB,Relative-strength leader breakout,2026-03-18,52,3.328,0.577,2026-03-19,2026-03-23,824.7,769.23,963.35,2.5R fixed target,Stop,3,-7.025,-1.045
+ACUTAAS,Relative-strength leader breakout,2026-03-20,92,1.68,1.869,2026-03-24,2026-03-30,2465.72,2254.63,2993.44,2.5R fixed target,Time Exit,5,3.467,0.405
+AETHER,Relative-strength leader breakout,2026-03-20,100,4.468,6.477,2026-03-24,2026-03-30,1182.36,1082.25,1432.64,2.5R fixed target,Stop,5,-8.767,-1.035
+JAINREC,Relative-strength leader breakout,2026-03-24,70,1.478,1.741,2026-03-25,2026-03-30,463.43,430.8,544.99,2.5R fixed target,Time Exit,5,-1.794,-0.255
+KSHINTL,Relative-strength leader breakout,2026-03-24,83,1.114,1.144,2026-03-25,2026-03-30,458.52,418.54,558.45,2.5R fixed target,Time Exit,5,-4.611,-0.529
+PFOCUS,Relative-strength leader breakout,2026-03-24,100,1.655,1.566,2026-03-25,2026-03-30,312.62,285.53,380.36,2.5R fixed target,Time Exit,5,5.05,0.583
+PREMIERENE,Relative-strength leader breakout,2026-03-24,70,0.895,1.018,2026-03-25,2026-03-30,906.66,848.26,1052.66,2.5R fixed target,Time Exit,5,-1.955,-0.304
+CPPLUS,Relative-strength leader breakout,2026-03-25,88,2.934,2.291,2026-03-27,2026-04-02,1844.38,1708.32,2184.54,2.5R fixed target,Time Exit,5,-2.728,-0.37
+SGMART,Relative-strength leader breakout,2026-03-25,75,0.919,0.929,2026-03-27,2026-04-02,485.22,446.1,583.02,2.5R fixed target,Time Exit,5,3.736,0.463
+ATHERENERG,Relative-strength leader breakout,2026-03-27,82,2.014,1.72,2026-03-30,2026-04-02,804.51,741.09,963.05,2.5R fixed target,Time Exit,5,-5.565,-0.706
+RENUKA,Relative-strength leader breakout,2026-03-27,100,4.061,3.648,2026-03-30,2026-04-02,27.4,25.19,32.93,2.5R fixed target,Time Exit,5,2.31,0.286
+DMART,Relative-strength leader breakout,2026-04-01,100,3.678,3.754,2026-04-02,2026-04-08,4303.39,4042.49,4955.64,2.5R fixed target,Time Exit,5,1.22,0.201
+LLOYDSME,Relative-strength leader breakout,2026-04-01,88,1.654,1.542,2026-04-02,2026-04-08,1359.91,1245.39,1646.23,2.5R fixed target,Time Exit,5,8.773,1.042
+MBAPL,Relative-strength leader breakout,2026-04-01,100,2.423,2.139,2026-04-02,2026-04-08,510.97,473.48,604.69,2.5R fixed target,Time Exit,5,6.331,0.863
+ACMESOLAR,Relative-strength leader breakout,2026-04-02,100,1.925,1.203,2026-04-06,2026-04-10,277.25,251.7,341.15,2.5R fixed target,Time Exit,5,-3.403,-0.369
+ADANIPOWER,Relative-strength leader breakout,2026-04-02,92,2.509,1.839,2026-04-06,2026-04-10,162,148.9,194.75,2.5R fixed target,Time Exit,5,8.225,1.017
+AXISCADES,Relative-strength leader breakout,2026-04-02,67,0.89,0.918,2026-04-06,2026-04-10,1650.29,1500.74,2024.17,2.5R fixed target,Time Exit,5,1.979,0.218
+BLISSGVS,Relative-strength leader breakout,2026-04-02,84,1.532,1.003,2026-04-06,2026-04-10,236.62,213.18,295.22,2.5R fixed target,Time Exit,5,9.14,0.923
+LIQUIDBETF,Relative-strength leader breakout,2026-04-02,70,0.979,1.165,2026-04-06,2026-04-06,1079.9,1077.25,1086.53,2.5R fixed target,Stop,1,-0.546,-2.221
+PRAJIND,Relative-strength leader breakout,2026-04-02,72,1.522,0.746,2026-04-06,2026-04-10,337.37,310.82,403.75,2.5R fixed target,Time Exit,5,-0.07,-0.009
+SBILIQETF,Relative-strength leader breakout,2026-04-02,59,0.144,0.179,2026-04-06,2026-04-06,1040,1034.62,1053.45,2.5R fixed target,Stop,1,-0.817,-1.58
+SHILPAMED,Relative-strength leader breakout,2026-04-02,66,1.514,0.772,2026-04-06,2026-04-10,393.79,362.14,472.9,2.5R fixed target,Time Exit,5,6.382,0.794
+ANANDRATHI,Relative-strength leader breakout,2026-04-06,80,1.787,1.942,2026-04-07,2026-04-13,3315.62,3130.31,3778.9,2.5R fixed target,Time Exit,5,8.042,1.439
+CCL,Relative-strength leader breakout,2026-04-06,81,1.361,1.587,2026-04-07,2026-04-13,1127.25,1051.42,1316.81,2.5R fixed target,Stop,5,-7.027,-1.045
+GPIL,Relative-strength leader breakout,2026-04-07,92,1.722,1.844,2026-04-08,2026-04-13,296,267.46,367.34,2.5R fixed target,Time Exit,5,-2.631,-0.273
+MTARTECH,Relative-strength leader breakout,2026-04-07,80,2.145,2.852,2026-04-08,2026-04-13,4095,3672.98,5150.06,2.5R fixed target,Time Exit,5,7.085,0.687
+NATCOPHARM,Relative-strength leader breakout,2026-04-07,74,2.451,3.743,2026-04-08,2026-04-13,1100,1025.06,1287.35,2.5R fixed target,Time Exit,5,-2.368,-0.348
+PREMIERENE,Relative-strength leader breakout,2026-04-07,67,0.662,0.772,2026-04-08,2026-04-13,962.5,895.63,1129.67,2.5R fixed target,Time Exit,5,0.895,0.129
+BSE,Relative-strength leader breakout,2026-04-08,94,2.931,2.458,2026-04-09,2026-04-15,3215.02,2993.19,3769.58,2.5R fixed target,Time Exit,5,5.164,0.749
+KTKBANK,Relative-strength leader breakout,2026-04-08,70,2.588,1.746,2026-04-09,2026-04-15,244.44,224.2,295.03,2.5R fixed target,Time Exit,5,-1.085,-0.131
+MON100,Relative-strength leader breakout,2026-04-08,54,2.152,2.204,2026-04-09,2026-04-15,259.32,242.14,302.27,2.5R fixed target,Time Exit,5,3.804,0.574
+PAISALO,Relative-strength leader breakout,2026-04-08,100,2.959,2.597,2026-04-10,2026-04-16,38.84,35.49,47.22,2.5R fixed target,Time Exit,5,13.018,1.508
+QPOWER,Relative-strength leader breakout,2026-04-08,78,1.527,1.218,2026-04-09,2026-04-15,917.83,826.1,1147.16,2.5R fixed target,Time Exit,5,20.381,2.039
+SHILCTECH,Relative-strength leader breakout,2026-04-08,51,1.025,0.937,2026-04-09,2026-04-15,4306.2,3939.07,5224.01,2.5R fixed target,Time Exit,5,10.898,1.278
+WELCORP,Relative-strength leader breakout,2026-04-08,62,3.366,2.573,2026-04-09,2026-04-15,945.89,879.24,1112.5,2.5R fixed target,Time Exit,5,10.987,1.559
+ABB,Relative-strength leader breakout,2026-04-09,80,2.103,1.628,2026-04-10,2026-04-16,6655.28,6289.28,7570.28,2.5R fixed target,Time Exit,5,3.129,0.569
+ATHERENERG,Relative-strength leader breakout,2026-04-09,86,2.842,3.015,2026-04-10,2026-04-16,835.02,758.3,1026.81,2.5R fixed target,Time Exit,5,3.422,0.373
+ATLANTAELE,Relative-strength leader breakout,2026-04-09,67,2.164,1.798,2026-04-10,2026-04-16,1314.82,1184.83,1639.82,2.5R fixed target,Time Exit,5,2.345,0.237
+BELRISE,Relative-strength leader breakout,2026-04-09,88,1.517,1.971,2026-04-10,2026-04-16,204.81,191.46,238.18,2.5R fixed target,Time Exit,5,1.698,0.26
+HFCL,Relative-strength leader breakout,2026-04-09,90,2.41,3.454,2026-04-10,2026-04-16,81.67,75.26,97.71,2.5R fixed target,Time Exit,5,11.708,1.491
+KAJARIACER,Relative-strength leader breakout,2026-04-09,88,1.42,1.653,2026-04-10,2026-04-16,1119.43,1029.84,1343.42,2.5R fixed target,Time Exit,5,4.235,0.529
+POWERINDIA,Relative-strength leader breakout,2026-04-09,50,1.495,2.051,2026-04-10,2026-04-16,27680,25720,32580,2.5R fixed target,Time Exit,5,1.777,0.251
+RUBICON,Relative-strength leader breakout,2026-04-09,54,2.658,3.844,2026-04-10,2026-04-16,868.3,812.87,1006.87,2.5R fixed target,Time Exit,5,-0.035,-0.006
+THERMAX,Relative-strength leader breakout,2026-04-09,70,2.156,2.857,2026-04-10,2026-04-16,3593.17,3335.48,4237.39,2.5R fixed target,Time Exit,5,14.54,2.027
+VIDYAWIRES,Relative-strength leader breakout,2026-04-09,90,4.158,5.958,2026-04-10,2026-04-16,63.13,57.83,76.37,2.5R fixed target,Time Exit,5,7.152,0.852
+ABSLAMC,Relative-strength leader breakout,2026-04-10,84,2.465,1.726,2026-04-13,2026-04-17,1012.87,935.27,1206.89,2.5R fixed target,Time Exit,5,5.167,0.674
+INOXINDIA,Relative-strength leader breakout,2026-04-10,54,4.643,5.032,2026-04-13,2026-04-17,1327.65,1231.91,1566.99,2.5R fixed target,Time Exit,5,12.056,1.672
+KSHINTL,Relative-strength leader breakout,2026-04-10,84,1.656,1.314,2026-04-13,2026-04-17,539.88,487.37,671.14,2.5R fixed target,Time Exit,5,8.919,0.917
+LENSKART,Relative-strength leader breakout,2026-04-10,93,1.353,1.937,2026-04-13,2026-04-17,551.1,515.83,639.27,2.5R fixed target,Time Exit,5,-3.303,-0.516
+LLOYDSME,Relative-strength leader breakout,2026-04-10,55,0.643,0.507,2026-04-13,2026-04-17,1513.02,1400.51,1794.3,2.5R fixed target,Time Exit,5,6.989,0.94
+SHRIPISTON,Relative-strength leader breakout,2026-04-10,78,2.25,4.207,2026-04-13,2026-04-17,3660.31,3398.41,4315.06,2.5R fixed target,Time Exit,5,1.763,0.246
+STLTECH,Relative-strength leader breakout,2026-04-10,100,1.978,1.864,2026-04-13,2026-04-17,235.87,212.64,293.95,2.5R fixed target,Time Exit,5,11.236,1.141
+WAAREEENER,Relative-strength leader breakout,2026-04-10,53,0.98,1.019,2026-04-13,2026-04-17,3326.64,3138.54,3796.89,2.5R fixed target,Time Exit,5,3.895,0.689
+ADANIPOWER,Relative-strength leader breakout,2026-04-13,78,1.554,2.043,2026-04-15,2026-04-21,185.27,171.56,219.54,2.5R fixed target,Time Exit,5,9.259,1.251
+BAYERCROP,Relative-strength leader breakout,2026-04-13,83,1.333,1.37,2026-04-15,2026-04-21,4994.9,4676.13,5791.83,2.5R fixed target,Time Exit,5,-3.748,-0.587
+KRN,Relative-strength leader breakout,2026-04-13,90,3.807,5.064,2026-04-15,2026-04-20,1076,990.37,1290.08,2.5R fixed target,Target,4,19.596,2.462
+NTPCGREEN,Relative-strength leader breakout,2026-04-13,100,4.371,6.5,2026-04-15,2026-04-21,106.3,99.56,123.15,2.5R fixed target,Time Exit,5,4.768,0.752
+ANANDRATHI,Relative-strength leader breakout,2026-04-15,95,1.779,1.24,2026-04-17,2026-04-23,3702.39,3462.65,4301.73,2.5R fixed target,Time Exit,5,-2.725,-0.421
+CPPLUS,Relative-strength leader breakout,2026-04-15,70,1.601,1.255,2026-04-16,2026-04-22,2104.7,1921.93,2561.64,2.5R fixed target,Time Exit,5,3.463,0.399
+DEEPINDS,Relative-strength leader breakout,2026-04-15,78,1.668,0.626,2026-04-16,2026-04-22,495.99,447.07,618.29,2.5R fixed target,Time Exit,5,-3.766,-0.382
+EMMVEE,Relative-strength leader breakout,2026-04-15,100,3.081,3.172,2026-04-16,2026-04-22,263.9,238.51,327.38,2.5R fixed target,Time Exit,5,-0.004,0
+GPIL,Relative-strength leader breakout,2026-04-15,84,3.145,2.257,2026-04-16,2026-04-22,307.45,286.77,359.14,2.5R fixed target,Time Exit,5,-3.13,-0.465
+GRANULES,Relative-strength leader breakout,2026-04-15,71,1.157,0.968,2026-04-17,2026-04-23,656.56,619.89,748.25,2.5R fixed target,Time Exit,5,4.329,0.775
+GROWW,Relative-strength leader breakout,2026-04-15,100,2.488,4.302,2026-04-16,2026-04-20,213.33,194.88,259.44,2.5R fixed target,Stop,3,-8.948,-1.035
+IGIL,Relative-strength leader breakout,2026-04-15,53,1.036,0.798,2026-04-16,2026-04-22,360.7,335.15,424.58,2.5R fixed target,Time Exit,5,0.157,0.022
+JINDALSAW,Relative-strength leader breakout,2026-04-15,52,2.712,2.121,2026-04-16,2026-04-22,221.99,203.83,267.38,2.5R fixed target,Time Exit,5,10.052,1.229
+KIRLOSENG,Relative-strength leader breakout,2026-04-15,100,4.342,4.808,2026-04-16,2026-04-22,1618,1490.96,1935.59,2.5R fixed target,Time Exit,5,1.066,0.136
+MTARTECH,Relative-strength leader breakout,2026-04-15,100,3.467,4.848,2026-04-16,2026-04-22,5039.9,4560.73,6237.82,2.5R fixed target,Time Exit,5,4.456,0.469
+PRECWIRE,Relative-strength leader breakout,2026-04-15,73,1.058,0.625,2026-04-16,2026-04-22,349.65,320.15,423.38,2.5R fixed target,Time Exit,5,12.857,1.524
+SKYGOLD,Relative-strength leader breakout,2026-04-15,92,2.473,2.246,2026-04-16,2026-04-22,426.9,388.37,523.23,2.5R fixed target,Time Exit,5,-1.588,-0.176
+TATAPOWER,Relative-strength leader breakout,2026-04-15,92,1.864,1.696,2026-04-16,2026-04-22,427.4,401.24,492.81,2.5R fixed target,Time Exit,5,1.724,0.282
+THANGAMAYL,Relative-strength leader breakout,2026-04-15,67,1.43,1.176,2026-04-16,2026-04-22,4321.93,3979.4,5178.24,2.5R fixed target,Time Exit,5,-7.219,-0.911
+ADANIENSOL,Relative-strength leader breakout,2026-04-16,77,1.285,1.159,2026-04-17,2026-04-23,1234.55,1138.9,1473.67,2.5R fixed target,Time Exit,5,9.963,1.286
+AXISCADES,Relative-strength leader breakout,2026-04-16,88,1.466,1.309,2026-04-17,2026-04-23,1829,1631.73,2322.18,2.5R fixed target,Time Exit,5,8.65,0.802
+BHEL,Relative-strength leader breakout,2026-04-16,100,2.207,1.836,2026-04-17,2026-04-23,312.92,290.49,369.01,2.5R fixed target,Time Exit,5,7.585,1.058
+BSE,Relative-strength leader breakout,2026-04-16,77,1.138,0.939,2026-04-17,2026-04-23,3466.82,3239.73,4034.54,2.5R fixed target,Time Exit,5,-0.41,-0.063
+GMDCLTD,Relative-strength leader breakout,2026-04-16,82,9.809,11.199,2026-04-17,2026-04-20,748.24,692.45,887.73,2.5R fixed target,Stop,2,-7.757,-1.04
+IMFA,Relative-strength leader breakout,2026-04-16,90,8.835,11.122,2026-04-17,2026-04-23,1577.15,1459.15,1872.15,2.5R fixed target,Time Exit,5,-1.92,-0.257
+MON100,Relative-strength leader breakout,2026-04-16,86,1.431,0.824,2026-04-17,2026-04-23,284.44,261.44,341.95,2.5R fixed target,Time Exit,5,1.616,0.2
+NLCINDIA,Relative-strength leader breakout,2026-04-16,92,8.176,16.903,2026-04-17,2026-04-23,308.06,287.43,359.66,2.5R fixed target,Time Exit,5,-3.924,-0.586
+QPOWER,Relative-strength leader breakout,2026-04-16,93,1.167,1.257,2026-04-17,2026-04-23,1161.32,1053.34,1431.27,2.5R fixed target,Time Exit,5,18.001,1.936
+SARDAEN,Relative-strength leader breakout,2026-04-16,100,2.697,1.569,2026-04-17,2026-04-23,600.4,559.43,702.82,2.5R fixed target,Time Exit,5,-2.598,-0.381
+SGFIN,Relative-strength leader breakout,2026-04-16,100,5.245,13.217,2026-04-17,2026-04-23,533.77,482.8,661.19,2.5R fixed target,Time Exit,5,1.43,0.15
+SYRMA,Relative-strength leader breakout,2026-04-16,100,4.747,5.569,2026-04-17,2026-04-23,990.88,921.9,1163.33,2.5R fixed target,Time Exit,5,-1.045,-0.15
+TDPOWERSYS,Relative-strength leader breakout,2026-04-16,72,2.209,1.9,2026-04-17,2026-04-23,985.87,911.65,1171.41,2.5R fixed target,Time Exit,5,8.279,1.1
+UTLSOLAR,Relative-strength leader breakout,2026-04-16,100,3.661,4.909,2026-04-17,2026-04-23,261.52,242.72,308.53,2.5R fixed target,Time Exit,5,8.964,1.247
+VOLTAMP,Relative-strength leader breakout,2026-04-16,90,4.156,3.136,2026-04-17,2026-04-23,10014.99,9312.86,11770.3,2.5R fixed target,Time Exit,5,8.382,1.196
+WAAREERTL,Relative-strength leader breakout,2026-04-16,95,2.811,2.687,2026-04-17,2026-04-23,1088.47,1001.6,1305.64,2.5R fixed target,Time Exit,5,-2.36,-0.296
+WELCORP,Relative-strength leader breakout,2026-04-16,100,1.626,1.307,2026-04-17,2026-04-23,1082.56,999.77,1289.53,2.5R fixed target,Time Exit,5,10.927,1.429
+ABB,Relative-strength leader breakout,2026-04-17,92,1.585,1.488,2026-04-20,2026-04-24,7097.17,6720.48,8038.88,2.5R fixed target,Time Exit,5,2.96,0.558
+ACMESOLAR,Relative-strength leader breakout,2026-04-17,100,3.149,1.271,2026-04-20,2026-04-24,309,285.33,368.17,2.5R fixed target,Time Exit,5,-1.497,-0.195
+ADANIGREEN,Relative-strength leader breakout,2026-04-17,71,1.053,1.083,2026-04-20,2026-04-24,1142.28,1056.52,1356.67,2.5R fixed target,Time Exit,5,7.887,1.051
+APEX,Relative-strength leader breakout,2026-04-17,67,5.299,7.183,2026-04-20,2026-04-24,495.99,450.13,610.63,2.5R fixed target,Time Exit,5,-7.748,-0.838
+ASTRAMICRO,Relative-strength leader breakout,2026-04-17,58,1.704,1.294,2026-04-21,2026-04-27,1101.2,1014.02,1319.14,2.5R fixed target,Time Exit,5,3.074,0.388
+BAJAJCON,Relative-strength leader breakout,2026-04-17,92,9.614,22.168,2026-04-20,2026-04-24,495.79,452.3,604.52,2.5R fixed target,Stop,5,-9.073,-1.034
+BELRISE,Relative-strength leader breakout,2026-04-17,90,1.761,1.247,2026-04-20,2026-04-24,216.83,204.44,247.81,2.5R fixed target,Time Exit,5,-2.178,-0.381
+CARBORUNIV,Relative-strength leader breakout,2026-04-17,86,4.659,3.126,2026-04-20,2026-04-24,950.9,877.6,1134.15,2.5R fixed target,Time Exit,5,-2.903,-0.377
+CENTUM,Relative-strength leader breakout,2026-04-17,85,5.537,3.39,2026-04-20,2026-04-20,3135.26,2898.92,3726.1,2.5R fixed target,Stop,1,-7.838,-1.04
+GOCLCORP,Relative-strength leader breakout,2026-04-17,61,1.138,0.179,2026-04-20,2026-04-24,330.06,298.83,408.12,2.5R fixed target,Time Exit,5,-3.787,-0.4
+HFCL,Relative-strength leader breakout,2026-04-17,100,2.329,1.824,2026-04-20,2026-04-24,97,87.93,119.66,2.5R fixed target,Time Exit,5,3.02,0.323
+PARAS,Relative-strength leader breakout,2026-04-17,100,2.921,1.863,2026-04-20,2026-04-24,826.65,757.04,1000.68,2.5R fixed target,Time Exit,5,-3.457,-0.411
+PARKHOSPS,Relative-strength leader breakout,2026-04-17,100,2.623,1.927,2026-04-20,2026-04-24,221,200.86,271.36,2.5R fixed target,Time Exit,5,4.994,0.548
+PRIVISCL,Relative-strength leader breakout,2026-04-17,100,2.981,3.367,2026-04-20,2026-04-24,3156.3,2987.53,3578.24,2.5R fixed target,Time Exit,5,2.117,0.396
+SKIPPER,Relative-strength leader breakout,2026-04-17,62,2.833,2.981,2026-04-20,2026-04-24,439.68,408.53,517.54,2.5R fixed target,Time Exit,5,2.992,0.422
+ZENTEC,Relative-strength leader breakout,2026-04-17,92,2.496,2.154,2026-04-20,2026-04-24,1646.09,1522.05,1956.18,2.5R fixed target,Time Exit,5,1.42,0.188
+AEQUS,Relative-strength leader breakout,2026-04-20,100,4.119,6.591,2026-04-21,2026-04-23,202.4,182.55,252.04,2.5R fixed target,Stop,3,-10.108,-1.031
+APARINDS,Relative-strength leader breakout,2026-04-20,53,1.399,1.373,2026-04-21,2026-04-27,12089.13,11178.5,14365.69,2.5R fixed target,Time Exit,5,0.079,0.011
+BALRAMCHIN,Relative-strength leader breakout,2026-04-20,88,1.957,2.841,2026-04-21,2026-04-27,521.04,494.96,586.23,2.5R fixed target,Time Exit,5,-0.404,-0.081
+CESC,Relative-strength leader breakout,2026-04-20,100,4.007,4.14,2026-04-21,2026-04-27,181.86,171.47,207.85,2.5R fixed target,Time Exit,5,3.08,0.539
+POWERINDIA,Relative-strength leader breakout,2026-04-20,63,1.161,1.173,2026-04-21,2026-04-27,29960,28042.92,34752.69,2.5R fixed target,Time Exit,5,6.726,1.051
+RUBICON,Relative-strength leader breakout,2026-04-20,75,1.323,1.15,2026-04-21,2026-04-27,940.58,879.09,1094.3,2.5R fixed target,Time Exit,5,1.632,0.25
+SHILCTECH,Relative-strength leader breakout,2026-04-20,92,2.055,2.118,2026-04-21,2026-04-27,5184.75,4734.37,6310.69,2.5R fixed target,Time Exit,5,2.147,0.247
+STLTECH,Relative-strength leader breakout,2026-04-20,83,1.15,0.704,2026-04-21,2026-04-27,275.55,250.31,338.65,2.5R fixed target,Time Exit,5,1.231,0.134
+TIINDIA,Relative-strength leader breakout,2026-04-20,74,3.494,2.391,2026-04-21,2026-04-27,2910.31,2729.62,3362.03,2.5R fixed target,Time Exit,5,2.589,0.417
+CGPOWER,Relative-strength leader breakout,2026-04-21,50,1.348,1.172,2026-04-22,2026-04-28,821.24,776.51,933.05,2.5R fixed target,Time Exit,5,0.913,0.168
+MAHABANK,Relative-strength leader breakout,2026-04-21,100,6.124,7.769,2026-04-22,2026-04-24,81.66,76.39,94.84,2.5R fixed target,Stop,3,-6.753,-1.046
+VENUSPIPES,Relative-strength leader breakout,2026-04-21,65,1.057,0.738,2026-04-22,2026-04-28,1347.64,1255.48,1578.03,2.5R fixed target,Time Exit,5,4.554,0.666
+WABAG,Relative-strength leader breakout,2026-04-21,62,2.406,2.287,2026-04-22,2026-04-28,1510.52,1406.33,1770.98,2.5R fixed target,Time Exit,5,-0.281,-0.041
+ADANIPOWER,Relative-strength leader breakout,2026-04-22,100,1.782,2.014,2026-04-23,2026-04-29,216.93,201.16,256.36,2.5R fixed target,Time Exit,5,0.782,0.108
+ADVAIT,Relative-strength leader breakout,2026-04-22,59,1.419,1.574,2026-04-23,2026-04-29,2099.19,1911.1,2569.41,2.5R fixed target,Time Exit,5,-0.171,-0.019
+ATLANTAELE,Relative-strength leader breakout,2026-04-22,90,1.8,1.339,2026-04-23,2026-04-27,1495,1365.5,1818.76,2.5R fixed target,Target,3,21.356,2.465
+BLISSGVS,Relative-strength leader breakout,2026-04-22,78,2.204,1.527,2026-04-23,2026-04-29,277.5,255.43,332.69,2.5R fixed target,Time Exit,5,-3.959,-0.498
+CHENNPETRO,Relative-strength leader breakout,2026-04-22,84,1.971,1.481,2026-04-23,2026-04-24,1086.12,1011.97,1271.48,2.5R fixed target,Stop,2,-7.126,-1.044
+DATAPATTNS,Relative-strength leader breakout,2026-04-22,82,3.095,3.168,2026-04-23,2026-04-29,3892.77,3577.43,4681.11,2.5R fixed target,Time Exit,5,5.488,0.678
+GROWW,Relative-strength leader breakout,2026-04-22,78,1.358,2.113,2026-04-24,2026-04-30,223.33,202.25,276.01,2.5R fixed target,Time Exit,5,-4.033,-0.427
+GRSE,Relative-strength leader breakout,2026-04-22,84,1.692,0.89,2026-04-23,2026-04-29,2833.66,2632.44,3336.69,2.5R fixed target,Target,5,17.452,2.458
+INOXINDIA,Relative-strength leader breakout,2026-04-22,88,1.927,1.594,2026-04-23,2026-04-29,1607.61,1478.92,1929.33,2.5R fixed target,Stop,5,-8.305,-1.037
+IOLCP,Relative-strength leader breakout,2026-04-22,92,2.375,1.763,2026-04-23,2026-04-24,95.19,88.14,112.82,2.5R fixed target,Stop,2,-7.709,-1.04
+LLOYDSENT,Relative-strength leader breakout,2026-04-22,58,1.613,0.937,2026-04-23,2026-04-29,70.14,63.21,87.47,2.5R fixed target,Time Exit,5,-1.84,-0.186
+LLOYDSME,Relative-strength leader breakout,2026-04-22,93,1.399,1.021,2026-04-23,2026-04-29,1687.37,1597.29,1912.56,2.5R fixed target,Time Exit,5,4.727,0.886
+PAISALO,Relative-strength leader breakout,2026-04-22,92,1.941,2.008,2026-04-24,2026-04-30,47.07,43.33,56.44,2.5R fixed target,Time Exit,5,5.788,0.727
+PRAJIND,Relative-strength leader breakout,2026-04-22,74,2.02,2.913,2026-04-23,2026-04-29,390.58,364.74,455.19,2.5R fixed target,Time Exit,5,2.278,0.344
+SANSERA,Relative-strength leader breakout,2026-04-22,84,5.268,3.381,2026-04-23,2026-04-29,2573.04,2359.12,3107.82,2.5R fixed target,Time Exit,5,-0.935,-0.112
+SBCL,Relative-strength leader breakout,2026-04-22,77,1.079,0.813,2026-04-23,2026-04-24,539.58,505.54,624.68,2.5R fixed target,Target,2,15.472,2.452
+SIEMENS,Relative-strength leader breakout,2026-04-22,92,1.663,1.643,2026-04-23,2026-04-29,3892.77,3662.83,4467.61,2.5R fixed target,Time Exit,5,-3.279,-0.555
+WALCHANNAG,Relative-strength leader breakout,2026-04-22,100,4.872,5.808,2026-04-23,2026-04-29,218.19,196.68,271.95,2.5R fixed target,Time Exit,5,8.887,0.902
+AZAD,Relative-strength leader breakout,2026-04-23,100,3.661,4.63,2026-04-24,2026-04-30,2153.3,1996.05,2546.42,2.5R fixed target,Time Exit,5,0.239,0.033
+BBL,Relative-strength leader breakout,2026-04-23,62,4.49,4.17,2026-04-24,2026-04-30,3045.98,2824.58,3599.48,2.5R fixed target,Time Exit,5,1.368,0.188
+GVT&D,Relative-strength leader breakout,2026-04-23,89,1.763,2.848,2026-04-24,2026-04-30,4659.3,4352.21,5427.02,2.5R fixed target,Time Exit,5,-4.444,-0.674
+HARDWYN,Relative-strength leader breakout,2026-04-23,75,1.167,0.858,2026-04-27,2026-04-30,25.99,23.69,31.75,2.5R fixed target,Time Exit,5,4.317,0.487
+JNKINDIA,Relative-strength leader breakout,2026-04-23,52,1.946,1.397,2026-04-27,2026-04-30,380.16,343.89,470.83,2.5R fixed target,Time Exit,5,-5.429,-0.569
+ONESOURCE,Relative-strength leader breakout,2026-04-23,100,3.684,3.538,2026-04-24,2026-04-30,1788.57,1637.78,2165.54,2.5R fixed target,Time Exit,5,-3.122,-0.37
+WEBELSOLAR,Relative-strength leader breakout,2026-04-23,100,2.385,2.214,2026-04-24,2026-04-30,107,96.91,132.25,2.5R fixed target,Time Exit,5,3.117,0.33
+ADANIENSOL,Relative-strength leader breakout,2026-04-24,100,1.842,2.618,2026-04-27,2026-04-30,1427.85,1313.73,1713.15,2.5R fixed target,Stop,4,-8.292,-1.038
+ADFFOODS,Relative-strength leader breakout,2026-04-24,100,13.852,5.09,2026-04-27,2026-04-30,265.33,240.56,327.25,2.5R fixed target,Time Exit,5,-0.748,-0.08
+MON100,Relative-strength leader breakout,2026-04-24,74,1.484,1.273,2026-04-28,2026-05-04,297.3,281.1,337.79,2.5R fixed target,Time Exit,5,1.237,0.227
+PNBHOUSING,Relative-strength leader breakout,2026-04-24,90,2.064,1.414,2026-04-27,2026-04-30,1047.9,977.69,1223.41,2.5R fixed target,Time Exit,5,-0.515,-0.077
+QPOWER,Relative-strength leader breakout,2026-04-24,95,1.683,1.291,2026-04-28,2026-05-04,1431.86,1303.64,1752.4,2.5R fixed target,Time Exit,5,-5.57,-0.622
+TDPOWERSYS,Relative-strength leader breakout,2026-04-24,100,1.768,1.432,2026-04-27,2026-04-30,1126.5,1039.85,1343.12,2.5R fixed target,Time Exit,5,2.026,0.263
+UTLSOLAR,Relative-strength leader breakout,2026-04-24,100,5.42,7.634,2026-04-27,2026-04-30,307,284.48,363.29,2.5R fixed target,Time Exit,5,-3.75,-0.511
+ANTHEM,Relative-strength leader breakout,2026-04-27,94,2.046,1.539,2026-04-28,2026-05-04,775.95,728.54,894.47,2.5R fixed target,Time Exit,5,-1.814,-0.297
+BHEL,Relative-strength leader breakout,2026-04-27,71,1.093,0.983,2026-04-28,2026-05-04,354.71,331.79,412,2.5R fixed target,Time Exit,5,5.999,0.928
+FINCABLES,Relative-strength leader breakout,2026-04-27,57,1.229,1.206,2026-04-28,2026-05-04,1016.53,953.19,1174.87,2.5R fixed target,Time Exit,5,-0.323,-0.052
+HFCL,Relative-strength leader breakout,2026-04-27,94,1.726,1.425,2026-04-28,2026-05-04,108.12,98.35,132.54,2.5R fixed target,Time Exit,5,16.279,1.802
+ISGEC,Relative-strength leader breakout,2026-04-27,53,0.907,0.761,2026-04-28,2026-05-04,1102.1,1031.08,1279.64,2.5R fixed target,Time Exit,5,-1.933,-0.3
+JAYNECOIND,Relative-strength leader breakout,2026-04-27,95,3.595,4.925,2026-04-28,2026-05-04,108.97,98.12,136.09,2.5R fixed target,Time Exit,5,5.456,0.548
+JSWENERGY,Relative-strength leader breakout,2026-04-27,100,2.415,2.048,2026-04-28,2026-05-04,578.9,537.31,682.87,2.5R fixed target,Time Exit,5,-3.168,-0.441
+KAJARIACER,Relative-strength leader breakout,2026-04-27,100,1.618,1.176,2026-04-28,2026-04-30,1242.48,1175.64,1409.57,2.5R fixed target,Stop,3,-5.679,-1.056
+KIRLPNU,Relative-strength leader breakout,2026-04-27,100,7.98,20.284,2026-04-28,2026-05-04,1513.02,1410.64,1768.96,2.5R fixed target,Time Exit,5,3.003,0.444
+KRISHANA,Relative-strength leader breakout,2026-04-27,88,3.097,2.76,2026-04-28,2026-04-29,699.4,637.84,853.29,2.5R fixed target,Stop,2,-9.101,-1.034
+PRECWIRE,Relative-strength leader breakout,2026-04-27,71,1.037,0.834,2026-04-28,2026-05-04,410.22,374.88,498.58,2.5R fixed target,Time Exit,5,5.132,0.596
+RAMRAT,Relative-strength leader breakout,2026-04-27,90,2.892,3.301,2026-04-28,2026-05-04,433.37,394.38,530.82,2.5R fixed target,Time Exit,5,4.577,0.509
+SAATVIKGL,Relative-strength leader breakout,2026-04-27,78,1.434,1.079,2026-04-28,2026-05-04,495,449.61,608.49,2.5R fixed target,Time Exit,5,-3.502,-0.382
+SARDAEN,Relative-strength leader breakout,2026-04-27,88,2.869,2.323,2026-04-28,2026-05-04,617,577.04,716.91,2.5R fixed target,Time Exit,5,-4.465,-0.689
+TATAPOWER,Relative-strength leader breakout,2026-04-27,94,1.929,1.639,2026-04-28,2026-05-04,456.86,434.2,513.52,2.5R fixed target,Time Exit,5,-3.684,-0.743
+TMB,Relative-strength leader breakout,2026-04-27,100,6.434,30.71,2026-04-28,2026-05-04,726.45,672.26,861.93,2.5R fixed target,Time Exit,5,0.863,0.116
+AARTIIND,Relative-strength leader breakout,2026-04-28,100,1.621,1.98,2026-04-29,2026-05-05,507.41,478.78,578.99,2.5R fixed target,Stop,5,-5.943,-1.053
+AMBER,Relative-strength leader breakout,2026-04-28,52,1.838,1.223,2026-04-29,2026-05-05,8257.48,7789.92,9426.39,2.5R fixed target,Time Exit,5,-0.948,-0.167
+BALUFORGE,Relative-strength leader breakout,2026-04-28,88,1.645,1.504,2026-04-29,2026-05-05,504,472.64,582.41,2.5R fixed target,Time Exit,5,10.355,1.664
+BSE,Relative-strength leader breakout,2026-04-28,71,1.064,0.822,2026-04-29,2026-05-05,3649,3475.65,4082.36,2.5R fixed target,Time Exit,5,1.816,0.382
+GLENMARK,Relative-strength leader breakout,2026-04-28,80,2.141,2.228,2026-04-29,2026-05-05,2432.25,2316.59,2721.41,2.5R fixed target,Time Exit,5,-0.89,-0.187
+IMFA,Relative-strength leader breakout,2026-04-28,100,3.954,3.916,2026-04-29,2026-04-30,1657.21,1534.67,1963.55,2.5R fixed target,Stop,2,-7.694,-1.041
+JSFB,Relative-strength leader breakout,2026-04-28,100,1.862,1.225,2026-04-29,2026-05-04,494.99,451.24,604.36,2.5R fixed target,Stop,4,-9.139,-1.034
+KIRLOSENG,Relative-strength leader breakout,2026-04-28,81,1.153,1.174,2026-04-29,2026-05-05,1744.28,1617.72,2060.69,2.5R fixed target,Time Exit,5,-0.712,-0.098
+KTKBANK,Relative-strength leader breakout,2026-04-28,80,1.743,1.597,2026-04-29,2026-05-05,265.54,250.73,302.58,2.5R fixed target,Time Exit,5,1.229,0.22
+OFSS,Relative-strength leader breakout,2026-04-28,100,2.454,1.648,2026-04-29,2026-05-05,9643.75,9103.31,10994.84,2.5R fixed target,Time Exit,5,0.356,0.064
+OLECTRA,Relative-strength leader breakout,2026-04-28,94,2.966,1.736,2026-04-29,2026-05-05,1300,1208.46,1528.84,2.5R fixed target,Time Exit,5,-4.462,-0.634
+SONACOMS,Relative-strength leader breakout,2026-04-28,94,1.86,1.302,2026-04-29,2026-05-05,605.21,567.13,700.41,2.5R fixed target,Time Exit,5,-4.82,-0.766
+TRANSRAILL,Relative-strength leader breakout,2026-04-28,84,1.52,1.216,2026-04-29,2026-05-05,619,574.07,731.32,2.5R fixed target,Time Exit,5,-5.324,-0.734
+VOLTAMP,Relative-strength leader breakout,2026-04-28,77,1.645,1.59,2026-04-29,2026-05-05,11732.42,10885.29,13850.23,2.5R fixed target,Stop,5,-7.52,-1.042
+APARINDS,Relative-strength leader breakout,2026-04-29,64,2.313,1.359,2026-04-30,2026-05-06,12510.47,11574.91,14849.38,2.5R fixed target,Time Exit,5,-1.311,-0.175
+CHENNPETRO,Relative-strength leader breakout,2026-04-29,92,3.215,2.743,2026-04-30,2026-05-06,1152.3,1054.52,1396.74,2.5R fixed target,Time Exit,5,-7.225,-0.852
+MTARTECH,Relative-strength leader breakout,2026-04-29,56,2.015,1.154,2026-04-30,2026-05-06,5760.5,5235.71,7072.47,2.5R fixed target,Time Exit,5,8.831,0.969
+SKYGOLD,Relative-strength leader breakout,2026-04-29,100,5.359,4.107,2026-04-30,2026-05-06,464.43,429.22,552.44,2.5R fixed target,Time Exit,5,2.838,0.374
+YATHARTH,Relative-strength leader breakout,2026-04-29,92,2.059,1.602,2026-04-30,2026-05-06,809.52,745.08,970.61,2.5R fixed target,Time Exit,5,1.211,0.152
+CEMPRO,Relative-strength leader breakout,2026-04-30,92,20.031,55.032,2026-05-04,2026-05-08,846.25,757.16,1068.97,2.5R fixed target,Time Exit,5,12.687,1.205
+MEESHO,Relative-strength leader breakout,2026-04-30,86,4.246,15.288,2026-05-04,2026-05-08,197.01,180.91,237.27,2.5R fixed target,Time Exit,5,1.226,0.15
+ADANIGREEN,Relative-strength leader breakout,2026-05-04,81,1.172,1.004,2026-05-05,2026-05-11,1307.61,1219.32,1528.33,2.5R fixed target,Time Exit,5,5.825,0.863
+AXISCADES,Relative-strength leader breakout,2026-05-04,75,1.584,1.473,2026-05-05,2026-05-11,2113.12,1935.89,2556.18,2.5R fixed target,Time Exit,5,-2.232,-0.266
+BALAMINES,Relative-strength leader breakout,2026-05-04,90,4.682,5.529,2026-05-05,2026-05-11,1474.74,1370.81,1734.57,2.5R fixed target,Time Exit,5,-4.392,-0.623
+BBOX,Relative-strength leader breakout,2026-05-04,95,2.06,1.778,2026-05-05,2026-05-11,686.27,635.59,812.96,2.5R fixed target,Time Exit,5,14.538,1.969
+CPPLUS,Relative-strength leader breakout,2026-05-04,68,1.202,1.241,2026-05-05,2026-05-06,2457.91,2276.54,2911.33,2.5R fixed target,Stop,2,-7.679,-1.041
+DYCL,Relative-strength leader breakout,2026-05-04,78,1.509,1.17,2026-05-05,2026-05-11,395.59,360.78,482.6,2.5R fixed target,Time Exit,5,3.545,0.403
+EBGNG,Relative-strength leader breakout,2026-05-04,56,2.222,1.821,2026-05-06,2026-05-07,474.95,421.68,608.13,2.5R fixed target,Stop,2,-11.516,-1.027
+ELECTCAST,Relative-strength leader breakout,2026-05-04,65,2.011,1.687,2026-05-05,2026-05-11,92.98,86.29,109.68,2.5R fixed target,Time Exit,5,-4.985,-0.694
+EMCURE,Relative-strength leader breakout,2026-05-04,73,1.109,1.346,2026-05-05,2026-05-05,1810.01,1675.38,2146.61,2.5R fixed target,Stop,1,-7.738,-1.04
+LAURUSLABS,Relative-strength leader breakout,2026-05-04,70,2.947,2.879,2026-05-05,2026-05-11,1173.34,1115.24,1318.59,2.5R fixed target,Time Exit,5,7.665,1.548
+LLOYDSME,Relative-strength leader breakout,2026-05-04,77,1.369,1.276,2026-05-05,2026-05-06,1818.63,1737.06,2022.57,2.5R fixed target,Stop,2,-4.786,-1.067
+NEULANDLAB,Relative-strength leader breakout,2026-05-04,94,3.851,4.88,2026-05-06,2026-05-12,16503.94,15429.57,19189.88,2.5R fixed target,Time Exit,5,2.724,0.418
+PTC,Relative-strength leader breakout,2026-05-04,100,1.446,1.308,2026-05-05,2026-05-11,218.03,202.52,256.8,2.5R fixed target,Time Exit,5,-2.339,-0.329
+RRKABEL,Relative-strength leader breakout,2026-05-04,100,7.123,12.01,2026-05-05,2026-05-11,1802.6,1660.4,2158.1,2.5R fixed target,Time Exit,5,6.324,0.802
+STLTECH,Relative-strength leader breakout,2026-05-04,55,0.767,0.473,2026-05-05,2026-05-11,316.8,283.33,400.47,2.5R fixed target,Time Exit,5,24.29,2.299
+VIJAYA,Relative-strength leader breakout,2026-05-04,78,1.13,1.381,2026-05-05,2026-05-11,1175.35,1109.39,1340.24,2.5R fixed target,Target,5,13.729,2.447
+WALCHANNAG,Relative-strength leader breakout,2026-05-04,94,1.654,1.228,2026-05-05,2026-05-11,255.18,230.56,316.73,2.5R fixed target,Time Exit,5,-6.033,-0.625
+AMAGI,Relative-strength leader breakout,2026-05-05,69,0.94,1.438,2026-05-06,2026-05-11,449.9,412.37,543.73,2.5R fixed target,Stop,4,-8.642,-1.036
+BLUEJET,Relative-strength leader breakout,2026-05-05,73,1.277,1.162,2026-05-06,2026-05-12,494.74,462.34,575.72,2.5R fixed target,Stop,5,-6.848,-1.046
+ELECON,Relative-strength leader breakout,2026-05-05,63,0.679,0.408,2026-05-06,2026-05-12,534.07,486.97,651.8,2.5R fixed target,Time Exit,5,-6.304,-0.715
+FINCABLES,Relative-strength leader breakout,2026-05-05,61,2.982,5.137,2026-05-07,2026-05-13,1101.1,1031.36,1275.44,2.5R fixed target,Time Exit,5,-2.429,-0.384
+GOODLUCK,Relative-strength leader breakout,2026-05-05,100,5.992,5.546,2026-05-06,2026-05-12,1392.78,1303.7,1615.48,2.5R fixed target,Stop,5,-6.696,-1.047
+HCC,Relative-strength leader breakout,2026-05-05,80,1.74,1.546,2026-05-06,2026-05-12,23.9,21.93,28.82,2.5R fixed target,Stop,5,-8.537,-1.036
+HFCL,Relative-strength leader breakout,2026-05-05,95,2.187,1.927,2026-05-06,2026-05-12,133.67,121.88,163.13,2.5R fixed target,Time Exit,5,10.258,1.164
+IDEAFORGE,Relative-strength leader breakout,2026-05-05,100,6.214,5.468,2026-05-06,2026-05-12,814.7,726.13,1036.13,2.5R fixed target,Stop,5,-11.172,-1.028
+KMEW,Relative-strength leader breakout,2026-05-05,100,3.369,5.018,2026-05-07,2026-05-12,2258.91,2067.97,2736.25,2.5R fixed target,Stop,4,-8.753,-1.035
+KPEL,Relative-strength leader breakout,2026-05-05,92,3,2.448,2026-05-06,2026-05-12,402,370.9,479.75,2.5R fixed target,Stop,5,-8.036,-1.039
+MBAPL,Relative-strength leader breakout,2026-05-05,72,1.92,1.663,2026-05-06,2026-05-12,566.8,528.44,662.69,2.5R fixed target,Time Exit,5,-3.687,-0.545
+NETWEB,Relative-strength leader breakout,2026-05-05,100,2.499,1.979,2026-05-06,2026-05-12,4250,3847.55,5256.13,2.5R fixed target,Time Exit,5,-5.806,-0.613
+PNGJL,Relative-strength leader breakout,2026-05-05,61,1.008,0.994,2026-05-06,2026-05-11,694.49,663.05,773.08,2.5R fixed target,Stop,4,-4.827,-1.066
+POWERMECH,Relative-strength leader breakout,2026-05-05,88,2.285,1.442,2026-05-06,2026-05-12,2630,2461.61,3050.98,2.5R fixed target,Stop,5,-6.703,-1.047
+RPTECH,Relative-strength leader breakout,2026-05-05,88,2.425,1.769,2026-05-06,2026-05-12,510.2,465.29,622.47,2.5R fixed target,Time Exit,5,1.248,0.142
+SYRMA,Relative-strength leader breakout,2026-05-05,94,1.776,1.769,2026-05-06,2026-05-12,1074.44,1000.9,1258.3,2.5R fixed target,Time Exit,5,-0.23,-0.034
+UNIVCABLES,Relative-strength leader breakout,2026-05-05,100,9.34,9.555,2026-05-06,2026-05-12,1080.16,979.31,1332.27,2.5R fixed target,Time Exit,5,-3.999,-0.428
+AEROFLEX,Relative-strength leader breakout,2026-05-06,100,2.86,3.95,2026-05-07,2026-05-08,351.5,317.24,437.14,2.5R fixed target,Target,2,24.064,2.469
+AMBER,Relative-strength leader breakout,2026-05-06,94,2.526,1.897,2026-05-07,2026-05-12,8747.46,8287.02,9898.55,2.5R fixed target,Stop,4,-5.564,-1.057
+APOLLO,Relative-strength leader breakout,2026-05-06,66,1.121,0.699,2026-05-08,2026-05-14,320.64,288.75,400.37,2.5R fixed target,Time Exit,5,-5.006,-0.503
+AUROPHARMA,Relative-strength leader breakout,2026-05-06,88,1.87,1.734,2026-05-07,2026-05-13,1492.68,1426.55,1657.99,2.5R fixed target,Time Exit,5,0.023,0.005
+BSE,Relative-strength leader breakout,2026-05-06,61,1.083,0.89,2026-05-07,2026-05-13,3887,3722.09,4299.26,2.5R fixed target,Time Exit,5,-0.254,-0.06
+CARBORUNIV,Relative-strength leader breakout,2026-05-06,63,0.472,0.481,2026-05-07,2026-05-13,993.98,941.27,1125.77,2.5R fixed target,Time Exit,5,3.655,0.689
+CYIENTDLM,Relative-strength leader breakout,2026-05-06,58,0.746,0.421,2026-05-07,2026-05-13,419.84,387.99,499.46,2.5R fixed target,Time Exit,5,-0.154,-0.02
+DIACABS,Relative-strength leader breakout,2026-05-06,100,2.277,2.364,2026-05-07,2026-05-13,180.77,165.93,217.88,2.5R fixed target,Time Exit,5,-3.747,-0.456
+DSSL,Relative-strength leader breakout,2026-05-06,90,6.405,4.594,2026-05-07,2026-05-13,1383.76,1274.12,1657.86,2.5R fixed target,Time Exit,5,-0.615,-0.078
+GENUSPOWER,Relative-strength leader breakout,2026-05-06,100,2.883,2.09,2026-05-07,2026-05-12,337.92,314.95,395.35,2.5R fixed target,Stop,4,-7.098,-1.044
+INDIAGLYCO,Relative-strength leader breakout,2026-05-06,100,3.309,3.074,2026-05-07,2026-05-12,1115.33,1047.23,1285.58,2.5R fixed target,Stop,4,-6.406,-1.049
+MAHABANK,Relative-strength leader breakout,2026-05-06,80,1.759,1.248,2026-05-07,2026-05-12,84.34,78.99,97.72,2.5R fixed target,Stop,4,-6.644,-1.047
+MON100,Relative-strength leader breakout,2026-05-06,63,1.425,0.85,2026-05-07,2026-05-07,308.44,300.42,328.48,2.5R fixed target,Stop,1,-2.9,-1.115
+NATCOPHARM,Relative-strength leader breakout,2026-05-06,65,1.599,1.747,2026-05-07,2026-05-13,1172.14,1112.43,1321.41,2.5R fixed target,Time Exit,5,-0.32,-0.063
+PARKHOSPS,Relative-strength leader breakout,2026-05-06,53,0.681,0.538,2026-05-07,2026-05-13,246.99,231.04,286.88,2.5R fixed target,Time Exit,5,0.079,0.012
+RAYMOND,Relative-strength leader breakout,2026-05-06,92,5.403,10.408,2026-05-07,2026-05-12,529.01,483.19,643.54,2.5R fixed target,Stop,4,-8.96,-1.035
+RAYMONDREL,Relative-strength leader breakout,2026-05-06,100,12.485,29.103,2026-05-07,2026-05-13,591,525.51,754.73,2.5R fixed target,Time Exit,5,-3.151,-0.284
+SGFIN,Relative-strength leader breakout,2026-05-06,80,3.032,1.628,2026-05-07,2026-05-13,628,551.98,818.06,2.5R fixed target,Time Exit,5,-8.883,-0.734
+SHAILY,Relative-strength leader breakout,2026-05-06,63,0.378,0.297,2026-05-07,2026-05-13,2669,2457.67,3197.31,2.5R fixed target,Time Exit,5,2.51,0.317
+SHILPAMED,Relative-strength leader breakout,2026-05-06,100,2.344,2.194,2026-05-07,2026-05-13,449.8,415.99,534.31,2.5R fixed target,Time Exit,5,-2.734,-0.364
+SUMICHEM,Relative-strength leader breakout,2026-05-06,92,3.396,3.687,2026-05-07,2026-05-11,505,466.23,601.93,2.5R fixed target,Stop,3,-7.978,-1.039
+SUNFLAG,Relative-strength leader breakout,2026-05-06,90,7.314,10.086,2026-05-07,2026-05-12,405.81,370.25,494.71,2.5R fixed target,Stop,4,-9.062,-1.034
+ARIS,Relative-strength leader breakout,2026-05-07,81,1.283,2.023,2026-05-08,2026-05-14,149.49,135.76,183.82,2.5R fixed target,Time Exit,5,-3.618,-0.394
+ASTRAMICRO,Relative-strength leader breakout,2026-05-07,94,2.888,2.694,2026-05-08,2026-05-14,1171.14,1097.94,1354.12,2.5R fixed target,Stop,5,-6.55,-1.048
+AVALON,Relative-strength leader breakout,2026-05-07,85,5.238,10.27,2026-05-08,2026-05-14,1308.71,1195.54,1591.65,2.5R fixed target,Time Exit,5,-3.304,-0.382
+BAJAJCON,Relative-strength leader breakout,2026-05-07,60,1.928,1.492,2026-05-08,2026-05-14,540.08,499.89,640.55,2.5R fixed target,Time Exit,5,-4.305,-0.578
+BHARATFORG,Relative-strength leader breakout,2026-05-07,90,4.007,5.588,2026-05-08,2026-05-12,2030.65,1917.49,2313.56,2.5R fixed target,Stop,3,-5.873,-1.054
+CEIGALL,Relative-strength leader breakout,2026-05-07,100,6.161,12.685,2026-05-08,2026-05-12,375.75,350.6,438.62,2.5R fixed target,Stop,3,-6.993,-1.045
+CGPOWER,Relative-strength leader breakout,2026-05-07,100,2.207,3.647,2026-05-08,2026-05-14,874.09,824.67,997.66,2.5R fixed target,Time Exit,5,-3.257,-0.576
+COCHINSHIP,Relative-strength leader breakout,2026-05-07,78,2.26,1.208,2026-05-08,2026-05-11,1830,1718.74,2108.16,2.5R fixed target,Stop,2,-6.38,-1.049
+DCXINDIA,Relative-strength leader breakout,2026-05-07,100,3.769,3.229,2026-05-08,2026-05-12,223.15,206.97,263.59,2.5R fixed target,Gap Stop,3,-8.105,-1.118
+DEEPAKFERT,Relative-strength leader breakout,2026-05-07,78,1.471,0.842,2026-05-08,2026-05-12,1350.7,1266.2,1561.95,2.5R fixed target,Stop,3,-6.556,-1.048
+GAEL,Relative-strength leader breakout,2026-05-07,100,2.907,2.305,2026-05-08,2026-05-14,165.5,153.96,194.34,2.5R fixed target,Time Exit,5,-2.548,-0.365
+GUJTHEM,Relative-strength leader breakout,2026-05-07,78,2.014,0.571,2026-05-08,2026-05-12,404.11,367.54,495.53,2.5R fixed target,Stop,3,-9.349,-1.033
+INGERRAND,Relative-strength leader breakout,2026-05-07,88,1.714,1.705,2026-05-08,2026-05-12,4579.14,4334.98,5189.55,2.5R fixed target,Stop,3,-5.632,-1.056
+IOLCP,Relative-strength leader breakout,2026-05-07,76,1.261,1.151,2026-05-11,2026-05-15,100.15,93.25,117.39,2.5R fixed target,Time Exit,5,5.481,0.796
+JAINREC,Relative-strength leader breakout,2026-05-07,100,3.489,4.364,2026-05-08,2026-05-14,516.03,481.57,602.19,2.5R fixed target,Time Exit,5,9.19,1.376
+KERNEX,Relative-strength leader breakout,2026-05-07,90,5.895,5.841,2026-05-08,2026-05-12,1535,1430.22,1796.94,2.5R fixed target,Stop,3,-7.126,-1.044
+KIRLPNU,Relative-strength leader breakout,2026-05-07,100,1.689,0.916,2026-05-08,2026-05-12,1607.21,1494.67,1888.55,2.5R fixed target,Stop,3,-7.302,-1.043
+MODEFENCE,Relative-strength leader breakout,2026-05-07,50,1.917,1.616,2026-05-08,2026-05-12,104.14,99.55,115.61,2.5R fixed target,Stop,3,-4.705,-1.068
+NAM-INDIA,Relative-strength leader breakout,2026-05-07,55,0.854,0.634,2026-05-08,2026-05-12,1113.12,1035.22,1307.89,2.5R fixed target,Stop,3,-7.299,-1.043
+PARAS,Relative-strength leader breakout,2026-05-07,86,4.047,3.288,2026-05-08,2026-05-12,877.5,810.98,1043.81,2.5R fixed target,Stop,3,-7.881,-1.04
+PRIVISCL,Relative-strength leader breakout,2026-05-07,63,0.996,0.939,2026-05-08,2026-05-12,3515,3342.11,3947.22,2.5R fixed target,Stop,3,-5.219,-1.061
+RATNAMANI,Relative-strength leader breakout,2026-05-07,87,3.027,2.743,2026-05-11,2026-05-15,2886.56,2691.52,3374.16,2.5R fixed target,Stop,5,-7.057,-1.044
+SAMBHV,Relative-strength leader breakout,2026-05-07,100,3.342,2.941,2026-05-08,2026-05-12,130.76,122.61,151.15,2.5R fixed target,Stop,3,-6.537,-1.048
+SKYGOLD,Relative-strength leader breakout,2026-05-07,88,2.051,2.053,2026-05-08,2026-05-12,505.71,472.41,588.96,2.5R fixed target,Stop,3,-6.885,-1.046
+SPARC,Relative-strength leader breakout,2026-05-07,92,1.978,1.939,2026-05-08,2026-05-14,169.14,152.56,210.58,2.5R fixed target,Time Exit,5,0.257,0.026
+STAR,Relative-strength leader breakout,2026-05-07,100,2.813,1.892,2026-05-08,2026-05-14,1157.31,1084.75,1338.7,2.5R fixed target,Time Exit,5,-0.465,-0.074
+STYLAMIND,Relative-strength leader breakout,2026-05-07,86,3.449,11.924,2026-05-08,2026-05-08,2700,2599.96,2950.1,2.5R fixed target,Stop,1,-4.005,-1.081
+TFCILTD,Relative-strength leader breakout,2026-05-07,100,2.316,1.848,2026-05-08,2026-05-12,84.57,78.46,99.84,2.5R fixed target,Stop,3,-7.525,-1.042
+WELCORP,Relative-strength leader breakout,2026-05-07,63,0.492,0.401,2026-05-08,2026-05-14,1304.6,1228.64,1494.52,2.5R fixed target,Time Exit,5,4.521,0.776
+WHEELS,Relative-strength leader breakout,2026-05-07,71,1.201,0.895,2026-05-08,2026-05-14,1341.68,1226.58,1629.43,2.5R fixed target,Time Exit,5,-1.163,-0.136
+BHARATWIRE,Relative-strength leader breakout,2026-05-08,78,2.135,1.26,2026-05-11,2026-05-11,257.51,237.29,308.07,2.5R fixed target,Stop,1,-8.153,-1.038
+HAPPYFORGE,Relative-strength leader breakout,2026-05-08,82,1.55,1.332,2026-05-12,2026-05-14,1464.92,1373.59,1693.27,2.5R fixed target,Stop,3,-6.535,-1.048
+KRISHNADEF,Relative-strength leader breakout,2026-05-08,95,2.038,1.974,2026-05-11,2026-05-12,1245.49,1133.97,1524.28,2.5R fixed target,Stop,2,-9.254,-1.034
+MANKIND,Relative-strength leader breakout,2026-05-08,100,1.98,2.34,2026-05-11,2026-05-12,2469.83,2360.72,2742.61,2.5R fixed target,Stop,2,-4.718,-1.068
+MON100,Relative-strength leader breakout,2026-05-08,68,2.007,1.299,2026-05-12,2026-05-18,323.37,309.33,358.48,2.5R fixed target,Time Exit,5,2.251,0.518
+POLYCAB,Relative-strength leader breakout,2026-05-08,73,1.062,1.125,2026-05-12,2026-05-18,9177.32,8742.38,10264.66,2.5R fixed target,Time Exit,5,-0.587,-0.124
+SAILIFE,Relative-strength leader breakout,2026-05-08,63,0.949,0.919,2026-05-11,2026-05-15,1126.25,1060.81,1289.84,2.5R fixed target,Gap Stop,5,-7.221,-1.243
+SCI,Relative-strength leader breakout,2026-05-08,92,2.648,1.986,2026-05-11,2026-05-14,345.69,321.28,406.71,2.5R fixed target,Stop,4,-7.361,-1.042
+THERMAX,Relative-strength leader breakout,2026-05-08,100,6.13,14.598,2026-05-11,2026-05-12,4768.52,4448.19,5569.33,2.5R fixed target,Stop,2,-7.017,-1.045
+YATHARTH,Relative-strength leader breakout,2026-05-08,88,1.679,1.479,2026-05-11,2026-05-12,868.68,808.62,1018.84,2.5R fixed target,Stop,2,-7.214,-1.043
+ACUTAAS,Relative-strength leader breakout,2026-05-11,53,0.958,0.882,2026-05-12,2026-05-18,2830.65,2632.76,3325.37,2.5R fixed target,Time Exit,5,-1.415,-0.202
+CERA,Relative-strength leader breakout,2026-05-11,100,5.811,4.516,2026-05-12,2026-05-12,6184.85,5850.81,7019.94,2.5R fixed target,Stop,1,-5.701,-1.056
+LLOYDSENGG,Relative-strength leader breakout,2026-05-11,100,4.79,3.381,2026-05-12,2026-05-18,67.64,62.4,80.74,2.5R fixed target,Time Exit,5,1.467,0.189
+MCX,Relative-strength leader breakout,2026-05-11,76,1.556,2.223,2026-05-12,2026-05-18,3226.04,3062.4,3635.13,2.5R fixed target,Time Exit,5,3.493,0.689
+PARACABLES,Relative-strength leader breakout,2026-05-11,100,9.08,9.856,2026-05-12,2026-05-12,60.9,55.13,75.33,2.5R fixed target,Stop,1,-9.777,-1.032
+SAIL,Relative-strength leader breakout,2026-05-13,92,5.992,7.433,2026-05-14,2026-05-18,203,191.37,232.07,2.5R fixed target,Stop,3,-6.027,-1.052
+SILVERADD,Relative-strength leader breakout,2026-05-13,90,1.766,2.007,2026-05-14,2026-05-15,274.95,262.71,305.54,2.5R fixed target,Gap Stop,2,-5.791,-1.301
+TATSILV,Relative-strength leader breakout,2026-05-13,90,3.74,2.676,2026-05-14,2026-05-15,27.75,26.3,31.36,2.5R fixed target,Stop,2,-5.517,-1.058
+ADANIENT,Relative-strength leader breakout,2026-05-14,88,2.993,3.616,2026-05-15,2026-05-21,2781.1,2564.58,3322.41,2.5R fixed target,Time Exit,5,-3.302,-0.424
+ADANIGREEN,Relative-strength leader breakout,2026-05-14,61,1.02,0.989,2026-05-15,2026-05-18,1457,1334.01,1764.47,2.5R fixed target,Stop,2,-8.741,-1.036
+ANTHEM,Relative-strength leader breakout,2026-05-14,83,1.029,1.063,2026-05-15,2026-05-15,825.55,787.1,921.66,2.5R fixed target,Stop,1,-4.957,-1.064
+BALAMINES,Relative-strength leader breakout,2026-05-14,100,8.159,10.438,2026-05-15,2026-05-21,1660,1475.38,2121.54,2.5R fixed target,Time Exit,5,10.357,0.931
+BSE,Relative-strength leader breakout,2026-05-14,60,2.142,1.669,2026-05-15,2026-05-21,4073.13,3876.83,4563.88,2.5R fixed target,Time Exit,5,2.493,0.517
+DIACABS,Relative-strength leader breakout,2026-05-14,82,4.208,4.334,2026-05-15,2026-05-21,195,174.25,246.88,2.5R fixed target,Time Exit,5,-0.915,-0.086
+LAURUSLABS,Relative-strength leader breakout,2026-05-14,69,1.168,1.012,2026-05-15,2026-05-21,1326.75,1258.32,1497.83,2.5R fixed target,Time Exit,5,1.528,0.296
+MOLDTKPAC,Relative-strength leader breakout,2026-05-14,92,3.56,2.85,2026-05-15,2026-05-21,717.05,653.9,874.93,2.5R fixed target,Time Exit,5,-4.616,-0.524
+SOLARINDS,Relative-strength leader breakout,2026-05-14,62,2.455,2.451,2026-05-15,2026-05-21,16740,15964.9,18677.75,2.5R fixed target,Target,5,11.276,2.435
+BBOX,Relative-strength leader breakout,2026-05-15,65,0.944,0.722,2026-05-18,2026-05-22,887.57,806.09,1091.27,2.5R fixed target,Time Exit,5,7.336,0.799
+CARBORUNIV,Relative-strength leader breakout,2026-05-15,100,9.113,10.685,2026-05-18,2026-05-21,1126.15,1052.85,1309.4,2.5R fixed target,Stop,4,-6.809,-1.046
+SENORES,Relative-strength leader breakout,2026-05-15,100,3.07,3.719,2026-05-18,2026-05-22,1065.93,988.32,1259.96,2.5R fixed target,Time Exit,5,3.924,0.539
+SHADOWFAX,Relative-strength leader breakout,2026-05-15,100,7.819,12.635,2026-05-18,2026-05-22,193.2,174.51,239.91,2.5R fixed target,Time Exit,5,3.885,0.402
+SHILPAMED,Relative-strength leader breakout,2026-05-15,100,4.004,4.196,2026-05-18,2026-05-22,492.93,453.65,591.14,2.5R fixed target,Time Exit,5,-0.844,-0.106
+TDPOWERSYS,Relative-strength leader breakout,2026-05-15,100,4.189,6.939,2026-05-18,2026-05-19,1339.47,1218.82,1641.1,2.5R fixed target,Stop,2,-9.307,-1.033
+WHEELS,Relative-strength leader breakout,2026-05-15,88,2.463,2.754,2026-05-18,2026-05-22,1502.9,1358.13,1864.82,2.5R fixed target,Time Exit,5,11.318,1.175
+ARVIND,Relative-strength leader breakout,2026-05-18,92,4.261,5.361,2026-05-19,2026-05-25,483.97,444.5,582.64,2.5R fixed target,Time Exit,5,-0.655,-0.08
+FCL,Relative-strength leader breakout,2026-05-18,100,7.444,13.599,2026-05-19,2026-05-25,33,27.62,46.45,2.5R fixed target,Time Exit,5,17.973,1.102
+GESHIP,Relative-strength leader breakout,2026-05-18,100,7.457,16.703,2026-05-19,2026-05-25,1733.46,1591.61,2088.09,2.5R fixed target,Time Exit,5,-5.195,-0.635
+GLAND,Relative-strength leader breakout,2026-05-18,100,15.948,46.749,2026-05-19,2026-05-25,2211.41,2064.75,2578.07,2.5R fixed target,Time Exit,5,5.234,0.789
+MARKSANS,Relative-strength leader breakout,2026-05-18,100,2.538,3.355,2026-05-19,2026-05-25,219.95,202.71,263.04,2.5R fixed target,Time Exit,5,-0.159,-0.02
+RANEHOLDIN,Relative-strength leader breakout,2026-05-18,100,2.589,2.827,2026-05-19,2026-05-25,1528.05,1389.76,1873.77,2.5R fixed target,Stop,5,-9.35,-1.033
+STYLAMIND,Relative-strength leader breakout,2026-05-18,80,1.896,2.287,2026-05-19,2026-05-25,2832.55,2622.82,3356.9,2.5R fixed target,Time Exit,5,0.45,0.061
+ACUTAAS,Relative-strength leader breakout,2026-05-19,53,1.098,0.924,2026-05-21,2026-05-27,2911.81,2697.7,3447.09,2.5R fixed target,Time Exit,5,2.749,0.374
+APOLLO,Relative-strength leader breakout,2026-05-19,95,4.524,10.625,2026-05-20,2026-05-26,358.42,325.6,440.46,2.5R fixed target,Time Exit,5,14.678,1.603
+POLICYBZR,Relative-strength leader breakout,2026-05-19,60,3.181,2.319,2026-05-20,2026-05-26,1836.97,1726.68,2112.69,2.5R fixed target,Time Exit,5,-2.911,-0.485
+RPEL,Relative-strength leader breakout,2026-05-19,75,0.789,0.848,2026-05-21,2026-05-27,925.85,847.47,1121.79,2.5R fixed target,Time Exit,5,4.048,0.478
+SUVEN,Relative-strength leader breakout,2026-05-19,100,5.062,13.009,2026-05-20,2026-05-26,276.55,251.77,338.51,2.5R fixed target,Time Exit,5,-1.248,-0.139
+TRITURBINE,Relative-strength leader breakout,2026-05-19,100,7.324,15.38,2026-05-20,2026-05-26,656.71,606.99,781.02,2.5R fixed target,Time Exit,5,4.838,0.639
+ENRIN,Relative-strength leader breakout,2026-05-20,90,7.014,8.305,2026-05-21,2026-05-27,3500.99,3282.44,4047.36,2.5R fixed target,Time Exit,5,7.272,1.165
+IOLCP,Relative-strength leader breakout,2026-05-20,92,5.63,6.232,2026-05-21,2026-05-27,121.64,110.77,148.84,2.5R fixed target,Time Exit,5,7.721,0.863
+KIRLPNU,Relative-strength leader breakout,2026-05-20,53,0.89,0.622,2026-05-21,2026-05-27,1644.5,1525.66,1941.61,2.5R fixed target,Time Exit,5,-0.343,-0.047
+MANINDS,Relative-strength leader breakout,2026-05-20,100,3.664,4.195,2026-05-21,2026-05-21,604.21,556.42,723.66,2.5R fixed target,Stop,1,-8.208,-1.038
+MANKIND,Relative-strength leader breakout,2026-05-20,100,4.58,7.705,2026-05-21,2026-05-22,2630.25,2489.52,2982.06,2.5R fixed target,Stop,2,-5.65,-1.056
+SCHNEIDER,Relative-strength leader breakout,2026-05-20,75,0.616,0.238,2026-05-21,2026-05-27,1343,1188.28,1729.8,2.5R fixed target,Time Exit,5,2.276,0.198
+ASTRAMICRO,Relative-strength leader breakout,2026-05-21,64,1.851,1.731,2026-05-22,2026-05-26,1191.38,1115.7,1380.57,2.5R fixed target,Target,3,15.58,2.453
+DEEPAKFERT,Relative-strength leader breakout,2026-05-21,100,2.645,1.823,2026-05-22,2026-05-27,1397.79,1298.91,1644.98,2.5R fixed target,Time Exit,5,3.314,0.468
+JARO,Relative-strength leader breakout,2026-05-21,90,1.697,0.616,2026-05-22,2026-05-27,562.6,507.83,699.53,2.5R fixed target,Time Exit,5,0.589,0.06
+NRBBEARING,Relative-strength leader breakout,2026-05-21,65,1.228,0.701,2026-05-22,2026-05-27,371.69,340.39,449.95,2.5R fixed target,Time Exit,5,2.419,0.287
+PREMEXPLN,Relative-strength leader breakout,2026-05-21,100,2.606,2.234,2026-05-22,2026-05-25,584.42,533.57,711.54,2.5R fixed target,Target,2,21.452,2.466
+SANSERA,Relative-strength leader breakout,2026-05-21,92,10.907,17.276,2026-05-22,2026-05-27,2903.8,2694.4,3427.3,2.5R fixed target,Time Exit,5,1.005,0.139
+SBC,Relative-strength leader breakout,2026-05-21,92,2.312,2.435,2026-05-22,2026-05-27,38.39,36.64,42.75,2.5R fixed target,Time Exit,5,3.616,0.796
+BAJAJCON,Relative-strength leader breakout,2026-05-22,63,0.971,0.872,2026-05-25,2026-05-29,579.16,521.71,722.78,2.5R fixed target,Time Exit,5,-4.851,-0.489
+ENTERO,Relative-strength leader breakout,2026-05-22,92,2.181,2.818,2026-05-25,2026-05-25,1376.75,1279.44,1620.03,2.5R fixed target,Stop,1,-7.368,-1.042
+NIBE,Relative-strength leader breakout,2026-05-22,100,7.728,10.861,2026-05-25,2026-05-29,1550,1343.5,2066.24,2.5R fixed target,Time Exit,5,-7.21,-0.541
+RATEGAIN,Relative-strength leader breakout,2026-05-22,92,7.034,18.13,2026-05-25,2026-05-29,737.37,673.05,898.17,2.5R fixed target,Time Exit,5,0.931,0.107
+SANDHAR,Relative-strength leader breakout,2026-05-22,85,8.487,13.882,2026-05-25,2026-05-29,652.1,600.23,781.79,2.5R fixed target,Time Exit,5,3.173,0.399
+TATACOMM,Relative-strength leader breakout,2026-05-22,100,4.272,3.702,2026-05-25,2026-05-29,1982.96,1860.96,2287.96,2.5R fixed target,Time Exit,5,-1.206,-0.196
+ADANIENT,Relative-strength leader breakout,2026-05-25,81,1.348,1.054,2026-05-26,2026-06-01,2864.52,2701.91,3271.05,2.5R fixed target,Time Exit,5,1.267,0.223
+BLISSGVS,Relative-strength leader breakout,2026-05-25,87,4.424,5.149,2026-05-26,2026-05-27,329.86,304.78,392.56,2.5R fixed target,Target,2,18.709,2.461
+CAPLIPOINT,Relative-strength leader breakout,2026-05-25,84,1.43,0.702,2026-05-26,2026-06-01,2099,1983.33,2388.19,2.5R fixed target,Time Exit,5,-5.069,-0.92
+FEDFINA,Relative-strength leader breakout,2026-05-25,60,2.552,2.431,2026-05-26,2026-06-01,166,154.4,195.01,2.5R fixed target,Time Exit,5,-5.933,-0.849
+KOPRAN,Relative-strength leader breakout,2026-05-25,82,13.14,19.727,2026-05-26,2026-08-31,196.2,178.24,241.1,2.5R fixed target,Time Exit,5,10.724,1.171
+LLOYDSENGG,Relative-strength leader breakout,2026-05-25,88,2.277,1.998,2026-05-26,2026-06-01,76.1,69.32,93.06,2.5R fixed target,Time Exit,5,-6.623,-0.743
+MAYURUNIQ,Relative-strength leader breakout,2026-05-25,92,2.847,1.504,2026-05-27,2026-06-02,767.53,699.59,937.39,2.5R fixed target,Time Exit,5,-3.203,-0.362
+SANGHVIMOV,Relative-strength leader breakout,2026-05-25,72,2.756,1.275,2026-05-26,2026-06-01,380.76,347.26,464.51,2.5R fixed target,Stop,5,-9.098,-1.034
+ADANIPOWER,Relative-strength leader breakout,2026-05-26,88,1.474,2.046,2026-05-27,2026-06-02,247.6,230.25,290.97,2.5R fixed target,Gap Stop,5,-7.408,-1.057
+ATGL,Relative-strength leader breakout,2026-05-26,100,6.42,7.38,2026-05-27,2026-06-02,732.86,681.53,861.19,2.5R fixed target,Time Exit,5,0.421,0.06
+AVANTEL,Relative-strength leader breakout,2026-05-26,100,2.467,2.171,2026-05-27,2026-06-02,178.4,163.15,216.52,2.5R fixed target,Time Exit,5,-1.567,-0.183
+DIACABS,Relative-strength leader breakout,2026-05-26,86,3.349,3.628,2026-05-27,2026-06-01,210.42,190.52,260.17,2.5R fixed target,Stop,4,-9.757,-1.032
+MARKSANS,Relative-strength leader breakout,2026-05-26,100,6.983,16.909,2026-05-27,2026-06-01,259.32,238.34,311.76,2.5R fixed target,Stop,4,-8.389,-1.037
+TATATECH,Relative-strength leader breakout,2026-05-26,84,2.636,1.077,2026-05-27,2026-06-02,711,674.62,801.96,2.5R fixed target,Time Exit,5,3.49,0.682
+ADANIENSOL,Relative-strength leader breakout,2026-05-27,86,1.843,1.922,2026-05-29,2026-06-04,1561.92,1437.81,1872.2,2.5R fixed target,Time Exit,5,-2.984,-0.375
+ADANIGREEN,Relative-strength leader breakout,2026-05-27,57,1.43,1.506,2026-05-29,2026-06-02,1521.04,1412.49,1792.41,2.5R fixed target,Stop,3,-7.437,-1.042
+CEMPRO,Relative-strength leader breakout,2026-05-27,53,0.934,0.322,2026-05-29,2026-06-04,1001.9,918.84,1209.54,2.5R fixed target,Time Exit,5,12.216,1.474
+CGPOWER,Relative-strength leader breakout,2026-05-27,88,2.148,2.353,2026-05-29,2026-06-02,939.88,890.75,1062.69,2.5R fixed target,Stop,3,-5.527,-1.057
+DREDGECORP,Relative-strength leader breakout,2026-05-27,100,3.235,1.518,2026-05-29,2026-06-04,1222.44,1101.15,1525.67,2.5R fixed target,Time Exit,5,-1.841,-0.186
+EMMVEE,Relative-strength leader breakout,2026-05-27,77,1.261,1.167,2026-05-29,2026-06-04,315.53,292.59,372.87,2.5R fixed target,Time Exit,5,4.112,0.566
+GRANULES,Relative-strength leader breakout,2026-05-27,90,8.917,8.697,2026-05-29,2026-06-04,801.6,761.91,900.83,2.5R fixed target,Time Exit,5,-1.579,-0.319
+GVT&D,Relative-strength leader breakout,2026-05-27,94,1.857,1.807,2026-05-29,2026-06-01,5193.87,4791.08,6200.84,2.5R fixed target,Stop,2,-8.055,-1.039
+HFCL,Relative-strength leader breakout,2026-05-27,81,1.218,0.806,2026-05-29,2026-06-04,176.79,159.58,219.82,2.5R fixed target,Time Exit,5,11.175,1.148
+HINDALCO,Relative-strength leader breakout,2026-05-27,69,1.124,1.509,2026-05-29,2026-06-04,1176,1100.57,1364.57,2.5R fixed target,Time Exit,5,-4.586,-0.715
+HONASA,Relative-strength leader breakout,2026-05-27,90,3.847,1.227,2026-05-29,2026-06-01,423.6,397.82,488.03,2.5R fixed target,Stop,2,-6.385,-1.049
+JSWENERGY,Relative-strength leader breakout,2026-05-27,62,3.93,2.86,2026-05-29,2026-06-02,610.12,576.87,693.24,2.5R fixed target,Stop,3,-5.75,-1.055
+KIRLOSENG,Relative-strength leader breakout,2026-05-27,80,1.558,1.459,2026-05-29,2026-06-04,1839.67,1692.56,2207.45,2.5R fixed target,Time Exit,5,5.692,0.712
+OFSS,Relative-strength leader breakout,2026-05-27,71,1.237,1.699,2026-05-29,2026-06-04,10401.26,9826.32,11838.6,2.5R fixed target,Stop,5,-5.828,-1.054
+OLAELEC,Relative-strength leader breakout,2026-05-27,90,2.473,1.872,2026-05-29,2026-06-04,39.7,36.36,48.05,2.5R fixed target,Time Exit,5,8.818,1.048
+ONEPOINT,Relative-strength leader breakout,2026-05-27,87,1.394,1.461,2026-05-29,2026-06-01,65.6,60.68,77.91,2.5R fixed target,Stop,2,-7.806,-1.04
+POWERINDIA,Relative-strength leader breakout,2026-05-27,100,1.571,1.858,2026-05-29,2026-06-02,37770.39,35181.64,44242.26,2.5R fixed target,Stop,3,-7.154,-1.044
+STOVEKRAFT,Relative-strength leader breakout,2026-05-27,82,3.353,2.528,2026-05-29,2026-06-04,611.12,563.23,730.85,2.5R fixed target,Time Exit,5,6.602,0.842
+SUPRIYA,Relative-strength leader breakout,2026-05-27,100,3.433,2.514,2026-05-29,2026-06-04,887.3,766.66,1188.9,2.5R fixed target,Time Exit,5,7.003,0.515
+ASHAPURMIN,Relative-strength leader breakout,2026-05-29,100,6.412,11.049,2026-06-01,2026-06-03,757.01,699.25,901.4,2.5R fixed target,Stop,3,-7.93,-1.039
+ATLANTAELE,Relative-strength leader breakout,2026-05-29,63,0.984,0.681,2026-06-01,2026-06-23,2010,1822.57,2478.58,2.5R fixed target,Time Exit,5,-6.613,-0.709
+BLISSGVS,Relative-strength leader breakout,2026-05-29,100,1.795,2.008,2026-06-02,2026-06-02,438.88,398.52,539.77,2.5R fixed target,Stop,1,-9.495,-1.033
+CPPLUS,Relative-strength leader breakout,2026-05-29,70,6.514,2.928,2026-06-01,2026-06-05,3074.7,2694.28,4025.74,2.5R fixed target,Time Exit,5,13.594,1.099
+KERNEX,Relative-strength leader breakout,2026-05-29,92,5.455,6.902,2026-06-01,2026-06-05,1750.49,1588.29,2155.99,2.5R fixed target,Time Exit,5,4.59,0.495
+MON100,Relative-strength leader breakout,2026-05-29,63,0.817,0.792,2026-06-02,2026-06-08,337.4,330.04,355.81,2.5R fixed target,Stop,5,-2.482,-1.137
+NETWEB,Relative-strength leader breakout,2026-05-29,100,5.042,7.458,2026-06-01,2026-06-05,4769.52,4377.5,5749.58,2.5R fixed target,Time Exit,5,-2.47,-0.301
+PAISALO,Relative-strength leader breakout,2026-05-29,82,2.287,2.057,2026-06-01,2026-06-05,52.5,48.51,62.48,2.5R fixed target,Time Exit,5,9.918,1.305
+RAIN,Relative-strength leader breakout,2026-05-29,92,2.445,1.77,2026-06-01,2026-06-05,193.94,177.11,235.99,2.5R fixed target,Time Exit,5,1.326,0.153
+RRKABEL,Relative-strength leader breakout,2026-05-29,66,1.91,1.71,2026-06-01,2026-06-02,2121.23,1969.32,2501.02,2.5R fixed target,Stop,2,-7.462,-1.042
+SHAILY,Relative-strength leader breakout,2026-05-29,100,3.988,3.749,2026-06-01,2026-06-05,3025.94,2740.91,3738.5,2.5R fixed target,Time Exit,5,0.921,0.098
+SJS,Relative-strength leader breakout,2026-05-29,81,1.162,1.063,2026-06-01,2026-06-01,2124.14,2002.95,2427.11,2.5R fixed target,Stop,1,-6.005,-1.053
+SKIPPER,Relative-strength leader breakout,2026-05-29,100,4.763,3.918,2026-06-01,2026-06-05,570,515.78,705.56,2.5R fixed target,Time Exit,5,-2.651,-0.279
+UTLSOLAR,Relative-strength leader breakout,2026-05-29,67,3.35,2.736,2026-06-01,2026-06-01,335,304.31,411.72,2.5R fixed target,Stop,1,-9.46,-1.033
+WOCKPHARMA,Relative-strength leader breakout,2026-05-29,100,4.624,4.03,2026-06-01,2026-06-02,2377,1945.19,3456.51,2.5R fixed target,Stop,2,-18.466,-1.017
+COFFEEDAY,Relative-strength leader breakout,2026-06-01,60,0.92,0.163,2026-06-02,2026-06-04,41.7,34.92,58.65,2.5R fixed target,Time Exit,3,-3.298,-0.203
+COFORGE,Relative-strength leader breakout,2026-06-01,83,1.618,1.217,2026-06-02,2026-06-04,1501.2,1406.18,1738.73,2.5R fixed target,Stop,3,-6.629,-1.047
+ICIL,Relative-strength leader breakout,2026-06-01,77,6.583,15.866,2026-06-02,2026-06-02,354.61,331.93,411.3,2.5R fixed target,Stop,1,-6.694,-1.047
+NSLNISP,Relative-strength leader breakout,2026-06-01,67,9.252,16.851,2026-06-02,2026-06-08,52.73,48.77,62.63,2.5R fixed target,Stop,5,-7.811,-1.04
+RUBICON,Relative-strength leader breakout,2026-06-01,84,6.698,23.402,2026-06-02,2026-06-05,1215,1127.21,1434.48,2.5R fixed target,Stop,4,-7.526,-1.042
+STYLAMIND,Relative-strength leader breakout,2026-06-01,63,0.994,0.736,2026-06-02,2026-06-08,2987.76,2772.84,3525.08,2.5R fixed target,Time Exit,5,3.5,0.487
+ACMESOLAR,Relative-strength leader breakout,2026-06-02,84,4.818,6.004,2026-06-04,2026-06-10,338.58,316.2,394.51,2.5R fixed target,Time Exit,5,-0.795,-0.12
+EXIDEIND,Relative-strength leader breakout,2026-06-02,100,1.764,1.312,2026-06-03,2026-06-08,408.82,384.15,470.49,2.5R fixed target,Stop,4,-6.334,-1.05
+IFCI,Relative-strength leader breakout,2026-06-02,92,2.256,3.056,2026-06-03,2026-06-09,72.34,67.29,84.98,2.5R fixed target,Time Exit,5,6.232,0.892
+RPEL,Relative-strength leader breakout,2026-06-02,63,0.814,0.686,2026-06-03,2026-06-09,1022.04,924.03,1267.07,2.5R fixed target,Time Exit,5,14.226,1.483
+SKYGOLD,Relative-strength leader breakout,2026-06-02,64,1.874,1.545,2026-06-03,2026-06-08,568.13,519.66,689.32,2.5R fixed target,Stop,4,-8.832,-1.035
+THANGAMAYL,Relative-strength leader breakout,2026-06-02,62,1.712,1.66,2026-06-03,2026-06-04,4636.15,4258.29,5580.81,2.5R fixed target,Target,2,20.076,2.463
+J&KBANK,Relative-strength leader breakout,2026-06-03,100,2.927,2.952,2026-06-04,2026-06-10,149.61,141.06,170.99,2.5R fixed target,Time Exit,5,2.842,0.497
+JARO,Relative-strength leader breakout,2026-06-03,53,0.761,0.299,2026-06-04,2026-06-08,606.11,558.88,724.18,2.5R fixed target,Stop,3,-8.092,-1.038
+KPRMILL,Relative-strength leader breakout,2026-06-03,90,5.526,5.866,2026-06-04,2026-06-08,1112.22,1046.19,1277.28,2.5R fixed target,Stop,3,-6.236,-1.051
+PREMIERENE,Relative-strength leader breakout,2026-06-03,55,0.864,0.923,2026-06-05,2026-06-11,1097.89,1034.13,1257.3,2.5R fixed target,Time Exit,5,-3.933,-0.677
+RRKABEL,Relative-strength leader breakout,2026-06-03,100,2.128,2.125,2026-06-04,2026-06-10,2173.34,2013,2574.18,2.5R fixed target,Time Exit,5,-0.569,-0.077
+SOTL,Relative-strength leader breakout,2026-06-03,90,9.274,19.946,2026-06-04,2026-06-10,527,485.31,631.23,2.5R fixed target,Time Exit,5,4.169,0.527
+BBOX,Relative-strength leader breakout,2026-06-04,53,0.671,0.374,2026-06-05,2026-06-09,1100,986.58,1383.54,2.5R fixed target,Stop,3,-10.611,-1.029
+KWIL,Relative-strength leader breakout,2026-06-04,100,6.723,9.219,2026-06-05,2026-06-08,36.45,33.87,42.9,2.5R fixed target,Stop,2,-7.374,-1.042
+SAMMAANCAP,Relative-strength leader breakout,2026-06-04,63,0.981,0.871,2026-06-05,2026-06-11,185.82,172.36,219.48,2.5R fixed target,Stop,5,-7.545,-1.041
+TATATECH,Relative-strength leader breakout,2026-06-04,100,1.405,1.083,2026-06-05,2026-06-11,753.15,708.1,865.78,2.5R fixed target,Time Exit,5,-3.182,-0.532
+ZEEL,Relative-strength leader breakout,2026-06-04,100,3.996,2.579,2026-06-05,2026-06-11,107.72,97.78,132.55,2.5R fixed target,Time Exit,5,3.167,0.343
+ACUTAAS,Relative-strength leader breakout,2026-06-05,80,2.217,2.578,2026-06-08,2026-06-11,3355.6,3135.96,3904.69,2.5R fixed target,Stop,4,-6.845,-1.046
+ADANIENSOL,Relative-strength leader breakout,2026-06-05,51,1.144,1.336,2026-06-08,2026-06-11,1594.58,1480.18,1880.58,2.5R fixed target,Stop,4,-7.474,-1.042
+EQUITASBNK,Relative-strength leader breakout,2026-06-05,100,8.01,5.192,2026-06-08,2026-06-12,74.4,70.13,85.08,2.5R fixed target,Time Exit,5,1.234,0.215
+GREAVESCOT,Relative-strength leader breakout,2026-06-05,86,3.108,2.991,2026-06-08,2026-06-10,193.79,181.43,224.67,2.5R fixed target,Stop,3,-6.675,-1.047
+PANACEABIO,Relative-strength leader breakout,2026-06-05,85,5.866,24.017,2026-06-09,2026-06-11,578.81,523.52,717.01,2.5R fixed target,Stop,3,-9.851,-1.031
+PARAS,Relative-strength leader breakout,2026-06-05,92,3.367,6.663,2026-06-09,2026-06-15,995.99,907.62,1216.91,2.5R fixed target,Time Exit,5,10.961,1.235
+SHILPAMED,Relative-strength leader breakout,2026-06-05,93,1.356,1.179,2026-06-08,2026-06-12,544.09,500.12,653.99,2.5R fixed target,Time Exit,5,0.19,0.023
+WEWORK,Relative-strength leader breakout,2026-06-05,68,3.595,1.037,2026-06-08,2026-06-12,647.29,585.28,802.32,2.5R fixed target,Time Exit,5,-1.527,-0.159
+CAPLIPOINT,Relative-strength leader breakout,2026-06-08,88,2.324,2.726,2026-06-09,2026-06-15,2152.3,2039.56,2434.14,2.5R fixed target,Gap Target,5,12.835,2.45
+GULPOLY,Relative-strength leader breakout,2026-06-08,76,2.741,7.871,2026-06-09,2026-06-15,218.84,198.81,268.91,2.5R fixed target,Time Exit,5,-3.086,-0.337
+INOXINDIA,Relative-strength leader breakout,2026-06-08,100,4.764,6.384,2026-06-09,2026-06-15,1700.79,1574.03,2017.7,2.5R fixed target,Time Exit,5,4.733,0.635
+NRBBEARING,Relative-strength leader breakout,2026-06-08,72,5.235,23.316,2026-06-10,2026-06-16,451.9,419,534.15,2.5R fixed target,Time Exit,5,-6.065,-0.833
+PAISALO,Relative-strength leader breakout,2026-06-08,100,1.603,1.759,2026-06-09,2026-06-15,60.62,56,72.18,2.5R fixed target,Time Exit,5,-4.36,-0.571
+SFL,Relative-strength leader breakout,2026-06-08,88,1.955,1.492,2026-06-09,2026-06-15,679.36,633.33,794.42,2.5R fixed target,Time Exit,5,4.152,0.613
+THYROCARE,Relative-strength leader breakout,2026-06-08,88,2.478,3.466,2026-06-09,2026-06-15,550.1,514.2,639.83,2.5R fixed target,Time Exit,5,-2.936,-0.45
+VENUSREM,Relative-strength leader breakout,2026-06-08,100,3.406,3.756,2026-06-09,2026-06-10,1718.53,1601.76,2010.47,2.5R fixed target,Gap Stop,2,-8.885,-1.308
+CARTRADE,Relative-strength leader breakout,2026-06-09,100,2.301,2.83,2026-06-10,2026-06-16,2218.43,2038.08,2669.3,2.5R fixed target,Time Exit,5,7.154,0.88
+CEMPRO,Relative-strength leader breakout,2026-06-09,100,1.704,2.066,2026-06-10,2026-06-16,1240,1089.56,1616.11,2.5R fixed target,Time Exit,5,-6.574,-0.542
+CHENNPETRO,Relative-strength leader breakout,2026-06-09,93,1.232,0.976,2026-06-10,2026-06-11,1240.48,1159.33,1443.35,2.5R fixed target,Stop,2,-6.842,-1.046
+CUPID,Relative-strength leader breakout,2026-06-09,52,1.812,1.524,2026-06-10,2026-06-16,147,139.05,166.88,2.5R fixed target,Time Exit,5,11.87,2.195
+DATAPATTNS,Relative-strength leader breakout,2026-06-09,70,3.267,4.007,2026-06-10,2026-06-11,4629.24,4280.15,5501.96,2.5R fixed target,Stop,2,-7.841,-1.04
+DEEPAKFERT,Relative-strength leader breakout,2026-06-09,88,1.683,1.186,2026-06-10,2026-06-16,1531.9,1425.95,1796.78,2.5R fixed target,Time Exit,5,-0.098,-0.014
+GRWRHITECH,Relative-strength leader breakout,2026-06-09,78,1.763,1.361,2026-06-10,2026-06-16,6292.56,5742,7668.97,2.5R fixed target,Time Exit,5,1.098,0.125
+MSTCLTD,Relative-strength leader breakout,2026-06-09,92,6.539,9.368,2026-06-11,2026-06-16,573.14,528.45,684.88,2.5R fixed target,Target,4,19.195,2.462
+NEPHROPLUS,Relative-strength leader breakout,2026-06-09,78,1.873,1.111,2026-06-10,2026-06-16,725.45,671.92,859.26,2.5R fixed target,Time Exit,5,2.133,0.289
+NIITLTD,Relative-strength leader breakout,2026-06-09,93,1.356,0.756,2026-06-10,2026-06-11,99,90.41,120.46,2.5R fixed target,Stop,2,-8.971,-1.035
+SEDEMAC,Relative-strength leader breakout,2026-06-09,80,1.885,2.922,2026-06-10,2026-06-16,2665.22,2451.19,3200.28,2.5R fixed target,Time Exit,5,3.939,0.491
+SHADOWFAX,Relative-strength leader breakout,2026-06-09,65,1.159,0.978,2026-06-10,2026-06-16,219.44,200.63,266.46,2.5R fixed target,Time Exit,5,-2.099,-0.245
+STOVEKRAFT,Relative-strength leader breakout,2026-06-09,71,1.311,0.984,2026-06-11,2026-06-17,674.4,622.3,804.65,2.5R fixed target,Time Exit,5,-0.967,-0.125
+TRUALT,Relative-strength leader breakout,2026-06-09,62,1.903,1.575,2026-06-10,2026-06-11,538.7,495.26,647.3,2.5R fixed target,Stop,2,-8.364,-1.037
+AEGISLOG,Relative-strength leader breakout,2026-06-10,67,3.13,5.732,2026-06-11,2026-06-11,834.57,786.12,955.69,2.5R fixed target,Target,1,14.214,2.448
+CARYSIL,Relative-strength leader breakout,2026-06-10,100,4.181,2.954,2026-06-11,2026-06-17,1205,1094.29,1481.78,2.5R fixed target,Time Exit,5,-1.727,-0.188
+NEOGEN,Relative-strength leader breakout,2026-06-10,94,2.342,1.969,2026-06-11,2026-06-17,2039.87,1875.87,2449.87,2.5R fixed target,Time Exit,5,-5.505,-0.685
+ABDL,Relative-strength leader breakout,2026-06-11,100,3.544,4.558,2026-06-12,2026-06-18,614.5,577.09,708.02,2.5R fixed target,Time Exit,5,2.678,0.44
+AKUMS,Relative-strength leader breakout,2026-06-11,90,3.761,5.923,2026-06-12,2026-06-18,622.24,582.42,721.8,2.5R fixed target,Time Exit,5,-3.601,-0.563
+APARINDS,Relative-strength leader breakout,2026-06-11,69,2.964,3.195,2026-06-12,2026-06-18,14999.94,13762.57,18093.38,2.5R fixed target,Time Exit,5,5.114,0.62
+EPACKPEB,Relative-strength leader breakout,2026-06-11,82,5.182,18.574,2026-06-12,2026-06-18,236.28,213.28,293.77,2.5R fixed target,Time Exit,5,14.758,1.516
+EMMVEE,Relative-strength leader breakout,2026-06-12,63,0.973,1.041,2026-06-15,2026-06-19,351.45,319.06,432.42,2.5R fixed target,Time Exit,5,-5.806,-0.63
+GOLDIAM,Relative-strength leader breakout,2026-06-12,82,5.651,8.796,2026-06-15,2026-06-19,485.97,438.6,604.41,2.5R fixed target,Time Exit,5,-2.64,-0.271
+KWIL,Relative-strength leader breakout,2026-06-12,92,1.743,1.796,2026-06-15,2026-06-19,37.69,33.87,47.24,2.5R fixed target,Time Exit,5,-4.917,-0.485
+MAHABANK,Relative-strength leader breakout,2026-06-12,92,2.515,2.827,2026-06-15,2026-06-19,88.61,83.81,100.62,2.5R fixed target,Time Exit,5,1.483,0.274
+POWERMECH,Relative-strength leader breakout,2026-06-12,92,3.684,4.798,2026-06-15,2026-06-19,2859.9,2638.13,3414.32,2.5R fixed target,Time Exit,5,-0.999,-0.129
+RAYMOND,Relative-strength leader breakout,2026-06-12,81,1.263,0.695,2026-06-15,2026-06-19,588,539.76,708.6,2.5R fixed target,Time Exit,5,-0.564,-0.069
+SENORES,Relative-strength leader breakout,2026-06-12,82,2.672,2.035,2026-06-15,2026-06-19,1299.1,1185.98,1581.9,2.5R fixed target,Time Exit,5,0.924,0.106
+SHREEJISPG,Relative-strength leader breakout,2026-06-12,93,1.29,1.365,2026-06-15,2026-06-19,491.2,457.8,574.7,2.5R fixed target,Time Exit,5,1.614,0.237
+VIMTALABS,Relative-strength leader breakout,2026-06-12,92,3.135,2.943,2026-06-15,2026-06-19,564.73,518.96,679.13,2.5R fixed target,Time Exit,5,0.882,0.109
+AEGISLOG,Relative-strength leader breakout,2026-06-15,100,2.992,2.047,2026-06-17,2026-06-23,1007.01,927.17,1206.6,2.5R fixed target,Time Exit,5,4.535,0.572
+APTECHT,Relative-strength leader breakout,2026-06-15,95,3.129,1.879,2026-06-16,2026-06-17,120.74,110.28,146.89,2.5R fixed target,Time Exit,2,-1.146,-0.132
+AVALON,Relative-strength leader breakout,2026-06-15,90,1.517,0.884,2026-06-16,2026-06-22,1780.55,1609.63,2207.87,2.5R fixed target,Time Exit,5,-3.532,-0.368
+BELRISE,Relative-strength leader breakout,2026-06-15,90,1.506,1.231,2026-06-17,2026-06-23,242.48,228.1,278.46,2.5R fixed target,Time Exit,5,-0.471,-0.079
+CRAFTSMAN,Relative-strength leader breakout,2026-06-15,52,2.108,1.765,2026-06-16,2026-06-22,9433.5,8797.04,11024.65,2.5R fixed target,Time Exit,5,0.638,0.095
+DIACABS,Relative-strength leader breakout,2026-06-15,80,1.916,1.644,2026-06-16,2026-06-22,218.44,196.77,272.6,2.5R fixed target,Time Exit,5,-5.238,-0.528
+ELECON,Relative-strength leader breakout,2026-06-15,100,2.643,2.061,2026-06-16,2026-06-19,567.05,527.04,667.07,2.5R fixed target,Stop,4,-7.356,-1.043
+EQUITASBNK,Relative-strength leader breakout,2026-06-15,100,1.788,1.677,2026-06-16,2026-06-22,79.66,74.62,92.25,2.5R fixed target,Time Exit,5,-4.178,-0.661
+GRINDWELL,Relative-strength leader breakout,2026-06-15,53,1.185,1.149,2026-06-16,2026-06-22,2044.08,1920.05,2354.14,2.5R fixed target,Time Exit,5,2.94,0.484
+INOXGREEN,Relative-strength leader breakout,2026-06-15,56,1.284,1.218,2026-06-16,2026-06-22,199.4,185.08,235.18,2.5R fixed target,Time Exit,5,2.565,0.357
+MOTILALOFS,Relative-strength leader breakout,2026-06-15,94,2.448,2.501,2026-06-16,2026-06-22,948.95,885.27,1108.16,2.5R fixed target,Time Exit,5,-0.316,-0.047
+NUVAMA,Relative-strength leader breakout,2026-06-15,52,2.188,2.068,2026-06-17,2026-06-23,1690.07,1594.35,1929.39,2.5R fixed target,Time Exit,5,1.27,0.224
+ORCHPHARMA,Relative-strength leader breakout,2026-06-15,92,2.641,1.91,2026-06-16,2026-06-22,971.94,881.77,1197.36,2.5R fixed target,Time Exit,5,-1.719,-0.185
+RATEGAIN,Relative-strength leader breakout,2026-06-15,58,1.198,0.942,2026-06-16,2026-06-22,844.64,786.48,990.03,2.5R fixed target,Time Exit,5,3.1,0.45
+SANGHVIMOV,Relative-strength leader breakout,2026-06-15,90,3.897,2.01,2026-06-16,2026-06-22,427.65,392.59,515.29,2.5R fixed target,Time Exit,5,1.816,0.222
+SUDEEPPHRM,Relative-strength leader breakout,2026-06-15,92,7.708,4.652,2026-06-16,2026-06-22,826.1,753.02,1008.8,2.5R fixed target,Time Exit,5,0.311,0.035
+WABAG,Relative-strength leader breakout,2026-06-15,65,2.106,1.604,2026-06-16,2026-06-19,1663.72,1568.02,1902.97,2.5R fixed target,Target,4,14.08,2.448
+ADVAIT,Relative-strength leader breakout,2026-06-16,65,1.172,0.935,2026-06-17,2026-06-23,2459.91,2214.26,3074.03,2.5R fixed target,Time Exit,5,-3.337,-0.334
+AEGISVOPAK,Relative-strength leader breakout,2026-06-16,95,5.165,3.727,2026-06-18,2026-06-24,242,223.15,289.14,2.5R fixed target,Time Exit,5,-4.578,-0.588
+BORORENEW,Relative-strength leader breakout,2026-06-16,83,1.272,0.672,2026-06-17,2026-06-23,566.53,527.29,664.64,2.5R fixed target,Time Exit,5,4.884,0.705
+GVPIL,Relative-strength leader breakout,2026-06-16,55,0.893,0.693,2026-06-17,2026-06-23,1048.95,938.24,1325.72,2.5R fixed target,Time Exit,5,-1.654,-0.157
+HCC,Relative-strength leader breakout,2026-06-16,92,2.861,2.485,2026-06-17,2026-06-23,25.82,23.41,31.86,2.5R fixed target,Time Exit,5,4.806,0.514
+LLOYDSENGG,Relative-strength leader breakout,2026-06-16,100,5.165,11.57,2026-06-17,2026-06-23,81.16,74.23,98.48,2.5R fixed target,Time Exit,5,7.965,0.933
+QUADFUTURE,Relative-strength leader breakout,2026-06-16,100,3.806,4.337,2026-06-17,2026-06-23,425.35,386.69,521.99,2.5R fixed target,Time Exit,5,-4.943,-0.544
+RPTECH,Relative-strength leader breakout,2026-06-16,92,42.016,86.722,2026-06-17,2026-06-23,674.85,620.88,809.77,2.5R fixed target,Time Exit,5,8.688,1.086
+SONATSOFTW,Relative-strength leader breakout,2026-06-16,90,15.465,21.036,2026-06-18,2026-06-23,313.02,289.09,372.85,2.5R fixed target,Stop,4,-7.945,-1.039
+TITAGARH,Relative-strength leader breakout,2026-06-16,84,2.128,1.343,2026-06-17,2026-06-23,901.6,840.8,1053.6,2.5R fixed target,Time Exit,5,0.404,0.06
+VADILALIND,Relative-strength leader breakout,2026-06-16,71,1.04,0.563,2026-06-17,2026-06-23,6241.46,5727.77,7525.68,2.5R fixed target,Time Exit,5,1.966,0.239
+AGI,Relative-strength leader breakout,2026-06-17,100,2.99,3.212,2026-06-19,2026-06-24,740.23,696.5,849.56,2.5R fixed target,Stop,4,-6.208,-1.051
+ASTRAMICRO,Relative-strength leader breakout,2026-06-17,78,1.932,1.384,2026-06-18,2026-06-24,1601.6,1471.63,1926.5,2.5R fixed target,Time Exit,5,3.509,0.432
+AVL,Relative-strength leader breakout,2026-06-17,92,3.835,3.574,2026-06-18,2026-06-24,616.43,570.21,731.98,2.5R fixed target,Time Exit,5,4.237,0.565
+BLISSGVS,Relative-strength leader breakout,2026-06-17,63,0.89,0.506,2026-06-18,2026-06-24,477.95,433.15,589.97,2.5R fixed target,Time Exit,5,-4.036,-0.43
+CUPID,Relative-strength leader breakout,2026-06-17,100,1.646,1.317,2026-06-19,2026-06-25,171.34,159.43,201.12,2.5R fixed target,Time Exit,5,6.276,0.903
+DATAPATTNS,Relative-strength leader breakout,2026-06-17,84,1.744,1.722,2026-06-18,2026-06-24,4804.29,4335.24,5976.91,2.5R fixed target,Time Exit,5,-4.134,-0.423
+GNFC,Relative-strength leader breakout,2026-06-17,92,4.166,3.619,2026-06-18,2026-06-24,564.03,534.04,638.98,2.5R fixed target,Time Exit,5,-1.368,-0.257
+GRWRHITECH,Relative-strength leader breakout,2026-06-17,63,0.866,0.867,2026-06-18,2026-06-24,6555.08,6038.9,7845.55,2.5R fixed target,Time Exit,5,1.438,0.183
+KEI,Relative-strength leader breakout,2026-06-17,69,1.29,1.694,2026-06-18,2026-06-24,5684.35,5360.37,6494.28,2.5R fixed target,Time Exit,5,-4.968,-0.872
+KIRLPNU,Relative-strength leader breakout,2026-06-17,92,5.201,8.528,2026-06-18,2026-06-24,1873.74,1735.66,2218.93,2.5R fixed target,Time Exit,5,1.592,0.216
+KRISHNADEF,Relative-strength leader breakout,2026-06-17,62,2.03,2.083,2026-06-18,2026-06-24,1339,1205.49,1672.77,2.5R fixed target,Time Exit,5,-0.599,-0.06
+NBCC,Relative-strength leader breakout,2026-06-17,50,1.533,1.267,2026-06-18,2026-06-24,113.43,106.05,131.86,2.5R fixed target,Time Exit,5,-4.308,-0.663
+RELAXO,Relative-strength leader breakout,2026-06-17,78,1.94,0.511,2026-06-18,2026-06-24,368.18,333.33,455.32,2.5R fixed target,Time Exit,5,-0.092,-0.01
+SUZLON,Relative-strength leader breakout,2026-06-17,81,1.176,1.403,2026-06-19,2026-06-25,59.62,55.85,69.05,2.5R fixed target,Time Exit,5,-4.458,-0.705
+VMART,Relative-strength leader breakout,2026-06-17,82,3.748,3.42,2026-06-18,2026-06-24,771.84,723.88,891.73,2.5R fixed target,Time Exit,5,0.504,0.081
+YESBANK,Relative-strength leader breakout,2026-06-17,90,3.4,3.188,2026-06-18,2026-06-24,25.51,24.11,29.02,2.5R fixed target,Time Exit,5,-2.538,-0.462
+ZENTEC,Relative-strength leader breakout,2026-06-17,84,1.686,1.342,2026-06-18,2026-06-24,1900.79,1753.09,2270.04,2.5R fixed target,Time Exit,5,-3.351,-0.431
+CARBORUNIV,Relative-strength leader breakout,2026-06-18,95,3.128,9.692,2026-06-19,2026-06-19,1270.54,1189.05,1474.25,2.5R fixed target,Stop,1,-6.714,-1.047
+LLOYDSENT,Relative-strength leader breakout,2026-06-18,85,3.299,3.312,2026-06-22,2026-06-25,78.72,72.69,93.8,2.5R fixed target,Stop,4,-7.962,-1.039
+NAM-INDIA,Relative-strength leader breakout,2026-06-18,55,1.095,0.948,2026-06-19,2026-06-25,1175,1099.42,1363.95,2.5R fixed target,Time Exit,5,-3.364,-0.523
+NETWEB,Relative-strength leader breakout,2026-06-18,63,1.11,1.3,2026-06-19,2026-06-25,5218.92,4707.15,6498.32,2.5R fixed target,Time Exit,5,-5.572,-0.568
+OLECTRA,Relative-strength leader breakout,2026-06-18,100,4.638,3.884,2026-06-19,2026-06-25,1456.91,1336.4,1758.19,2.5R fixed target,Time Exit,5,2.205,0.267
+RADICO,Relative-strength leader breakout,2026-06-18,92,4.614,4.946,2026-06-19,2026-06-25,3742.47,3599.08,4100.94,2.5R fixed target,Time Exit,5,2.033,0.531
+RRKABEL,Relative-strength leader breakout,2026-06-18,83,1.637,2.321,2026-06-22,2026-06-25,2369.73,2196.26,2803.42,2.5R fixed target,Time Exit,5,4.704,0.643
+SYRMA,Relative-strength leader breakout,2026-06-18,87,1.273,1.045,2026-06-19,2026-06-25,1354.9,1264.34,1581.31,2.5R fixed target,Time Exit,5,6.017,0.9
+AEROENTER,Relative-strength leader breakout,2026-06-19,100,5.443,5.885,2026-06-22,2026-06-25,139.02,124.99,174.09,2.5R fixed target,Time Exit,5,-1.321,-0.131
+GABRIEL,Relative-strength leader breakout,2026-06-19,84,3.288,3.225,2026-06-22,2026-06-25,1218.43,1127.33,1446.18,2.5R fixed target,Time Exit,5,0.584,0.078
+GREAVESCOT,Relative-strength leader breakout,2026-06-19,70,1.912,1.772,2026-06-22,2026-06-25,201.4,188.36,234,2.5R fixed target,Time Exit,5,6,0.927
+GVT&D,Relative-strength leader breakout,2026-06-19,55,1.381,1.303,2026-06-23,2026-06-24,5643.26,5214.83,6714.36,2.5R fixed target,Stop,2,-7.892,-1.04
+NIBE,Relative-strength leader breakout,2026-06-19,83,1.314,1.036,2026-06-22,2026-06-25,1839.67,1658.55,2292.48,2.5R fixed target,Stop,4,-10.146,-1.03
+NITCO,Relative-strength leader breakout,2026-06-19,100,4.194,3.664,2026-06-22,2026-06-25,114.9,103.31,143.89,2.5R fixed target,Time Exit,5,-6.088,-0.603
+PSPPROJECT,Relative-strength leader breakout,2026-06-19,88,2.283,2.535,2026-06-22,2026-06-25,988.97,898.16,1216.02,2.5R fixed target,Time Exit,5,-0.368,-0.04
+STOVEKRAFT,Relative-strength leader breakout,2026-06-19,63,0.534,0.483,2026-06-22,2026-06-25,700.3,653.2,818.05,2.5R fixed target,Time Exit,5,10.967,1.631
+VENUSPIPES,Relative-strength leader breakout,2026-06-19,92,5.862,5.742,2026-06-22,2026-06-25,1590,1483.33,1856.67,2.5R fixed target,Time Exit,5,6.398,0.954
+AEQUS,Relative-strength leader breakout,2026-06-22,100,2.891,3.229,2026-06-23,2026-06-29,240.48,216.64,300.08,2.5R fixed target,Time Exit,5,-0.687,-0.069
+AIAENG,Relative-strength leader breakout,2026-06-22,78,1.869,1.161,2026-06-23,2026-06-29,4876.73,4620.5,5517.33,2.5R fixed target,Time Exit,5,1.231,0.234
+AMAGI,Relative-strength leader breakout,2026-06-22,100,2.361,2.111,2026-06-23,2026-06-29,540.43,488.62,669.96,2.5R fixed target,Time Exit,5,2.294,0.239
+CEMPRO,Relative-strength leader breakout,2026-06-22,63,0.67,0.436,2026-06-23,2026-06-29,1282.56,1166.62,1572.4,2.5R fixed target,Time Exit,5,-2.62,-0.29
+EBGNG,Relative-strength leader breakout,2026-06-22,100,6.599,6.212,2026-06-23,2026-06-29,553.9,504.03,678.58,2.5R fixed target,Time Exit,5,2.435,0.27
+HPL,Relative-strength leader breakout,2026-06-22,92,2.882,2.626,2026-06-23,2026-06-25,404.9,373.09,484.43,2.5R fixed target,Stop,3,-8.157,-1.038
+IGARASHI,Relative-strength leader breakout,2026-06-22,90,12.53,8.93,2026-06-23,2026-06-29,488.78,448.91,588.45,2.5R fixed target,Time Exit,5,-6.412,-0.786
+JASH,Relative-strength leader breakout,2026-06-22,94,4.257,3.82,2026-06-23,2026-06-29,572.85,515.38,716.51,2.5R fixed target,Stop,5,-10.331,-1.03
+KDDL,Relative-strength leader breakout,2026-06-22,60,3.552,5.176,2026-06-24,2026-06-24,3286.56,3052.18,3872.5,2.5R fixed target,Stop,1,-7.431,-1.042
+KIRLOSENG,Relative-strength leader breakout,2026-06-22,84,3.243,4.37,2026-06-23,2026-06-29,2501,2221.45,3199.86,2.5R fixed target,Time Exit,5,-2.695,-0.241
+KIRLOSIND,Relative-strength leader breakout,2026-06-22,92,14.139,17.157,2026-06-23,2026-06-23,4508.7,4161.66,5376.29,2.5R fixed target,Stop,1,-7.997,-1.039
+KMEW,Relative-strength leader breakout,2026-06-22,76,3.196,3.886,2026-06-23,2026-06-29,2388.37,2180.7,2907.52,2.5R fixed target,Time Exit,5,-7.098,-0.816
+RAYMONDREL,Relative-strength leader breakout,2026-06-22,92,3.143,2.958,2026-06-23,2026-06-29,673.54,613.38,823.97,2.5R fixed target,Time Exit,5,-7.663,-0.858
+SETL,Relative-strength leader breakout,2026-06-22,100,5.409,3.592,2026-06-23,2026-06-29,208.33,188.81,257.13,2.5R fixed target,Time Exit,5,11.748,1.254
+SFL,Relative-strength leader breakout,2026-06-22,80,1.795,1.645,2026-06-23,2026-06-29,747.49,703.39,857.76,2.5R fixed target,Time Exit,5,-0.948,-0.161
+WABAG,Relative-strength leader breakout,2026-06-22,100,2.835,3.02,2026-06-23,2026-06-29,2080,1947.17,2412.08,2.5R fixed target,Time Exit,5,-4.238,-0.664
+GENUSPOWER,Relative-strength leader breakout,2026-06-23,100,9.043,12.249,2026-06-24,2026-06-29,349.9,327.17,406.72,2.5R fixed target,Stop,4,-6.796,-1.046
+LAURUSLABS,Relative-strength leader breakout,2026-06-23,74,2.21,2.246,2026-06-24,2026-06-30,1488.97,1415.33,1673.07,2.5R fixed target,Time Exit,5,1.609,0.325
+NEULANDLAB,Relative-strength leader breakout,2026-06-23,100,4.318,5.618,2026-06-24,2026-06-25,18468.86,17557.49,20747.3,2.5R fixed target,Stop,2,-5.235,-1.061
+SANSERA,Relative-strength leader breakout,2026-06-23,92,5.015,4.585,2026-06-24,2026-06-30,3164.32,2986.29,3609.38,2.5R fixed target,Time Exit,5,0.708,0.126
+SCHNEIDER,Relative-strength leader breakout,2026-06-23,94,1.68,1.214,2026-06-24,2026-06-29,1451.4,1326.17,1764.46,2.5R fixed target,Stop,4,-8.928,-1.035
+ARVIND,Relative-strength leader breakout,2026-06-24,100,2.518,3.001,2026-06-25,2026-07-01,562.62,528.77,647.25,2.5R fixed target,Time Exit,5,-0.704,-0.117
+KRISHANA,Relative-strength leader breakout,2026-06-24,92,8.475,10.082,2026-06-25,2026-06-29,748.1,702.55,861.96,2.5R fixed target,Stop,3,-6.388,-1.049
+QUADFUTURE,Relative-strength leader breakout,2026-06-24,88,2.401,1.15,2026-06-25,2026-07-01,461.57,416.39,574.52,2.5R fixed target,Time Exit,5,-4.486,-0.458
+SKMEGGPROD,Relative-strength leader breakout,2026-06-24,88,2.069,2.824,2026-06-25,2026-07-01,277.45,250.65,344.46,2.5R fixed target,Time Exit,5,14.061,1.456
+VADILALIND,Relative-strength leader breakout,2026-06-24,63,0.213,0.144,2026-06-25,2026-07-01,6462.9,6087.8,7400.65,2.5R fixed target,Stop,5,-6.104,-1.052
+AEGISLOG,Relative-strength leader breakout,2026-06-25,94,2.717,1.459,2026-06-29,2026-07-03,1156.96,1060.14,1399.01,2.5R fixed target,Time Exit,5,14.259,1.704
+RAMCOSYS,Relative-strength leader breakout,2026-06-25,100,7.214,12.476,2026-06-29,2026-07-03,733.46,663.43,908.54,2.5R fixed target,Time Exit,5,8.717,0.913
+RELAXO,Relative-strength leader breakout,2026-06-25,90,10.179,28.378,2026-06-29,2026-06-29,423.85,391.9,503.71,2.5R fixed target,Stop,1,-7.837,-1.04
+WELCORP,Relative-strength leader breakout,2026-06-25,94,3.243,2.587,2026-06-29,2026-07-03,1465,1383.39,1669.01,2.5R fixed target,Time Exit,5,-2.054,-0.369
+ABDL,Relative-strength leader breakout,2026-06-29,80,3.032,3.91,2026-06-30,2026-07-06,669.84,629.39,770.96,2.5R fixed target,Time Exit,5,4.606,0.763
+ACMESOLAR,Relative-strength leader breakout,2026-06-29,88,1.894,1.42,2026-07-01,2026-07-07,384.67,356.79,454.37,2.5R fixed target,Time Exit,5,-4.854,-0.67
+ATHERENERG,Relative-strength leader breakout,2026-06-29,84,4.576,3.133,2026-06-30,2026-07-06,1100.2,1025.36,1287.29,2.5R fixed target,Time Exit,5,1.991,0.293
+AYE,Relative-strength leader breakout,2026-06-29,74,2.403,1.806,2026-06-30,2026-07-06,178.99,163.41,217.92,2.5R fixed target,Time Exit,5,-2.863,-0.329
+BLISSGVS,Relative-strength leader breakout,2026-06-29,84,1.495,1.949,2026-06-30,2026-07-02,542.18,499,650.14,2.5R fixed target,Time Exit,3,-3.082,-0.387
+CEIGALL,Relative-strength leader breakout,2026-06-29,90,1.97,1.169,2026-06-30,2026-07-03,403.81,374.62,476.76,2.5R fixed target,Stop,4,-7.527,-1.042
+CUPID,Relative-strength leader breakout,2026-06-29,64,1.695,1.309,2026-06-30,2026-07-06,189.75,176.09,223.9,2.5R fixed target,Time Exit,5,12,1.667
+HONASA,Relative-strength leader breakout,2026-06-29,90,2.15,2.861,2026-06-30,2026-07-06,449.9,420.65,523.02,2.5R fixed target,Time Exit,5,3.924,0.603
+IOLCP,Relative-strength leader breakout,2026-06-29,90,2.781,3.437,2026-06-30,2026-07-06,144.18,131.16,176.73,2.5R fixed target,Time Exit,5,-0.104,-0.012
+MOREPENLAB,Relative-strength leader breakout,2026-06-29,93,1.24,0.819,2026-06-30,2026-07-06,55.45,50.29,68.34,2.5R fixed target,Time Exit,5,9.312,1.001
+RADICO,Relative-strength leader breakout,2026-06-29,100,3.498,2.552,2026-06-30,2026-07-06,3922.43,3773.72,4294.21,2.5R fixed target,Time Exit,5,4.398,1.16
+SAKSOFT,Relative-strength leader breakout,2026-06-29,100,10.239,20.41,2026-06-30,2026-07-06,191.33,174.11,234.38,2.5R fixed target,Stop,5,-9.301,-1.033
+THANGAMAYL,Relative-strength leader breakout,2026-06-29,73,2.205,2.397,2026-06-30,2026-07-06,6165.71,5726.38,7264.02,2.5R fixed target,Time Exit,5,1.602,0.225
+WHEELS,Relative-strength leader breakout,2026-06-29,92,3.982,6.714,2026-06-30,2026-07-01,1800.09,1621.24,2247.22,2.5R fixed target,Stop,2,-10.236,-1.03
+APTUS,Relative-strength leader breakout,2026-06-30,100,3.149,3.162,2026-07-01,2026-07-07,282.46,266.58,322.18,2.5R fixed target,Time Exit,5,0.775,0.138
+ASTRAMICRO,Relative-strength leader breakout,2026-06-30,69,0.846,0.723,2026-07-01,2026-07-07,1782.46,1658.97,2091.18,2.5R fixed target,Time Exit,5,-0.314,-0.045
+CEMPRO,Relative-strength leader breakout,2026-06-30,88,1.464,0.856,2026-07-01,2026-07-07,1318.03,1217.29,1569.87,2.5R fixed target,Target,5,18.808,2.461
+EBGNG,Relative-strength leader breakout,2026-06-30,100,1.499,1.735,2026-07-01,2026-07-07,645,566.2,842,2.5R fixed target,Time Exit,5,-3.819,-0.313
+GODREJIND,Relative-strength leader breakout,2026-06-30,100,1.623,0.92,2026-07-01,2026-07-07,1181,1119.36,1335.11,2.5R fixed target,Time Exit,5,2.393,0.458
+GOKEX,Relative-strength leader breakout,2026-06-30,83,1.051,0.901,2026-07-01,2026-07-07,881.71,823.7,1026.74,2.5R fixed target,Time Exit,5,-4.378,-0.665
+GREAVESCOT,Relative-strength leader breakout,2026-06-30,100,2.306,2.163,2026-07-01,2026-07-07,223.35,206.57,265.28,2.5R fixed target,Time Exit,5,-0.925,-0.123
+MAYURUNIQ,Relative-strength leader breakout,2026-06-30,78,1.849,2.065,2026-07-02,2026-07-08,877.75,820.81,1020.1,2.5R fixed target,Time Exit,5,-3.091,-0.477
+MINDACORP,Relative-strength leader breakout,2026-06-30,90,1.974,1.524,2026-07-01,2026-07-07,702.4,661.61,804.39,2.5R fixed target,Time Exit,5,-2.6,-0.448
+PARKHOSPS,Relative-strength leader breakout,2026-06-30,72,2.586,2.588,2026-07-01,2026-07-02,305,284.01,357.47,2.5R fixed target,Stop,2,-7.181,-1.044
+QUESS,Relative-strength leader breakout,2026-06-30,78,1.937,2.423,2026-07-01,2026-07-01,270.54,255.85,307.26,2.5R fixed target,Stop,1,-5.729,-1.055
+SHRIPISTON,Relative-strength leader breakout,2026-06-30,100,1.997,1.862,2026-07-01,2026-07-07,4226.34,3972.76,4860.27,2.5R fixed target,Time Exit,5,0.712,0.119
+WEWORK,Relative-strength leader breakout,2026-06-30,92,7.435,6.538,2026-07-01,2026-07-07,700.4,650.9,824.15,2.5R fixed target,Time Exit,5,4.997,0.707
+ADANIENT,Relative-strength leader breakout,2026-07-01,100,2.64,1.71,2026-07-02,2026-07-08,3156.1,3006.6,3529.85,2.5R fixed target,Time Exit,5,-3.76,-0.794
+BLUEJET,Relative-strength leader breakout,2026-07-01,84,2.017,1.28,2026-07-02,2026-07-08,553.1,516.02,645.82,2.5R fixed target,Time Exit,5,1.435,0.214
+CGPOWER,Relative-strength leader breakout,2026-07-01,57,0.72,0.86,2026-07-02,2026-07-03,980.86,937.8,1088.51,2.5R fixed target,Gap Stop,2,-7.381,-1.681
+KERNEX,Relative-strength leader breakout,2026-07-01,78,1.598,1.563,2026-07-02,2026-07-08,2333.56,2166.16,2752.06,2.5R fixed target,Stop,5,-7.474,-1.042
+PAISALO,Relative-strength leader breakout,2026-07-01,100,6.546,9.349,2026-07-02,2026-07-08,72,66.99,84.51,2.5R fixed target,Time Exit,5,-2.494,-0.359
+PRESTIGE,Relative-strength leader breakout,2026-07-01,81,1.274,1.372,2026-07-02,2026-07-08,1643.5,1541.37,1898.82,2.5R fixed target,Time Exit,5,-0.799,-0.129
+PSPPROJECT,Relative-strength leader breakout,2026-07-01,81,1.295,1.224,2026-07-02,2026-07-08,1046.09,976.96,1218.92,2.5R fixed target,Time Exit,5,-0.949,-0.144
+RATEGAIN,Relative-strength leader breakout,2026-07-01,67,1.479,1.432,2026-07-02,2026-07-08,920.79,857.31,1079.48,2.5R fixed target,Time Exit,5,-0.728,-0.106
+RPEL,Relative-strength leader breakout,2026-07-01,63,1.118,0.715,2026-07-02,2026-07-08,1264.9,1183.86,1467.5,2.5R fixed target,Time Exit,5,1.613,0.252
+SATIN,Relative-strength leader breakout,2026-07-01,77,2.972,2.723,2026-07-02,2026-07-08,257.52,239.29,303.12,2.5R fixed target,Time Exit,5,-3.668,-0.518
+TBOTEK,Relative-strength leader breakout,2026-07-01,78,2.059,1.588,2026-07-02,2026-07-08,1527.85,1417.4,1803.97,2.5R fixed target,Time Exit,5,-3.34,-0.462
+VIYASH,Relative-strength leader breakout,2026-07-01,86,1.876,2.03,2026-07-02,2026-07-08,292.13,272.56,341.05,2.5R fixed target,Stop,5,-6.999,-1.045
+ACUTAAS,Relative-strength leader breakout,2026-07-02,57,0.735,0.849,2026-07-06,2026-07-06,3732.45,3493.09,4330.86,2.5R fixed target,Stop,1,-6.713,-1.047
+BHARATSE,Relative-strength leader breakout,2026-07-02,85,14.003,25.222,2026-07-03,2026-07-08,247.82,229.1,294.63,2.5R fixed target,Stop,4,-7.855,-1.04
+EMMVEE,Relative-strength leader breakout,2026-07-02,87,1.381,1.511,2026-07-03,2026-07-06,368.74,344.74,428.72,2.5R fixed target,Stop,2,-6.807,-1.046
+FIVESTAR,Relative-strength leader breakout,2026-07-02,88,1.592,1.46,2026-07-03,2026-07-09,551.1,510.01,653.82,2.5R fixed target,Time Exit,5,-0.554,-0.074
+GANDHAR,Relative-strength leader breakout,2026-07-02,76,1.182,0.757,2026-07-06,2026-07-10,189.27,174.03,227.37,2.5R fixed target,Time Exit,5,7.035,0.874
+GCSL,Relative-strength leader breakout,2026-07-02,82,3.859,3.122,2026-07-03,2026-07-09,464.78,436.83,534.65,2.5R fixed target,Time Exit,5,5.062,0.842
+QUESS,Relative-strength leader breakout,2026-07-02,78,1.511,0.669,2026-07-03,2026-07-09,289.38,271.24,334.71,2.5R fixed target,Time Exit,5,1.487,0.237
+SANGHVIMOV,Relative-strength leader breakout,2026-07-02,81,1.19,0.916,2026-07-03,2026-07-09,456.11,420.44,545.3,2.5R fixed target,Time Exit,5,1.474,0.188
+SFL,Relative-strength leader breakout,2026-07-02,55,0.938,0.847,2026-07-03,2026-07-09,768.53,727.57,870.94,2.5R fixed target,Time Exit,5,-2.386,-0.448
+SHREEJISPG,Relative-strength leader breakout,2026-07-02,88,2.239,1.506,2026-07-03,2026-07-09,517.53,490.98,583.91,2.5R fixed target,Time Exit,5,0.834,0.163
+SUVEN,Relative-strength leader breakout,2026-07-02,100,2.721,2.271,2026-07-03,2026-07-09,306.11,277.59,377.41,2.5R fixed target,Time Exit,5,12.976,1.393
+WABAG,Relative-strength leader breakout,2026-07-02,100,2.072,1.539,2026-07-03,2026-07-09,2212.42,2030.84,2666.35,2.5R fixed target,Time Exit,5,-4.581,-0.558
+AEGISVOPAK,Relative-strength leader breakout,2026-07-03,100,4.431,6.295,2026-07-06,2026-07-10,259.99,240.43,308.89,2.5R fixed target,Time Exit,5,8.62,1.146
+BLSE,Relative-strength leader breakout,2026-07-03,95,4.723,20.44,2026-07-06,2026-07-08,274.55,257.91,316.14,2.5R fixed target,Stop,3,-6.36,-1.05
+CGCL,Relative-strength leader breakout,2026-07-03,69,0.988,0.788,2026-07-06,2026-07-10,235.81,224.14,264.99,2.5R fixed target,Time Exit,5,6.659,1.345
+CYIENTDLM,Relative-strength leader breakout,2026-07-03,82,5.18,10.886,2026-07-07,2026-07-13,525,490.64,610.89,2.5R fixed target,Time Exit,5,-0.176,-0.027
+INDSWFTLAB,Relative-strength leader breakout,2026-07-03,71,1.335,1.11,2026-07-06,2026-07-10,217.26,199.74,261.06,2.5R fixed target,Time Exit,5,13.129,1.628
+OPTIEMUS,Relative-strength leader breakout,2026-07-03,90,1.75,1.214,2026-07-06,2026-07-10,527,481.47,640.83,2.5R fixed target,Time Exit,5,2.366,0.274
+QUADFUTURE,Relative-strength leader breakout,2026-07-03,71,1.036,0.64,2026-07-06,2026-07-08,477.95,430.85,595.72,2.5R fixed target,Stop,3,-10.156,-1.03
+SBCL,Relative-strength leader breakout,2026-07-03,84,2.9,3.015,2026-07-06,2026-07-06,810,741.41,981.47,2.5R fixed target,Stop,1,-8.768,-1.035
+SCHNEIDER,Relative-strength leader breakout,2026-07-03,100,1.601,1.346,2026-07-06,2026-07-10,1495.08,1348.31,1862.02,2.5R fixed target,Time Exit,5,-5.71,-0.582
+GRANULES,Relative-strength leader breakout,2026-07-06,75,1.397,1.351,2026-07-07,2026-07-13,866.73,819.99,983.57,2.5R fixed target,Time Exit,5,3.267,0.606
+JAYBARMARU,Relative-strength leader breakout,2026-07-06,81,1.215,0.581,2026-07-07,2026-07-13,184.9,167.66,227.99,2.5R fixed target,Time Exit,5,6.325,0.679
+LODHA,Relative-strength leader breakout,2026-07-06,72,3.554,2.256,2026-07-07,2026-07-13,1100.9,1042.44,1247.04,2.5R fixed target,Time Exit,5,8.579,1.616
+PWL,Relative-strength leader breakout,2026-07-06,63,0.703,0.567,2026-07-07,2026-07-13,135.77,124.88,162.99,2.5R fixed target,Time Exit,5,4.745,0.592
+SPARC,Relative-strength leader breakout,2026-07-06,80,3.593,3.492,2026-07-07,2026-07-13,266.7,243.55,324.57,2.5R fixed target,Time Exit,5,-3.03,-0.349
+ADANIENSOL,Relative-strength leader breakout,2026-07-07,60,2.006,1.714,2026-07-08,2026-07-14,1667.23,1575.79,1895.82,2.5R fixed target,Time Exit,5,1.084,0.198
+AKUMS,Relative-strength leader breakout,2026-07-07,78,2.068,2.037,2026-07-08,2026-07-14,660.32,627.67,741.93,2.5R fixed target,Time Exit,5,3.733,0.755
+CUPID,Relative-strength leader breakout,2026-07-07,92,2.278,3.113,2026-07-08,2026-07-08,222.33,209.44,254.56,2.5R fixed target,Stop,1,-6.098,-1.052
+DIACABS,Relative-strength leader breakout,2026-07-07,87,2.656,3.716,2026-07-08,2026-07-14,232.71,215.64,275.4,2.5R fixed target,Time Exit,5,-3.628,-0.495
+GLAND,Relative-strength leader breakout,2026-07-07,71,1.128,1.324,2026-07-08,2026-07-13,2568.03,2432.04,2907.99,2.5R fixed target,Stop,4,-5.595,-1.057
+IOLCP,Relative-strength leader breakout,2026-07-07,100,8.541,10.7,2026-07-08,2026-07-14,173.7,158.64,211.34,2.5R fixed target,Time Exit,5,-0.252,-0.029
+ITDC,Relative-strength leader breakout,2026-07-07,100,22.045,48.255,2026-07-08,2026-07-14,725,664.02,877.45,2.5R fixed target,Time Exit,5,-6.031,-0.717
+ATHERENERG,Relative-strength leader breakout,2026-07-08,80,2.215,2.417,2026-07-09,2026-07-15,1216.43,1133.62,1423.46,2.5R fixed target,Time Exit,5,6.274,0.922
+DLINKINDIA,Relative-strength leader breakout,2026-07-08,85,3.639,4.552,2026-07-09,2026-07-10,547.29,529.1,592.76,2.5R fixed target,Gap Stop,2,-6.264,-1.885
+SENORES,Relative-strength leader breakout,2026-07-08,88,1.465,1.492,2026-07-09,2026-07-15,1444.68,1347.67,1687.21,2.5R fixed target,Time Exit,5,2.207,0.329
+THANGAMAYL,Relative-strength leader breakout,2026-07-08,64,2.376,3.098,2026-07-09,2026-07-13,6962.9,6302.4,8614.15,2.5R fixed target,Stop,3,-9.786,-1.032
+UNICHEMLAB,Relative-strength leader breakout,2026-07-08,90,5,2.026,2026-07-09,2026-07-15,610.15,527.67,816.35,2.5R fixed target,Time Exit,5,-2.767,-0.205
+ALKYLAMINE,Relative-strength leader breakout,2026-07-09,90,4.286,5.34,2026-07-10,2026-07-14,1990.97,1859.05,2320.79,2.5R fixed target,Stop,3,-6.926,-1.045
+AZAD,Relative-strength leader breakout,2026-07-09,84,3.471,4.346,2026-07-10,2026-07-14,2520,2332.52,2988.7,2.5R fixed target,Stop,3,-7.74,-1.04
+BAJAJCON,Relative-strength leader breakout,2026-07-09,80,1.522,1.515,2026-07-10,2026-07-14,650,609.73,750.65,2.5R fixed target,Stop,3,-6.494,-1.048
+BALAMINES,Relative-strength leader breakout,2026-07-09,100,2.657,3.42,2026-07-10,2026-07-16,2394.78,2172.24,2951.12,2.5R fixed target,Time Exit,5,-1.26,-0.136
+BORORENEW,Relative-strength leader breakout,2026-07-09,100,3.913,8.605,2026-07-10,2026-07-15,660.82,616.32,772.07,2.5R fixed target,Stop,4,-7.034,-1.045
+DIXON,Relative-strength leader breakout,2026-07-09,93,1.199,1.333,2026-07-10,2026-07-16,13875,12869.7,16388.25,2.5R fixed target,Time Exit,5,4.255,0.587
+GOODLUCK,Relative-strength leader breakout,2026-07-09,88,1.757,1.683,2026-07-10,2026-07-16,1572,1457.23,1858.92,2.5R fixed target,Time Exit,5,-0.809,-0.111
+INDOBORAX,Relative-strength leader breakout,2026-07-09,67,3.811,3.498,2026-07-13,2026-07-17,465.38,425.05,566.19,2.5R fixed target,Time Exit,5,-0.231,-0.027
+JINDALSAW,Relative-strength leader breakout,2026-07-09,80,2.242,2.301,2026-07-10,2026-07-14,278,260.63,321.42,2.5R fixed target,Stop,3,-6.547,-1.048
+RAMCOIND,Relative-strength leader breakout,2026-07-09,78,1.539,0.437,2026-07-13,2026-07-17,376.7,340.8,466.45,2.5R fixed target,Time Exit,5,-6.472,-0.679
+SKYGOLD,Relative-strength leader breakout,2026-07-09,94,2.512,2.548,2026-07-10,2026-07-16,630.96,582.68,751.65,2.5R fixed target,Time Exit,5,-1.649,-0.215
+WELCORP,Relative-strength leader breakout,2026-07-09,100,3.34,2.643,2026-07-10,2026-07-16,1621.94,1516.85,1884.66,2.5R fixed target,Time Exit,5,3.526,0.544
+AMIRCHAND,Relative-strength leader breakout,2026-07-10,88,1.195,0.816,2026-07-13,2026-07-15,181.63,167.94,215.87,2.5R fixed target,Stop,3,-7.841,-1.04
+DATAMATICS,Relative-strength leader breakout,2026-07-10,64,2.815,3.064,2026-07-13,2026-07-14,917.33,856.33,1069.83,2.5R fixed target,Stop,2,-6.95,-1.045
+EMSLIMITED,Relative-strength leader breakout,2026-07-10,88,3.444,1.034,2026-07-13,2026-07-17,462.12,416.31,576.65,2.5R fixed target,Stop,5,-10.213,-1.03
+EQUITASBNK,Relative-strength leader breakout,2026-07-10,100,2.461,2.291,2026-07-13,2026-07-16,83.17,78.02,96.02,2.5R fixed target,Stop,4,-6.482,-1.049
+GREAVESCOT,Relative-strength leader breakout,2026-07-10,100,3.598,6.187,2026-07-13,2026-07-17,267.53,246.42,320.31,2.5R fixed target,Time Exit,5,-7.056,-0.894
+HIKAL,Relative-strength leader breakout,2026-07-10,90,2.518,1.622,2026-07-13,2026-07-17,248,229.46,294.33,2.5R fixed target,Stop,5,-7.774,-1.04
+KMEW,Relative-strength leader breakout,2026-07-10,65,1.384,1.212,2026-07-13,2026-07-17,2444.88,2205.58,3043.13,2.5R fixed target,Time Exit,5,-1.935,-0.198
+NORTHARC,Relative-strength leader breakout,2026-07-10,82,4.704,3.343,2026-07-13,2026-07-17,328.66,303.71,391.03,2.5R fixed target,Stop,5,-7.892,-1.04
+NYKAA,Relative-strength leader breakout,2026-07-10,71,1.377,1.013,2026-07-13,2026-07-17,331.61,317.23,367.57,2.5R fixed target,Time Exit,5,-2.882,-0.665
+OFSS,Relative-strength leader breakout,2026-07-10,81,1.354,1.35,2026-07-13,2026-07-17,11708.37,10977.81,13534.78,2.5R fixed target,Time Exit,5,0.235,0.038
+SAILIFE,Relative-strength leader breakout,2026-07-10,78,2.493,2.102,2026-07-14,2026-07-20,1289.57,1217.37,1470.07,2.5R fixed target,Time Exit,5,0.276,0.049
+SHREEJISPG,Relative-strength leader breakout,2026-07-10,100,2.655,1.348,2026-07-13,2026-07-17,554.81,526.18,626.37,2.5R fixed target,Time Exit,5,7.179,1.391
+UTLSOLAR,Relative-strength leader breakout,2026-07-10,80,2.671,2.661,2026-07-13,2026-07-16,383.47,355.34,453.78,2.5R fixed target,Stop,4,-7.634,-1.041
+FILATEX,Relative-strength leader breakout,2026-07-13,87,3.608,3.786,2026-07-15,2026-07-21,67.12,61.96,80.05,2.5R fixed target,Time Exit,5,5.921,0.769
+GCSL,Relative-strength leader breakout,2026-07-13,55,0.395,0.607,2026-07-14,2026-07-20,515.88,481.84,600.97,2.5R fixed target,Time Exit,5,0.382,0.058
+IFBIND,Relative-strength leader breakout,2026-07-13,100,4.007,5.302,2026-07-14,2026-07-16,1442.28,1357.73,1653.65,2.5R fixed target,Stop,3,-6.162,-1.051
+LAURUSLABS,Relative-strength leader breakout,2026-07-13,53,0.691,0.711,2026-07-14,2026-07-20,1568.53,1486.58,1773.41,2.5R fixed target,Time Exit,5,-0.914,-0.175
+MAPMYINDIA,Relative-strength leader breakout,2026-07-13,100,3.866,4.232,2026-07-14,2026-07-20,1220.44,1113.42,1487.97,2.5R fixed target,Stop,5,-9.068,-1.034
+NEOGEN,Relative-strength leader breakout,2026-07-13,70,1.517,1.076,2026-07-14,2026-07-20,2169.23,2014.68,2555.6,2.5R fixed target,Time Exit,5,0.316,0.044
+OPTIEMUS,Relative-strength leader breakout,2026-07-13,100,1.672,1.254,2026-07-14,2026-07-20,586.17,535.04,713.98,2.5R fixed target,Time Exit,5,3.254,0.373
+PICCADIL,Relative-strength leader breakout,2026-07-13,100,3.272,3.797,2026-07-14,2026-07-20,724.4,679.8,835.88,2.5R fixed target,Time Exit,5,3.455,0.561
+PNCINFRA,Relative-strength leader breakout,2026-07-13,71,1.136,1.162,2026-07-14,2026-07-20,249.67,237.6,279.83,2.5R fixed target,Time Exit,5,-1.457,-0.301
+GNA,Relative-strength leader breakout,2026-07-14,100,2.397,1.906,2026-07-15,2026-07-20,565,514.51,691.24,2.5R fixed target,Stop,4,-9.237,-1.034
+IPCALAB,Relative-strength leader breakout,2026-07-14,71,1.02,1.009,2026-07-15,2026-07-21,1854.2,1754.85,2102.58,2.5R fixed target,Time Exit,5,-3.277,-0.612
+JBCHEPHARM,Relative-strength leader breakout,2026-07-14,92,3.163,2.434,2026-07-15,2026-07-16,2495.98,2408.61,2714.42,2.5R fixed target,Stop,2,-3.801,-1.086
+JUSTDIAL,Relative-strength leader breakout,2026-07-14,100,21.029,45.607,2026-07-15,2026-07-16,810.62,753.12,954.35,2.5R fixed target,Stop,2,-7.393,-1.042
+SAKAR,Relative-strength leader breakout,2026-07-14,85,3.958,5.909,2026-07-16,2026-07-17,946.29,867.5,1143.27,2.5R fixed target,Stop,2,-8.627,-1.036
+GABRIEL,Relative-strength leader breakout,2026-07-15,94,3.744,5.469,2026-07-16,2026-07-22,1370,1276.86,1602.86,2.5R fixed target,Time Exit,5,3.685,0.542
+KALYANKJIL,Relative-strength leader breakout,2026-07-15,100,1.729,2.057,2026-07-16,2026-07-22,552.1,504.55,670.98,2.5R fixed target,Time Exit,5,7.669,0.89
+MOSCHIP,Relative-strength leader breakout,2026-07-15,100,2.458,2.386,2026-07-16,2026-07-21,252,232.49,300.79,2.5R fixed target,Stop,4,-8.043,-1.039
+SHOPERSTOP,Relative-strength leader breakout,2026-07-15,72,3.664,1.144,2026-07-16,2026-07-22,400.6,368.19,481.63,2.5R fixed target,Time Exit,5,-6.516,-0.805
+AMAGI,Relative-strength leader breakout,2026-07-16,63,0.767,1.013,2026-07-17,2026-07-20,608.21,556.78,736.79,2.5R fixed target,Stop,2,-8.756,-1.035
+BHEL,Relative-strength leader breakout,2026-07-16,80,1.77,3.578,2026-07-17,2026-07-21,445,413.51,523.73,2.5R fixed target,Stop,3,-7.377,-1.042
+CYIENTDLM,Relative-strength leader breakout,2026-07-16,92,3.181,5.561,2026-07-17,2026-07-22,593,538.64,728.9,2.5R fixed target,Target,4,22.618,2.467
+EXIDEIND,Relative-strength leader breakout,2026-07-17,88,2.26,2.839,2026-07-20,2026-07-24,437.42,417.47,487.3,2.5R fixed target,Time Exit,5,0.975,0.214
+RELAXO,Relative-strength leader breakout,2026-07-17,100,9.795,9.101,2026-07-20,2026-07-22,448.3,404.43,557.98,2.5R fixed target,Stop,3,-10.086,-1.031
+BEPL,Relative-strength leader breakout,2026-07-20,100,19.842,101.302,2026-07-21,2026-07-21,133.15,123.49,157.27,2.5R fixed target,Stop,1,-7.549,-1.041
+DYCL,Relative-strength leader breakout,2026-07-20,100,12.022,20.184,2026-07-21,2026-07-22,458.72,417.97,560.57,2.5R fixed target,Stop,2,-9.182,-1.034
+FLUOROCHEM,Relative-strength leader breakout,2026-07-20,62,1.922,1.958,2026-07-21,2026-07-27,4337.86,4114.86,4895.36,2.5R fixed target,Time Exit,5,4.902,0.953
+GANDHAR,Relative-strength leader breakout,2026-07-20,90,4.21,3.077,2026-07-21,2026-07-23,231.7,215.57,272.02,2.5R fixed target,Gap Target,3,17.956,2.58
+HSCL,Relative-strength leader breakout,2026-07-20,54,1.848,1.406,2026-07-21,2026-07-27,788.42,738.44,913.38,2.5R fixed target,Time Exit,5,-0.043,-0.007
+LXCHEM,Relative-strength leader breakout,2026-07-20,100,3.53,3.012,2026-07-21,2026-07-27,180.02,167.7,210.83,2.5R fixed target,Time Exit,5,6.938,1.014
+MUTHOOTMF,Relative-strength leader breakout,2026-07-20,78,1.927,0.778,2026-07-21,2026-07-27,255.51,235.36,305.89,2.5R fixed target,Time Exit,5,-0.488,-0.062
+NAVINFLUOR,Relative-strength leader breakout,2026-07-20,50,1.704,2.045,2026-07-21,2026-07-24,7915.8,7526.86,8888.14,2.5R fixed target,Stop,4,-5.213,-1.061
+RPGLIFE,Relative-strength leader breakout,2026-07-20,92,4.383,3.134,2026-07-21,2026-07-27,3069.73,2793.76,3759.63,2.5R fixed target,Time Exit,5,-4.914,-0.547
+SAREGAMA,Relative-strength leader breakout,2026-07-20,100,4.096,3.622,2026-07-21,2026-07-24,519.59,484.95,606.18,2.5R fixed target,Stop,4,-6.966,-1.045
+SHREEJISPG,Relative-strength leader breakout,2026-07-20,100,1.962,1.339,2026-07-21,2026-07-27,623.14,591.56,702.1,2.5R fixed target,Time Exit,5,1.001,0.197
+SKYGOLD,Relative-strength leader breakout,2026-07-20,88,1.419,1.095,2026-07-21,2026-07-27,667.33,611.91,805.88,2.5R fixed target,Time Exit,5,0.347,0.042
+SOLARINDS,Relative-strength leader breakout,2026-07-20,80,1.482,1.555,2026-07-22,2026-07-28,19163.25,18141.13,21718.56,2.5R fixed target,Stop,5,-5.634,-1.056
+SONACOMS,Relative-strength leader breakout,2026-07-20,81,1.204,1.167,2026-07-21,2026-07-27,723,685.51,816.72,2.5R fixed target,Time Exit,5,-0.59,-0.114
+BLUESTONE,Relative-strength leader breakout,2026-07-21,92,14.623,55.739,2026-07-22,2026-07-28,733.91,676.15,878.34,2.5R fixed target,Time Exit,5,2.88,0.366
+DIACABS,Relative-strength leader breakout,2026-07-21,92,3.291,3.122,2026-07-22,2026-07-28,272,243.96,342.1,2.5R fixed target,Time Exit,5,17.858,1.732
+INDUSINDBK,Relative-strength leader breakout,2026-07-21,72,2.27,2.302,2026-07-22,2026-07-23,1070.94,1023.49,1189.55,2.5R fixed target,Stop,2,-4.73,-1.068
+JINDWORLD,Relative-strength leader breakout,2026-07-21,90,18.465,16.392,2026-07-22,2026-07-23,38.39,34.72,47.56,2.5R fixed target,Stop,2,-9.858,-1.031
+STALLION,Relative-strength leader breakout,2026-07-21,100,4.831,10.706,2026-07-22,2026-07-28,250,227.47,306.31,2.5R fixed target,Time Exit,5,-0.424,-0.047
+CHENNPETRO,Relative-strength leader breakout,2026-07-22,92,1.944,2.24,2026-07-23,2026-07-23,1317.63,1214.32,1575.91,2.5R fixed target,Stop,1,-8.141,-1.038
+HUHTAMAKI,Relative-strength leader breakout,2026-07-22,95,13.548,48.467,2026-07-23,2026-07-28,308.12,284.94,366.06,2.5R fixed target,Stop,4,-7.823,-1.04
+POLYPLEX,Relative-strength leader breakout,2026-07-22,71,1.374,1.773,2026-07-23,2026-07-29,1123.74,1061.05,1280.48,2.5R fixed target,Time Exit,5,-0.535,-0.096
+MPSLTD,Relative-strength leader breakout,2026-07-23,85,5.456,10.245,2026-07-24,2026-07-30,2734.26,2528.13,3249.57,2.5R fixed target,Time Exit,5,-3.374,-0.448
+NILKAMAL,Relative-strength leader breakout,2026-07-23,52,0.848,0.684,2026-07-24,2026-07-30,1689.07,1559.21,2013.73,2.5R fixed target,Time Exit,5,3.509,0.456
+OMNI,Relative-strength leader breakout,2026-07-23,58,1.006,0.785,2026-07-24,2026-07-30,605.21,555.96,728.32,2.5R fixed target,Time Exit,5,-3.54,-0.435
+UJJIVANSFB,Relative-strength leader breakout,2026-07-23,92,5.419,8.338,2026-07-27,2026-07-31,72.38,67.29,85.13,2.5R fixed target,Time Exit,5,-1.177,-0.167
+LOTUSDEV,Relative-strength leader breakout,2026-07-24,100,4.529,5.145,2026-07-27,2026-07-31,182.74,170.17,214.18,2.5R fixed target,Time Exit,5,9.211,1.339
+SGMART,Relative-strength leader breakout,2026-07-24,100,2.606,1.397,2026-07-27,2026-07-31,719.44,647.77,898.61,2.5R fixed target,Time Exit,5,-3.37,-0.338
+TFCILTD,Relative-strength leader breakout,2026-07-24,84,2.388,3.211,2026-07-27,2026-07-31,89,80.71,109.72,2.5R fixed target,Time Exit,5,14.161,1.521
+BLSE,Relative-strength leader breakout,2026-07-27,72,1.126,1.083,2026-07-29,2026-08-04,293.59,271.87,347.87,2.5R fixed target,Time Exit,5,2.379,0.322
+COSMOFIRST,Relative-strength leader breakout,2026-07-27,100,1.554,1.357,2026-07-28,2026-08-03,921.64,866.82,1058.69,2.5R fixed target,Time Exit,5,-1.557,-0.262
+LAURUSLABS,Relative-strength leader breakout,2026-07-27,84,2.055,3.282,2026-07-28,2026-08-03,1737.97,1658.43,1936.81,2.5R fixed target,Time Exit,5,3.925,0.858
+MANAPPURAM,Relative-strength leader breakout,2026-07-27,93,1.252,0.951,2026-07-28,2026-08-03,362.22,344.43,406.71,2.5R fixed target,Time Exit,5,0.467,0.095
+MEDANTA,Relative-strength leader breakout,2026-07-27,90,1.67,1.799,2026-07-28,2026-07-31,1416.5,1354.3,1572.01,2.5R fixed target,Stop,4,-4.691,-1.068
+SJS,Relative-strength leader breakout,2026-07-27,84,1.83,1.71,2026-07-28,2026-07-28,2438.87,2312.02,2755.99,2.5R fixed target,Stop,1,-5.501,-1.058
+COFORGE,Relative-strength leader breakout,2026-07-28,100,4.001,5.309,2026-07-29,2026-08-04,1720,1596.59,2028.54,2.5R fixed target,Time Exit,5,1.438,0.2
+CUPID,Relative-strength leader breakout,2026-07-28,68,1.825,0.948,2026-07-29,2026-08-04,233.8,213.18,285.35,2.5R fixed target,Time Exit,5,1.492,0.169
+ETERNAL,Relative-strength leader breakout,2026-07-28,74,1.869,1.796,2026-07-29,2026-08-04,310.62,291.82,357.62,2.5R fixed target,Time Exit,5,0.273,0.045
+HEXT,Relative-strength leader breakout,2026-07-28,55,1.792,8.519,2026-07-29,2026-07-30,621.04,577.71,729.37,2.5R fixed target,Stop,2,-7.277,-1.043
+KALYANKJIL,Relative-strength leader breakout,2026-07-28,81,1.225,0.828,2026-07-29,2026-08-04,612.22,561.33,739.46,2.5R fixed target,Time Exit,5,-3.701,-0.445
+LODHA,Relative-strength leader breakout,2026-07-28,88,2.626,3.511,2026-07-29,2026-08-04,1319.03,1224.05,1556.5,2.5R fixed target,Time Exit,5,-7.065,-0.981
+LXCHEM,Relative-strength leader breakout,2026-07-28,100,1.854,1.57,2026-07-29,2026-07-30,197.44,181.79,236.55,2.5R fixed target,Stop,2,-8.224,-1.038
+NAUKRI,Relative-strength leader breakout,2026-07-28,81,1.355,1.256,2026-07-29,2026-08-04,1255.06,1196.05,1402.57,2.5R fixed target,Time Exit,5,0.094,0.02
+RADICO,Relative-strength leader breakout,2026-07-28,92,2.369,4.207,2026-07-29,2026-08-04,4358.7,4186.23,4789.89,2.5R fixed target,Time Exit,5,1.795,0.454
+SAILIFE,Relative-strength leader breakout,2026-07-28,83,1.277,1.049,2026-07-29,2026-08-04,1308.11,1244.44,1467.3,2.5R fixed target,Time Exit,5,4.156,0.854
+SAREGAMA,Relative-strength leader breakout,2026-07-28,100,3.085,2.38,2026-07-29,2026-08-04,532.06,494.74,625.36,2.5R fixed target,Stop,5,-7.314,-1.043
+UNIVCABLES,Relative-strength leader breakout,2026-07-28,92,4.727,3.844,2026-07-29,2026-08-04,1340.68,1237.05,1599.74,2.5R fixed target,Time Exit,5,6.191,0.801
+CRAFTSMAN,Relative-strength leader breakout,2026-07-29,100,7.216,10.561,2026-07-30,2026-07-30,10057.07,9593.14,11216.92,2.5R fixed target,Stop,1,-4.913,-1.065
+DIACABS,Relative-strength leader breakout,2026-07-29,100,1.753,0.972,2026-07-30,2026-08-03,342,306.09,431.77,2.5R fixed target,Time Exit,3,-5.899,-0.562
+FSL,Relative-strength leader breakout,2026-07-29,92,8.253,31.921,2026-07-30,2026-08-05,299.1,279.33,348.52,2.5R fixed target,Time Exit,5,13.192,1.996
+GSPCROP,Relative-strength leader breakout,2026-07-29,88,1.73,1.511,2026-07-30,2026-08-05,592.93,536.23,734.7,2.5R fixed target,Time Exit,5,-0.238,-0.025
+IIFL,Relative-strength leader breakout,2026-07-29,55,1.277,1.103,2026-07-30,2026-08-05,603.5,567.86,692.61,2.5R fixed target,Time Exit,5,0.809,0.137
+JSFB,Relative-strength leader breakout,2026-07-29,88,3.506,2.586,2026-07-31,2026-08-06,582.16,536.74,695.71,2.5R fixed target,Time Exit,5,-3.944,-0.505
+M&MFIN,Relative-strength leader breakout,2026-07-29,94,2.379,1.186,2026-07-30,2026-08-05,396.79,367.28,470.57,2.5R fixed target,Time Exit,5,0.105,0.014
+OPTIEMUS,Relative-strength leader breakout,2026-07-29,63,0.708,0.572,2026-07-31,2026-08-05,631.66,589.87,736.14,2.5R fixed target,Stop,4,-6.916,-1.045
+PPLPHARMA,Relative-strength leader breakout,2026-07-29,95,2.022,1.516,2026-07-30,2026-08-05,201.4,188.68,233.21,2.5R fixed target,Time Exit,5,2.37,0.375
+ATALREAL,Relative-strength leader breakout,2026-07-30,51,1.142,2.091,2026-07-31,2026-08-06,33.4,31.12,39.11,2.5R fixed target,Time Exit,5,3.413,0.499
+RAINBOW,Relative-strength leader breakout,2026-07-30,80,1.703,1.749,2026-07-31,2026-07-31,1538.07,1473.23,1700.16,2.5R fixed target,Stop,1,-4.516,-1.071
+REDINGTON,Relative-strength leader breakout,2026-07-30,87,7.89,23.313,2026-08-03,2026-08-07,339.18,317.67,392.94,2.5R fixed target,Time Exit,5,4.321,0.681
+RPTECH,Relative-strength leader breakout,2026-07-30,82,2.826,3.836,2026-08-03,2026-08-07,843.68,778.23,1007.31,2.5R fixed target,Time Exit,5,5.741,0.74
+SHREEJISPG,Relative-strength leader breakout,2026-07-30,63,0.479,0.573,2026-07-31,2026-08-06,648.29,617.14,726.17,2.5R fixed target,Time Exit,5,3.557,0.74
+SMLMAH,Relative-strength leader breakout,2026-07-30,100,10.154,15.509,2026-07-31,2026-08-06,5550,5028.41,6853.98,2.5R fixed target,Time Exit,5,1.907,0.203
+SONACOMS,Relative-strength leader breakout,2026-07-30,70,1.782,2.609,2026-07-31,2026-08-06,769.95,730.4,868.81,2.5R fixed target,Time Exit,5,2.564,0.499
+TVSMOTOR,Relative-strength leader breakout,2026-07-30,100,3.354,2.476,2026-07-31,2026-08-06,4227.44,4037.7,4701.78,2.5R fixed target,Time Exit,5,3.191,0.711
+ZEEL,Relative-strength leader breakout,2026-07-30,78,2.099,1.275,2026-07-31,2026-08-03,113.93,106.25,133.11,2.5R fixed target,Gap Stop,2,-9.892,-1.468
+63MOONS,Relative-strength leader breakout,2026-07-31,100,7.832,15.252,2026-08-03,2026-08-04,951.9,875.45,1143.02,2.5R fixed target,Stop,2,-8.331,-1.037
+CONCORDBIO,Relative-strength leader breakout,2026-07-31,76,5.37,5.79,2026-08-03,2026-08-07,1444.4,1355.66,1666.25,2.5R fixed target,Time Exit,5,-5.797,-0.944
+DIVISLAB,Relative-strength leader breakout,2026-07-31,100,1.832,1.635,2026-08-03,2026-08-07,8380,7788.87,9857.83,2.5R fixed target,Time Exit,5,-1.553,-0.22
+FERMENTA,Relative-strength leader breakout,2026-07-31,88,1.825,1.135,2026-08-03,2026-08-07,508.87,459.48,632.33,2.5R fixed target,Time Exit,5,9.867,1.017
+NAZARA,Relative-strength leader breakout,2026-07-31,90,6.489,9.148,2026-08-03,2026-08-07,344.95,327.56,388.43,2.5R fixed target,Time Exit,5,1.845,0.366
+QUESS,Relative-strength leader breakout,2026-07-31,59,10.306,37.343,2026-08-03,2026-08-04,348.04,326.65,401.53,2.5R fixed target,Stop,2,-6.447,-1.049
+SSWL,Relative-strength leader breakout,2026-07-31,60,1.54,0.705,2026-08-03,2026-08-07,328.4,288.83,427.32,2.5R fixed target,Time Exit,5,-6.36,-0.528
+ACE,Relative-strength leader breakout,2026-08-03,78,1.889,1.154,2026-08-04,2026-08-10,1117.03,1043.1,1301.84,2.5R fixed target,Time Exit,5,-0.607,-0.092
+ASKAUTOLTD,Relative-strength leader breakout,2026-08-03,94,3.162,3.239,2026-08-05,2026-08-06,579.11,546.83,659.79,2.5R fixed target,Target,2,13.633,2.446
+CONFIPET,Relative-strength leader breakout,2026-08-03,100,2.769,2.18,2026-08-04,2026-08-10,84.79,77.66,102.61,2.5R fixed target,Time Exit,5,-2.718,-0.323
+CRAFTSMAN,Relative-strength leader breakout,2026-08-03,85,1.176,1.213,2026-08-05,2026-08-11,10420.8,9829.3,11899.55,2.5R fixed target,Time Exit,5,-1.517,-0.267
+DEEPINDS,Relative-strength leader breakout,2026-08-03,92,4.983,5.642,2026-08-04,2026-08-10,656.31,600.61,795.56,2.5R fixed target,Time Exit,5,-1.574,-0.185
+GABRIEL,Relative-strength leader breakout,2026-08-03,88,1.431,1.037,2026-08-04,2026-08-10,1545.08,1406.8,1890.8,2.5R fixed target,Time Exit,5,-5.172,-0.578
+MOTHERSON,Relative-strength leader breakout,2026-08-03,76,1.441,1.112,2026-08-04,2026-08-04,155.32,148.74,171.77,2.5R fixed target,Stop,1,-4.536,-1.071
+NYKAA,Relative-strength leader breakout,2026-08-03,67,1.102,1.118,2026-08-05,2026-08-05,348,332.66,386.34,2.5R fixed target,Stop,1,-4.707,-1.068
+PAYTM,Relative-strength leader breakout,2026-08-03,72,1.797,2.202,2026-08-05,2026-08-11,1440.48,1355.98,1651.73,2.5R fixed target,Time Exit,5,10.337,1.762
+PRICOLLTD,Relative-strength leader breakout,2026-08-03,100,3.234,2.734,2026-08-04,2026-08-10,741.48,699.3,846.93,2.5R fixed target,Time Exit,5,-1.471,-0.259
+RAIN,Relative-strength leader breakout,2026-08-03,50,1.268,1.057,2026-08-04,2026-08-10,233.84,217.64,274.34,2.5R fixed target,Stop,5,-7.228,-1.043
+RAINBOW,Relative-strength leader breakout,2026-08-03,95,2.331,1.939,2026-08-04,2026-08-10,1577.95,1507.01,1755.29,2.5R fixed target,Time Exit,5,-2.794,-0.621
+SJS,Relative-strength leader breakout,2026-08-03,72,1.762,1.589,2026-08-04,2026-08-07,2503.9,2369.02,2841.09,2.5R fixed target,Stop,4,-5.687,-1.056
+SONATSOFTW,Relative-strength leader breakout,2026-08-03,92,3.736,1.849,2026-08-04,2026-08-07,349.15,323.18,414.05,2.5R fixed target,Stop,4,-7.736,-1.04
+TBOTEK,Relative-strength leader breakout,2026-08-03,69,1.924,4.814,2026-08-05,2026-08-11,1680.96,1586.12,1918.05,2.5R fixed target,Time Exit,5,-2.754,-0.488
+TFCILTD,Relative-strength leader breakout,2026-08-03,83,1.076,0.885,2026-08-04,2026-08-10,107.46,99.83,126.56,2.5R fixed target,Time Exit,5,6.917,0.973
+WELCORP,Relative-strength leader breakout,2026-08-03,63,0.651,0.491,2026-08-04,2026-08-10,1725.34,1630.13,1963.38,2.5R fixed target,Time Exit,5,6.838,1.239
+YASHO,Relative-strength leader breakout,2026-08-03,77,7.089,13.753,2026-08-04,2026-08-10,4231.75,3859.17,5163.18,2.5R fixed target,Time Exit,5,-1.019,-0.116
+ALIVUS,Relative-strength leader breakout,2026-08-04,92,6.696,12.203,2026-08-06,2026-08-12,1360.72,1271.33,1584.18,2.5R fixed target,Time Exit,5,-0.279,-0.042
+ATHERENERG,Relative-strength leader breakout,2026-08-04,92,4.414,5.089,2026-08-06,2026-08-12,1503,1392.99,1778.03,2.5R fixed target,Time Exit,5,4.118,0.563
+GRWRHITECH,Relative-strength leader breakout,2026-08-04,94,1.57,1.625,2026-08-05,2026-08-07,7390,6985.73,8400.67,2.5R fixed target,Stop,3,-5.77,-1.055
+LAURUSLABS,Relative-strength leader breakout,2026-08-04,75,0.93,0.621,2026-08-05,2026-08-11,1854,1772.59,2057.53,2.5R fixed target,Time Exit,5,-0.084,-0.019
+UNIMECH,Relative-strength leader breakout,2026-08-04,95,6.113,9.137,2026-08-06,2026-08-12,1380.66,1272.87,1650.12,2.5R fixed target,Time Exit,5,2.441,0.313
+VIMTALABS,Relative-strength leader breakout,2026-08-04,62,1.562,0.606,2026-08-05,2026-08-11,649.3,593.87,787.86,2.5R fixed target,Time Exit,5,-1.231,-0.144
+BLSE,Relative-strength leader breakout,2026-08-05,90,2.241,1.16,2026-08-06,2026-08-12,320.64,296.95,379.87,2.5R fixed target,Time Exit,5,-1.544,-0.209
+COFORGE,Relative-strength leader breakout,2026-08-05,69,0.902,0.648,2026-08-06,2026-08-12,1813.9,1687.49,2129.93,2.5R fixed target,Time Exit,5,-0.984,-0.141
+EXIDEIND,Relative-strength leader breakout,2026-08-05,87,1.425,1.29,2026-08-07,2026-08-13,479.71,448.43,557.89,2.5R fixed target,Time Exit,5,0.908,0.139
+FILATEX,Relative-strength leader breakout,2026-08-05,90,1.482,1.005,2026-08-06,2026-08-12,82.61,75.62,100.09,2.5R fixed target,Time Exit,5,0.541,0.064
+HAPPYFORGE,Relative-strength leader breakout,2026-08-05,100,4.648,4.878,2026-08-06,2026-08-12,1860,1723.46,2201.36,2.5R fixed target,Time Exit,5,8.447,1.151
+JGCHEM,Relative-strength leader breakout,2026-08-05,100,6.331,5.562,2026-08-06,2026-08-12,554.61,510.04,666.03,2.5R fixed target,Time Exit,5,8.912,1.109
+KERNEX,Relative-strength leader breakout,2026-08-05,80,2.174,1.828,2026-08-06,2026-08-10,2572.13,2379.25,3054.35,2.5R fixed target,Stop,3,-7.799,-1.04
+MOREPENLAB,Relative-strength leader breakout,2026-08-05,100,8.512,11.33,2026-08-06,2026-08-12,78.41,71.92,94.63,2.5R fixed target,Time Exit,5,-6.609,-0.799
+MPSLTD,Relative-strength leader breakout,2026-08-05,71,1.119,0.464,2026-08-07,2026-08-13,2895.78,2622.62,3578.69,2.5R fixed target,Time Exit,5,-5.11,-0.542
+NRBBEARING,Relative-strength leader breakout,2026-08-05,92,5.873,5.096,2026-08-06,2026-08-12,465.73,433.58,546.1,2.5R fixed target,Time Exit,5,-1.176,-0.17
+OMNI,Relative-strength leader breakout,2026-08-05,90,13.766,28.996,2026-08-06,2026-08-06,752.1,671.09,954.62,2.5R fixed target,Stop,1,-11.071,-1.028
+SAILIFE,Relative-strength leader breakout,2026-08-05,53,0.93,0.9,2026-08-06,2026-08-07,1400.8,1340.32,1551.98,2.5R fixed target,Stop,2,-4.617,-1.069
+SHILPAMED,Relative-strength leader breakout,2026-08-05,92,9.092,28.25,2026-08-06,2026-08-12,755.36,706.28,878.05,2.5R fixed target,Time Exit,5,6.299,0.969
+SOTL,Relative-strength leader breakout,2026-08-05,78,2.286,1.481,2026-08-06,2026-08-12,774,626.65,1142.37,2.5R fixed target,Time Exit,5,-10.39,-0.546
+SUDEEPPHRM,Relative-strength leader breakout,2026-08-05,82,6.021,8.538,2026-08-06,2026-08-12,973.75,878.87,1210.96,2.5R fixed target,Time Exit,5,13.05,1.339
+UFBL,Relative-strength leader breakout,2026-08-05,95,1.708,0.861,2026-08-06,2026-08-11,790.85,706.94,1000.63,2.5R fixed target,Time Exit,4,2.254,0.212
+UNIPARTS,Relative-strength leader breakout,2026-08-05,92,5.821,9.281,2026-08-06,2026-08-12,813.62,759.26,949.53,2.5R fixed target,Time Exit,5,-0.309,-0.046
+DECNGOLD,Relative-strength leader breakout,2026-08-06,90,8.568,15.996,2026-08-07,2026-08-07,232.46,215.9,273.88,2.5R fixed target,Stop,1,-7.426,-1.042
+EMIL,Relative-strength leader breakout,2026-08-06,85,2.295,3.899,2026-08-07,2026-08-10,153.31,142.22,181.02,2.5R fixed target,Target,2,17.779,2.459
+HLEGLAS,Relative-strength leader breakout,2026-08-06,100,5.966,4.073,2026-08-07,2026-08-11,466.93,433.91,549.48,2.5R fixed target,Gap Stop,3,-19.003,-2.687
+MARINE,Relative-strength leader breakout,2026-08-06,100,3.831,2.736,2026-08-07,2026-08-13,324.55,298.24,390.33,2.5R fixed target,Time Exit,5,14.075,1.736
+NEULANDLAB,Relative-strength leader breakout,2026-08-06,77,13.771,26.986,2026-08-07,2026-08-13,22534.98,21202.48,25866.23,2.5R fixed target,Time Exit,5,2.682,0.454
+PGIL,Relative-strength leader breakout,2026-08-06,100,4.852,7.896,2026-08-07,2026-08-13,2252.6,2108.73,2612.25,2.5R fixed target,Time Exit,5,9.125,1.429
+SANSERA,Relative-strength leader breakout,2026-08-06,51,1.433,1.425,2026-08-07,2026-08-11,3877.74,3640.88,4469.9,2.5R fixed target,Stop,3,-6.408,-1.049
+SUDARSCHEM,Relative-strength leader breakout,2026-08-06,94,2.512,1.892,2026-08-07,2026-08-12,1136.77,1064.28,1318,2.5R fixed target,Stop,4,-6.677,-1.047
+SUNDRMFAST,Relative-strength leader breakout,2026-08-06,60,5.359,5.032,2026-08-07,2026-08-11,1096.79,1051.04,1211.16,2.5R fixed target,Target,3,10.128,2.428
+TATATECH,Relative-strength leader breakout,2026-08-06,100,6.087,9.075,2026-08-07,2026-08-13,807.36,761.62,921.72,2.5R fixed target,Time Exit,5,7.26,1.281
+VARROC,Relative-strength leader breakout,2026-08-06,85,3.306,4.002,2026-08-07,2026-08-07,758.96,717.93,861.54,2.5R fixed target,Stop,1,-5.706,-1.055
+ARVIND,Relative-strength leader breakout,2026-08-07,57,1.273,1.297,2026-08-10,2026-08-13,563.22,534.39,635.3,2.5R fixed target,Gap Stop,4,-5.817,-1.136
+AVALON,Relative-strength leader breakout,2026-08-07,92,3.433,5.4,2026-08-10,2026-08-14,2002,1836.05,2416.87,2.5R fixed target,Time Exit,5,-3.357,-0.405
+LLOYDSENGG,Relative-strength leader breakout,2026-08-07,82,3.849,5.436,2026-08-10,2026-08-14,97.8,90.29,116.57,2.5R fixed target,Time Exit,5,-4.661,-0.607
+MOTHERSON,Relative-strength leader breakout,2026-08-07,100,4.23,6.892,2026-08-10,2026-08-14,170.14,160.66,193.84,2.5R fixed target,Time Exit,5,-1.381,-0.248
+RKFORGE,Relative-strength leader breakout,2026-08-07,63,0.724,0.611,2026-08-10,2026-08-14,730.46,684.13,846.27,2.5R fixed target,Time Exit,5,-0.007,-0.001
+SAPPHIRE,Relative-strength leader breakout,2026-08-07,100,5.091,9.236,2026-08-11,2026-08-17,230.26,210.75,279.03,2.5R fixed target,Time Exit,5,1.62,0.191
+SBCL,Relative-strength leader breakout,2026-08-07,92,10.4,23.366,2026-08-10,2026-08-10,928,860.05,1097.86,2.5R fixed target,Target,1,18.004,2.459
+SKYGOLD,Relative-strength leader breakout,2026-08-07,70,2.537,2.204,2026-08-10,2026-08-14,775,679.2,1014.5,2.5R fixed target,Time Exit,5,-0.506,-0.041
+STYL,Relative-strength leader breakout,2026-08-07,88,2.154,1.932,2026-08-10,2026-08-14,411.85,373.01,508.95,2.5R fixed target,Time Exit,5,-1.162,-0.123
+AKUMS,Relative-strength leader breakout,2026-08-10,85,4.88,9.52,2026-08-11,2026-08-17,758.36,719.73,854.96,2.5R fixed target,Stop,5,-5.395,-1.059
+BECTORFOOD,Relative-strength leader breakout,2026-08-10,80,1.695,0.713,2026-08-11,2026-08-17,238.17,221.42,280.04,2.5R fixed target,Time Exit,5,6.894,0.98
+CHOICEIN,Relative-strength leader breakout,2026-08-10,58,0.814,0.787,2026-08-11,2026-08-11,851.7,826.06,915.81,2.5R fixed target,Stop,1,-3.311,-1.1
+GLAND,Relative-strength leader breakout,2026-08-10,84,1.843,1.635,2026-08-11,2026-08-17,2845.5,2558.02,3564.2,2.5R fixed target,Time Exit,5,1.974,0.195
+LENSKART,Relative-strength leader breakout,2026-08-10,81,1.337,1.267,2026-08-12,2026-08-18,593.18,567.32,657.86,2.5R fixed target,Time Exit,5,5.637,1.293
+NAUKRI,Relative-strength leader breakout,2026-08-10,88,2.547,3.423,2026-08-11,2026-08-17,1301.1,1234.68,1467.14,2.5R fixed target,Time Exit,5,3.904,0.765
+PANAMAPET,Relative-strength leader breakout,2026-08-10,92,1.919,1.32,2026-08-11,2026-08-12,540,487.96,670.09,2.5R fixed target,Stop,2,-9.936,-1.031
+SEDEMAC,Relative-strength leader breakout,2026-08-10,67,7.955,6.398,2026-08-11,2026-08-17,3005,2780.46,3566.34,2.5R fixed target,Time Exit,5,7.527,1.007
+SYRMA,Relative-strength leader breakout,2026-08-10,100,3.558,2.804,2026-08-11,2026-08-17,1525.04,1420.42,1786.61,2.5R fixed target,Time Exit,5,-4.047,-0.59
+TITAN,Relative-strength leader breakout,2026-08-10,100,2.638,4.673,2026-08-11,2026-08-17,5132.44,4960.46,5562.41,2.5R fixed target,Time Exit,5,-1.546,-0.461
+UNIVCABLES,Relative-strength leader breakout,2026-08-10,100,10.098,13.74,2026-08-11,2026-08-17,1715,1546.77,2135.56,2.5R fixed target,Time Exit,5,0.26,0.026
+CUPID,Relative-strength leader breakout,2026-08-11,60,1.409,1.113,2026-08-12,2026-08-17,281,259.03,335.92,2.5R fixed target,Stop,4,-8.118,-1.038
+DEEPINDS,Relative-strength leader breakout,2026-08-11,73,1.386,0.876,2026-08-12,2026-08-18,681.36,618.74,837.91,2.5R fixed target,Time Exit,5,5.07,0.552
+INDSWFTLAB,Relative-strength leader breakout,2026-08-11,92,10.692,20.074,2026-08-12,2026-08-18,302.9,261.53,406.34,2.5R fixed target,Time Exit,5,14.216,1.041
+KSHINTL,Relative-strength leader breakout,2026-08-11,59,8.973,14.272,2026-08-12,2026-08-12,1047.59,974.84,1229.47,2.5R fixed target,Stop,1,-7.245,-1.043
+SETL,Relative-strength leader breakout,2026-08-11,66,4.934,3.997,2026-08-12,2026-08-18,301.9,275.74,367.3,2.5R fixed target,Time Exit,5,2.002,0.231
+VARROC,Relative-strength leader breakout,2026-08-11,83,1.366,0.789,2026-08-12,2026-08-18,856.36,795.28,1009.06,2.5R fixed target,Time Exit,5,-1.755,-0.246
+BOSCHLTD,Relative-strength leader breakout,2026-08-12,100,2.572,2.756,2026-08-13,2026-08-19,46828.47,44789.1,51926.91,2.5R fixed target,Time Exit,5,3.184,0.731
+EMIL,Relative-strength leader breakout,2026-08-12,100,1.593,2.514,2026-08-13,2026-08-19,195.39,177.3,240.62,2.5R fixed target,Time Exit,5,-2.424,-0.262
+MARKSANS,Relative-strength leader breakout,2026-08-12,92,9.879,35.831,2026-08-14,2026-08-14,320.64,300.89,370.01,2.5R fixed target,Stop,1,-6.46,-1.049
+PRICOLLTD,Relative-strength leader breakout,2026-08-12,88,1.617,1.922,2026-08-14,2026-08-20,794.14,742.73,922.65,2.5R fixed target,Time Exit,5,0.898,0.139
+TI,Relative-strength leader breakout,2026-08-12,100,2.184,1.864,2026-08-13,2026-08-19,540.08,504.92,627.97,2.5R fixed target,Time Exit,5,5.953,0.915
+AZAD,Relative-strength leader breakout,2026-08-13,92,3.259,3.701,2026-08-14,2026-08-20,2694.38,2510.89,3153.1,2.5R fixed target,Time Exit,5,2.38,0.35
+CNL,Relative-strength leader breakout,2026-08-13,71,1.344,0.265,2026-08-14,2026-08-20,1251.4,1138.65,1533.27,2.5R fixed target,Time Exit,5,-0.56,-0.062
+NELCO,Relative-strength leader breakout,2026-08-13,92,3.42,2.727,2026-08-14,2026-08-18,1057.11,970.42,1273.84,2.5R fixed target,Stop,3,-8.501,-1.037
+PARAS,Relative-strength leader breakout,2026-08-13,100,2.929,1.856,2026-08-14,2026-08-20,1356.81,1265.67,1584.65,2.5R fixed target,Time Exit,5,10.401,1.548
+PAYTM,Relative-strength leader breakout,2026-08-13,59,0.745,0.633,2026-08-14,2026-08-18,1652.8,1560.3,1884.05,2.5R fixed target,Stop,3,-5.897,-1.054
+RAYMOND,Relative-strength leader breakout,2026-08-13,100,2.169,1.93,2026-08-17,2026-08-21,646.69,607.83,743.83,2.5R fixed target,Time Exit,5,-0.848,-0.141
+SGMART,Relative-strength leader breakout,2026-08-13,88,1.442,1.28,2026-08-14,2026-08-20,757.4,715.68,861.7,2.5R fixed target,Time Exit,5,6.011,1.091
+TMCV,Relative-strength leader breakout,2026-08-13,95,2.449,3.057,2026-08-14,2026-08-20,485.97,460.95,548.52,2.5R fixed target,Time Exit,5,-2.022,-0.393
+WEL,Relative-strength leader breakout,2026-08-13,82,2.449,0.882,2026-08-14,2026-08-20,144.04,130.42,178.08,2.5R fixed target,Time Exit,5,-5.852,-0.619
+WELCORP,Relative-strength leader breakout,2026-08-13,63,0.894,0.624,2026-08-14,2026-08-20,1889.8,1811.57,2085.38,2.5R fixed target,Time Exit,5,5.806,1.403
+HAPPYFORGE,Relative-strength leader breakout,2026-08-14,100,2.412,1.917,2026-08-17,2026-08-21,2131.2,1966.53,2542.86,2.5R fixed target,Time Exit,5,3.482,0.451
+MANORAMA,Relative-strength leader breakout,2026-08-14,77,16.971,60.176,2026-08-17,2026-08-17,1871.74,1760.11,2150.8,2.5R fixed target,Stop,1,-6.264,-1.05
+MOL,Relative-strength leader breakout,2026-08-14,100,3.355,4.085,2026-08-17,2026-08-21,63.99,58.46,77.82,2.5R fixed target,Time Exit,5,-6.129,-0.709
+MUNJALAU,Relative-strength leader breakout,2026-08-14,85,8.773,10.242,2026-08-17,2026-08-18,125.48,118.06,144.04,2.5R fixed target,Stop,2,-6.216,-1.051
+AVADHSUGAR,Relative-strength leader breakout,2026-08-17,100,3.78,2.424,2026-08-18,2026-08-24,738,665.27,919.82,2.5R fixed target,Time Exit,5,12.464,1.265
+AVALON,Relative-strength leader breakout,2026-08-17,80,2.286,2.1,2026-08-18,2026-08-24,2085.16,1915,2510.57,2.5R fixed target,Time Exit,5,1.342,0.164
+CONCORDBIO,Relative-strength leader breakout,2026-08-17,100,3.404,3.681,2026-08-18,2026-08-24,1538.97,1434.2,1800.91,2.5R fixed target,Time Exit,5,-0.272,-0.04
+CYIENTDLM,Relative-strength leader breakout,2026-08-17,59,0.994,0.489,2026-08-18,2026-08-24,744.49,687.7,886.44,2.5R fixed target,Time Exit,5,-1.46,-0.191
+DECNGOLD,Relative-strength leader breakout,2026-08-17,82,2.293,1.383,2026-08-18,2026-08-24,244.29,222.42,298.96,2.5R fixed target,Time Exit,5,1.06,0.118
+NRBBEARING,Relative-strength leader breakout,2026-08-17,88,1.981,1.834,2026-08-18,2026-08-24,487.97,448.26,587.26,2.5R fixed target,Time Exit,5,-1.739,-0.214
+RATNAVEER,Relative-strength leader breakout,2026-08-17,92,2.404,1.655,2026-08-18,2026-08-24,248.15,224.45,307.39,2.5R fixed target,Time Exit,5,9.039,0.946
+RISHABH,Relative-strength leader breakout,2026-08-17,92,6.028,6.364,2026-08-18,2026-08-24,700.15,646,835.52,2.5R fixed target,Time Exit,5,-0.385,-0.05
+RUBICON,Relative-strength leader breakout,2026-08-17,92,9.536,14.443,2026-08-18,2026-08-24,1811.62,1692.55,2109.27,2.5R fixed target,Time Exit,5,-2.26,-0.344
+TDPOWERSYS,Relative-strength leader breakout,2026-08-17,100,1.5,1.417,2026-08-18,2026-08-24,1572.94,1421.8,1950.78,2.5R fixed target,Gap Stop,5,-51.029,-5.311
+TFCILTD,Relative-strength leader breakout,2026-08-17,83,1.442,2.367,2026-08-19,2026-08-25,127.25,120.17,144.97,2.5R fixed target,Time Exit,5,7.374,1.325
+UFLEX,Relative-strength leader breakout,2026-08-17,92,11.476,4.635,2026-08-18,2026-08-24,615,553.07,769.84,2.5R fixed target,Time Exit,5,0.383,0.038
+UTLSOLAR,Relative-strength leader breakout,2026-08-17,90,3.964,4.374,2026-08-18,2026-08-24,468.8,429.04,568.19,2.5R fixed target,Time Exit,5,-2.209,-0.261
+ACE,Relative-strength leader breakout,2026-08-18,88,2.614,2.161,2026-08-19,2026-08-25,1190.7,1119.73,1368.14,2.5R fixed target,Time Exit,5,-3.315,-0.556
+ASIANENE,Relative-strength leader breakout,2026-08-18,92,4.791,6.829,2026-08-19,2026-08-25,466.03,424.21,570.58,2.5R fixed target,Time Exit,5,-3.439,-0.383
+GLAXO,Relative-strength leader breakout,2026-08-18,100,7.414,6.992,2026-08-19,2026-08-25,2924.84,2792.25,3256.31,2.5R fixed target,Time Exit,5,1.018,0.225
+JYOTICNC,Relative-strength leader breakout,2026-08-18,62,3.752,5.213,2026-08-19,2026-08-25,949.8,877.58,1130.34,2.5R fixed target,Time Exit,5,3.928,0.517
+NETWEB,Relative-strength leader breakout,2026-08-18,100,1.401,1.671,2026-08-20,2026-08-26,5407.19,5000.36,6424.29,2.5R fixed target,Time Exit,5,-2.802,-0.372
+TBOTEK,Relative-strength leader breakout,2026-08-18,55,1.332,1.081,2026-08-19,2026-08-25,1728.95,1607.23,2033.26,2.5R fixed target,Time Exit,5,-0.523,-0.074
+BOSCH-HCIL,Relative-strength leader breakout,2026-08-19,71,1.138,0.893,2026-08-20,2026-08-26,1779,1638.1,2131.24,2.5R fixed target,Time Exit,5,-4.426,-0.559
+FCL,Relative-strength leader breakout,2026-08-19,52,1.629,1.89,2026-08-21,2026-08-27,46.29,42.32,56.21,2.5R fixed target,Time Exit,5,4.447,0.519
+RGL,Relative-strength leader breakout,2026-08-19,90,1.604,1.298,2026-08-20,2026-08-26,131.26,118.72,162.62,2.5R fixed target,Time Exit,5,15.941,1.668
+RRKABEL,Relative-strength leader breakout,2026-08-19,61,1.127,0.842,2026-08-21,2026-08-27,2926.74,2768.9,3321.34,2.5R fixed target,Time Exit,5,-3.602,-0.668
+THELEELA,Relative-strength leader breakout,2026-08-19,85,2.394,2.559,2026-08-20,2026-08-26,542.88,507.78,630.65,2.5R fixed target,Time Exit,5,1.527,0.236
+BLACKBUCK,Relative-strength leader breakout,2026-08-20,92,3.016,1.952,2026-08-21,2026-08-24,636.27,603.07,719.27,2.5R fixed target,Stop,2,-5.518,-1.057
+COFORGE,Relative-strength leader breakout,2026-08-20,88,1.565,1.215,2026-08-24,2026-08-28,1892.28,1816.38,2082.03,2.5R fixed target,Time Exit,5,6.164,1.537
+DEVYANI,Relative-strength leader breakout,2026-08-20,88,1.518,0.869,2026-08-21,2026-08-27,148.3,137.97,174.1,2.5R fixed target,Time Exit,5,-1.774,-0.255
+DHAMPURSUG,Relative-strength leader breakout,2026-08-20,92,7.124,9.042,2026-08-24,2026-08-24,193.28,176.6,234.96,2.5R fixed target,Stop,1,-8.926,-1.035
+DIXON,Relative-strength leader breakout,2026-08-20,92,2.289,1.922,2026-08-24,2026-08-28,15000,14368.16,16579.61,2.5R fixed target,Time Exit,5,-2.633,-0.625
+EPL,Relative-strength leader breakout,2026-08-20,90,3.974,3.96,2026-08-21,2026-08-26,273.55,257.26,314.25,2.5R fixed target,Stop,4,-6.252,-1.05
+ETERNAL,Relative-strength leader breakout,2026-08-20,94,1.744,1.19,2026-08-21,2026-08-27,330,316.7,363.25,2.5R fixed target,Time Exit,5,-0.755,-0.187
+KWIL,Relative-strength leader breakout,2026-08-20,100,4.986,6.161,2026-08-21,2026-08-27,44.39,40.61,53.84,2.5R fixed target,Time Exit,5,4.119,0.484
+LENSKART,Relative-strength leader breakout,2026-08-20,75,1.244,0.941,2026-08-21,2026-08-27,659.22,627.43,738.67,2.5R fixed target,Stop,5,-5.121,-1.062
+MANYAVAR,Relative-strength leader breakout,2026-08-20,63,0.474,0.129,2026-08-21,2026-08-27,551.75,518.11,635.85,2.5R fixed target,Time Exit,5,-1.605,-0.263
+PRABHA,Relative-strength leader breakout,2026-08-20,100,4.217,2.361,2026-08-21,2026-08-27,215.23,195.65,264.17,2.5R fixed target,Time Exit,5,-4.189,-0.46
+ROLEXRINGS,Relative-strength leader breakout,2026-08-20,81,1.343,0.594,2026-08-21,2026-08-27,187.75,173.01,224.61,2.5R fixed target,Time Exit,5,-4.201,-0.535
+SAMBHV,Relative-strength leader breakout,2026-08-20,90,3.505,2.988,2026-08-21,2026-08-27,133.67,124.28,157.13,2.5R fixed target,Stop,5,-7.321,-1.043
+SAPPHIRE,Relative-strength leader breakout,2026-08-20,71,1.029,0.593,2026-08-21,2026-08-27,245.94,228.59,289.31,2.5R fixed target,Time Exit,5,-2.821,-0.4
+STYLEBAAZA,Relative-strength leader breakout,2026-08-20,100,2.764,2.716,2026-08-21,2026-08-24,444.74,401.14,553.72,2.5R fixed target,Stop,2,-10.102,-1.031
+SUVEN,Relative-strength leader breakout,2026-08-20,84,4.656,4.774,2026-08-21,2026-08-27,378.2,343.88,464.02,2.5R fixed target,Time Exit,5,-2.972,-0.327
+WELSPUNLIV,Relative-strength leader breakout,2026-08-20,100,3.766,2.487,2026-08-24,2026-08-28,191.85,176.92,229.17,2.5R fixed target,Time Exit,5,-1.026,-0.132
+IIFL,Relative-strength leader breakout,2026-08-21,100,4.511,6.733,2026-08-24,2026-08-25,688.47,657.72,765.36,2.5R fixed target,Stop,2,-4.767,-1.067
+KENNAMET,Relative-strength leader breakout,2026-08-21,92,2.567,4.541,2026-08-24,2026-08-28,4163.41,3821.45,5018.32,2.5R fixed target,Time Exit,5,9.713,1.183
+SHRIPISTON,Relative-strength leader breakout,2026-08-21,100,1.471,1.479,2026-08-24,2026-08-28,4655.09,4392.2,5312.33,2.5R fixed target,Time Exit,5,-2.081,-0.368
+URBANCO,Relative-strength leader breakout,2026-08-21,82,3.065,5.894,2026-08-24,2026-08-28,160.32,149.82,186.56,2.5R fixed target,Time Exit,5,4.746,0.725
+VMART,Relative-strength leader breakout,2026-08-21,78,1.858,3.917,2026-08-24,2026-08-28,861.72,815.31,977.75,2.5R fixed target,Stop,5,-5.686,-1.056
+WELCORP,Relative-strength leader breakout,2026-08-21,100,6.686,26.683,2026-08-24,2026-08-26,2353.6,2232.04,2657.5,2.5R fixed target,Stop,3,-5.465,-1.058
+BALUFORGE,Relative-strength leader breakout,2026-08-24,100,5.842,9.822,2026-08-26,2026-09-01,639.28,588.11,767.2,2.5R fixed target,Time Exit,5,-3.018,-0.377
+ENTERO,Relative-strength leader breakout,2026-08-24,100,4.706,6.083,2026-08-25,2026-08-31,1595,1457.84,1937.91,2.5R fixed target,Time Exit,5,13.173,1.532
+GSPCROP,Relative-strength leader breakout,2026-08-24,68,2.939,1.851,2026-08-25,2026-08-31,626.25,599.16,693.98,2.5R fixed target,Time Exit,5,1.816,0.42
+HFCL,Relative-strength leader breakout,2026-08-24,88,1.53,1.237,2026-08-25,2026-08-31,239.89,223.56,280.71,2.5R fixed target,Time Exit,5,3.536,0.519
+SHILPAMED,Relative-strength leader breakout,2026-08-24,88,1.527,0.945,2026-08-25,2026-08-31,868.38,801.25,1036.21,2.5R fixed target,Time Exit,5,9.018,1.167
+SUDARSCHEM,Relative-strength leader breakout,2026-08-24,100,2.14,1.747,2026-08-26,2026-09-01,1251.8,1154.67,1494.61,2.5R fixed target,Time Exit,5,-1.187,-0.153
+TIIL,Relative-strength leader breakout,2026-08-24,100,1.895,0.853,2026-08-25,2026-08-31,3478,3153.07,4290.32,2.5R fixed target,Time Exit,5,-5.95,-0.637
+CYIENTDLM,Relative-strength leader breakout,2026-08-25,86,1.675,1.75,2026-08-26,2026-09-01,779.56,719.9,928.7,2.5R fixed target,Time Exit,5,9.66,1.262
+DIVISLAB,Relative-strength leader breakout,2026-08-25,71,1.014,1.087,2026-08-26,2026-08-31,8761.99,8504.24,9406.36,2.5R fixed target,Target,4,7.054,2.398
+NITINSPIN,Relative-strength leader breakout,2026-08-25,80,3.075,2.239,2026-08-26,2026-09-01,629.26,582.26,746.76,2.5R fixed target,Time Exit,5,-0.063,-0.008
+PARADEEP,Relative-strength leader breakout,2026-08-25,50,3.291,3.923,2026-08-26,2026-09-01,160.92,152.81,181.2,2.5R fixed target,Time Exit,5,-2.42,-0.48
+PAYTM,Relative-strength leader breakout,2026-08-25,100,2.113,2.063,2026-08-26,2026-09-01,1721.44,1621.61,1971,2.5R fixed target,Stop,5,-6.099,-1.052
+TIMEX,Relative-strength leader breakout,2026-08-25,53,1.136,1.164,2026-08-26,2026-09-01,625.65,582.46,733.62,2.5R fixed target,Time Exit,5,3.185,0.461
+AEROFLEX,Relative-strength leader breakout,2026-08-26,100,2.108,2.221,2026-08-28,2026-09-03,543.08,502.72,643.99,2.5R fixed target,Time Exit,5,-0.472,-0.064
+ARIS,Relative-strength leader breakout,2026-08-26,83,1.289,1.38,2026-08-27,2026-09-01,149.3,140.66,170.89,2.5R fixed target,Stop,4,-6.086,-1.052
+IFCI,Relative-strength leader breakout,2026-08-26,95,2.468,2.147,2026-08-27,2026-09-02,87.32,82.31,99.86,2.5R fixed target,Time Exit,5,12.292,2.14
+IOLCP,Relative-strength leader breakout,2026-08-26,82,3.732,4.514,2026-08-27,2026-09-02,188.01,170.52,231.73,2.5R fixed target,Time Exit,5,-0.101,-0.011
+LAURUSLABS,Relative-strength leader breakout,2026-08-26,80,2.045,1.786,2026-08-27,2026-09-02,1902.1,1834.61,2070.82,2.5R fixed target,Stop,5,-3.848,-1.085
+RAMRAT,Relative-strength leader breakout,2026-08-26,88,2.333,2.39,2026-08-27,2026-09-02,528.35,495.42,610.67,2.5R fixed target,Time Exit,5,0.978,0.157
+RPEL,Relative-strength leader breakout,2026-08-26,100,1.877,1.505,2026-08-27,2026-09-02,1752.5,1607.86,2114.09,2.5R fixed target,Time Exit,5,0.961,0.116
+SETL,Relative-strength leader breakout,2026-08-26,100,3.941,2.806,2026-08-27,2026-09-02,336.75,306.64,412.04,2.5R fixed target,Time Exit,5,11.044,1.235
+TBZ,Relative-strength leader breakout,2026-08-26,92,2.127,2.319,2026-08-27,2026-09-02,309.82,279.32,386.07,2.5R fixed target,Target,5,24.311,2.47
+TFCILTD,Relative-strength leader breakout,2026-08-26,54,0.634,0.782,2026-08-27,2026-09-02,144.03,134.11,168.82,2.5R fixed target,Time Exit,5,1.167,0.169
+UFLEX,Relative-strength leader breakout,2026-08-26,84,3.303,1.259,2026-08-27,2026-09-02,658.06,606.97,785.8,2.5R fixed target,Time Exit,5,6.346,0.817
+ASIANENE,Relative-strength leader breakout,2026-08-27,71,1.122,0.721,2026-08-28,2026-09-03,499,452.77,614.56,2.5R fixed target,Time Exit,5,4.51,0.487
+INOXINDIA,Relative-strength leader breakout,2026-08-27,82,7.799,30.991,2026-08-28,2026-08-31,2228.45,2097.87,2554.89,2.5R fixed target,Stop,2,-6.159,-1.051
+RATNAVEER,Relative-strength leader breakout,2026-08-27,93,1.174,0.696,2026-08-28,2026-09-03,297.49,268.8,369.24,2.5R fixed target,Time Exit,5,-4.13,-0.428
+RUBICON,Relative-strength leader breakout,2026-08-27,69,0.95,0.831,2026-08-28,2026-09-03,1875.74,1728.89,2242.87,2.5R fixed target,Time Exit,5,-5.634,-0.72
+AGI,Relative-strength leader breakout,2026-08-28,84,2.698,2.765,2026-08-31,2026-09-04,781,734.95,896.13,2.5R fixed target,Stop,5,-6.197,-1.051
+ATHERENERG,Relative-strength leader breakout,2026-08-28,94,2.409,3.325,2026-08-31,2026-09-04,1655,1533.05,1959.88,2.5R fixed target,Time Exit,5,-4.59,-0.623
+CRAFTSMAN,Relative-strength leader breakout,2026-08-28,94,1.96,1.806,2026-08-31,2026-09-04,11221.9,10681.9,12571.9,2.5R fixed target,Time Exit,5,1.269,0.264
+DYCL,Relative-strength leader breakout,2026-08-28,92,3.593,4.663,2026-08-31,2026-09-04,493,451.5,596.75,2.5R fixed target,Time Exit,5,-1.334,-0.159
+FMGOETZE,Relative-strength leader breakout,2026-08-28,90,19.217,8.816,2026-08-31,2026-09-04,616.03,566.57,739.67,2.5R fixed target,Gap Stop,5,-17.349,-2.161
+GHCLTEXTIL,Relative-strength leader breakout,2026-08-28,88,2.153,1.631,2026-08-31,2026-09-04,132.3,122.34,157.22,2.5R fixed target,Time Exit,5,3.038,0.403
+INGERRAND,Relative-strength leader breakout,2026-08-28,86,3.822,3.536,2026-08-31,2026-09-04,4908.8,4624.8,5618.8,2.5R fixed target,Time Exit,5,-1.606,-0.278
+JTLIND,Relative-strength leader breakout,2026-08-28,100,5.993,6.64,2026-08-31,2026-09-04,91.19,85.56,105.28,2.5R fixed target,Time Exit,5,0.224,0.036
+MARINE,Relative-strength leader breakout,2026-08-28,88,2.179,2.006,2026-09-01,2026-09-04,412.97,379.17,497.47,2.5R fixed target,Time Exit,4,4.343,0.531
+MOREPENLAB,Relative-strength leader breakout,2026-08-28,88,2.003,1.151,2026-08-31,2026-09-04,106.58,96.35,132.16,2.5R fixed target,Time Exit,5,6.415,0.668
+PVP,Relative-strength leader breakout,2026-08-28,83,1.1,0.46,2026-08-31,2026-09-04,67.88,58.87,90.39,2.5R fixed target,Time Exit,5,-0.212,-0.016
+RSL,Relative-strength leader breakout,2026-08-28,88,3.168,1.967,2026-08-31,2026-09-04,178.97,166.22,210.84,2.5R fixed target,Time Exit,5,1.114,0.156
+UNIPARTS,Relative-strength leader breakout,2026-08-28,88,2.222,2.075,2026-08-31,2026-09-04,881.56,828.36,1014.56,2.5R fixed target,Time Exit,5,-1.152,-0.191
+APCOTEXIND,Relative-strength leader breakout,2026-08-31,80,2.38,2.363,2026-09-01,2026-09-02,657.31,623.79,741.12,2.5R fixed target,Stop,2,-5.4,-1.059
+CYIENT,Relative-strength leader breakout,2026-08-31,100,1.648,1.648,2026-09-01,2026-09-03,1219,1112.67,1484.82,2.5R fixed target,Stop,3,-9.023,-1.034
+GCSL,Relative-strength leader breakout,2026-08-31,80,1.608,1.457,2026-09-01,2026-09-04,563.07,511.87,691.07,2.5R fixed target,Time Exit,4,5.397,0.593
+HAPPYFORGE,Relative-strength leader breakout,2026-08-31,88,2.431,1.612,2026-09-01,2026-09-04,2449,2256.76,2929.61,2.5R fixed target,Stop,4,-8.15,-1.038
+MANALIPETC,Relative-strength leader breakout,2026-08-31,100,6.639,45.809,2026-09-01,2026-09-04,84.97,77.02,104.84,2.5R fixed target,Time Exit,4,1.807,0.193
+SUDEEPPHRM,Relative-strength leader breakout,2026-08-31,81,1.289,0.857,2026-09-01,2026-09-04,1222.7,1122.79,1472.46,2.5R fixed target,Time Exit,4,8.418,1.03
+TVSSRICHAK,Relative-strength leader breakout,2026-08-31,100,1.577,0.937,2026-09-01,2026-09-04,5596.17,5065.81,6922.08,2.5R fixed target,Time Exit,4,-6.709,-0.708
+WELSPUNLIV,Relative-strength leader breakout,2026-08-31,63,0.838,0.369,2026-09-01,2026-09-04,198.4,186.94,227.05,2.5R fixed target,Time Exit,4,4.798,0.831
+COMSYN,Relative-strength leader breakout,2026-09-01,92,3.065,1.37,2026-09-02,2026-09-04,310.52,284.81,374.8,2.5R fixed target,Time Exit,3,-3.269,-0.395
+DCBBANK,Relative-strength leader breakout,2026-09-01,93,1.335,1.275,2026-09-03,2026-09-04,226.07,212.57,259.83,2.5R fixed target,Time Exit,2,-2.658,-0.445
+GANDHAR,Relative-strength leader breakout,2026-09-01,73,1.722,1.75,2026-09-03,2026-09-04,269.04,254.59,305.16,2.5R fixed target,Time Exit,2,-0.834,-0.155
+SAILIFE,Relative-strength leader breakout,2026-09-01,67,3.244,4.752,2026-09-02,2026-09-04,1563.12,1486.18,1755.46,2.5R fixed target,Time Exit,3,1.055,0.214
+TNPETRO,Relative-strength leader breakout,2026-09-01,90,9.299,8.088,2026-09-02,2026-09-04,135.77,125.04,162.6,2.5R fixed target,Time Exit,3,-2.562,-0.324
+WAKEFIT,Relative-strength leader breakout,2026-09-01,62,1.533,0.995,2026-09-02,2026-09-04,154.81,143.34,183.49,2.5R fixed target,Time Exit,3,-2.405,-0.325
+WELCORP,Relative-strength leader breakout,2026-09-01,100,2.045,1.418,2026-09-02,2026-09-04,2580.15,2385.28,3067.34,2.5R fixed target,Time Exit,3,0.105,0.014
+WELENT,Relative-strength leader breakout,2026-09-01,87,1.153,0.827,2026-09-02,2026-09-04,713.92,665.98,833.78,2.5R fixed target,Time Exit,3,13.662,2.034
+RAYMOND,Relative-strength leader breakout,2026-09-02,88,2.848,4.056,2026-09-03,2026-09-04,676.25,637.57,772.95,2.5R fixed target,Time Exit,2,9.253,1.618
+SYNCOMF,Relative-strength leader breakout,2026-09-02,100,3.072,2.331,2026-09-03,2026-09-04,21.69,19.61,26.9,2.5R fixed target,Time Exit,2,-5.432,-0.566
+VINDHYATEL,Relative-strength leader breakout,2026-09-02,92,1.946,2.215,2026-09-03,2026-09-04,2755.5,2533.46,3310.59,2.5R fixed target,Time Exit,2,-1.127,-0.14
+WINDLAS,Relative-strength leader breakout,2026-09-02,94,5.224,6.961,2026-09-03,2026-09-04,1112.22,1032.51,1311.49,2.5R fixed target,Time Exit,2,0.97,0.135
+CGCL,Relative-strength leader breakout,2026-09-03,100,1.737,2.038,2026-09-04,2026-09-04,274,252.01,328.98,2.5R fixed target,Time Exit,1,1.853,0.231
+DEEPINDS,Relative-strength leader breakout,2026-09-03,92,3.962,3.715,2026-09-04,2026-09-04,757.75,682.58,945.68,2.5R fixed target,Time Exit,1,3.488,0.352
+ENTERO,Relative-strength leader breakout,2026-09-03,75,0.625,0.403,2026-09-04,2026-09-04,1866.73,1739.11,2185.75,2.5R fixed target,Time Exit,1,-2.396,-0.35
+JINDWORLD,Relative-strength leader breakout,2026-09-03,90,16.348,10.429,2026-09-04,2026-09-04,49.67,44.31,63.06,2.5R fixed target,Time Exit,1,15.484,1.436
+KIRIINDUS,Relative-strength leader breakout,2026-09-03,100,3.45,5.583,2026-09-04,2026-09-04,592.38,537.7,729.09,2.5R fixed target,Time Exit,1,-5.918,-0.641
+MANINDS,Relative-strength leader breakout,2026-09-03,78,1.656,1.01,2026-09-04,2026-09-04,801,735.98,963.56,2.5R fixed target,Time Exit,1,-1.854,-0.228
+MANYAVAR,Relative-strength leader breakout,2026-09-03,53,0.792,1.423,2026-09-04,2026-09-04,583.66,552.97,660.4,2.5R fixed target,Time Exit,1,1.505,0.286
+PTCIL,Relative-strength leader breakout,2026-09-03,100,1.995,1.544,2026-09-04,2026-09-04,24048,22228.5,28596.75,2.5R fixed target,Time Exit,1,-1.207,-0.159
+RPEL,Relative-strength leader breakout,2026-09-03,88,1.855,1.626,2026-09-04,2026-09-04,1903.8,1736.14,2322.96,2.5R fixed target,Time Exit,1,-5.374,-0.61
+SBCL,Relative-strength leader breakout,2026-09-03,70,1.441,0.555,2026-09-04,2026-09-04,1189.3,1064.32,1501.75,2.5R fixed target,Time Exit,1,-6.034,-0.574
+SETL,Relative-strength leader breakout,2026-09-03,63,0.85,0.832,2026-09-04,2026-09-04,395,364.36,471.59,2.5R fixed target,Time Exit,1,3.232,0.417
+SHILPAMED,Relative-strength leader breakout,2026-09-03,83,1.233,0.648,2026-09-04,2026-09-04,968.38,903.11,1131.57,2.5R fixed target,Time Exit,1,-0.737,-0.109
+TBZ,Relative-strength leader breakout,2026-09-03,100,2.508,1.899,2026-09-04,2026-09-04,458.06,413.49,569.5,2.5R fixed target,Time Exit,1,4.674,0.48
+TMB,Relative-strength leader breakout,2026-09-03,93,1.374,1.707,2026-09-04,2026-09-04,949.95,902.17,1069.4,2.5R fixed target,Time Exit,1,-2.142,-0.426
+URBANCO,Relative-strength leader breakout,2026-09-03,92,1.452,1.188,2026-09-04,2026-09-04,179.56,166.93,211.13,2.5R fixed target,Time Exit,1,0.553,0.079

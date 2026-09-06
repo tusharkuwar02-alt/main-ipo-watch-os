@@ -1,6 +1,6 @@
 # Smart Money Footprint OS — Final Conditional T2 Runner Backtest
 
-Generated: 2026-09-06T09:14:04.161Z
+Generated: 2026-09-06T12:59:54.588Z
 
 ## Direct answer
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Smart Money Footprint OS full historical backtest",
-    "generatedAt": "2026-09-06T09:14:04.161Z",
+    "generatedAt": "2026-09-06T12:59:54.588Z",
     "source": "Official NSE security-wise price/volume/delivery archives",
     "downloadStart": "2021-09-01",
     "signalStart": "2022-01-01",
