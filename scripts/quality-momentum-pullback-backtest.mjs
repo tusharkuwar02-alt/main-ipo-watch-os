@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { looksLikeCorporateAction } from "../lib/smart-money-backtest.mjs";
-import { QMP_CONFIGS, buildQmpPlan, momentumInputs, zScoreRows } from "../lib/quality-momentum-pullback.mjs";
+import { QMP_CONFIGS, buildQmpPlan, historicalFootprint, momentumInputs, zScoreRows } from "../lib/quality-momentum-pullback.mjs";
 import { simulateTournamentTrade, summarizeTournamentTrades, smaAt, wilsonLower } from "../lib/smart-money-strategy-tournament.mjs";
 
 const ROOT = path.resolve(new URL("..", import.meta.url).pathname);
@@ -145,6 +145,8 @@ async function main() {
     const breadth50 = average(breadthRows.map(Boolean)) || 0, marketReturn20 = median(returns20) || 0;
     for (const [symbol, bars] of clean) {
       const momentum = momentumMap.get(symbol); if (!momentum) continue;
+      if (breadth50 < .52 || marketReturn20 < 0 || momentum.percentile < 80) continue;
+      if (!historicalFootprint(bars.slice(0, -1))?.selected) continue;
       for (const config of QMP_CONFIGS) {
         const plan = buildQmpPlan(bars, { momentum, breadth50, marketReturn20 }, config);
         if (!plan) continue;
