@@ -14,7 +14,8 @@
     "backtest:smart-money-strategies": "node scripts/smart-money-strategy-tournament.mjs",
     "backtest:quality-momentum": "node scripts/quality-momentum-pullback-backtest.mjs",
     "backtest:triple-confirm-swing": "node scripts/smart-money-triple-confirm-swing-backtest.mjs",
-    "backtest:rr2-fast-mover": "node scripts/institutional-fast-mover-rr2-backtest.mjs"
+    "backtest:rr2-fast-mover": "node scripts/institutional-fast-mover-rr2-backtest.mjs",
+    "backtest:precision60": "node scripts/precision60-upgrade-backtest.mjs"
   },
   "dependencies": {
     "cheerio": "1.0.0",
