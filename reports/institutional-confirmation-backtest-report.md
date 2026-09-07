@@ -1,6 +1,6 @@
 # Institutional Confirmation Engine — Point-in-Time Backtest
 
-Generated: 2026-09-06T19:16:43.394Z
+Generated: 2026-09-07T04:11:40.146Z
 
 ## Direct answer
 
@@ -23,24 +23,24 @@ Quarterly mutual-fund and FPI percentages came from NSE shareholding XBRL filing
 
 | Rank | Variant | Development trades / WR / Exp / PF | Validation trades / WR / Exp / PF | Sample OK | 60% gate |
 |---:|---|---:|---:|---:|---:|
-| 1 | Mutual-fund accumulation | 254 / 53.15% / 0.242R / 1.556 | 49 / 48.98% / 0.248R / 1.518 | No | No |
-| 2 | Institutional score >=3 | 387 / 49.35% / 0.16R / 1.34 | 60 / 50% / 0.175R / 1.362 | Yes | No |
-| 3 | Broad accumulation (MF and FPI) | 166 / 49.4% / 0.178R / 1.366 | 29 / 55.17% / 0.345R / 1.781 | No | No |
-| 4 | Any MF+FPI accumulation | 398 / 48.24% / 0.123R / 1.254 | 57 / 50.88% / 0.181R / 1.403 | Yes | No |
-| 5 | Locked baseline | 670 / 47.31% / 0.107R / 1.215 | 103 / 46.6% / 0.102R / 1.194 | Yes | No |
-| 6 | MF+FPI accumulation >=0.25pp | 313 / 47.28% / 0.118R / 1.24 | 45 / 53.33% / 0.19R / 1.424 | No | No |
-| 7 | Disclosure-covered baseline | 606 / 46.7% / 0.084R / 1.167 | 98 / 46.94% / 0.104R / 1.199 | Yes | No |
-| 8 | FPI accumulation | 397 / 45.84% / 0.081R / 1.161 | 56 / 53.57% / 0.227R / 1.491 | Yes | No |
-| 9 | Persistent institutional accumulation | 245 / 51.02% / 0.169R / 1.35 | 34 / 47.06% / 0.052R / 1.111 | No | No |
+| 1 | Mutual-fund accumulation | 260 / 53.85% / 0.26R / 1.605 | 49 / 48.98% / 0.248R / 1.518 | No | No |
+| 2 | Institutional score >=3 | 396 / 50.25% / 0.18R / 1.389 | 60 / 50% / 0.175R / 1.362 | Yes | No |
+| 3 | Broad accumulation (MF and FPI) | 171 / 50.88% / 0.202R / 1.428 | 29 / 55.17% / 0.345R / 1.781 | No | No |
+| 4 | Any MF+FPI accumulation | 406 / 49.01% / 0.14R / 1.295 | 57 / 50.88% / 0.181R / 1.403 | Yes | No |
+| 5 | MF+FPI accumulation >=0.25pp | 320 / 48.13% / 0.136R / 1.281 | 45 / 53.33% / 0.19R / 1.424 | No | No |
+| 6 | Locked baseline | 670 / 47.31% / 0.107R / 1.215 | 103 / 46.6% / 0.102R / 1.194 | Yes | No |
+| 7 | Disclosure-covered baseline | 614 / 47.23% / 0.098R / 1.196 | 98 / 46.94% / 0.104R / 1.199 | Yes | No |
+| 8 | FPI accumulation | 404 / 46.78% / 0.098R / 1.197 | 56 / 53.57% / 0.227R / 1.491 | Yes | No |
+| 9 | Persistent institutional accumulation | 257 / 52.53% / 0.207R / 1.443 | 34 / 47.06% / 0.052R / 1.111 | No | No |
 | 10 | Accumulation + net large-deal buying | 11 / 36.36% / -0.51R / 0.238 | 2 / 50% / 0.685R / 2.302 | No | No |
 
 ## Selected comparator
 
-- Development: 387 / 49.35% / 0.16R / 1.34
+- Development: 396 / 50.25% / 0.18R / 1.389
 - Validation: 60 / 50% / 0.175R / 1.362
 - Reused 2026: 22 / 63.64% / 0.394R / 2.143
 - Reused-2026 95% Wilson lower win-rate bound: 42.95%
-- Disclosure coverage: 1375/1481 signals (92.84%)
+- Disclosure coverage: 1386/1481 signals (93.59%)
 - Optional bulk/block archive gaps: none
 
 ## Decision rule
