@@ -222,6 +222,7 @@ async function enrichWithInstitutions(rows, histories, marketDate) {
   return {
     rows: enriched,
     summary: {
+      schemaVersion: 1,
       status: coveredCount === targetSymbols.size ? "complete" : coveredCount ? "partial" : "unavailable",
       targetCount: targetSymbols.size, coveredCount, strongCount, sourceGapCount: institutionalGaps.length,
       metadataRows: holdings.metadataRows, requiredFilings: holdings.required, parsedFilings: holdings.parsed,

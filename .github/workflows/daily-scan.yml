@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - ".github/workflows/daily-scan.yml"
       - "scripts/smart-money-scan.mjs"
       - "lib/smart-money.mjs"
       - "lib/institutional-confirmation.mjs"
