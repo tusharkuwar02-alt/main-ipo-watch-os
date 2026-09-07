@@ -10,7 +10,7 @@ test("parses aggregate MF and institutional FPI percentages from shareholding XB
 });
 
 test("sums post-2022 FPI category one and two, including NSE taxonomy typo", () => {
-  const xml=`<xbrli:xbrl>${context("mf","MutualFundsOrUTIMember",9.14)}${context("one","InstitutionsForeignPortfolioInvestorCatergoryOneMember",18.37)}${context("two","InstitutionsForeignPortfolioInvestorCategoryTwoMember",.7)}${context("legacy","ForeignPortfolioInvestorMember",0)}</xbrli:xbrl>`;
+  const xml=`<xbrli:xbrl>${context("mf","MutualFundsOrUTIMember",.0914)}${context("one","InstitutionsForeignPortfolioInvestorCatergoryOneMember",.1837)}${context("two","InstitutionsForeignPortfolioInvestorCategoryTwoMember",.007)}${context("legacy","ForeignPortfolioInvestorMember",0)}</xbrli:xbrl>`;
   assert.deepEqual(parseInstitutionalHoldingsXbrl(xml),{mfPct:9.14,fpiPct:19.07});
 });
 
