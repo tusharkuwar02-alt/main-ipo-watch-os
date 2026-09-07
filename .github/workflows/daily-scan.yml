@@ -7,6 +7,7 @@ on:
     paths:
       - "scripts/smart-money-scan.mjs"
       - "lib/smart-money.mjs"
+      - "lib/institutional-confirmation.mjs"
   schedule:
     - cron: "30 13 * * 1-5"
 
