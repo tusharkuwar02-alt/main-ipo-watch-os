@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { INSTITUTIONAL_VARIANTS, disclosureSnapshot, institutionalFeatures, parseInstitutionalHoldingsXbrl } from "../lib/institutional-confirmation.mjs";
+import { INSTITUTIONAL_VARIANTS, disclosureSnapshot, institutionalFeatures, institutionalPresentation, parseInstitutionalHoldingsXbrl } from "../lib/institutional-confirmation.mjs";
 
 const context = (id, member, pct) => `<xbrli:context id="${id}"><xbrli:entity><xbrli:segment><xbrldi:explicitMember dimension="x:CategoryOfShareholdersAxis">x:${member}</xbrldi:explicitMember></xbrli:segment></xbrli:entity></xbrli:context><x:ShareholdingAsAPercentageOfTotalNumberOfShares contextRef="${id}">${pct}</x:ShareholdingAsAPercentageOfTotalNumberOfShares>`;
 
@@ -41,4 +41,22 @@ test("institutional score rewards independent confirmations without changing 2R/
   ];
   assert.ok(institutionalFeatures(rows,"2022-08-01",.4).institutionalScore>=3);
   assert.equal(INSTITUTIONAL_VARIANTS.length,10);
+});
+
+test("presentation keeps institutional evidence as confirmation instead of an entry signal", () => {
+  const strong = institutionalPresentation({
+    disclosureCovered: true, institutionalScore: 3, totalDeltaPct: .4, filingAvailableDate: "2026-07-20"
+  }, "2026-09-04");
+  assert.equal(strong.institutionalStatus, "Strong confirmation");
+  assert.equal(strong.institutionalQualified, true);
+  assert.equal(strong.institutionalDirection, "Net accumulation");
+  assert.equal(strong.filingFreshness, "Current quarterly filing");
+
+  const conflict = institutionalPresentation({
+    disclosureCovered: true, institutionalScore: 1, totalDeltaPct: -.3, filingAvailableDate: "2025-10-01"
+  }, "2026-09-04");
+  assert.equal(conflict.institutionalStatus, "Conflict");
+  assert.equal(conflict.institutionalQualified, false);
+  assert.equal(conflict.filingFreshness, "Stale filing");
+  assert.equal(institutionalPresentation({}, "2026-09-04").institutionalStatus, "Insufficient disclosure");
 });

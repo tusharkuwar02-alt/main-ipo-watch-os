@@ -21,6 +21,6 @@ test("smart money evaluation returns explicit trade levels and non-certain confi
   assert.ok(result.directionScore > 0);
   assert.ok(result.target1 > result.entry);
   assert.ok(result.target2 > result.target1);
+  assert.ok(Math.abs((result.target1 - result.entry) / 2 - (result.target2 - result.entry) / 3) < .02);
   assert.match(result.confirmation, /Probable/);
 });
-
