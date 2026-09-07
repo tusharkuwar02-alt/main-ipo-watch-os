@@ -1,11 +1,11 @@
 {
   "meta": {
     "name": "Smart Money independent strategy tournament",
-    "generatedAt": "2026-09-06T13:00:51.153Z",
+    "generatedAt": "2026-09-07T04:28:28.150Z",
     "source": "Official NSE security-wise price/volume/delivery archives",
     "downloadStart": "2021-09-01",
     "signalStart": "2022-01-01",
-    "requestedEnd": "2026-09-06",
+    "requestedEnd": "2026-09-07",
     "marketEnd": "2026-09-04",
     "sessions": 1295,
     "symbols": 3271,

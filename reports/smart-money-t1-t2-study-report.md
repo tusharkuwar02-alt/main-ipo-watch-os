@@ -1,6 +1,6 @@
 # Smart Money Footprint OS — T1/T2 Management Study
 
-Generated: 2026-09-06T12:59:54.588Z
+Generated: 2026-09-07T04:27:21.553Z
 
 ## Direct answer
 
