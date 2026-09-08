@@ -9,6 +9,8 @@ on:
       - "scripts/smart-money-scan.mjs"
       - "lib/smart-money.mjs"
       - "lib/institutional-confirmation.mjs"
+      - "lib/institutional-fast-mover-rr2.mjs"
+      - "lib/quality-momentum-pullback.mjs"
   schedule:
     - cron: "30 13 * * 1-5"
 
@@ -34,9 +36,11 @@ jobs:
       - name: Restore institutional disclosure cache
         uses: actions/cache@v4
         with:
-          path: .cache/institutional-confirmation
-          key: nse-institutional-live-v1-${{ github.run_id }}
-          restore-keys: nse-institutional-live-v1-
+          path: |
+            .cache/institutional-confirmation
+            .cache/smart-money-live-prices
+          key: nse-smart-money-live-v2-${{ github.run_id }}
+          restore-keys: nse-smart-money-live-v2-
       - name: Build safe refreshed snapshot
         run: npm run scan
       - name: Build Smart Money snapshot

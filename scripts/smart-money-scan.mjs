@@ -2,10 +2,13 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { evaluateSmartMoney, sma } from "../lib/smart-money.mjs";
 import { institutionalFeatures, institutionalPresentation, parseInstitutionalHoldingsXbrl } from "../lib/institutional-confirmation.mjs";
+import { buildRr2Plans } from "../lib/institutional-fast-mover-rr2.mjs";
+import { momentumInputs, zScoreRows } from "../lib/quality-momentum-pullback.mjs";
 
 const outputPath = new URL("../data/smart-money-latest.json", import.meta.url);
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const institutionalCache = path.join(root, ".cache", "institutional-confirmation", "live");
+const priceCache = path.join(root, ".cache", "smart-money-live-prices");
 const headers = { "User-Agent": "Mozilla/5.0 (compatible; TusharSmartMoneyOS/1.0)", Accept: "text/csv,*/*" };
 const nseHeaders = { "User-Agent": "Mozilla/5.0", Accept: "application/json,text/plain,*/*", Referer: "https://www.nseindia.com/" };
 const institutionalGaps = [];
@@ -52,6 +55,20 @@ function parseBhavcopy(text) {
       deliverableValue: close * deliveryQty, turnoverCr: (Number(row[index.TURNOVER_LACS]) || 0) / 100
     };
   }).filter(row => [row.open, row.high, row.low, row.close, row.volume].every(Number.isFinite));
+}
+
+async function loadPriceDate(date) {
+  if ([0, 6].includes(date.getUTCDay())) return [];
+  const key = date.toISOString().slice(0, 10), file = path.join(priceCache, `${key}.csv`);
+  await fs.mkdir(priceCache, { recursive: true });
+  try { return parseBhavcopy(await fs.readFile(file, "utf8")); } catch {}
+  try {
+    const text = await fetchText(archiveName(date));
+    const rows = parseBhavcopy(text);
+    if (rows.length < 500) return [];
+    await fs.writeFile(file, text);
+    return rows;
+  } catch { return []; }
 }
 
 async function mapLimit(items, limit, worker) {
@@ -206,7 +223,7 @@ function largeDealMetrics(deals, symbol, marketDate, bars) {
 }
 
 async function enrichWithInstitutions(rows, histories, marketDate) {
-  const targetSymbols = new Set(rows.filter(row => row.actionable).map(row => row.symbol));
+  const targetSymbols = new Set(rows.filter(row => row.actionable || row.finalSwingPlan).map(row => row.symbol));
   if (!marketDate || !targetSymbols.size) return { rows, summary: { status: "no-shortlist", targetCount: 0, coveredCount: 0, strongCount: 0, sourceGapCount: 0 } };
   const [holdings, deals] = await Promise.all([currentHoldings(targetSymbols, marketDate), recentLargeDeals(targetSymbols, marketDate)]);
   let coveredCount = 0, strongCount = 0;
@@ -233,17 +250,14 @@ async function enrichWithInstitutions(rows, histories, marketDate) {
 
 async function main() {
   const startedAt = new Date();
-  const dates = Array.from({ length: 125 }, (_, offset) => {
+  const dates = Array.from({ length: 430 }, (_, offset) => {
     const date = new Date(startedAt);
     date.setUTCDate(date.getUTCDate() - offset);
     return date;
   });
   const [namesText, files] = await Promise.all([
     fetchText("https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"),
-    mapLimit(dates, 12, async date => {
-      try { return parseBhavcopy(await fetchText(archiveName(date))); }
-      catch { return []; }
-    })
+    mapLimit(dates, 12, loadPriceDate)
   ]);
   const sessions = files.filter(rows => rows.length > 500).sort((a, b) => a[0].date.localeCompare(b[0].date));
   const names = companyMap(namesText);
@@ -253,20 +267,37 @@ async function main() {
     histories.get(row.symbol).push(row);
   }
   const eligible = [...histories.entries()].filter(([symbol, bars]) => names.has(symbol) && bars.length >= 52);
+  const strategyEligible = eligible.filter(([, bars]) => bars.length >= 253);
   const returns20 = eligible.map(([, bars]) => bars.at(-1).close / bars.at(-21).close - 1).sort((a, b) => a - b);
   const marketReturn20 = returns20[Math.floor(returns20.length / 2)] || 0;
   const breadth20 = eligible.filter(([, bars]) => bars.at(-1).close > sma(bars.map(bar => bar.close), 20)).length / Math.max(1, eligible.length);
   const breadth50 = eligible.filter(([, bars]) => bars.at(-1).close > sma(bars.map(bar => bar.close), 50)).length / Math.max(1, eligible.length);
   const marketRegime = breadth20 >= .58 && breadth50 >= .52 ? "Bullish" : breadth20 <= .42 && breadth50 <= .45 ? "Bearish" : "Sideways";
   const marketDate = sessions.at(-1)?.[0]?.date || "";
-  const baseRows = eligible.map(([symbol, bars]) => evaluateSmartMoney(symbol, names.get(symbol) || symbol, bars, { marketReturn20, marketRegime })).filter(Boolean);
+  const momentum = zScoreRows(strategyEligible.map(([symbol, bars]) => ({ symbol, ...momentumInputs(bars) })).filter(row => row.ratio6m != null));
+  const finalPlans = new Map();
+  for (const [symbol, bars] of strategyEligible) {
+    const rank = momentum.get(symbol);
+    if (!rank) continue;
+    const plan = buildRr2Plans(bars, { momentum: rank, breadth50, marketReturn20 }).find(item => item.family === "Deep leader pullback");
+    if (!plan) continue;
+    const risk = plan.entry - plan.stopLoss;
+    finalPlans.set(symbol, { ...plan, target1: +(plan.entry + risk * 2).toFixed(2), target2: +(plan.entry + risk * 3).toFixed(2),
+      management: "50% at 2R; remaining 50% at 3R; move runner stop to breakeven after T1", maxHoldSessions: 10,
+      maxRiskPct: .5, portfolioRule: "Maximum 5 open positions and 2 new entries per session" });
+  }
+  const baseRows = eligible.map(([symbol, bars]) => {
+    const row = evaluateSmartMoney(symbol, names.get(symbol) || symbol, bars, { marketReturn20, marketRegime });
+    return row ? { ...row, finalSwingPlan: finalPlans.get(symbol) || null } : null;
+  }).filter(Boolean);
   const institutional = await enrichWithInstitutions(baseRows, histories, marketDate);
-  const rows = institutional.rows.sort((a, b) => Number(b.actionable) - Number(a.actionable) || Number(b.institutional?.institutionalQualified) - Number(a.institutional?.institutionalQualified) || (b.institutional?.institutionalScore || 0) - (a.institutional?.institutionalScore || 0) || b.accumulationScore - a.accumulationScore || b.directionScore - a.directionScore);
+  const rows = institutional.rows.sort((a, b) => Number(Boolean(b.finalSwingPlan)) - Number(Boolean(a.finalSwingPlan)) || Number(b.actionable) - Number(a.actionable) || Number(b.institutional?.institutionalQualified) - Number(a.institutional?.institutionalQualified) || (b.institutional?.institutionalScore || 0) - (a.institutional?.institutionalScore || 0) || b.accumulationScore - a.accumulationScore || b.directionScore - a.directionScore);
   const scan = {
     meta: {
       name: "Smart Money Footprint OS", asOf: startedAt.toISOString(), marketDate, dataFreshness: "fresh",
       exchange: "NSE", segment: "EQ", source: "Official NSE security-wise price, volume and delivery archives",
       scannedCount: eligible.length, resultCount: rows.length, actionableCount: rows.filter(row => row.actionable).length,
+      finalSwingCount: rows.filter(row => row.finalSwingPlan).length, strategyEligibleCount: strategyEligible.length,
       sessions: sessions.length, marketRegime, breadth20: +(breadth20 * 100).toFixed(1), breadth50: +(breadth50 * 100).toFixed(1),
       institutional: institutional.summary,
       publicDataLimits: "Institution-level stock and derivative hedge positions cannot be linked from public daily data",
@@ -274,11 +305,11 @@ async function main() {
     },
     stocks: rows
   };
-  if (sessions.length < 52 || rows.length < 500) throw new Error(`Unsafe Smart Money snapshot blocked: ${sessions.length} sessions, ${rows.length} stocks`);
+  if (sessions.length < 253 || rows.length < 500) throw new Error(`Unsafe Smart Money snapshot blocked: ${sessions.length} sessions, ${rows.length} stocks`);
   const temporary = new URL("../data/smart-money-latest.next.json", import.meta.url);
   await fs.writeFile(temporary, JSON.stringify(scan, null, 2) + "\n");
   await fs.rename(temporary, outputPath);
-  console.log(JSON.stringify({ marketDate, sessions: sessions.length, scanned: eligible.length, actionable: scan.meta.actionableCount, regime: marketRegime }));
+  console.log(JSON.stringify({ marketDate, sessions: sessions.length, scanned: eligible.length, actionable: scan.meta.actionableCount, finalSwing: scan.meta.finalSwingCount, regime: marketRegime }));
 }
 
 main().catch(error => { console.error(error); process.exitCode = 1; });

@@ -67,6 +67,8 @@
 .smartRules span { border-color: #40365e; background: #17152a; color: #c9bff0; }
 .actionToggle { display: flex; align-items: center; gap: 8px; min-height: 42px; padding: 0 12px; border: 1px solid #3d4960; border-radius: 10px; color: #c5d4e3; font-size: 12px; white-space: nowrap; }
 .actionToggle input { accent-color: #9f8cff; width: 16px; height: 16px; }
+.finalToggle { border-color: #397f70; background: #0d2928; color: var(--teal); }
+.finalSetupBadge { display: inline-block; width: max-content; border: 1px solid #3b9a83; border-radius: 999px; padding: 4px 8px; background: #123b32; color: var(--teal); font-size: 10px; text-transform: uppercase; letter-spacing: .05em; }
 .footprintScore { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; color: #d6cbff; border: 2px solid #7764c9; background: #221d3d; }
 .smartDetails { display: grid; grid-template-columns: 1.1fr 1.2fr .9fr; gap: 12px; }
 .smartDetails article { border: 1px solid var(--line); border-radius: 13px; padding: 15px; background: #0a1928; }
@@ -96,6 +98,8 @@
 .institutionBadge.institutionMissing { border-color: #74562d; background: #302313; }
 .institutionalDetails { grid-template-columns: 1.2fr 1fr 1fr; }
 .institutionalDetails .hedgeNotice { grid-column: 1 / -1; }
+.institutionalDetails .finalPlan { border-color: #2e786a; background: #0b2828; }
+.finalPlan p { margin: 10px 0 0; color: #a9d9d0; font-size: 11px; line-height: 1.5; }
 .institutionMetrics { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
 .institutionMetrics span { display: flex; flex-direction: column; gap: 3px; min-width: 0; padding: 9px; border-radius: 9px; background: #102236; color: var(--muted); font-size: 11px; }
 .institutionMetrics b { color: var(--text); font-size: 12px; overflow-wrap: anywhere; }
