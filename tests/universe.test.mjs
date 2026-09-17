@@ -1,12 +1,29 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseNseListingCsv, parseIpoWatchListingPage, buildRollingUniverse } from "../lib/universe.mjs";
+import { parseNseListingCsv, parseIpoWatchListingPage, parseHdfcPastIpo, buildRollingUniverse } from "../lib/universe.mjs";
 
 test("IPOWatch parser uses actual Listing Date, not Open Date", () => {
   const html = `<h2>Mainboard IPO Listing 2026</h2><table><tr><th>IPO</th><th>Open Date</th><th>Listing Date</th><th>NSE Symbol</th></tr><tr><td>Alpha Limited</td><td>August 1, 2026</td><td>August 10, 2026</td><td>ALPHA</td></tr></table>`;
   const rows = parseIpoWatchListingPage(html);
   assert.equal(rows[0].listingDate, "2026-08-10");
   assert.notEqual(rows[0].listingDate, "2026-08-01");
+});
+
+test("HDFC fallback uses the actual Date of Listing column and issue price", () => {
+  const html = `<table><thead><tr><th>Name</th><th>Date of Listing</th><th>Issue Price</th><th>Listing Price</th></tr></thead><tbody><tr><td>Pranav Constructions Ltd</td><td>15 Sep 2026</td><td>124</td><td>162</td></tr></tbody></table>`;
+  assert.deepEqual(parseHdfcPastIpo(html), [{ company: "Pranav Constructions Ltd", listingDate: "2026-09-15", issuePrice: 124, year: 2026, source: "hdfc-past-ipo" }]);
+});
+
+test("dated fallback rows add recent NSE mainboard IPOs but still exclude SME series", () => {
+  const csv = `SYMBOL,NAME OF COMPANY, SERIES, DATE OF LISTING,PAID UP VALUE,MARKET LOT,ISIN NUMBER,FACE VALUE\nPRANAV,Pranav Constructions Limited,EQ,15-SEP-2026,10,1,INE000A01001,10\nAPANA,Apana Logistics Limited,SM,15-SEP-2026,10,1,INE000A01002,10`;
+  const dated = [
+    { company: "Pranav Constructions Ltd", listingDate: "2026-09-15", issuePrice: 124, year: 2026 },
+    { company: "Apana Logistics Ltd", listingDate: "2026-09-15", issuePrice: 60, year: 2026 }
+  ];
+  const result = buildRollingUniverse(parseNseListingCsv(csv), dated, [], new Date("2026-09-17T00:00:00Z"));
+  assert.deepEqual(result.universe.map(row => row.symbol), ["PRANAV"]);
+  assert.equal(result.universe[0].issuePrice, 124);
+  assert.equal(result.failures.length, 0);
 });
 
 test("SME section is excluded and rolling five-year window is enforced", () => {
