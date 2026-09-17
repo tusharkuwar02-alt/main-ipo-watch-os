@@ -6,6 +6,13 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/daily-scan.yml"
+      - "scripts/scan.mjs"
+      - "lib/universe.mjs"
+      - "lib/framework.mjs"
+      - "lib/scan-quality.mjs"
+      - "tests/universe.test.mjs"
+      - "tests/framework.test.mjs"
+      - "tests/scan-quality.test.mjs"
       - "scripts/smart-money-scan.mjs"
       - "lib/smart-money.mjs"
       - "lib/institutional-confirmation.mjs"
