@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 
 type Match = { id: string; name: string; family?: string; reason: string; smaDirection?: string; weeklyStatus?: string; distancePct?: number; baseDepthPct?: number; relativeOutperformancePct?: number };
-type Stock = { symbol: string; company: string; listingDate: string; issuePrice: number; price: number; changePct: number; volumeRatio: number; dailySma21?: number; dailySma30?: number; marketDate?: string; matchCount: number; priority: number; confluenceScore?: number; signalFamilies?: string[]; matches: Match[] };
+type Stock = { symbol: string; company: string; listingDate: string; issuePrice: number; price: number; changePct: number; volumeRatio: number | null; dailySma21?: number | null; dailySma30?: number | null; marketDate?: string; matchCount: number; priority: number; confluenceScore?: number; signalFamilies?: string[]; matches: Match[] };
 type System = { id: string; name: string; family?: string };
 type Scan = { meta: Record<string, any>; systems: System[]; stocks: Stock[]; failures: { history: unknown[]; validation: unknown[] } };
 
