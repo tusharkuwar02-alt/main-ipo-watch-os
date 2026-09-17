@@ -55,3 +55,11 @@ test("one match remains a qualifying result", () => {
   const result = evaluateStock({ issuePrice: 100 }, bars, makeBars(90, 0), new Date("2026-04-01T00:00:00Z"));
   assert.ok(result.matches.length >= 1);
 });
+
+test("a newly listed IPO can qualify on issue-price hold before 31 sessions", () => {
+  const bars = makeBars(1, 0);
+  bars[0].close = 104;
+  const result = evaluateStock({ issuePrice: 100 }, bars, makeBars(90, 0), new Date("2026-09-17T00:00:00Z"));
+  assert.deepEqual(result.matches.map(match => match.id), ["issue-price"]);
+  assert.equal(result.diagnostics.changePct, 0);
+});
