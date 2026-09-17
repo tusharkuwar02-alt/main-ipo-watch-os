@@ -1,5 +1,5 @@
 import fs from "node:fs/promises";
-import { parseNseListingCsv, parseIpoWatchPerformance, parseIpoWatchListingPage, buildRollingUniverse } from "../lib/universe.mjs";
+import { parseNseListingCsv, parseIpoWatchPerformance, parseIpoWatchListingPage, parseHdfcPastIpo, buildRollingUniverse } from "../lib/universe.mjs";
 import { evaluateStock, marketDateInIndia, scoreConfluence } from "../lib/framework.mjs";
 import { parseNseTradingHolidays, previousTradingDate } from "../lib/market-calendar.mjs";
 import { aggregateBacktests, assessScanQuality, backtestStock } from "../lib/scan-quality.mjs";
@@ -8,6 +8,7 @@ const URLS = {
   nseMaster: "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
   ipoPerformance: "https://ipowatch.in/ipo-performance-tracker/",
   ipoListings: "https://ipowatch.in/new-ipo-listing-today-ipo-listing-date/",
+  hdfcPastIpo: "https://www.hdfcsec.com/offering/past-ipo",
   ipo2021: "https://ipowatch.in/mainboard-ipos-2021/",
   nseHolidays: "https://www.nseindia.com/api/holiday-master?type=trading"
 };
@@ -67,8 +68,8 @@ async function main() {
   const now = new Date();
   const previousPath = new URL("../data/latest-scan.json", import.meta.url);
   const previous = JSON.parse(await fs.readFile(previousPath, "utf8"));
-  const [nseCsv, performanceHtml, listingHtml, archive2021Html, niftyHistory, holidayResult] = await Promise.all([
-    fetchText(URLS.nseMaster), fetchText(URLS.ipoPerformance), fetchText(URLS.ipoListings), fetchText(URLS.ipo2021), history("^NSEI")
+  const [nseCsv, performanceHtml, listingHtml, hdfcPastIpoHtml, archive2021Html, niftyHistory, holidayResult] = await Promise.all([
+    fetchText(URLS.nseMaster), fetchText(URLS.ipoPerformance), fetchText(URLS.ipoListings), fetchText(URLS.hdfcPastIpo), fetchText(URLS.ipo2021), history("^NSEI")
     , fetchText(URLS.nseHolidays, 2).then(text => ({ holidays: parseNseTradingHolidays(JSON.parse(text)), status: "ok" })).catch(() => ({ holidays: [], status: "fallback-weekdays" }))
   ]);
   const niftyBars = niftyHistory.bars;
@@ -77,9 +78,19 @@ async function main() {
   const indiaDate = marketDateInIndia(now);
   const expectedMarketDate = previousTradingDate(indiaDate, holidays);
   const currentListings = parseIpoWatchListingPage(listingHtml);
+  const hdfcPastIpos = parseHdfcPastIpo(hdfcPastIpoHtml);
   const archive2021 = parseIpoWatchListingPage(archive2021Html);
-  const performanceRows = [...parseIpoWatchPerformance(performanceHtml), ...archive2021.map(row => ({ ...row, issuePrice: row.issuePrice || 0 }))];
+  // IPOWatch's performance table can lag newly listed issues. Use every row with an
+  // explicit Listing Date as the current feed; NSE series remains the SME/mainboard gate.
+  const performanceRows = [
+    ...hdfcPastIpos,
+    ...currentListings,
+    ...parseIpoWatchPerformance(performanceHtml),
+    ...archive2021.map(row => ({ ...row, issuePrice: row.issuePrice || 0 }))
+  ];
   const built = buildRollingUniverse(parseNseListingCsv(nseCsv), performanceRows, currentListings, now);
+  const latestSourceListingDate = performanceRows.map(row => row.listingDate).filter(Boolean).sort().at(-1) || "";
+  const latestUniverseListingDate = built.universe[0]?.listingDate || "";
   const historyFailures = [];
   let fallbackHistories = niftyHistory.provider.includes("fallback") ? 1 : 0;
   const rows = await mapLimit(built.universe, 8, async stock => {
@@ -113,9 +124,10 @@ async function main() {
       exchange: "NSE", segment: "Mainboard", rollingWindowStart: built.cutoff,
       marketDate, expectedMarketDate, dataFreshness: marketDate >= expectedMarketDate ? "fresh" : "stale",
       universeCount: built.universe.length, qualifyingCount: stocks.length,
+      latestSourceListingDate, latestUniverseListingDate,
       historyFailures: historyFailures.length, validationFailures: built.failures.length,
       durationMs: Date.now() - started,
-      sourceStatus: { nseMaster: "ok", nseHolidayCalendar: holidayResult.status, ipoWatchPerformance: "ok", ipoWatchListingDate: "ok", yahooHistory: historyFailures.length ? "partial" : fallbackHistories ? `ok (${fallbackHistories} fallback)` : "ok" },
+      sourceStatus: { nseMaster: "ok", nseHolidayCalendar: holidayResult.status, ipoWatchPerformance: "ok", ipoWatchListingDate: "ok", hdfcActualListingDate: "ok", yahooHistory: historyFailures.length ? "partial" : fallbackHistories ? `ok (${fallbackHistories} fallback)` : "ok" },
       backtest: { status: "ready", lookbackSessions: 126, forwardHorizons: [5, 10, 20], note: "Indicative historical forward returns; not a guarantee" },
       rules: { oneMatchIncludes: true, noTopNCap: true, smeExcluded: true, smaTolerancePct: 2, ipoBaseMaxDepthPct: 12, independentFamilyScoring: true, safeSnapshotGuard: true, removedSystems: ["Monthly 51-Period High Breakout", "50-Day SMA Proximity"] }
     },
