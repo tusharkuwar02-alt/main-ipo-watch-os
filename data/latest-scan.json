@@ -2,21 +2,21 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-09-18T17:07:56.586Z",
-    "lastSuccessfulScanAt": "2026-09-18T17:07:56.586Z",
+    "asOf": "2026-09-21T18:50:17.723Z",
+    "lastSuccessfulScanAt": "2026-09-21T18:50:17.723Z",
     "exchange": "NSE",
     "segment": "Mainboard",
-    "rollingWindowStart": "2021-09-18",
+    "rollingWindowStart": "2021-09-21",
     "marketDate": "2026-09-18",
-    "expectedMarketDate": "2026-09-18",
-    "dataFreshness": "fresh",
-    "universeCount": 386,
-    "qualifyingCount": 326,
+    "expectedMarketDate": "2026-09-22",
+    "dataFreshness": "stale",
+    "universeCount": 387,
+    "qualifyingCount": 327,
     "latestSourceListingDate": "2026-10-01",
-    "latestUniverseListingDate": "2026-09-18",
+    "latestUniverseListingDate": "2026-09-21",
     "historyFailures": 0,
     "validationFailures": 0,
-    "durationMs": 35258,
+    "durationMs": 34457,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -57,11 +57,11 @@
       "name": "Daily SMA 21 Proximity",
       "family": "SMA Proximity",
       "performance": {
-        "samples": 10139,
-        "winRate5d": 48.7,
-        "avgReturn5d": 0.74,
-        "avgReturn10d": 1.45,
-        "avgReturn20d": 3.03
+        "samples": 10135,
+        "winRate5d": 48.8,
+        "avgReturn5d": 0.75,
+        "avgReturn10d": 1.46,
+        "avgReturn20d": 3.06
       }
     },
     {
@@ -69,11 +69,11 @@
       "name": "Daily SMA 30 Proximity",
       "family": "SMA Proximity",
       "performance": {
-        "samples": 8294,
-        "winRate5d": 49.1,
-        "avgReturn5d": 0.78,
-        "avgReturn10d": 1.41,
-        "avgReturn20d": 3.03
+        "samples": 8289,
+        "winRate5d": 49.2,
+        "avgReturn5d": 0.79,
+        "avgReturn10d": 1.42,
+        "avgReturn20d": 3.05
       }
     },
     {
@@ -81,11 +81,11 @@
       "name": "Weekly SMA 21 Proximity",
       "family": "SMA Proximity",
       "performance": {
-        "samples": 4501,
+        "samples": 4492,
         "winRate5d": 47.8,
-        "avgReturn5d": 0.51,
-        "avgReturn10d": 0.89,
-        "avgReturn20d": 2.07
+        "avgReturn5d": 0.52,
+        "avgReturn10d": 0.92,
+        "avgReturn20d": 2.09
       }
     },
     {
@@ -93,10 +93,10 @@
       "name": "Weekly SMA 30 Proximity",
       "family": "SMA Proximity",
       "performance": {
-        "samples": 3330,
+        "samples": 3334,
         "winRate5d": 48.7,
-        "avgReturn5d": 0.73,
-        "avgReturn10d": 1.26,
+        "avgReturn5d": 0.74,
+        "avgReturn10d": 1.27,
         "avgReturn20d": 2.11
       }
     },
@@ -105,11 +105,11 @@
       "name": "Daily Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 1575,
-        "winRate5d": 49.6,
-        "avgReturn5d": 0.72,
-        "avgReturn10d": 1.42,
-        "avgReturn20d": 2.63
+        "samples": 1577,
+        "winRate5d": 49.7,
+        "avgReturn5d": 0.73,
+        "avgReturn10d": 1.43,
+        "avgReturn20d": 2.64
       }
     },
     {
@@ -117,11 +117,11 @@
       "name": "Weekly 51-Period High Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 754,
-        "winRate5d": 50.8,
-        "avgReturn5d": 0.63,
-        "avgReturn10d": 1.94,
-        "avgReturn20d": 3.43
+        "samples": 756,
+        "winRate5d": 50.9,
+        "avgReturn5d": 0.64,
+        "avgReturn10d": 1.96,
+        "avgReturn20d": 3.45
       }
     },
     {
@@ -133,7 +133,7 @@
         "winRate5d": 52.5,
         "avgReturn5d": 0.9,
         "avgReturn10d": 2.36,
-        "avgReturn20d": 5
+        "avgReturn20d": 4.98
       }
     },
     {
@@ -141,11 +141,11 @@
       "name": "Listing High Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 16318,
+        "samples": 16322,
         "winRate5d": 52.9,
         "avgReturn5d": 1.07,
-        "avgReturn10d": 2.21,
-        "avgReturn20d": 4.72
+        "avgReturn10d": 2.23,
+        "avgReturn20d": 4.73
       }
     },
     {
@@ -153,11 +153,11 @@
       "name": "5-Day High Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 4015,
+        "samples": 4026,
         "winRate5d": 52,
         "avgReturn5d": 1.14,
-        "avgReturn10d": 2.15,
-        "avgReturn20d": 3.95
+        "avgReturn10d": 2.14,
+        "avgReturn20d": 3.94
       }
     },
     {
@@ -165,11 +165,11 @@
       "name": "10-Day High Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 2944,
+        "samples": 2947,
         "winRate5d": 52.3,
-        "avgReturn5d": 1.12,
-        "avgReturn10d": 2.16,
-        "avgReturn20d": 3.58
+        "avgReturn5d": 1.11,
+        "avgReturn10d": 2.15,
+        "avgReturn20d": 3.59
       }
     },
     {
@@ -177,9 +177,9 @@
       "name": "20-Day High Breakout",
       "family": "Breakout",
       "performance": {
-        "samples": 2164,
+        "samples": 2167,
         "winRate5d": 50.2,
-        "avgReturn5d": 0.73,
+        "avgReturn5d": 0.74,
         "avgReturn10d": 1.55,
         "avgReturn20d": 2.66
       }
@@ -189,11 +189,11 @@
       "name": "IPO Base (≤12% Depth)",
       "family": "IPO Structure",
       "performance": {
-        "samples": 69,
-        "winRate5d": 46.4,
-        "avgReturn5d": -0.36,
-        "avgReturn10d": 0.35,
-        "avgReturn20d": 1.42
+        "samples": 71,
+        "winRate5d": 47.9,
+        "avgReturn5d": -0.28,
+        "avgReturn10d": 0.47,
+        "avgReturn20d": 1.38
       }
     },
     {
@@ -201,11 +201,11 @@
       "name": "Issue Price Reclaim / Hold",
       "family": "IPO Structure",
       "performance": {
-        "samples": 20374,
-        "winRate5d": 52.4,
-        "avgReturn5d": 0.99,
-        "avgReturn10d": 2.08,
-        "avgReturn20d": 4.5
+        "samples": 20381,
+        "winRate5d": 52.5,
+        "avgReturn5d": 1,
+        "avgReturn10d": 2.1,
+        "avgReturn20d": 4.52
       }
     },
     {
@@ -213,10 +213,10 @@
       "name": "Volume Expansion",
       "family": "Volume",
       "performance": {
-        "samples": 4296,
-        "winRate5d": 48.3,
+        "samples": 4299,
+        "winRate5d": 48.4,
         "avgReturn5d": 0.63,
-        "avgReturn10d": 1.85,
+        "avgReturn10d": 1.86,
         "avgReturn20d": 4.28
       }
     },
@@ -225,10 +225,10 @@
       "name": "Relative Strength vs NIFTY",
       "family": "Relative Strength",
       "performance": {
-        "samples": 23148,
-        "winRate5d": 51.2,
-        "avgReturn5d": 0.83,
-        "avgReturn10d": 1.88,
+        "samples": 23194,
+        "winRate5d": 51.1,
+        "avgReturn5d": 0.84,
+        "avgReturn10d": 1.89,
         "avgReturn20d": 3.86
       }
     },
@@ -239,9 +239,9 @@
       "performance": {
         "samples": 3386,
         "winRate5d": 47.2,
-        "avgReturn5d": 0.25,
-        "avgReturn10d": 1.41,
-        "avgReturn20d": 3.37
+        "avgReturn5d": 0.26,
+        "avgReturn10d": 1.42,
+        "avgReturn20d": 3.38
       }
     },
     {
@@ -249,11 +249,11 @@
       "name": "Volume Dry-Up Pullback",
       "family": "Volume",
       "performance": {
-        "samples": 5205,
-        "winRate5d": 49.4,
-        "avgReturn5d": 0.75,
-        "avgReturn10d": 1.17,
-        "avgReturn20d": 2.38
+        "samples": 5196,
+        "winRate5d": 49.5,
+        "avgReturn5d": 0.77,
+        "avgReturn10d": 1.2,
+        "avgReturn20d": 2.43
       }
     },
     {
@@ -261,11 +261,11 @@
       "name": "Pocket Pivot / High-Volume Up Day",
       "family": "Volume",
       "performance": {
-        "samples": 5051,
-        "winRate5d": 47.2,
-        "avgReturn5d": 0.47,
-        "avgReturn10d": 1.51,
-        "avgReturn20d": 3.43
+        "samples": 5050,
+        "winRate5d": 47.3,
+        "avgReturn5d": 0.48,
+        "avgReturn10d": 1.52,
+        "avgReturn20d": 3.44
       }
     },
     {
@@ -273,11 +273,11 @@
       "name": "Tight Close / VCP Contraction",
       "family": "Price Pattern",
       "performance": {
-        "samples": 4649,
-        "winRate5d": 47.6,
-        "avgReturn5d": 0.56,
-        "avgReturn10d": 0.93,
-        "avgReturn20d": 2.26
+        "samples": 4660,
+        "winRate5d": 47.7,
+        "avgReturn5d": 0.57,
+        "avgReturn10d": 0.95,
+        "avgReturn20d": 2.27
       }
     },
     {
@@ -295,16 +295,16 @@
   ],
   "stocks": [
     {
-      "symbol": "BHARTIHEXA",
-      "company": "Bharti Hexacom Limited",
-      "listingDate": "2024-04-12",
-      "issuePrice": 570,
+      "symbol": "ANANDRATHI",
+      "company": "Anand Rathi Wealth Limited",
+      "listingDate": "2021-12-14",
+      "issuePrice": 550,
       "matchConfidence": 1,
-      "price": 1540.0999755859375,
-      "changePct": 4.11,
-      "volumeRatio": 4.53,
-      "dailySma21": 1547.81,
-      "dailySma30": 1549.78,
+      "price": 2229.39990234375,
+      "changePct": 1,
+      "volumeRatio": 4.5,
+      "dailySma21": 2200.1,
+      "dailySma30": 2192.84,
       "marketDate": "2026-09-18",
       "matchCount": 10,
       "priority": 100,
@@ -313,8 +313,7 @@
         "Breakout",
         "IPO Structure",
         "Volume",
-        "Relative Strength",
-        "Price Pattern"
+        "Relative Strength"
       ],
       "confluenceScore": 100,
       "matches": [
@@ -322,17 +321,108 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.50%",
-          "distancePct": -0.5,
+          "reason": "Price above SMA by 1.33%",
+          "distancePct": 1.33,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 1.67%",
+          "distancePct": 1.67,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "ath",
+          "name": "All-Time High Test / Breakout",
+          "family": "Breakout",
+          "reason": "Close is 1.14% below ATH"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹2229.40 is above listing-day high ₹153.75"
+        },
+        {
+          "id": "ipo-base",
+          "name": "IPO Base (≤12% Depth)",
+          "family": "IPO Structure",
+          "reason": "Base depth 11.22% (maximum 12%); price within 2% of base high",
+          "baseDepthPct": 11.22
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹550.00 reclaimed/held"
+        },
+        {
+          "id": "volume-expansion",
+          "name": "Volume Expansion",
+          "family": "Volume",
+          "reason": "Up day on 4.50× 20-day average volume"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +19.38% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 22.16
+        },
+        {
+          "id": "rs-new-high",
+          "name": "Relative Strength New High",
+          "family": "Relative Strength",
+          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "BHARTIHEXA",
+      "company": "Bharti Hexacom Limited",
+      "listingDate": "2024-04-12",
+      "issuePrice": 570,
+      "matchConfidence": 1,
+      "price": 1540.0999755859375,
+      "changePct": 3.98,
+      "volumeRatio": 4.86,
+      "dailySma21": 1538.96,
+      "dailySma30": 1548.87,
+      "marketDate": "2026-09-18",
+      "matchCount": 9,
+      "priority": 100,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Volume",
+        "Relative Strength"
+      ],
+      "confluenceScore": 100,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.07%",
+          "distancePct": 0.07,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.62%",
-          "distancePct": -0.62,
-          "smaDirection": "Falling"
+          "reason": "Price below SMA by 0.57%",
+          "distancePct": -0.57,
+          "smaDirection": "Rising"
         },
         {
           "id": "weekly-sma21",
@@ -366,195 +456,20 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 4.53× 20-day average volume"
+          "reason": "Up day on 4.86× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +7.12% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 10.51
+          "reason": "63-day return +3.05% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 5.83
         },
         {
           "id": "pocket-pivot",
           "name": "Pocket Pivot / High-Volume Up Day",
           "family": "Volume",
           "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        },
-        {
-          "id": "tight-close",
-          "name": "Tight Close / VCP Contraction",
-          "family": "Price Pattern",
-          "reason": "5-session range 6.44% contracted from 7.26%"
-        }
-      ]
-    },
-    {
-      "symbol": "ANANDRATHI",
-      "company": "Anand Rathi Wealth Limited",
-      "listingDate": "2021-12-14",
-      "issuePrice": 550,
-      "matchConfidence": 1,
-      "price": 2229.39990234375,
-      "changePct": 1.05,
-      "volumeRatio": 4.3,
-      "dailySma21": 2197.34,
-      "dailySma30": 2184.66,
-      "marketDate": "2026-09-18",
-      "matchCount": 10,
-      "priority": 100,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Volume",
-        "Relative Strength"
-      ],
-      "confluenceScore": 100,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.46%",
-          "distancePct": 1.46,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "ath",
-          "name": "All-Time High Test / Breakout",
-          "family": "Breakout",
-          "reason": "Close is 1.14% below ATH"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹2229.40 is above listing-day high ₹153.75"
-        },
-        {
-          "id": "high-5d",
-          "name": "5-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹2222.30"
-        },
-        {
-          "id": "ipo-base",
-          "name": "IPO Base (≤12% Depth)",
-          "family": "IPO Structure",
-          "reason": "Base depth 11.22% (maximum 12%); price within 2% of base high",
-          "baseDepthPct": 11.22
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹550.00 reclaimed/held"
-        },
-        {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 4.30× 20-day average volume"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +23.49% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 26.89
-        },
-        {
-          "id": "rs-new-high",
-          "name": "Relative Strength New High",
-          "family": "Relative Strength",
-          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        }
-      ]
-    },
-    {
-      "symbol": "MEDANTA",
-      "company": "Global Health Limited",
-      "listingDate": "2022-11-16",
-      "issuePrice": 330,
-      "matchConfidence": 1,
-      "price": 1499.4000244140625,
-      "changePct": 6.75,
-      "volumeRatio": 2.44,
-      "dailySma21": 1443.59,
-      "dailySma30": 1440.54,
-      "marketDate": "2026-09-18",
-      "matchCount": 9,
-      "priority": 100,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Volume",
-        "Relative Strength",
-        "Price Pattern"
-      ],
-      "confluenceScore": 100,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹1499.40 is above listing-day high ₹422.80"
-        },
-        {
-          "id": "high-5d",
-          "name": "5-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹1487.90"
-        },
-        {
-          "id": "high-10d",
-          "name": "10-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 10-day high ₹1491.80"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹330.00 reclaimed/held"
-        },
-        {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 2.44× 20-day average volume"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +19.17% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 22.57
-        },
-        {
-          "id": "rs-new-high",
-          "name": "Relative Strength New High",
-          "family": "Relative Strength",
-          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        },
-        {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
-          "family": "Price Pattern",
-          "reason": "Gap 3.14% held above prior close"
         }
       ]
     },
@@ -639,6 +554,85 @@
           "name": "Pocket Pivot / High-Volume Up Day",
           "family": "Volume",
           "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "PARKHOSPS",
+      "company": "Park Medi World Limited",
+      "listingDate": "2025-12-17",
+      "issuePrice": 162,
+      "matchConfidence": 1,
+      "price": 282.04998779296875,
+      "changePct": 1.49,
+      "volumeRatio": 2.02,
+      "dailySma21": 282.43,
+      "dailySma30": 281.51,
+      "marketDate": "2026-09-18",
+      "matchCount": 8,
+      "priority": 100,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Volume",
+        "Relative Strength",
+        "Price Pattern"
+      ],
+      "confluenceScore": 100,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.14%",
+          "distancePct": -0.14,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.19%",
+          "distancePct": 0.19,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹282.05 is above listing-day high ₹165.87"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹162.00 reclaimed/held"
+        },
+        {
+          "id": "volume-expansion",
+          "name": "Volume Expansion",
+          "family": "Volume",
+          "reason": "Up day on 2.02× 20-day average volume"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +1.60% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 4.38
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        },
+        {
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 5.46% contracted from 8.34%"
         }
       ]
     },
@@ -793,79 +787,6 @@
       ]
     },
     {
-      "symbol": "PARKHOSPS",
-      "company": "Park Medi World Limited",
-      "listingDate": "2025-12-17",
-      "issuePrice": 162,
-      "matchConfidence": 1,
-      "price": 282.04998779296875,
-      "changePct": 1.49,
-      "volumeRatio": 1.93,
-      "dailySma21": 282.11,
-      "dailySma30": 281.94,
-      "marketDate": "2026-09-18",
-      "matchCount": 7,
-      "priority": 100,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Volume",
-        "Relative Strength",
-        "Price Pattern"
-      ],
-      "confluenceScore": 100,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.02%",
-          "distancePct": -0.02,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.04%",
-          "distancePct": 0.04,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹282.05 is above listing-day high ₹165.87"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹162.00 reclaimed/held"
-        },
-        {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 1.93× 20-day average volume"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +1.60% vs NIFTY -2.78%",
-          "relativeOutperformancePct": 4.38
-        },
-        {
-          "id": "tight-close",
-          "name": "Tight Close / VCP Contraction",
-          "family": "Price Pattern",
-          "reason": "5-session range 5.46% contracted from 8.41%"
-        }
-      ]
-    },
-    {
       "symbol": "ANTHEM",
       "company": "Anthem Biosciences Limited",
       "listingDate": "2025-07-21",
@@ -945,9 +866,9 @@
       "matchConfidence": 0.92,
       "price": 1779.9000244140625,
       "changePct": 2.95,
-      "volumeRatio": 3.44,
-      "dailySma21": 1764.37,
-      "dailySma30": 1772.48,
+      "volumeRatio": 3.55,
+      "dailySma21": 1761.94,
+      "dailySma30": 1772.58,
       "marketDate": "2026-09-18",
       "matchCount": 7,
       "priority": 100,
@@ -964,16 +885,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.88%",
-          "distancePct": 0.88,
+          "reason": "Price above SMA by 1.02%",
+          "distancePct": 1.02,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.42%",
-          "distancePct": 0.42,
+          "reason": "Price above SMA by 0.41%",
+          "distancePct": 0.41,
           "smaDirection": "Rising"
         },
         {
@@ -986,7 +907,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 3.44× 20-day average volume"
+          "reason": "Up day on 3.55× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -1228,72 +1149,76 @@
       ]
     },
     {
-      "symbol": "SURAJEST",
-      "company": "Suraj Estate Developers Limited",
-      "listingDate": "2023-12-26",
-      "issuePrice": 360,
+      "symbol": "FEDFINA",
+      "company": "Fedbank Financial Services Limited",
+      "listingDate": "2023-11-30",
+      "issuePrice": 140,
       "matchConfidence": 1,
-      "price": 192.25,
-      "changePct": 13.97,
-      "volumeRatio": 3.98,
-      "dailySma21": 186.34,
-      "dailySma30": 193.17,
+      "price": 155.25,
+      "changePct": 1.96,
+      "volumeRatio": 0.91,
+      "dailySma21": 157.63,
+      "dailySma30": 155.73,
       "marketDate": "2026-09-18",
       "matchCount": 7,
       "priority": 100,
       "signalFamilies": [
         "SMA Proximity",
         "Breakout",
-        "Volume",
+        "IPO Structure",
         "Relative Strength",
         "Price Pattern"
       ],
       "confluenceScore": 100,
       "matches": [
         {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.51%",
+          "distancePct": -1.51,
+          "smaDirection": "Rising"
+        },
+        {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.48%",
-          "distancePct": -0.48,
-          "smaDirection": "Falling"
+          "reason": "Price below SMA by 0.31%",
+          "distancePct": -0.31,
+          "smaDirection": "Rising"
         },
         {
-          "id": "high-5d",
-          "name": "5-Day High Breakout",
+          "id": "weekly-sma21",
+          "name": "Weekly SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above weekly SMA by 0.47%",
+          "distancePct": 0.47,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹179.99"
+          "reason": "Close ₹155.25 is above listing-day high ₹148.25"
         },
         {
-          "id": "high-10d",
-          "name": "10-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 10-day high ₹190.79"
-        },
-        {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 3.98× 20-day average volume"
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹140.00 reclaimed/held"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return -0.35% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 3.05
+          "reason": "63-day return +0.44% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 3.22
         },
         {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        },
-        {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
           "family": "Price Pattern",
-          "reason": "Gap 5.67% held above prior close"
+          "reason": "5-session range 7.84% contracted from 9.82%"
         }
       ]
     },
@@ -1371,90 +1296,16 @@
       ]
     },
     {
-      "symbol": "SENCO",
-      "company": "Senco Gold Limited",
-      "listingDate": "2023-07-14",
-      "issuePrice": 317,
-      "matchConfidence": 1,
-      "price": 348,
-      "changePct": 4.74,
-      "volumeRatio": 0.66,
-      "dailySma21": 352.7,
-      "dailySma30": 354.83,
-      "marketDate": "2026-09-18",
-      "matchCount": 7,
-      "priority": 100,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength",
-        "Price Pattern"
-      ],
-      "confluenceScore": 100,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.33%",
-          "distancePct": -1.33,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.92%",
-          "distancePct": -1.92,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "weekly-sma21",
-          "name": "Weekly SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below weekly SMA by 1.02%",
-          "distancePct": -1.02,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹348.00 is above listing-day high ₹222.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹317.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +1.74% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 5.14
-        },
-        {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
-          "family": "Price Pattern",
-          "reason": "Gap 3.69% held above prior close"
-        }
-      ]
-    },
-    {
       "symbol": "KFINTECH",
       "company": "Kfin Technologies Limited",
       "listingDate": "2022-12-29",
       "issuePrice": 366,
       "matchConfidence": 1,
       "price": 930,
-      "changePct": 4.61,
-      "volumeRatio": 0.63,
-      "dailySma21": 933.9,
-      "dailySma30": 936.03,
+      "changePct": 3.68,
+      "volumeRatio": 0.71,
+      "dailySma21": 930.85,
+      "dailySma30": 934.73,
       "marketDate": "2026-09-18",
       "matchCount": 7,
       "priority": 100,
@@ -1471,17 +1322,17 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.42%",
-          "distancePct": -0.42,
+          "reason": "Price below SMA by 0.09%",
+          "distancePct": -0.09,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.64%",
-          "distancePct": -0.64,
-          "smaDirection": "Flat"
+          "reason": "Price below SMA by 0.51%",
+          "distancePct": -0.51,
+          "smaDirection": "Falling"
         },
         {
           "id": "listing-high",
@@ -1493,7 +1344,7 @@
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹911.80"
+          "reason": "Close broke prior 5-day high ₹904.70"
         },
         {
           "id": "issue-price",
@@ -1505,87 +1356,14 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +2.55% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 5.95
+          "reason": "63-day return +1.60% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 4.38
         },
         {
           "id": "tight-close",
           "name": "Tight Close / VCP Contraction",
           "family": "Price Pattern",
-          "reason": "5-session range 6.59% contracted from 8.14%"
-        }
-      ]
-    },
-    {
-      "symbol": "PARADEEP",
-      "company": "Paradeep Phosphates Limited",
-      "listingDate": "2022-05-27",
-      "issuePrice": 42,
-      "matchConfidence": 1,
-      "price": 155.6199951171875,
-      "changePct": 5.98,
-      "volumeRatio": 0.36,
-      "dailySma21": 155.82,
-      "dailySma30": 153.6,
-      "marketDate": "2026-09-18",
-      "matchCount": 7,
-      "priority": 100,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength",
-        "Volume",
-        "Price Pattern"
-      ],
-      "confluenceScore": 100,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.13%",
-          "distancePct": -0.13,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.31%",
-          "distancePct": 1.31,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹155.62 is above listing-day high ₹47.25"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹42.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +15.92% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 19.32
-        },
-        {
-          "id": "volume-dry-up",
-          "name": "Volume Dry-Up Pullback",
-          "family": "Volume",
-          "reason": "Volume 0.36× average while price is within ±2% of SMA21"
-        },
-        {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
-          "family": "Price Pattern",
-          "reason": "Gap 4.88% held above prior close"
+          "reason": "5-session range 6.59% contracted from 9.93%"
         }
       ]
     },
@@ -1596,10 +1374,10 @@
       "issuePrice": 153,
       "matchConfidence": 1,
       "price": 362.8999938964844,
-      "changePct": 3.58,
-      "volumeRatio": 1.95,
-      "dailySma21": 353.38,
-      "dailySma30": 360.62,
+      "changePct": 3.79,
+      "volumeRatio": 1.98,
+      "dailySma21": 353.45,
+      "dailySma30": 359.05,
       "marketDate": "2026-09-18",
       "matchCount": 7,
       "priority": 100,
@@ -1616,8 +1394,8 @@
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.63%",
-          "distancePct": 0.63,
+          "reason": "Price above SMA by 1.07%",
+          "distancePct": 1.07,
           "smaDirection": "Falling"
         },
         {
@@ -1644,7 +1422,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.95× 20-day average volume"
+          "reason": "Up day on 1.98× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -2124,10 +1902,10 @@
       "issuePrice": 221,
       "matchConfidence": 1,
       "price": 612.4000244140625,
-      "changePct": 5.06,
-      "volumeRatio": 0.57,
-      "dailySma21": 605.79,
-      "dailySma30": 604.33,
+      "changePct": 4.12,
+      "volumeRatio": 0.58,
+      "dailySma21": 603.89,
+      "dailySma30": 605.95,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 100,
@@ -2144,16 +1922,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.09%",
-          "distancePct": 1.09,
+          "reason": "Price above SMA by 1.41%",
+          "distancePct": 1.41,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.34%",
-          "distancePct": 1.34,
+          "reason": "Price above SMA by 1.06%",
+          "distancePct": 1.06,
           "smaDirection": "Rising"
         },
         {
@@ -2172,28 +1950,28 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +38.94% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 42.34
+          "reason": "63-day return +39.95% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 42.72
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.57× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.58× average while price is within ±2% of SMA21"
         }
       ]
     },
     {
-      "symbol": "ENTERO",
-      "company": "Entero Healthcare Solutions Limited",
-      "listingDate": "2024-02-16",
-      "issuePrice": 1258,
+      "symbol": "INOXINDIA",
+      "company": "INOX India Limited",
+      "listingDate": "2023-12-21",
+      "issuePrice": 660,
       "matchConfidence": 1,
-      "price": 1732.300048828125,
-      "changePct": 0.03,
-      "volumeRatio": 0.58,
-      "dailySma21": 1720.6,
-      "dailySma30": 1615.16,
+      "price": 2098.800048828125,
+      "changePct": 4.17,
+      "volumeRatio": 0.42,
+      "dailySma21": 2111.1,
+      "dailySma30": 2060.47,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 100,
@@ -2210,40 +1988,42 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.68%",
-          "distancePct": 0.68,
+          "reason": "Price below SMA by 0.58%",
+          "distancePct": -0.58,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 1.86%",
+          "distancePct": 1.86,
           "smaDirection": "Rising"
         },
         {
           "id": "listing-high",
           "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹1732.30 is above listing-day high ₹1258.00"
+          "reason": "Close ₹2098.80 is above listing-day high ₹990.00"
         },
         {
           "id": "issue-price",
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
-          "reason": "Issue price ₹1258.00 reclaimed/held"
+          "reason": "Issue price ₹660.00 reclaimed/held"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +56.70% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 60.1
+          "reason": "63-day return +9.44% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 12.21
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.58× average while price is within ±2% of SMA21"
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+          "reason": "Volume 0.42× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -2254,10 +2034,10 @@
       "issuePrice": 324,
       "matchConfidence": 1,
       "price": 479.54998779296875,
-      "changePct": 2.18,
-      "volumeRatio": 1.31,
-      "dailySma21": 475.76,
-      "dailySma30": 476.15,
+      "changePct": 4.23,
+      "volumeRatio": 1.32,
+      "dailySma21": 474.97,
+      "dailySma30": 475.96,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 100,
@@ -2274,16 +2054,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.80%",
-          "distancePct": 0.8,
+          "reason": "Price above SMA by 0.96%",
+          "distancePct": 0.96,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.71%",
-          "distancePct": 0.71,
+          "reason": "Price above SMA by 0.75%",
+          "distancePct": 0.75,
           "smaDirection": "Rising"
         },
         {
@@ -2302,8 +2082,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +17.97% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 21.37
+          "reason": "63-day return +14.89% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 17.67
         },
         {
           "id": "pocket-pivot",
@@ -2320,10 +2100,10 @@
       "issuePrice": 741,
       "matchConfidence": 1,
       "price": 1494.4000244140625,
-      "changePct": 2.79,
-      "volumeRatio": 1.39,
-      "dailySma21": 1487.82,
-      "dailySma30": 1482.53,
+      "changePct": 2.28,
+      "volumeRatio": 1.42,
+      "dailySma21": 1482.31,
+      "dailySma30": 1485.73,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 100,
@@ -2340,16 +2120,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.44%",
-          "distancePct": 0.44,
+          "reason": "Price above SMA by 0.82%",
+          "distancePct": 0.82,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.80%",
-          "distancePct": 0.8,
+          "reason": "Price above SMA by 0.58%",
+          "distancePct": 0.58,
           "smaDirection": "Rising"
         },
         {
@@ -2368,8 +2148,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +10.90% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 14.3
+          "reason": "63-day return +13.63% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 16.41
         },
         {
           "id": "pocket-pivot",
@@ -2380,16 +2160,16 @@
       ]
     },
     {
-      "symbol": "AETHER",
-      "company": "Aether Industries Limited",
-      "listingDate": "2022-06-03",
-      "issuePrice": 642,
+      "symbol": "TMB",
+      "company": "Tamilnad Mercantile Bank Limited",
+      "listingDate": "2022-09-15",
+      "issuePrice": 510,
       "matchConfidence": 1,
-      "price": 1630,
-      "changePct": 1.68,
-      "volumeRatio": 0.42,
-      "dailySma21": 1646.32,
-      "dailySma30": 1636.44,
+      "price": 895.75,
+      "changePct": 0.48,
+      "volumeRatio": 1.45,
+      "dailySma21": 905.5,
+      "dailySma30": 890.85,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 100,
@@ -2406,16 +2186,82 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.99%",
-          "distancePct": -0.99,
+          "reason": "Price below SMA by 1.08%",
+          "distancePct": -1.08,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.55%",
+          "distancePct": 0.55,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹895.75 is above listing-day high ₹515.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹510.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +14.75% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 17.53
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "AETHER",
+      "company": "Aether Industries Limited",
+      "listingDate": "2022-06-03",
+      "issuePrice": 642,
+      "matchConfidence": 1,
+      "price": 1630,
+      "changePct": 0.41,
+      "volumeRatio": 0.41,
+      "dailySma21": 1645.79,
+      "dailySma30": 1637.5,
+      "marketDate": "2026-09-18",
+      "matchCount": 6,
+      "priority": 100,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength",
+        "Volume"
+      ],
+      "confluenceScore": 100,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.96%",
+          "distancePct": -0.96,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.39%",
-          "distancePct": -0.39,
+          "reason": "Price below SMA by 0.46%",
+          "distancePct": -0.46,
           "smaDirection": "Rising"
         },
         {
@@ -2434,14 +2280,80 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +41.19% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 44.59
+          "reason": "63-day return +40.24% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 43.02
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.42× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.41× average while price is within ±2% of SMA21"
+        }
+      ]
+    },
+    {
+      "symbol": "PARADEEP",
+      "company": "Paradeep Phosphates Limited",
+      "listingDate": "2022-05-27",
+      "issuePrice": 42,
+      "matchConfidence": 1,
+      "price": 155.6199951171875,
+      "changePct": 1.18,
+      "volumeRatio": 0.37,
+      "dailySma21": 156.3,
+      "dailySma30": 154.01,
+      "marketDate": "2026-09-18",
+      "matchCount": 6,
+      "priority": 100,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength",
+        "Volume"
+      ],
+      "confluenceScore": 100,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.44%",
+          "distancePct": -0.44,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 1.05%",
+          "distancePct": 1.05,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹155.62 is above listing-day high ₹47.25"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹42.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +14.24% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 17.02
+        },
+        {
+          "id": "volume-dry-up",
+          "name": "Volume Dry-Up Pullback",
+          "family": "Volume",
+          "reason": "Volume 0.37× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -2679,16 +2591,16 @@
       ]
     },
     {
-      "symbol": "INOXINDIA",
-      "company": "INOX India Limited",
-      "listingDate": "2023-12-21",
-      "issuePrice": 660,
+      "symbol": "ENTERO",
+      "company": "Entero Healthcare Solutions Limited",
+      "listingDate": "2024-02-16",
+      "issuePrice": 1258,
       "matchConfidence": 1,
-      "price": 2098.800048828125,
-      "changePct": 6.06,
-      "volumeRatio": 0.42,
-      "dailySma21": 2091.7,
-      "dailySma30": 2048.73,
+      "price": 1732.300048828125,
+      "changePct": 3.94,
+      "volumeRatio": 0.51,
+      "dailySma21": 1733.92,
+      "dailySma30": 1629.3,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 100,
@@ -2705,48 +2617,48 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.34%",
-          "distancePct": 0.34,
+          "reason": "Price below SMA by 0.09%",
+          "distancePct": -0.09,
           "smaDirection": "Rising"
         },
         {
           "id": "listing-high",
           "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹2098.80 is above listing-day high ₹990.00"
+          "reason": "Close ₹1732.30 is above listing-day high ₹1258.00"
         },
         {
           "id": "issue-price",
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
-          "reason": "Issue price ₹660.00 reclaimed/held"
+          "reason": "Issue price ₹1258.00 reclaimed/held"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +15.80% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 19.2
+          "reason": "63-day return +59.01% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 61.79
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.42× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.51× average while price is within ±2% of SMA21"
         }
       ]
     },
     {
-      "symbol": "AEROFLEX",
-      "company": "Aeroflex Industries Limited",
-      "listingDate": "2023-08-31",
-      "issuePrice": 108,
+      "symbol": "RPTECH",
+      "company": "Rashi Peripherals Limited",
+      "listingDate": "2024-02-14",
+      "issuePrice": 311,
       "matchConfidence": 1,
-      "price": 510.8999938964844,
-      "changePct": 6.19,
-      "volumeRatio": 0.56,
-      "dailySma21": 531.48,
-      "dailySma30": 506.71,
+      "price": 798.0499877929688,
+      "changePct": -1.08,
+      "volumeRatio": 0.29,
+      "dailySma21": 813.92,
+      "dailySma30": 828.83,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 100,
@@ -2755,42 +2667,100 @@
         "Breakout",
         "IPO Structure",
         "Relative Strength",
-        "Price Pattern"
+        "Volume"
       ],
       "confluenceScore": 100,
       "matches": [
         {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.83%",
-          "distancePct": 0.83,
-          "smaDirection": "Rising"
+          "reason": "Price below SMA by 1.95%",
+          "distancePct": -1.95,
+          "smaDirection": "Falling"
         },
         {
           "id": "listing-high",
           "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹510.90 is above listing-day high ₹196.35"
+          "reason": "Close ₹798.05 is above listing-day high ₹342.70"
         },
         {
           "id": "issue-price",
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
-          "reason": "Issue price ₹108.00 reclaimed/held"
+          "reason": "Issue price ₹311.00 reclaimed/held"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +4.48% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 7.88
+          "reason": "63-day return +6.31% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 9.09
         },
         {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
-          "family": "Price Pattern",
-          "reason": "Gap 6.01% held above prior close"
+          "id": "volume-dry-up",
+          "name": "Volume Dry-Up Pullback",
+          "family": "Volume",
+          "reason": "Volume 0.29× average while price is within ±2% of SMA21"
+        }
+      ]
+    },
+    {
+      "symbol": "JSFB",
+      "company": "Jana Small Finance Bank Limited",
+      "listingDate": "2024-02-14",
+      "issuePrice": 414,
+      "matchConfidence": 1,
+      "price": 527.2999877929688,
+      "changePct": 1.38,
+      "volumeRatio": 1.32,
+      "dailySma21": 536.98,
+      "dailySma30": 542.75,
+      "marketDate": "2026-09-18",
+      "matchCount": 5,
+      "priority": 100,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength",
+        "Volume"
+      ],
+      "confluenceScore": 100,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.80%",
+          "distancePct": -1.8,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹527.30 is above listing-day high ₹409.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹414.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +14.61% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 17.38
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
         }
       ]
     },
@@ -2802,9 +2772,9 @@
       "matchConfidence": 1,
       "price": 147.57000732421875,
       "changePct": 14.32,
-      "volumeRatio": 16.58,
-      "dailySma21": 130.01,
-      "dailySma30": 127.05,
+      "volumeRatio": 19.67,
+      "dailySma21": 129.99,
+      "dailySma30": 127.52,
       "marketDate": "2026-09-18",
       "matchCount": 12,
       "priority": 96,
@@ -2820,7 +2790,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 16.58× volume"
+          "reason": "Close broke 20-day high with 19.67× volume"
         },
         {
           "id": "weekly-51",
@@ -2845,7 +2815,7 @@
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹135.90"
+          "reason": "Close broke prior 5-day high ₹134.75"
         },
         {
           "id": "high-10d",
@@ -2869,7 +2839,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 16.58× 20-day average volume"
+          "reason": "Up day on 19.67× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -3095,10 +3065,10 @@
       "issuePrice": 436,
       "matchConfidence": 1,
       "price": 2537.699951171875,
-      "changePct": 14.51,
-      "volumeRatio": 8.86,
-      "dailySma21": 2252.79,
-      "dailySma30": 2182.44,
+      "changePct": 13.8,
+      "volumeRatio": 9.25,
+      "dailySma21": 2252.05,
+      "dailySma30": 2191.26,
       "marketDate": "2026-09-18",
       "matchCount": 12,
       "priority": 96,
@@ -3114,7 +3084,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 8.86× volume"
+          "reason": "Close broke 20-day high with 9.25× volume"
         },
         {
           "id": "weekly-51",
@@ -3139,7 +3109,7 @@
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹2315.00"
+          "reason": "Close broke prior 5-day high ₹2312.00"
         },
         {
           "id": "high-10d",
@@ -3163,14 +3133,14 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 8.86× 20-day average volume"
+          "reason": "Up day on 9.25× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +44.57% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 47.97
+          "reason": "63-day return +45.46% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 48.24
         },
         {
           "id": "rs-new-high",
@@ -3291,10 +3261,10 @@
       "issuePrice": 744,
       "matchConfidence": 1,
       "price": 4259.89990234375,
-      "changePct": 7.27,
-      "volumeRatio": 1.73,
-      "dailySma21": 3942.4,
-      "dailySma30": 3921.34,
+      "changePct": 6.03,
+      "volumeRatio": 1.71,
+      "dailySma21": 3947.99,
+      "dailySma30": 3926.46,
       "marketDate": "2026-09-18",
       "matchCount": 12,
       "priority": 96,
@@ -3310,7 +3280,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 1.73× volume"
+          "reason": "Close broke 20-day high with 1.71× volume"
         },
         {
           "id": "weekly-51",
@@ -3359,14 +3329,14 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.73× 20-day average volume"
+          "reason": "Up day on 1.71× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +47.56% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 50.96
+          "reason": "63-day return +44.61% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 47.39
         },
         {
           "id": "rs-new-high",
@@ -3879,10 +3849,10 @@
       "issuePrice": 282,
       "matchConfidence": 1,
       "price": 656.25,
-      "changePct": 6.21,
-      "volumeRatio": 1.7,
-      "dailySma21": 624.35,
-      "dailySma30": 631.18,
+      "changePct": 6.03,
+      "volumeRatio": 1.84,
+      "dailySma21": 623.17,
+      "dailySma30": 630.65,
       "marketDate": "2026-09-18",
       "matchCount": 8,
       "priority": 88,
@@ -3922,14 +3892,87 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.70× 20-day average volume"
+          "reason": "Up day on 1.84× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +41.66% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 45.06
+          "reason": "63-day return +39.63% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 42.4
+        },
+        {
+          "id": "rs-new-high",
+          "name": "Relative Strength New High",
+          "family": "Relative Strength",
+          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "MEDANTA",
+      "company": "Global Health Limited",
+      "listingDate": "2022-11-16",
+      "issuePrice": 330,
+      "matchConfidence": 1,
+      "price": 1499.4000244140625,
+      "changePct": 5.29,
+      "volumeRatio": 2.41,
+      "dailySma21": 1443.91,
+      "dailySma30": 1439.86,
+      "marketDate": "2026-09-18",
+      "matchCount": 8,
+      "priority": 88,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure",
+        "Volume",
+        "Relative Strength"
+      ],
+      "confluenceScore": 88,
+      "matches": [
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹1499.40 is above listing-day high ₹422.80"
+        },
+        {
+          "id": "high-5d",
+          "name": "5-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 5-day high ₹1487.90"
+        },
+        {
+          "id": "high-10d",
+          "name": "10-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 10-day high ₹1491.80"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹330.00 reclaimed/held"
+        },
+        {
+          "id": "volume-expansion",
+          "name": "Volume Expansion",
+          "family": "Volume",
+          "reason": "Up day on 2.41× 20-day average volume"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +18.45% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 21.23
         },
         {
           "id": "rs-new-high",
@@ -4296,9 +4339,9 @@
       "matchConfidence": 1,
       "price": 591.2000122070312,
       "changePct": 7.2,
-      "volumeRatio": 1.78,
-      "dailySma21": 572.61,
-      "dailySma30": 583.6,
+      "volumeRatio": 1.97,
+      "dailySma21": 572.4,
+      "dailySma30": 581.18,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 84,
@@ -4314,21 +4357,21 @@
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.30%",
-          "distancePct": 1.3,
+          "reason": "Price above SMA by 1.72%",
+          "distancePct": 1.72,
           "smaDirection": "Falling"
         },
         {
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹578.40"
+          "reason": "Close broke prior 5-day high ₹574.50"
         },
         {
           "id": "high-10d",
           "name": "10-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 10-day high ₹590.45"
+          "reason": "Close broke prior 10-day high ₹584.70"
         },
         {
           "id": "issue-price",
@@ -4340,7 +4383,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.78× 20-day average volume"
+          "reason": "Up day on 1.97× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -4610,69 +4653,65 @@
       ]
     },
     {
-      "symbol": "FEDFINA",
-      "company": "Fedbank Financial Services Limited",
-      "listingDate": "2023-11-30",
-      "issuePrice": 140,
+      "symbol": "SURAJEST",
+      "company": "Suraj Estate Developers Limited",
+      "listingDate": "2023-12-26",
+      "issuePrice": 360,
       "matchConfidence": 1,
-      "price": 155.25,
-      "changePct": 2.98,
-      "volumeRatio": 0.9,
-      "dailySma21": 157.52,
-      "dailySma30": 155.74,
+      "price": 192.25,
+      "changePct": 8.38,
+      "volumeRatio": 3.85,
+      "dailySma21": 184.98,
+      "dailySma30": 192.28,
       "marketDate": "2026-09-18",
       "matchCount": 6,
       "priority": 84,
       "signalFamilies": [
         "SMA Proximity",
         "Breakout",
-        "IPO Structure",
+        "Volume",
         "Relative Strength"
       ],
       "confluenceScore": 84,
       "matches": [
         {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.44%",
-          "distancePct": -1.44,
-          "smaDirection": "Rising"
-        },
-        {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.32%",
-          "distancePct": -0.32,
-          "smaDirection": "Rising"
+          "reason": "Price below SMA by 0.02%",
+          "distancePct": -0.02,
+          "smaDirection": "Falling"
         },
         {
-          "id": "weekly-sma21",
-          "name": "Weekly SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above weekly SMA by 0.47%",
-          "distancePct": 0.47,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
+          "id": "high-5d",
+          "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹155.25 is above listing-day high ₹148.25"
+          "reason": "Close broke prior 5-day high ₹179.59"
         },
         {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹140.00 reclaimed/held"
+          "id": "high-10d",
+          "name": "10-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 10-day high ₹187.44"
+        },
+        {
+          "id": "volume-expansion",
+          "name": "Volume Expansion",
+          "family": "Volume",
+          "reason": "Up day on 3.85× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return -2.84% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 0.56
+          "reason": "63-day return -1.96% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 0.81
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
         }
       ]
     },
@@ -4798,6 +4837,136 @@
           "name": "Pocket Pivot / High-Volume Up Day",
           "family": "Volume",
           "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "SENCO",
+      "company": "Senco Gold Limited",
+      "listingDate": "2023-07-14",
+      "issuePrice": 317,
+      "matchConfidence": 1,
+      "price": 348,
+      "changePct": 1.65,
+      "volumeRatio": 0.67,
+      "dailySma21": 352.98,
+      "dailySma30": 353.28,
+      "marketDate": "2026-09-18",
+      "matchCount": 6,
+      "priority": 84,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength"
+      ],
+      "confluenceScore": 84,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.41%",
+          "distancePct": -1.41,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.49%",
+          "distancePct": -1.49,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "weekly-sma21",
+          "name": "Weekly SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below weekly SMA by 1.02%",
+          "distancePct": -1.02,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹348.00 is above listing-day high ₹222.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹317.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +2.23% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 5.01
+        }
+      ]
+    },
+    {
+      "symbol": "DHARMAJ",
+      "company": "Dharmaj Crop Guard Limited",
+      "listingDate": "2022-12-08",
+      "issuePrice": 237,
+      "matchConfidence": 1,
+      "price": 276.1499938964844,
+      "changePct": 1.86,
+      "volumeRatio": 0.8,
+      "dailySma21": 269.8,
+      "dailySma30": 270.82,
+      "marketDate": "2026-09-18",
+      "matchCount": 6,
+      "priority": 84,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength"
+      ],
+      "confluenceScore": 84,
+      "matches": [
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 1.97%",
+          "distancePct": 1.97,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "high-5d",
+          "name": "5-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 5-day high ₹275.00"
+        },
+        {
+          "id": "high-10d",
+          "name": "10-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 10-day high ₹275.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹237.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +4.37% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 7.14
+        },
+        {
+          "id": "rs-new-high",
+          "name": "Relative Strength New High",
+          "family": "Relative Strength",
+          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
         }
       ]
     },
@@ -5161,9 +5330,9 @@
       "matchConfidence": 0.92,
       "price": 153.58999633789062,
       "changePct": -1.14,
-      "volumeRatio": 0.68,
-      "dailySma21": 153.81,
-      "dailySma30": 152.58,
+      "volumeRatio": 0.71,
+      "dailySma21": 153.82,
+      "dailySma30": 152.57,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 82,
@@ -5179,16 +5348,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.14%",
-          "distancePct": -0.14,
+          "reason": "Price below SMA by 0.15%",
+          "distancePct": -0.15,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.66%",
-          "distancePct": 0.66,
+          "reason": "Price above SMA by 0.67%",
+          "distancePct": 0.67,
           "smaDirection": "Rising"
         },
         {
@@ -5511,9 +5680,9 @@
       "matchConfidence": 0.92,
       "price": 220.49000549316406,
       "changePct": 0.82,
-      "volumeRatio": 0.6,
-      "dailySma21": 217.55,
-      "dailySma30": 224.83,
+      "volumeRatio": 0.64,
+      "dailySma21": 217.47,
+      "dailySma30": 223.79,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 82,
@@ -5529,16 +5698,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.35%",
-          "distancePct": 1.35,
+          "reason": "Price above SMA by 1.39%",
+          "distancePct": 1.39,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.93%",
-          "distancePct": -1.93,
+          "reason": "Price below SMA by 1.47%",
+          "distancePct": -1.47,
           "smaDirection": "Falling"
         },
         {
@@ -5731,75 +5900,16 @@
       ]
     },
     {
-      "symbol": "BLSE",
-      "company": "BLS E-Services Limited",
-      "listingDate": "2024-02-06",
-      "issuePrice": 135,
-      "matchConfidence": 1,
-      "price": 316.5,
-      "changePct": 0.94,
-      "volumeRatio": 0.59,
-      "dailySma21": 318.84,
-      "dailySma30": 317.34,
-      "marketDate": "2026-09-18",
-      "matchCount": 5,
-      "priority": 82,
-      "signalFamilies": [
-        "SMA Proximity",
-        "IPO Structure",
-        "Relative Strength",
-        "Volume"
-      ],
-      "confluenceScore": 82,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.73%",
-          "distancePct": -0.73,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.26%",
-          "distancePct": -0.26,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹135.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +40.60% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 44
-        },
-        {
-          "id": "volume-dry-up",
-          "name": "Volume Dry-Up Pullback",
-          "family": "Volume",
-          "reason": "Volume 0.59× average while price is within ±2% of SMA21"
-        }
-      ]
-    },
-    {
       "symbol": "JLHL",
       "company": "Jupiter Life Line Hospitals Limited",
       "listingDate": "2023-09-18",
       "issuePrice": 735,
       "matchConfidence": 1,
       "price": 280.04998779296875,
-      "changePct": 1.16,
+      "changePct": 0.83,
       "volumeRatio": 1.93,
-      "dailySma21": 293.27,
-      "dailySma30": 300.07,
+      "dailySma21": 289.4,
+      "dailySma30": 297.31,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 82,
@@ -5835,8 +5945,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +4.34% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 7.74
+          "reason": "63-day return +4.33% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 7.11
         },
         {
           "id": "pocket-pivot",
@@ -5905,16 +6015,75 @@
       ]
     },
     {
+      "symbol": "FIVESTAR",
+      "company": "Five-Star Business Finance Limited",
+      "listingDate": "2022-11-21",
+      "issuePrice": 474,
+      "matchConfidence": 1,
+      "price": 538.4500122070312,
+      "changePct": 1.41,
+      "volumeRatio": 1.21,
+      "dailySma21": 530.53,
+      "dailySma30": 533.52,
+      "marketDate": "2026-09-18",
+      "matchCount": 5,
+      "priority": 82,
+      "signalFamilies": [
+        "SMA Proximity",
+        "IPO Structure",
+        "Relative Strength",
+        "Price Pattern"
+      ],
+      "confluenceScore": 82,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 1.49%",
+          "distancePct": 1.49,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.92%",
+          "distancePct": 0.92,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹474.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +3.66% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 6.43
+        },
+        {
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 6.49% contracted from 8.65%"
+        }
+      ]
+    },
+    {
       "symbol": "HARSHA",
       "company": "Harsha Engineers International Limited",
       "listingDate": "2022-09-26",
       "issuePrice": 330,
       "matchConfidence": 0.92,
       "price": 440.45001220703125,
-      "changePct": 2.43,
-      "volumeRatio": 0.57,
-      "dailySma21": 443.73,
-      "dailySma30": 436.41,
+      "changePct": 1.52,
+      "volumeRatio": 0.6,
+      "dailySma21": 443.6,
+      "dailySma30": 436.7,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 82,
@@ -5930,16 +6099,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.74%",
-          "distancePct": -0.74,
+          "reason": "Price below SMA by 0.71%",
+          "distancePct": -0.71,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.93%",
-          "distancePct": 0.93,
+          "reason": "Price above SMA by 0.86%",
+          "distancePct": 0.86,
           "smaDirection": "Rising"
         },
         {
@@ -5952,73 +6121,14 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +1.43% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 4.83
+          "reason": "63-day return +2.18% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 4.96
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.57× average while price is within ±2% of SMA21"
-        }
-      ]
-    },
-    {
-      "symbol": "TMB",
-      "company": "Tamilnad Mercantile Bank Limited",
-      "listingDate": "2022-09-15",
-      "issuePrice": 510,
-      "matchConfidence": 1,
-      "price": 895.75,
-      "changePct": -0.93,
-      "volumeRatio": 1.41,
-      "dailySma21": 904.46,
-      "dailySma30": 890.33,
-      "marketDate": "2026-09-18",
-      "matchCount": 5,
-      "priority": 82,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 82,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.96%",
-          "distancePct": -0.96,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.61%",
-          "distancePct": 0.61,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹895.75 is above listing-day high ₹515.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹510.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +14.75% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 18.15
+          "reason": "Volume 0.60× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -6029,10 +6139,10 @@
       "issuePrice": 542,
       "matchConfidence": 1,
       "price": 1454.699951171875,
-      "changePct": -0.17,
-      "volumeRatio": 1.22,
-      "dailySma21": 1448,
-      "dailySma30": 1463.82,
+      "changePct": -1.27,
+      "volumeRatio": 1.17,
+      "dailySma21": 1448.55,
+      "dailySma30": 1460.49,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 82,
@@ -6048,16 +6158,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.46%",
-          "distancePct": 0.46,
+          "reason": "Price above SMA by 0.42%",
+          "distancePct": 0.42,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.62%",
-          "distancePct": -0.62,
+          "reason": "Price below SMA by 0.40%",
+          "distancePct": -0.4,
           "smaDirection": "Falling"
         },
         {
@@ -6076,8 +6186,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +0.32% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 3.72
+          "reason": "63-day return -1.09% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 1.68
         }
       ]
     },
@@ -6636,154 +6746,6 @@
       ]
     },
     {
-      "symbol": "JSFB",
-      "company": "Jana Small Finance Bank Limited",
-      "listingDate": "2024-02-14",
-      "issuePrice": 414,
-      "matchConfidence": 1,
-      "price": 527.2999877929688,
-      "changePct": 4.09,
-      "volumeRatio": 1.42,
-      "dailySma21": 539.41,
-      "dailySma30": 544.11,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 80,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength",
-        "Volume"
-      ],
-      "confluenceScore": 80,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹527.30 is above listing-day high ₹409.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹414.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +11.86% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 15.26
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        }
-      ]
-    },
-    {
-      "symbol": "HAPPYFORGE",
-      "company": "Happy Forgings Limited",
-      "listingDate": "2023-12-27",
-      "issuePrice": 850,
-      "matchConfidence": 1,
-      "price": 2148.300048828125,
-      "changePct": -0.35,
-      "volumeRatio": 0.7,
-      "dailySma21": 2239.61,
-      "dailySma30": 2188.61,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 80,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 80,
-      "matches": [
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.84%",
-          "distancePct": -1.84,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹2148.30 is above listing-day high ₹1087.40"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹850.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +47.76% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 51.16
-        }
-      ]
-    },
-    {
-      "symbol": "SIGNATURE",
-      "company": "Signatureglobal (India) Limited",
-      "listingDate": "2023-09-27",
-      "issuePrice": 385,
-      "matchConfidence": 1,
-      "price": 756.9500122070312,
-      "changePct": 0.59,
-      "volumeRatio": 1.2,
-      "dailySma21": 779.64,
-      "dailySma30": 788.45,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 80,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Volume",
-        "Price Pattern"
-      ],
-      "confluenceScore": 80,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹756.95 is above listing-day high ₹474.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹385.00 reclaimed/held"
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        },
-        {
-          "id": "tight-close",
-          "name": "Tight Close / VCP Contraction",
-          "family": "Price Pattern",
-          "reason": "5-session range 6.58% contracted from 7.21%"
-        }
-      ]
-    },
-    {
       "symbol": "EMSLIMITED",
       "company": "EMS Limited",
       "listingDate": "2023-09-21",
@@ -6884,16 +6846,67 @@
       ]
     },
     {
+      "symbol": "AEROFLEX",
+      "company": "Aeroflex Industries Limited",
+      "listingDate": "2023-08-31",
+      "issuePrice": 108,
+      "matchConfidence": 1,
+      "price": 510.8999938964844,
+      "changePct": 2.67,
+      "volumeRatio": 0.53,
+      "dailySma21": 532.55,
+      "dailySma30": 509.09,
+      "marketDate": "2026-09-18",
+      "matchCount": 4,
+      "priority": 80,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength"
+      ],
+      "confluenceScore": 80,
+      "matches": [
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.36%",
+          "distancePct": 0.36,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹510.90 is above listing-day high ₹196.35"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹108.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +0.72% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 3.5
+        }
+      ]
+    },
+    {
       "symbol": "INOXGREEN",
       "company": "Inox Green Energy Services Limited",
       "listingDate": "2022-11-23",
       "issuePrice": 65,
       "matchConfidence": 0.92,
       "price": 171.32000732421875,
-      "changePct": -1.03,
+      "changePct": -1.9,
       "volumeRatio": 0.42,
-      "dailySma21": 173.05,
-      "dailySma30": 175.87,
+      "dailySma21": 172.99,
+      "dailySma30": 175.83,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 80,
@@ -6909,8 +6922,8 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.00%",
-          "distancePct": -1,
+          "reason": "Price below SMA by 0.96%",
+          "distancePct": -0.96,
           "smaDirection": "Falling"
         },
         {
@@ -6981,6 +6994,55 @@
           "family": "Relative Strength",
           "reason": "63-day return +8.05% vs NIFTY -2.78%",
           "relativeOutperformancePct": 10.83
+        }
+      ]
+    },
+    {
+      "symbol": "ETHOSLTD",
+      "company": "Ethos Limited",
+      "listingDate": "2022-05-30",
+      "issuePrice": 878,
+      "matchConfidence": 1,
+      "price": 2661.5,
+      "changePct": 0.4,
+      "volumeRatio": 0.81,
+      "dailySma21": 2781.8,
+      "dailySma30": 2792.97,
+      "marketDate": "2026-09-18",
+      "matchCount": 4,
+      "priority": 80,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength",
+        "Price Pattern"
+      ],
+      "confluenceScore": 80,
+      "matches": [
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹2661.50 is above listing-day high ₹839.95"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹878.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +11.79% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 14.56
+        },
+        {
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 6.45% contracted from 9.81%"
         }
       ]
     },
@@ -7062,10 +7124,10 @@
       "issuePrice": 186,
       "matchConfidence": 1,
       "price": 166.2100067138672,
-      "changePct": 1.78,
-      "volumeRatio": 2.98,
-      "dailySma21": 155.85,
-      "dailySma30": 156.33,
+      "changePct": 1.59,
+      "volumeRatio": 3.05,
+      "dailySma21": 156.3,
+      "dailySma30": 156.28,
       "marketDate": "2026-09-18",
       "matchCount": 8,
       "priority": 70,
@@ -7080,7 +7142,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 2.98× volume"
+          "reason": "Close broke 20-day high with 3.05× volume"
         },
         {
           "id": "high-5d",
@@ -7104,14 +7166,14 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 2.98× 20-day average volume"
+          "reason": "Up day on 3.05× 20-day average volume"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +13.25% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 16.65
+          "reason": "63-day return +12.44% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 15.22
         },
         {
           "id": "rs-new-high",
@@ -7195,6 +7257,74 @@
       ]
     },
     {
+      "symbol": "CAPITALSFB",
+      "company": "Capital Small Finance Bank Limited",
+      "listingDate": "2024-02-14",
+      "issuePrice": 468,
+      "matchConfidence": 1,
+      "price": 278.8999938964844,
+      "changePct": -0.36,
+      "volumeRatio": 0.43,
+      "dailySma21": 280.34,
+      "dailySma30": 283.14,
+      "marketDate": "2026-09-18",
+      "matchCount": 6,
+      "priority": 66,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Relative Strength",
+        "Volume"
+      ],
+      "confluenceScore": 66,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.51%",
+          "distancePct": -0.51,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.50%",
+          "distancePct": -1.5,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "weekly-sma21",
+          "name": "Weekly SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below weekly SMA by 2.00%",
+          "distancePct": -2,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "weekly-sma30",
+          "name": "Weekly SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above weekly SMA by 1.93%",
+          "distancePct": 1.93,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return -2.31% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 0.46
+        },
+        {
+          "id": "volume-dry-up",
+          "name": "Volume Dry-Up Pullback",
+          "family": "Volume",
+          "reason": "Volume 0.43× average while price is within ±2% of SMA21"
+        }
+      ]
+    },
+    {
       "symbol": "VPRPL",
       "company": "Vishnu Prakash R Punglia Limited",
       "listingDate": "2023-09-05",
@@ -7251,6 +7381,59 @@
           "family": "Relative Strength",
           "reason": "63-day return +10.33% vs NIFTY -2.78%",
           "relativeOutperformancePct": 13.1
+        },
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+        }
+      ]
+    },
+    {
+      "symbol": "CMRGREEN",
+      "company": "CMR Green Technologies Limited",
+      "listingDate": "2026-06-10",
+      "issuePrice": 192,
+      "matchConfidence": 1,
+      "price": 231.8699951171875,
+      "changePct": 8.73,
+      "volumeRatio": 3.89,
+      "dailySma21": 221.24,
+      "dailySma30": 219.6,
+      "marketDate": "2026-09-18",
+      "matchCount": 5,
+      "priority": 64,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure",
+        "Volume"
+      ],
+      "confluenceScore": 64,
+      "matches": [
+        {
+          "id": "high-5d",
+          "name": "5-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 5-day high ₹224.83"
+        },
+        {
+          "id": "high-10d",
+          "name": "10-Day High Breakout",
+          "family": "Breakout",
+          "reason": "Close broke prior 10-day high ₹231.55"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹192.00 reclaimed/held"
+        },
+        {
+          "id": "volume-expansion",
+          "name": "Volume Expansion",
+          "family": "Volume",
+          "reason": "Up day on 3.89× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -7488,10 +7671,10 @@
       "issuePrice": 493,
       "matchConfidence": 0.92,
       "price": 681.8499755859375,
-      "changePct": 3.06,
+      "changePct": 1.74,
       "volumeRatio": 0.68,
-      "dailySma21": 661.81,
-      "dailySma30": 666.19,
+      "dailySma21": 662.52,
+      "dailySma30": 664.03,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 64,
@@ -7512,7 +7695,7 @@
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹676.20"
+          "reason": "Close broke prior 5-day high ₹676.90"
         },
         {
           "id": "high-10d",
@@ -7535,115 +7718,60 @@
       ]
     },
     {
-      "symbol": "SAMHI",
-      "company": "Samhi Hotels Limited",
-      "listingDate": "2023-09-22",
-      "issuePrice": 126,
+      "symbol": "LANDMARK",
+      "company": "Landmark Cars Limited",
+      "listingDate": "2022-12-23",
+      "issuePrice": 506,
       "matchConfidence": 1,
-      "price": 161.97999572753906,
-      "changePct": 1.07,
-      "volumeRatio": 0.59,
-      "dailySma21": 156.74,
-      "dailySma30": 159.08,
+      "price": 504.5,
+      "changePct": 2.52,
+      "volumeRatio": 0.75,
+      "dailySma21": 501.7,
+      "dailySma30": 511,
       "marketDate": "2026-09-18",
       "matchCount": 5,
       "priority": 64,
       "signalFamilies": [
         "SMA Proximity",
         "Breakout",
-        "IPO Structure"
+        "Relative Strength"
       ],
       "confluenceScore": 64,
       "matches": [
         {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price above SMA by 0.56%",
+          "distancePct": 0.56,
+          "smaDirection": "Falling"
+        },
+        {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.82%",
-          "distancePct": 1.82,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "weekly-sma21",
-          "name": "Weekly SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below weekly SMA by 1.61%",
-          "distancePct": -1.61,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "weekly-sma30",
-          "name": "Weekly SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above weekly SMA by 0.90%",
-          "distancePct": 0.9,
+          "reason": "Price below SMA by 1.27%",
+          "distancePct": -1.27,
           "smaDirection": "Falling"
         },
         {
           "id": "listing-high",
           "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹161.98 is above listing-day high ₹146.60"
+          "reason": "Close ₹504.50 is above listing-day high ₹481.15"
         },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹126.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "DHARMAJ",
-      "company": "Dharmaj Crop Guard Limited",
-      "listingDate": "2022-12-08",
-      "issuePrice": 237,
-      "matchConfidence": 1,
-      "price": 276.1499938964844,
-      "changePct": 2.51,
-      "volumeRatio": 0.82,
-      "dailySma21": 269.71,
-      "dailySma30": 270.61,
-      "marketDate": "2026-09-18",
-      "matchCount": 5,
-      "priority": 64,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 64,
-      "matches": [
         {
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹272.50"
-        },
-        {
-          "id": "high-10d",
-          "name": "10-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 10-day high ₹272.50"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹237.00 reclaimed/held"
+          "reason": "Close broke prior 5-day high ₹495.00"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +4.25% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 7.65
-        },
-        {
-          "id": "rs-new-high",
-          "name": "Relative Strength New High",
-          "family": "Relative Strength",
-          "reason": "Stock/NIFTY relative-strength ratio at a 63-day high"
+          "reason": "63-day return +18.41% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 21.19
         }
       ]
     },
@@ -7749,53 +7877,6 @@
           "name": "5-Day High Breakout",
           "family": "Breakout",
           "reason": "Close broke prior 5-day high ₹550.00"
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        }
-      ]
-    },
-    {
-      "symbol": "CMRGREEN",
-      "company": "CMR Green Technologies Limited",
-      "listingDate": "2026-06-10",
-      "issuePrice": 192,
-      "matchConfidence": 1,
-      "price": 231.8699951171875,
-      "changePct": 8.73,
-      "volumeRatio": 3.71,
-      "dailySma21": 221.11,
-      "dailySma30": 219.9,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 62,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Volume"
-      ],
-      "confluenceScore": 62,
-      "matches": [
-        {
-          "id": "high-5d",
-          "name": "5-Day High Breakout",
-          "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹224.83"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹192.00 reclaimed/held"
-        },
-        {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 3.71× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -7912,9 +7993,9 @@
       "matchConfidence": 1,
       "price": 110.4800033569336,
       "changePct": -1.07,
-      "volumeRatio": 0.47,
-      "dailySma21": 116.55,
-      "dailySma30": 117.53,
+      "volumeRatio": 0.5,
+      "dailySma21": 116.64,
+      "dailySma30": 117.22,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 62,
@@ -8315,9 +8396,9 @@
       "matchConfidence": 0.64,
       "price": 1705.800048828125,
       "changePct": 0.8,
-      "volumeRatio": 0.72,
-      "dailySma21": 1702.95,
-      "dailySma30": 1708.45,
+      "volumeRatio": 0.77,
+      "dailySma21": 1704.85,
+      "dailySma30": 1706.97,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 62,
@@ -8332,16 +8413,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.17%",
-          "distancePct": 0.17,
+          "reason": "Price above SMA by 0.06%",
+          "distancePct": 0.06,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.16%",
-          "distancePct": -0.16,
+          "reason": "Price below SMA by 0.07%",
+          "distancePct": -0.07,
           "smaDirection": "Falling"
         },
         {
@@ -8556,6 +8637,58 @@
       ]
     },
     {
+      "symbol": "BLSE",
+      "company": "BLS E-Services Limited",
+      "listingDate": "2024-02-06",
+      "issuePrice": 135,
+      "matchConfidence": 1,
+      "price": 316.5,
+      "changePct": 0.64,
+      "volumeRatio": 0.71,
+      "dailySma21": 318.53,
+      "dailySma30": 317.47,
+      "marketDate": "2026-09-18",
+      "matchCount": 4,
+      "priority": 62,
+      "signalFamilies": [
+        "SMA Proximity",
+        "IPO Structure",
+        "Relative Strength"
+      ],
+      "confluenceScore": 62,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.64%",
+          "distancePct": -0.64,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 0.31%",
+          "distancePct": -0.31,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹135.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +39.41% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 42.19
+        }
+      ]
+    },
+    {
       "symbol": "MOTISONS",
       "company": "Motisons Jewellers Limited",
       "listingDate": "2023-12-26",
@@ -8604,23 +8737,23 @@
       ]
     },
     {
-      "symbol": "SBFC",
-      "company": "SBFC Finance Limited",
-      "listingDate": "2023-08-16",
-      "issuePrice": 57,
+      "symbol": "SAMHI",
+      "company": "Samhi Hotels Limited",
+      "listingDate": "2023-09-22",
+      "issuePrice": 126,
       "matchConfidence": 1,
-      "price": 92.36000061035156,
-      "changePct": -1.39,
-      "volumeRatio": 0.65,
-      "dailySma21": 96.89,
-      "dailySma30": 96.08,
+      "price": 161.97999572753906,
+      "changePct": 3.39,
+      "volumeRatio": 0.57,
+      "dailySma21": 156.56,
+      "dailySma30": 158.48,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 62,
       "signalFamilies": [
         "SMA Proximity",
-        "IPO Structure",
-        "Relative Strength"
+        "Breakout",
+        "IPO Structure"
       ],
       "confluenceScore": 62,
       "matches": [
@@ -8628,30 +8761,29 @@
           "id": "weekly-sma21",
           "name": "Weekly SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below weekly SMA by 1.51%",
-          "distancePct": -1.51,
+          "reason": "Price below weekly SMA by 1.61%",
+          "distancePct": -1.61,
           "smaDirection": "Falling"
         },
         {
           "id": "weekly-sma30",
           "name": "Weekly SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below weekly SMA by 0.51%",
-          "distancePct": -0.51,
+          "reason": "Price above weekly SMA by 0.90%",
+          "distancePct": 0.9,
           "smaDirection": "Falling"
+        },
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹161.98 is above listing-day high ₹146.60"
         },
         {
           "id": "issue-price",
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
-          "reason": "Issue price ₹57.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +0.45% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 3.85
+          "reason": "Issue price ₹126.00 reclaimed/held"
         }
       ]
     },
@@ -8756,110 +8888,6 @@
       ]
     },
     {
-      "symbol": "LANDMARK",
-      "company": "Landmark Cars Limited",
-      "listingDate": "2022-12-23",
-      "issuePrice": 506,
-      "matchConfidence": 1,
-      "price": 504.5,
-      "changePct": 5.85,
-      "volumeRatio": 0.77,
-      "dailySma21": 502.56,
-      "dailySma30": 512.83,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 62,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Breakout",
-        "Relative Strength"
-      ],
-      "confluenceScore": 62,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.39%",
-          "distancePct": 0.39,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.62%",
-          "distancePct": -1.62,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹504.50 is above listing-day high ₹481.15"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +12.71% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 16.11
-        }
-      ]
-    },
-    {
-      "symbol": "FIVESTAR",
-      "company": "Five-Star Business Finance Limited",
-      "listingDate": "2022-11-21",
-      "issuePrice": 474,
-      "matchConfidence": 1,
-      "price": 538.4500122070312,
-      "changePct": -1.99,
-      "volumeRatio": 1.21,
-      "dailySma21": 530.36,
-      "dailySma30": 533.93,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 62,
-      "signalFamilies": [
-        "SMA Proximity",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 62,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.52%",
-          "distancePct": 1.52,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.85%",
-          "distancePct": 0.85,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹474.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +3.78% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 7.18
-        }
-      ]
-    },
-    {
       "symbol": "BIKAJI",
       "company": "Bikaji Foods International Limited",
       "listingDate": "2022-11-16",
@@ -8915,10 +8943,10 @@
       "issuePrice": 500,
       "matchConfidence": 1,
       "price": 940.8499755859375,
-      "changePct": -0.79,
-      "volumeRatio": 17.81,
-      "dailySma21": 931.13,
-      "dailySma30": 935.5,
+      "changePct": -1.01,
+      "volumeRatio": 17.67,
+      "dailySma21": 932.85,
+      "dailySma30": 934.76,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 62,
@@ -8933,16 +8961,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.04%",
-          "distancePct": 1.04,
+          "reason": "Price above SMA by 0.86%",
+          "distancePct": 0.86,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.57%",
-          "distancePct": 0.57,
+          "reason": "Price above SMA by 0.65%",
+          "distancePct": 0.65,
           "smaDirection": "Falling"
         },
         {
@@ -8956,58 +8984,6 @@
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
           "reason": "Issue price ₹500.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "SAPPHIRE",
-      "company": "Sapphire Foods India Limited",
-      "listingDate": "2021-11-18",
-      "issuePrice": 1150,
-      "matchConfidence": 1,
-      "price": 230.11000061035156,
-      "changePct": 3.04,
-      "volumeRatio": 1,
-      "dailySma21": 233.11,
-      "dailySma30": 231.41,
-      "marketDate": "2026-09-18",
-      "matchCount": 4,
-      "priority": 62,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Relative Strength",
-        "Volume"
-      ],
-      "confluenceScore": 62,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.29%",
-          "distancePct": -1.29,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.56%",
-          "distancePct": -0.56,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +24.50% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 27.9
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
         }
       ]
     },
@@ -10171,48 +10147,6 @@
       ]
     },
     {
-      "symbol": "RPTECH",
-      "company": "Rashi Peripherals Limited",
-      "listingDate": "2024-02-14",
-      "issuePrice": 311,
-      "matchConfidence": 1,
-      "price": 798.0499877929688,
-      "changePct": 0.45,
-      "volumeRatio": 0.28,
-      "dailySma21": 816.27,
-      "dailySma30": 831.76,
-      "marketDate": "2026-09-18",
-      "matchCount": 3,
-      "priority": 60,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 60,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹798.05 is above listing-day high ₹342.70"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹311.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +9.32% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 12.72
-        }
-      ]
-    },
-    {
       "symbol": "INNOVACAP",
       "company": "Innova Captab Limited",
       "listingDate": "2023-12-29",
@@ -10297,6 +10231,48 @@
       ]
     },
     {
+      "symbol": "HAPPYFORGE",
+      "company": "Happy Forgings Limited",
+      "listingDate": "2023-12-27",
+      "issuePrice": 850,
+      "matchConfidence": 1,
+      "price": 2148.300048828125,
+      "changePct": 0.24,
+      "volumeRatio": 0.72,
+      "dailySma21": 2230.8,
+      "dailySma30": 2196.51,
+      "marketDate": "2026-09-18",
+      "matchCount": 3,
+      "priority": 60,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure",
+        "Relative Strength"
+      ],
+      "confluenceScore": 60,
+      "matches": [
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹2148.30 is above listing-day high ₹1087.40"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹850.00 reclaimed/held"
+        },
+        {
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +46.64% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 49.42
+        }
+      ]
+    },
+    {
       "symbol": "GANDHAR",
       "company": "Gandhar Oil Refinery (India) Limited",
       "listingDate": "2023-11-30",
@@ -10339,16 +10315,57 @@
       ]
     },
     {
+      "symbol": "SIGNATURE",
+      "company": "Signatureglobal (India) Limited",
+      "listingDate": "2023-09-27",
+      "issuePrice": 385,
+      "matchConfidence": 1,
+      "price": 756.9500122070312,
+      "changePct": 0.22,
+      "volumeRatio": 1.07,
+      "dailySma21": 778.23,
+      "dailySma30": 786.46,
+      "marketDate": "2026-09-18",
+      "matchCount": 3,
+      "priority": 60,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure",
+        "Price Pattern"
+      ],
+      "confluenceScore": 60,
+      "matches": [
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹756.95 is above listing-day high ₹474.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹385.00 reclaimed/held"
+        },
+        {
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 6.79% contracted from 7.21%"
+        }
+      ]
+    },
+    {
       "symbol": "RISHABH",
       "company": "Rishabh Instruments Limited",
       "listingDate": "2023-09-11",
       "issuePrice": 441,
       "matchConfidence": 1,
       "price": 764.7000122070312,
-      "changePct": 0.81,
-      "volumeRatio": 0.19,
-      "dailySma21": 744.65,
-      "dailySma30": 722.01,
+      "changePct": -1.75,
+      "volumeRatio": 0.23,
+      "dailySma21": 749.13,
+      "dailySma30": 726.65,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 60,
@@ -10375,8 +10392,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +33.16% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 36.56
+          "reason": "63-day return +32.15% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 34.93
         }
       ]
     },
@@ -10419,48 +10436,6 @@
           "family": "Relative Strength",
           "reason": "63-day return +58.34% vs NIFTY -2.78%",
           "relativeOutperformancePct": 61.12
-        }
-      ]
-    },
-    {
-      "symbol": "TVSSCS",
-      "company": "TVS Supply Chain Solutions Limited",
-      "listingDate": "2023-08-23",
-      "issuePrice": 197,
-      "matchConfidence": 1,
-      "price": 133.85000610351562,
-      "changePct": 5.99,
-      "volumeRatio": 0.76,
-      "dailySma21": 128.65,
-      "dailySma30": 127.82,
-      "marketDate": "2026-09-18",
-      "matchCount": 3,
-      "priority": 60,
-      "signalFamilies": [
-        "Relative Strength",
-        "Volume",
-        "Price Pattern"
-      ],
-      "confluenceScore": 60,
-      "matches": [
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return -1.67% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 1.73
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
-        },
-        {
-          "id": "gap-up-hold",
-          "name": "Gap-Up + Hold",
-          "family": "Price Pattern",
-          "reason": "Gap 3.03% held above prior close"
         }
       ]
     },
@@ -10514,10 +10489,10 @@
       "issuePrice": 590,
       "matchConfidence": 1,
       "price": 1130.199951171875,
-      "changePct": 0.94,
-      "volumeRatio": 0.29,
-      "dailySma21": 1195.63,
-      "dailySma30": 1185.76,
+      "changePct": 0.71,
+      "volumeRatio": 0.3,
+      "dailySma21": 1188.71,
+      "dailySma30": 1190.22,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 60,
@@ -10544,8 +10519,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +32.87% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 36.27
+          "reason": "63-day return +31.92% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 34.7
         }
       ]
     },
@@ -10556,10 +10531,10 @@
       "issuePrice": 577,
       "matchConfidence": 1,
       "price": 831.5,
-      "changePct": -2.31,
+      "changePct": -5.3,
       "volumeRatio": 1.19,
-      "dailySma21": 863.48,
-      "dailySma30": 849.32,
+      "dailySma21": 866.71,
+      "dailySma30": 851.43,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 60,
@@ -10586,8 +10561,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +27.35% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 30.75
+          "reason": "63-day return +23.24% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 26.02
         }
       ]
     },
@@ -10634,16 +10609,16 @@
       ]
     },
     {
-      "symbol": "ETHOSLTD",
-      "company": "Ethos Limited",
-      "listingDate": "2022-05-30",
-      "issuePrice": 878,
-      "matchConfidence": 1,
-      "price": 2661.5,
-      "changePct": 1.88,
-      "volumeRatio": 0.78,
-      "dailySma21": 2793.65,
-      "dailySma30": 2798.76,
+      "symbol": "RATEGAIN",
+      "company": "Rategain Travel Technologies Limited",
+      "listingDate": "2021-12-17",
+      "issuePrice": 425,
+      "matchConfidence": 0.92,
+      "price": 858.4000244140625,
+      "changePct": -0.81,
+      "volumeRatio": 1.41,
+      "dailySma21": 897.25,
+      "dailySma30": 906.97,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 60,
@@ -10658,62 +10633,20 @@
           "id": "listing-high",
           "name": "Listing High Breakout",
           "family": "Breakout",
-          "reason": "Close ₹2661.50 is above listing-day high ₹839.95"
+          "reason": "Close ₹858.40 is above listing-day high ₹383.00"
         },
         {
           "id": "issue-price",
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
-          "reason": "Issue price ₹878.00 reclaimed/held"
+          "reason": "Issue price ₹425.00 reclaimed/held"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +11.08% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 14.48
-        }
-      ]
-    },
-    {
-      "symbol": "SUPRIYA",
-      "company": "Supriya Lifescience Limited",
-      "listingDate": "2021-12-28",
-      "issuePrice": 274,
-      "matchConfidence": 1,
-      "price": 906.2999877929688,
-      "changePct": 3.24,
-      "volumeRatio": 0.48,
-      "dailySma21": 848.7,
-      "dailySma30": 844.32,
-      "marketDate": "2026-09-18",
-      "matchCount": 3,
-      "priority": 60,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure",
-        "Relative Strength"
-      ],
-      "confluenceScore": 60,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹906.30 is above listing-day high ₹421.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹274.00 reclaimed/held"
-        },
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return -2.78% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 0.62
+          "reason": "63-day return -1.07% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 1.7
         }
       ]
     },
@@ -10976,66 +10909,6 @@
       ]
     },
     {
-      "symbol": "CAPITALSFB",
-      "company": "Capital Small Finance Bank Limited",
-      "listingDate": "2024-02-14",
-      "issuePrice": 468,
-      "matchConfidence": 1,
-      "price": 278.8999938964844,
-      "changePct": 2.07,
-      "volumeRatio": 0.42,
-      "dailySma21": 280.7,
-      "dailySma30": 283.67,
-      "marketDate": "2026-09-18",
-      "matchCount": 5,
-      "priority": 46,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Volume"
-      ],
-      "confluenceScore": 46,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.64%",
-          "distancePct": -0.64,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.68%",
-          "distancePct": -1.68,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "weekly-sma21",
-          "name": "Weekly SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below weekly SMA by 2.00%",
-          "distancePct": -2,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "weekly-sma30",
-          "name": "Weekly SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above weekly SMA by 1.93%",
-          "distancePct": 1.93,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "volume-dry-up",
-          "name": "Volume Dry-Up Pullback",
-          "family": "Volume",
-          "reason": "Volume 0.42× average while price is within ±2% of SMA21"
-        }
-      ]
-    },
-    {
       "symbol": "LICI",
       "company": "Life Insurance Corporation Of India",
       "listingDate": "2022-05-17",
@@ -11103,9 +10976,9 @@
       "matchConfidence": 1,
       "price": 43.91999816894531,
       "changePct": 1.97,
-      "volumeRatio": 5.12,
-      "dailySma21": 44.29,
-      "dailySma30": 44.58,
+      "volumeRatio": 5.32,
+      "dailySma21": 44.09,
+      "dailySma30": 44.46,
       "marketDate": "2026-09-18",
       "matchCount": 4,
       "priority": 44,
@@ -11119,23 +10992,23 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.83%",
-          "distancePct": -0.83,
+          "reason": "Price below SMA by 0.38%",
+          "distancePct": -0.38,
           "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.47%",
-          "distancePct": -1.47,
+          "reason": "Price below SMA by 1.21%",
+          "distancePct": -1.21,
           "smaDirection": "Falling"
         },
         {
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 5.12× 20-day average volume"
+          "reason": "Up day on 5.32× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -11639,9 +11512,9 @@
       "matchConfidence": 1,
       "price": 128.50999450683594,
       "changePct": 3.66,
-      "volumeRatio": 0.53,
-      "dailySma21": 129.44,
-      "dailySma30": 130.9,
+      "volumeRatio": 0.56,
+      "dailySma21": 129.59,
+      "dailySma30": 130.48,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -11655,23 +11528,23 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.72%",
-          "distancePct": -0.72,
+          "reason": "Price below SMA by 0.84%",
+          "distancePct": -0.84,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.83%",
-          "distancePct": -1.83,
+          "reason": "Price below SMA by 1.51%",
+          "distancePct": -1.51,
           "smaDirection": "Falling"
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.53× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.56× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -11771,9 +11644,9 @@
       "matchConfidence": 1,
       "price": 524.6500244140625,
       "changePct": 1.86,
-      "volumeRatio": 1.13,
-      "dailySma21": 535.86,
-      "dailySma30": 528.81,
+      "volumeRatio": 1.16,
+      "dailySma21": 536.46,
+      "dailySma30": 530.02,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -11787,9 +11660,9 @@
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.79%",
-          "distancePct": -0.79,
-          "smaDirection": "Falling"
+          "reason": "Price below SMA by 1.01%",
+          "distancePct": -1.01,
+          "smaDirection": "Rising"
         },
         {
           "id": "weekly-sma30",
@@ -11902,10 +11775,10 @@
       "issuePrice": 715,
       "matchConfidence": 0.92,
       "price": 646.3499755859375,
-      "changePct": -1.41,
-      "volumeRatio": 0.7,
-      "dailySma21": 644.19,
-      "dailySma30": 636.24,
+      "changePct": -4.23,
+      "volumeRatio": 1.13,
+      "dailySma21": 643.89,
+      "dailySma30": 638.73,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -11919,24 +11792,24 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 0.33%",
-          "distancePct": 0.33,
-          "smaDirection": "Rising"
+          "reason": "Price above SMA by 0.38%",
+          "distancePct": 0.38,
+          "smaDirection": "Falling"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.59%",
-          "distancePct": 1.59,
+          "reason": "Price above SMA by 1.19%",
+          "distancePct": 1.19,
           "smaDirection": "Rising"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +7.43% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 10.83
+          "reason": "63-day return +6.22% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 9
         }
       ]
     },
@@ -11947,10 +11820,10 @@
       "issuePrice": 151,
       "matchConfidence": 1,
       "price": 113.54000091552734,
-      "changePct": 0.7,
+      "changePct": -1.11,
       "volumeRatio": 0.39,
-      "dailySma21": 114.54,
-      "dailySma30": 112.27,
+      "dailySma21": 114.94,
+      "dailySma30": 112.49,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -11964,16 +11837,16 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.87%",
-          "distancePct": -0.87,
+          "reason": "Price below SMA by 1.22%",
+          "distancePct": -1.22,
           "smaDirection": "Rising"
         },
         {
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.13%",
-          "distancePct": 1.13,
+          "reason": "Price above SMA by 0.94%",
+          "distancePct": 0.94,
           "smaDirection": "Rising"
         },
         {
@@ -11985,16 +11858,60 @@
       ]
     },
     {
+      "symbol": "SBFC",
+      "company": "SBFC Finance Limited",
+      "listingDate": "2023-08-16",
+      "issuePrice": 57,
+      "matchConfidence": 1,
+      "price": 92.36000061035156,
+      "changePct": -1.03,
+      "volumeRatio": 0.73,
+      "dailySma21": 96.92,
+      "dailySma30": 96.01,
+      "marketDate": "2026-09-18",
+      "matchCount": 3,
+      "priority": 42,
+      "signalFamilies": [
+        "SMA Proximity",
+        "IPO Structure"
+      ],
+      "confluenceScore": 42,
+      "matches": [
+        {
+          "id": "weekly-sma21",
+          "name": "Weekly SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below weekly SMA by 1.51%",
+          "distancePct": -1.51,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "weekly-sma30",
+          "name": "Weekly SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below weekly SMA by 0.51%",
+          "distancePct": -0.51,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹57.00 reclaimed/held"
+        }
+      ]
+    },
+    {
       "symbol": "TRACXN",
       "company": "Tracxn Technologies Limited",
       "listingDate": "2022-10-20",
       "issuePrice": 80,
       "matchConfidence": 1,
       "price": 31,
-      "changePct": 0.13,
+      "changePct": 0.52,
       "volumeRatio": 0.32,
-      "dailySma21": 29.96,
-      "dailySma30": 29.81,
+      "dailySma21": 30.08,
+      "dailySma30": 29.84,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -12024,8 +11941,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return -0.23% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 3.17
+          "reason": "63-day return +1.47% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 4.25
         }
       ]
     },
@@ -12036,10 +11953,10 @@
       "issuePrice": 274,
       "matchConfidence": 1,
       "price": 34.7599983215332,
-      "changePct": -2.47,
+      "changePct": -0.2,
       "volumeRatio": 0.36,
-      "dailySma21": 35.44,
-      "dailySma30": 35.62,
+      "dailySma21": 35.46,
+      "dailySma30": 35.64,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
@@ -12053,8 +11970,8 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.92%",
-          "distancePct": -1.92,
+          "reason": "Price below SMA by 1.97%",
+          "distancePct": -1.97,
           "smaDirection": "Rising"
         },
         {
@@ -12074,43 +11991,47 @@
       ]
     },
     {
-      "symbol": "STARHEALTH",
-      "company": "Star Health and Allied Insurance Company Limited",
-      "listingDate": "2021-12-10",
-      "issuePrice": 900,
-      "matchConfidence": 0.92,
-      "price": 547.0499877929688,
-      "changePct": 0.25,
-      "volumeRatio": 7.47,
-      "dailySma21": 566.96,
-      "dailySma30": 571.32,
+      "symbol": "SAPPHIRE",
+      "company": "Sapphire Foods India Limited",
+      "listingDate": "2021-11-18",
+      "issuePrice": 1150,
+      "matchConfidence": 1,
+      "price": 230.11000061035156,
+      "changePct": -1.34,
+      "volumeRatio": 0.98,
+      "dailySma21": 233.08,
+      "dailySma30": 232.53,
       "marketDate": "2026-09-18",
       "matchCount": 3,
       "priority": 42,
       "signalFamilies": [
-        "Volume",
+        "SMA Proximity",
         "Relative Strength"
       ],
       "confluenceScore": 42,
       "matches": [
         {
-          "id": "volume-expansion",
-          "name": "Volume Expansion",
-          "family": "Volume",
-          "reason": "Up day on 7.47× 20-day average volume"
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.28%",
+          "distancePct": -1.28,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "daily-sma30",
+          "name": "Daily SMA 30 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.04%",
+          "distancePct": -1.04,
+          "smaDirection": "Rising"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return -3.29% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 0.11
-        },
-        {
-          "id": "pocket-pivot",
-          "name": "Pocket Pivot / High-Volume Up Day",
-          "family": "Volume",
-          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
+          "reason": "63-day return +22.48% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 25.26
         }
       ]
     },
@@ -12609,9 +12530,9 @@
       "matchConfidence": 1,
       "price": 201.49000549316406,
       "changePct": 4.02,
-      "volumeRatio": 0.98,
-      "dailySma21": 187.87,
-      "dailySma30": 187.46,
+      "volumeRatio": 1.04,
+      "dailySma21": 188.94,
+      "dailySma30": 187.82,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -12925,9 +12846,9 @@
       "matchConfidence": 1,
       "price": 84.02999877929688,
       "changePct": 4.93,
-      "volumeRatio": 1.29,
-      "dailySma21": 88.69,
-      "dailySma30": 88.87,
+      "volumeRatio": 1.45,
+      "dailySma21": 88.12,
+      "dailySma30": 88.79,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13422,10 +13343,10 @@
       "issuePrice": 210,
       "matchConfidence": 1,
       "price": 423.8500061035156,
-      "changePct": 0.96,
-      "volumeRatio": 0.16,
-      "dailySma21": 452.24,
-      "dailySma30": 466.55,
+      "changePct": -0.45,
+      "volumeRatio": 0.17,
+      "dailySma21": 449.6,
+      "dailySma30": 463.39,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13456,10 +13377,10 @@
       "issuePrice": 295,
       "matchConfidence": 0.92,
       "price": 98.7699966430664,
-      "changePct": -0.55,
-      "volumeRatio": 0.78,
-      "dailySma21": 104.22,
-      "dailySma30": 107.06,
+      "changePct": 0.04,
+      "volumeRatio": 0.83,
+      "dailySma21": 103.52,
+      "dailySma30": 106.71,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13481,45 +13402,42 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +2.95% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 6.35
+          "reason": "63-day return +3.62% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 6.4
         }
       ]
     },
     {
-      "symbol": "MUKKA",
-      "company": "Mukka Proteins Limited",
-      "listingDate": "2024-03-07",
-      "issuePrice": 28,
+      "symbol": "GOPAL",
+      "company": "Gopal Snacks Limited",
+      "listingDate": "2024-03-14",
+      "issuePrice": 401,
       "matchConfidence": 1,
-      "price": 26.93000030517578,
-      "changePct": -8.8,
-      "volumeRatio": 0.4,
-      "dailySma21": 28.31,
-      "dailySma30": 27.45,
+      "price": 256.75,
+      "changePct": 1.78,
+      "volumeRatio": 0.97,
+      "dailySma21": 268.28,
+      "dailySma30": 270.46,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
       "signalFamilies": [
-        "SMA Proximity",
-        "Relative Strength"
+        "Volume",
+        "Price Pattern"
       ],
       "confluenceScore": 40,
       "matches": [
         {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.89%",
-          "distancePct": -1.89,
-          "smaDirection": "Rising"
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
         },
         {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +9.69% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 13.09
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 5.18% contracted from 9.65%"
         }
       ]
     },
@@ -13600,10 +13518,10 @@
       "issuePrice": 280,
       "matchConfidence": 0.63,
       "price": 73.62999725341797,
-      "changePct": 1.78,
-      "volumeRatio": 0.47,
-      "dailySma21": 74.64,
-      "dailySma30": 76.47,
+      "changePct": 0.35,
+      "volumeRatio": 0.44,
+      "dailySma21": 74.45,
+      "dailySma30": 76.05,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13617,15 +13535,15 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.35%",
-          "distancePct": -1.35,
+          "reason": "Price below SMA by 1.11%",
+          "distancePct": -1.11,
           "smaDirection": "Falling"
         },
         {
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.47× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.44× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -13636,10 +13554,10 @@
       "issuePrice": 790,
       "matchConfidence": 0.92,
       "price": 2105.300048828125,
-      "changePct": 0.96,
-      "volumeRatio": 0.51,
-      "dailySma21": 2186.02,
-      "dailySma30": 2200.98,
+      "changePct": -0.77,
+      "volumeRatio": 0.5,
+      "dailySma21": 2182.61,
+      "dailySma30": 2196.66,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13705,10 +13623,10 @@
       "issuePrice": 54,
       "matchConfidence": 1,
       "price": 61.060001373291016,
-      "changePct": -2.32,
-      "volumeRatio": 0.53,
-      "dailySma21": 57.14,
-      "dailySma30": 55.25,
+      "changePct": -2.01,
+      "volumeRatio": 0.55,
+      "dailySma21": 58.25,
+      "dailySma30": 56.25,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13728,8 +13646,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +27.85% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 31.25
+          "reason": "63-day return +28.09% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 30.87
         }
       ]
     },
@@ -13740,10 +13658,10 @@
       "issuePrice": 140,
       "matchConfidence": 1,
       "price": 123.26000213623047,
-      "changePct": 5.43,
-      "volumeRatio": 0.68,
-      "dailySma21": 108.71,
-      "dailySma30": 99.71,
+      "changePct": 0.42,
+      "volumeRatio": 0.72,
+      "dailySma21": 110.19,
+      "dailySma30": 101.65,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13757,8 +13675,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +79.34% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 82.74
+          "reason": "63-day return +81.53% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 84.31
         },
         {
           "id": "pocket-pivot",
@@ -13775,10 +13693,10 @@
       "issuePrice": 164,
       "matchConfidence": 1,
       "price": 178.55999755859375,
-      "changePct": 0.42,
-      "volumeRatio": 0.33,
-      "dailySma21": 185.71,
-      "dailySma30": 187.64,
+      "changePct": -1.55,
+      "volumeRatio": 0.59,
+      "dailySma21": 184.94,
+      "dailySma30": 186.82,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13809,10 +13727,10 @@
       "issuePrice": 166,
       "matchConfidence": 1,
       "price": 154.49000549316406,
-      "changePct": 0.36,
+      "changePct": -0.05,
       "volumeRatio": 0.36,
-      "dailySma21": 157.48,
-      "dailySma30": 160.73,
+      "dailySma21": 157.15,
+      "dailySma30": 159.93,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13826,8 +13744,8 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.90%",
-          "distancePct": -1.9,
+          "reason": "Price below SMA by 1.69%",
+          "distancePct": -1.69,
           "smaDirection": "Falling"
         },
         {
@@ -13839,16 +13757,52 @@
       ]
     },
     {
+      "symbol": "GSLSU",
+      "company": "Global Surfaces Limited",
+      "listingDate": "2023-03-23",
+      "issuePrice": 140,
+      "matchConfidence": 1,
+      "price": 28.040000915527344,
+      "changePct": -0.46,
+      "volumeRatio": 0.18,
+      "dailySma21": 28.44,
+      "dailySma30": 29.28,
+      "marketDate": "2026-09-18",
+      "matchCount": 2,
+      "priority": 40,
+      "signalFamilies": [
+        "SMA Proximity",
+        "Volume"
+      ],
+      "confluenceScore": 40,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.41%",
+          "distancePct": -1.41,
+          "smaDirection": "Falling"
+        },
+        {
+          "id": "volume-dry-up",
+          "name": "Volume Dry-Up Pullback",
+          "family": "Volume",
+          "reason": "Volume 0.18× average while price is within ±2% of SMA21"
+        }
+      ]
+    },
+    {
       "symbol": "RUSTOMJEE",
       "company": "Keystone Realtors Limited",
       "listingDate": "2022-11-24",
       "issuePrice": 541,
       "matchConfidence": 1,
       "price": 353.75,
-      "changePct": 4.55,
+      "changePct": 3.75,
       "volumeRatio": 1.07,
-      "dailySma21": 365.5,
-      "dailySma30": 367.71,
+      "dailySma21": 364.07,
+      "dailySma30": 366.41,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13862,13 +13816,13 @@
           "id": "high-5d",
           "name": "5-Day High Breakout",
           "family": "Breakout",
-          "reason": "Close broke prior 5-day high ₹353.40"
+          "reason": "Close broke prior 5-day high ₹351.20"
         },
         {
           "id": "tight-close",
           "name": "Tight Close / VCP Contraction",
           "family": "Price Pattern",
-          "reason": "5-session range 7.32% contracted from 10.00%"
+          "reason": "5-session range 6.79% contracted from 16.00%"
         }
       ]
     },
@@ -13879,10 +13833,10 @@
       "issuePrice": 137,
       "matchConfidence": 0.92,
       "price": 221.75999450683594,
-      "changePct": 1.74,
+      "changePct": 3.35,
       "volumeRatio": 0.35,
-      "dailySma21": 238.94,
-      "dailySma30": 241.46,
+      "dailySma21": 238.02,
+      "dailySma30": 240.01,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13913,10 +13867,10 @@
       "issuePrice": 90,
       "matchConfidence": 0.73,
       "price": 33.43000030517578,
-      "changePct": 4.6,
+      "changePct": 1.4,
       "volumeRatio": 0.48,
-      "dailySma21": 33.6,
-      "dailySma30": 34.28,
+      "dailySma21": 33.58,
+      "dailySma30": 34.14,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13930,8 +13884,8 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.52%",
-          "distancePct": -0.52,
+          "reason": "Price below SMA by 0.43%",
+          "distancePct": -0.43,
           "smaDirection": "Falling"
         },
         {
@@ -13949,10 +13903,10 @@
       "issuePrice": 866,
       "matchConfidence": 1,
       "price": 544.25,
-      "changePct": -1.88,
-      "volumeRatio": 3.91,
-      "dailySma21": 557.8,
-      "dailySma30": 547.68,
+      "changePct": -4.11,
+      "volumeRatio": 4.12,
+      "dailySma21": 560.66,
+      "dailySma30": 552.1,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 40,
@@ -13966,16 +13920,50 @@
           "id": "daily-sma30",
           "name": "Daily SMA 30 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.63%",
-          "distancePct": -0.63,
+          "reason": "Price below SMA by 1.42%",
+          "distancePct": -1.42,
           "smaDirection": "Rising"
         },
         {
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +29.86% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 33.26
+          "reason": "63-day return +31.94% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 34.72
+        }
+      ]
+    },
+    {
+      "symbol": "SUPRIYA",
+      "company": "Supriya Lifescience Limited",
+      "listingDate": "2021-12-28",
+      "issuePrice": 274,
+      "matchConfidence": 1,
+      "price": 906.2999877929688,
+      "changePct": 0.63,
+      "volumeRatio": 0.5,
+      "dailySma21": 852.93,
+      "dailySma30": 843.56,
+      "marketDate": "2026-09-18",
+      "matchCount": 2,
+      "priority": 40,
+      "signalFamilies": [
+        "Breakout",
+        "IPO Structure"
+      ],
+      "confluenceScore": 40,
+      "matches": [
+        {
+          "id": "listing-high",
+          "name": "Listing High Breakout",
+          "family": "Breakout",
+          "reason": "Close ₹906.30 is above listing-day high ₹421.00"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹274.00 reclaimed/held"
         }
       ]
     },
@@ -14010,40 +13998,6 @@
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
           "reason": "Issue price ₹585.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "RATEGAIN",
-      "company": "Rategain Travel Technologies Limited",
-      "listingDate": "2021-12-17",
-      "issuePrice": 425,
-      "matchConfidence": 0.92,
-      "price": 858.4000244140625,
-      "changePct": -0.3,
-      "volumeRatio": 1.39,
-      "dailySma21": 900.35,
-      "dailySma30": 909.62,
-      "marketDate": "2026-09-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹858.40 is above listing-day high ₹383.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹425.00 reclaimed/held"
         }
       ]
     },
@@ -14292,10 +14246,10 @@
       "issuePrice": 585,
       "matchConfidence": 1,
       "price": 23.770000457763672,
-      "changePct": 3.17,
-      "volumeRatio": 0.78,
-      "dailySma21": 21.18,
-      "dailySma30": 21.53,
+      "changePct": 2.99,
+      "volumeRatio": 0.77,
+      "dailySma21": 21.23,
+      "dailySma30": 21.56,
       "marketDate": "2026-09-18",
       "matchCount": 2,
       "priority": 22,
@@ -14308,8 +14262,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +5.83% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 9.23
+          "reason": "63-day return +6.74% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 9.51
         },
         {
           "id": "rs-new-high",
@@ -14353,6 +14307,33 @@
           "reason": "Price below SMA by 1.28%",
           "distancePct": -1.28,
           "smaDirection": "Falling"
+        }
+      ]
+    },
+    {
+      "symbol": "MANIKA",
+      "company": "Manika Plastech Limited",
+      "listingDate": "2026-09-21",
+      "issuePrice": 43,
+      "matchConfidence": 1,
+      "price": 43.13999938964844,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-09-21",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹43.00 reclaimed/held"
         }
       ]
     },
@@ -15017,9 +14998,9 @@
       "matchConfidence": 1,
       "price": 360.3500061035156,
       "changePct": -1.5,
-      "volumeRatio": 1.54,
-      "dailySma21": 384.59,
-      "dailySma30": 390.6,
+      "volumeRatio": 1.77,
+      "dailySma21": 383.92,
+      "dailySma30": 389.92,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15398,29 +15379,30 @@
       ]
     },
     {
-      "symbol": "GOPAL",
-      "company": "Gopal Snacks Limited",
-      "listingDate": "2024-03-14",
-      "issuePrice": 401,
+      "symbol": "MUKKA",
+      "company": "Mukka Proteins Limited",
+      "listingDate": "2024-03-07",
+      "issuePrice": 28,
       "matchConfidence": 1,
-      "price": 256.75,
-      "changePct": 0.92,
-      "volumeRatio": 0.7,
-      "dailySma21": 270,
-      "dailySma30": 271.19,
+      "price": 26.93000030517578,
+      "changePct": -4.77,
+      "volumeRatio": 0.4,
+      "dailySma21": 28.4,
+      "dailySma30": 27.61,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
       "signalFamilies": [
-        "Price Pattern"
+        "Relative Strength"
       ],
       "confluenceScore": 20,
       "matches": [
         {
-          "id": "tight-close",
-          "name": "Tight Close / VCP Contraction",
-          "family": "Price Pattern",
-          "reason": "5-session range 6.39% contracted from 9.64%"
+          "id": "rs-nifty",
+          "name": "Relative Strength vs NIFTY",
+          "family": "Relative Strength",
+          "reason": "63-day return +10.78% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 13.55
         }
       ]
     },
@@ -15431,10 +15413,10 @@
       "issuePrice": 360,
       "matchConfidence": 1,
       "price": 224.3300018310547,
-      "changePct": 4.67,
-      "volumeRatio": 1.03,
-      "dailySma21": 215.61,
-      "dailySma30": 209.54,
+      "changePct": 4.13,
+      "volumeRatio": 1.11,
+      "dailySma21": 216.1,
+      "dailySma30": 210.23,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15447,8 +15429,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +14.30% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 17.7
+          "reason": "63-day return +11.19% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 13.96
         }
       ]
     },
@@ -15459,10 +15441,10 @@
       "issuePrice": 41,
       "matchConfidence": 1,
       "price": 22.899999618530273,
-      "changePct": 2.6,
-      "volumeRatio": 0.75,
-      "dailySma21": 23.83,
-      "dailySma30": 24.03,
+      "changePct": 1.82,
+      "volumeRatio": 0.78,
+      "dailySma21": 23.63,
+      "dailySma30": 24,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15475,7 +15457,7 @@
           "id": "tight-close",
           "name": "Tight Close / VCP Contraction",
           "family": "Price Pattern",
-          "reason": "5-session range 7.80% contracted from 12.87%"
+          "reason": "5-session range 7.71% contracted from 16.10%"
         }
       ]
     },
@@ -15486,10 +15468,10 @@
       "issuePrice": 60,
       "matchConfidence": 1,
       "price": 39.189998626708984,
-      "changePct": 0.59,
-      "volumeRatio": 0.34,
-      "dailySma21": 41.9,
-      "dailySma30": 41.29,
+      "changePct": 1.95,
+      "volumeRatio": 0.38,
+      "dailySma21": 41.73,
+      "dailySma30": 41.16,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15502,36 +15484,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +22.39% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 25.79
-        }
-      ]
-    },
-    {
-      "symbol": "IRMENERGY",
-      "company": "IRM Energy Limited",
-      "listingDate": "2023-10-26",
-      "issuePrice": 505,
-      "matchConfidence": 1,
-      "price": 270.20001220703125,
-      "changePct": 2.29,
-      "volumeRatio": 0.94,
-      "dailySma21": 280.84,
-      "dailySma30": 285.02,
-      "marketDate": "2026-09-18",
-      "matchCount": 1,
-      "priority": 20,
-      "signalFamilies": [
-        "Relative Strength"
-      ],
-      "confluenceScore": 20,
-      "matches": [
-        {
-          "id": "rs-nifty",
-          "name": "Relative Strength vs NIFTY",
-          "family": "Relative Strength",
-          "reason": "63-day return +1.45% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 4.85
+          "reason": "63-day return +7.87% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 10.65
         }
       ]
     },
@@ -15542,10 +15496,10 @@
       "issuePrice": 300,
       "matchConfidence": 1,
       "price": 189.82000732421875,
-      "changePct": -0.41,
-      "volumeRatio": 0.16,
-      "dailySma21": 216.83,
-      "dailySma30": 214.9,
+      "changePct": 0.83,
+      "volumeRatio": 0.18,
+      "dailySma21": 215.48,
+      "dailySma30": 214.16,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15558,8 +15512,35 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +5.32% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 8.71
+          "reason": "63-day return +4.86% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 7.64
+        }
+      ]
+    },
+    {
+      "symbol": "TVSSCS",
+      "company": "TVS Supply Chain Solutions Limited",
+      "listingDate": "2023-08-23",
+      "issuePrice": 197,
+      "matchConfidence": 1,
+      "price": 133.85000610351562,
+      "changePct": 2.89,
+      "volumeRatio": 0.76,
+      "dailySma21": 128.98,
+      "dailySma30": 127.69,
+      "marketDate": "2026-09-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "Volume"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "pocket-pivot",
+          "name": "Pocket Pivot / High-Volume Up Day",
+          "family": "Volume",
+          "reason": "Up-day volume exceeded every down-day volume in the prior 10 sessions"
         }
       ]
     },
@@ -15599,10 +15580,10 @@
       "issuePrice": 672,
       "matchConfidence": 1,
       "price": 729.5999755859375,
-      "changePct": 3.88,
-      "volumeRatio": 0.36,
-      "dailySma21": 769.56,
-      "dailySma30": 789.71,
+      "changePct": 1.62,
+      "volumeRatio": 0.37,
+      "dailySma21": 765.34,
+      "dailySma30": 783.25,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15626,10 +15607,10 @@
       "issuePrice": 407,
       "matchConfidence": 1,
       "price": 467.1499938964844,
-      "changePct": 1.24,
-      "volumeRatio": 0.66,
-      "dailySma21": 488.52,
-      "dailySma30": 495.42,
+      "changePct": 1.03,
+      "volumeRatio": 0.64,
+      "dailySma21": 486.44,
+      "dailySma30": 493.57,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15680,8 +15661,8 @@
       "issuePrice": 175,
       "matchConfidence": 1,
       "price": 1.9299999475479126,
-      "changePct": 0,
-      "volumeRatio": 0.61,
+      "changePct": -1.03,
+      "volumeRatio": 0.62,
       "dailySma21": 1.96,
       "dailySma30": 1.98,
       "marketDate": "2026-09-18",
@@ -15696,8 +15677,8 @@
           "id": "daily-sma21",
           "name": "Daily SMA 21 Proximity",
           "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.75%",
-          "distancePct": -1.75,
+          "reason": "Price below SMA by 1.51%",
+          "distancePct": -1.51,
           "smaDirection": "Falling"
         }
       ]
@@ -15709,10 +15690,10 @@
       "issuePrice": 216,
       "matchConfidence": 1,
       "price": 230.92999267578125,
-      "changePct": -0.63,
+      "changePct": -0.05,
       "volumeRatio": 0.8,
-      "dailySma21": 238.92,
-      "dailySma30": 245.69,
+      "dailySma21": 238.04,
+      "dailySma30": 244.29,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15736,10 +15717,10 @@
       "issuePrice": 1033,
       "matchConfidence": 1,
       "price": 899.4000244140625,
-      "changePct": 1.85,
+      "changePct": 1.08,
       "volumeRatio": 0.64,
-      "dailySma21": 960.32,
-      "dailySma30": 972.36,
+      "dailySma21": 954.73,
+      "dailySma30": 968.21,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15752,8 +15733,8 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +0.98% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 4.38
+          "reason": "63-day return +1.13% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 3.91
         }
       ]
     },
@@ -15764,10 +15745,10 @@
       "issuePrice": 662,
       "matchConfidence": 1,
       "price": 306.1000061035156,
-      "changePct": 1.26,
-      "volumeRatio": 0.96,
-      "dailySma21": 330.03,
-      "dailySma30": 328.5,
+      "changePct": -0.55,
+      "volumeRatio": 1.08,
+      "dailySma21": 328.35,
+      "dailySma30": 328.18,
       "marketDate": "2026-09-18",
       "matchCount": 1,
       "priority": 20,
@@ -15780,8 +15761,35 @@
           "id": "rs-nifty",
           "name": "Relative Strength vs NIFTY",
           "family": "Relative Strength",
-          "reason": "63-day return +14.51% vs NIFTY -3.40%",
-          "relativeOutperformancePct": 17.91
+          "reason": "63-day return +16.56% vs NIFTY -2.78%",
+          "relativeOutperformancePct": 19.33
+        }
+      ]
+    },
+    {
+      "symbol": "MANORG",
+      "company": "Mangalam Organics Limited",
+      "listingDate": "2021-11-02",
+      "issuePrice": 610,
+      "matchConfidence": 0.7,
+      "price": 456.95001220703125,
+      "changePct": 1.79,
+      "volumeRatio": 0.62,
+      "dailySma21": 481.4,
+      "dailySma30": 471.67,
+      "marketDate": "2026-09-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "Price Pattern"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "tight-close",
+          "name": "Tight Close / VCP Contraction",
+          "family": "Price Pattern",
+          "reason": "5-session range 7.95% contracted from 17.07%"
         }
       ]
     }
