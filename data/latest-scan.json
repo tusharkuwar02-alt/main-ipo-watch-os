@@ -2,21 +2,21 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-09-25T18:00:40.930Z",
-    "lastSuccessfulScanAt": "2026-09-25T18:00:40.930Z",
+    "asOf": "2026-09-28T20:10:27.910Z",
+    "lastSuccessfulScanAt": "2026-09-28T20:10:27.910Z",
     "exchange": "NSE",
     "segment": "Mainboard",
-    "rollingWindowStart": "2021-09-25",
+    "rollingWindowStart": "2021-09-28",
     "marketDate": "2026-09-25",
-    "expectedMarketDate": "2026-09-25",
-    "dataFreshness": "fresh",
+    "expectedMarketDate": "2026-09-29",
+    "dataFreshness": "stale",
     "universeCount": 390,
     "qualifyingCount": 348,
-    "latestSourceListingDate": "2026-10-06",
+    "latestSourceListingDate": "2026-10-08",
     "latestUniverseListingDate": "2026-09-24",
     "historyFailures": 0,
-    "validationFailures": 1,
-    "durationMs": 24114,
+    "validationFailures": 0,
+    "durationMs": 35353,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -1967,7 +1967,7 @@
       "matchConfidence": 1,
       "price": 3650,
       "changePct": 4,
-      "volumeRatio": 1.25,
+      "volumeRatio": 1.26,
       "dailySma21": 3560.34,
       "dailySma30": 3647.25,
       "marketDate": "2026-09-25",
@@ -2288,7 +2288,7 @@
       "matchConfidence": 1,
       "price": 183.4600067138672,
       "changePct": 0.85,
-      "volumeRatio": 0.28,
+      "volumeRatio": 0.29,
       "dailySma21": 184.1,
       "dailySma30": 178.73,
       "marketDate": "2026-09-25",
@@ -2334,7 +2334,7 @@
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.28× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.29× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -3082,7 +3082,7 @@
       "matchConfidence": 1,
       "price": 1767,
       "changePct": 7.34,
-      "volumeRatio": 8.54,
+      "volumeRatio": 8.55,
       "dailySma21": 1649.79,
       "dailySma30": 1647.33,
       "marketDate": "2026-09-25",
@@ -3100,7 +3100,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 8.54× volume"
+          "reason": "Close broke 20-day high with 8.55× volume"
         },
         {
           "id": "weekly-51",
@@ -3149,7 +3149,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 8.54× 20-day average volume"
+          "reason": "Up day on 8.55× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -3931,7 +3931,7 @@
       "matchConfidence": 1,
       "price": 200.22000122070312,
       "changePct": 5.85,
-      "volumeRatio": 2.27,
+      "volumeRatio": 2.28,
       "dailySma21": 185.12,
       "dailySma30": 185.59,
       "marketDate": "2026-09-25",
@@ -3961,7 +3961,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 2.27× 20-day average volume"
+          "reason": "Up day on 2.28× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -4108,7 +4108,7 @@
       "matchConfidence": 1,
       "price": 727.5,
       "changePct": -2.02,
-      "volumeRatio": 0.44,
+      "volumeRatio": 0.45,
       "dailySma21": 732.74,
       "dailySma30": 737.22,
       "marketDate": "2026-09-25",
@@ -4154,7 +4154,7 @@
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.44× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.45× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -4633,7 +4633,7 @@
       "matchConfidence": 1,
       "price": 2115,
       "changePct": 2.64,
-      "volumeRatio": 2.66,
+      "volumeRatio": 2.67,
       "dailySma21": 2167.05,
       "dailySma30": 2181.56,
       "marketDate": "2026-09-25",
@@ -4663,7 +4663,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 2.66× 20-day average volume"
+          "reason": "Up day on 2.67× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -5036,7 +5036,7 @@
       "matchConfidence": 1,
       "price": 437.45001220703125,
       "changePct": 0.13,
-      "volumeRatio": 0.13,
+      "volumeRatio": 0.14,
       "dailySma21": 434.31,
       "dailySma30": null,
       "marketDate": "2026-09-25",
@@ -5074,7 +5074,7 @@
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.13× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.14× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -5385,7 +5385,7 @@
       "matchConfidence": 1,
       "price": 246.0500030517578,
       "changePct": 1.34,
-      "volumeRatio": 0.93,
+      "volumeRatio": 0.94,
       "dailySma21": 236.26,
       "dailySma30": 242.07,
       "marketDate": "2026-09-25",
@@ -6682,7 +6682,7 @@
       "matchConfidence": 1,
       "price": 690.7000122070312,
       "changePct": 7.59,
-      "volumeRatio": 2.28,
+      "volumeRatio": 2.29,
       "dailySma21": 532.21,
       "dailySma30": 538.91,
       "marketDate": "2026-09-25",
@@ -6699,7 +6699,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 2.28× volume"
+          "reason": "Close broke 20-day high with 2.29× volume"
         },
         {
           "id": "high-5d",
@@ -6723,7 +6723,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 2.28× 20-day average volume"
+          "reason": "Up day on 2.29× 20-day average volume"
         },
         {
           "id": "rs-nifty",
@@ -7666,7 +7666,7 @@
       "matchConfidence": 1,
       "price": 333.95001220703125,
       "changePct": 3.09,
-      "volumeRatio": 0.9,
+      "volumeRatio": 0.91,
       "dailySma21": 304.58,
       "dailySma30": 292.76,
       "marketDate": "2026-09-25",
@@ -7781,7 +7781,7 @@
       "matchConfidence": 0.92,
       "price": 172.32000732421875,
       "changePct": -1.33,
-      "volumeRatio": 0.76,
+      "volumeRatio": 0.77,
       "dailySma21": 172.69,
       "dailySma30": 173.78,
       "marketDate": "2026-09-25",
@@ -10849,7 +10849,7 @@
       "matchConfidence": 1,
       "price": 295.1499938964844,
       "changePct": -1.8,
-      "volumeRatio": 0.48,
+      "volumeRatio": 0.49,
       "dailySma21": 275.33,
       "dailySma30": 273.4,
       "marketDate": "2026-09-25",
@@ -11715,7 +11715,7 @@
       "matchConfidence": 1,
       "price": 168.83999633789062,
       "changePct": 1.69,
-      "volumeRatio": 0.93,
+      "volumeRatio": 0.94,
       "dailySma21": 170.3,
       "dailySma30": 169.23,
       "marketDate": "2026-09-25",
@@ -13013,9 +13013,9 @@
       "price": 351.79998779296875,
       "changePct": 0,
       "volumeRatio": 0,
-      "dailySma21": 370.78,
+      "dailySma21": 368.19,
       "dailySma30": null,
-      "marketDate": "2026-09-24",
+      "marketDate": "2026-09-25",
       "matchCount": 2,
       "priority": 40,
       "signalFamilies": [
@@ -13718,7 +13718,7 @@
       "matchConfidence": 0.63,
       "price": 72.13999938964844,
       "changePct": -0.55,
-      "volumeRatio": 0.42,
+      "volumeRatio": 0.43,
       "dailySma21": 73.4,
       "dailySma30": 74.59,
       "marketDate": "2026-09-25",
@@ -13742,7 +13742,7 @@
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.42× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.43× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -13754,7 +13754,7 @@
       "matchConfidence": 1,
       "price": 17.850000381469727,
       "changePct": -5,
-      "volumeRatio": 1.94,
+      "volumeRatio": 1.95,
       "dailySma21": 16.81,
       "dailySma30": 16.73,
       "marketDate": "2026-09-25",
@@ -15666,7 +15666,7 @@
       "matchConfidence": 0.62,
       "price": 264.54998779296875,
       "changePct": -2.54,
-      "volumeRatio": 2.24,
+      "volumeRatio": 2.25,
       "dailySma21": 274.57,
       "dailySma30": 279.58,
       "marketDate": "2026-09-25",
@@ -15749,7 +15749,7 @@
       "matchConfidence": 1,
       "price": 90.58999633789062,
       "changePct": -1.23,
-      "volumeRatio": 0.8,
+      "volumeRatio": 0.81,
       "dailySma21": 91.46,
       "dailySma30": 92.66,
       "marketDate": "2026-09-25",
@@ -15806,7 +15806,7 @@
       "matchConfidence": 1,
       "price": 210.63999938964844,
       "changePct": -1.26,
-      "volumeRatio": 0.94,
+      "volumeRatio": 0.95,
       "dailySma21": 222.55,
       "dailySma30": 219.96,
       "marketDate": "2026-09-25",
@@ -16351,12 +16351,6 @@
   ],
   "failures": {
     "history": [],
-    "validation": [
-      {
-        "company": "NSE",
-        "year": 2026,
-        "reason": "NSE symbol/listing-date match not found"
-      }
-    ]
+    "validation": []
   }
 }
