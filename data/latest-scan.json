@@ -2,21 +2,21 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-10-02T18:34:24.966Z",
-    "lastSuccessfulScanAt": "2026-10-02T18:34:24.966Z",
+    "asOf": "2026-10-05T21:15:44.957Z",
+    "lastSuccessfulScanAt": "2026-10-05T21:15:44.957Z",
     "exchange": "NSE",
     "segment": "Mainboard",
-    "rollingWindowStart": "2021-10-02",
+    "rollingWindowStart": "2021-10-05",
     "marketDate": "2026-10-01",
-    "expectedMarketDate": "2026-10-01",
-    "dataFreshness": "fresh",
-    "universeCount": 395,
-    "qualifyingCount": 312,
+    "expectedMarketDate": "2026-10-06",
+    "dataFreshness": "stale",
+    "universeCount": 401,
+    "qualifyingCount": 315,
     "latestSourceListingDate": "2026-10-08",
-    "latestUniverseListingDate": "2026-09-30",
+    "latestUniverseListingDate": "2026-10-05",
     "historyFailures": 0,
     "validationFailures": 0,
-    "durationMs": 35912,
+    "durationMs": 22147,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -10816,9 +10816,9 @@
       "price": 351.79998779296875,
       "changePct": 0,
       "volumeRatio": 0,
-      "dailySma21": 364.74,
-      "dailySma30": 370.31,
-      "marketDate": "2026-10-01",
+      "dailySma21": 364.58,
+      "dailySma30": 368.87,
+      "marketDate": "2026-10-02",
       "matchCount": 2,
       "priority": 40,
       "signalFamilies": [
@@ -12510,6 +12510,87 @@
           "reason": "Price below SMA by 0.47%",
           "distancePct": -0.47,
           "smaDirection": "Falling"
+        }
+      ]
+    },
+    {
+      "symbol": "ORIENTCABL",
+      "company": "Orient Cables (India) Limited",
+      "listingDate": "2026-10-05",
+      "issuePrice": 272,
+      "matchConfidence": 1,
+      "price": 405,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-10-05",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹272.00 reclaimed/held"
+        }
+      ]
+    },
+    {
+      "symbol": "AONESTEELS",
+      "company": "A-One Steels India Limited",
+      "listingDate": "2026-10-01",
+      "issuePrice": 405,
+      "matchConfidence": 1,
+      "price": 416.54998779296875,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-10-01",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹405.00 reclaimed/held"
+        }
+      ]
+    },
+    {
+      "symbol": "MONEYVIEW",
+      "company": "Moneyview Limited",
+      "listingDate": "2026-10-01",
+      "issuePrice": 34,
+      "matchConfidence": 1,
+      "price": 53.880001068115234,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-10-01",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹34.00 reclaimed/held"
         }
       ]
     },
