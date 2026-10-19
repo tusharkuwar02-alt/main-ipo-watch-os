@@ -2,21 +2,21 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-10-16T17:34:00.962Z",
-    "lastSuccessfulScanAt": "2026-10-16T17:34:00.962Z",
+    "asOf": "2026-10-19T19:23:57.677Z",
+    "lastSuccessfulScanAt": "2026-10-19T19:23:57.677Z",
     "exchange": "NSE",
     "segment": "Mainboard",
-    "rollingWindowStart": "2021-10-16",
+    "rollingWindowStart": "2021-10-19",
     "marketDate": "2026-10-16",
-    "expectedMarketDate": "2026-10-16",
-    "dataFreshness": "fresh",
+    "expectedMarketDate": "2026-10-19",
+    "dataFreshness": "stale",
     "universeCount": 406,
     "qualifyingCount": 343,
-    "latestSourceListingDate": "2026-10-28",
+    "latestSourceListingDate": "2026-11-03",
     "latestUniverseListingDate": "2026-10-08",
     "historyFailures": 0,
     "validationFailures": 0,
-    "durationMs": 36469,
+    "durationMs": 35881,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -607,7 +607,7 @@
       "matchConfidence": 1,
       "price": 2611.39990234375,
       "changePct": 1.48,
-      "volumeRatio": 1.41,
+      "volumeRatio": 1.42,
       "dailySma21": 2586.91,
       "dailySma30": 2622.42,
       "marketDate": "2026-10-16",
@@ -4783,7 +4783,7 @@
       "matchConfidence": 1,
       "price": 997.2000122070312,
       "changePct": 1.82,
-      "volumeRatio": 0.39,
+      "volumeRatio": 0.4,
       "dailySma21": 1040.83,
       "dailySma30": 1029.1,
       "marketDate": "2026-10-16",
@@ -5440,7 +5440,7 @@
       "matchConfidence": 1,
       "price": 2565.39990234375,
       "changePct": 2.86,
-      "volumeRatio": 1.84,
+      "volumeRatio": 1.85,
       "dailySma21": 2439.18,
       "dailySma30": 2479.96,
       "marketDate": "2026-10-16",
@@ -5457,7 +5457,7 @@
           "id": "daily-breakout",
           "name": "Daily Breakout",
           "family": "Breakout",
-          "reason": "Close broke 20-day high with 1.84× volume"
+          "reason": "Close broke 20-day high with 1.85× volume"
         },
         {
           "id": "high-5d",
@@ -5487,7 +5487,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.84× 20-day average volume"
+          "reason": "Up day on 1.85× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -5505,7 +5505,7 @@
       "matchConfidence": 1,
       "price": 124.77999877929688,
       "changePct": 1.03,
-      "volumeRatio": 1.78,
+      "volumeRatio": 1.79,
       "dailySma21": 123.7,
       "dailySma30": 123.64,
       "marketDate": "2026-10-16",
@@ -5554,7 +5554,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.78× 20-day average volume"
+          "reason": "Up day on 1.79× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -5646,7 +5646,7 @@
       "matchConfidence": 0.92,
       "price": 246.25,
       "changePct": 2.54,
-      "volumeRatio": 1.04,
+      "volumeRatio": 1.05,
       "dailySma21": 227.98,
       "dailySma30": 220.3,
       "marketDate": "2026-10-16",
@@ -7052,7 +7052,7 @@
       "matchConfidence": 1,
       "price": 331.20001220703125,
       "changePct": 1.33,
-      "volumeRatio": 0.05,
+      "volumeRatio": 0.06,
       "dailySma21": 329.98,
       "dailySma30": 327.03,
       "marketDate": "2026-10-16",
@@ -7092,7 +7092,7 @@
           "id": "volume-dry-up",
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
-          "reason": "Volume 0.05× average while price is within ±2% of SMA21"
+          "reason": "Volume 0.06× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -9583,7 +9583,7 @@
       "matchConfidence": 1,
       "price": 555.8499755859375,
       "changePct": 3.92,
-      "volumeRatio": 0.33,
+      "volumeRatio": 0.34,
       "dailySma21": 602.79,
       "dailySma30": 581.78,
       "marketDate": "2026-10-16",
@@ -10025,7 +10025,7 @@
       "matchConfidence": 1,
       "price": 61.040000915527344,
       "changePct": 12.29,
-      "volumeRatio": 6.08,
+      "volumeRatio": 6.09,
       "dailySma21": 59.09,
       "dailySma30": 62.52,
       "marketDate": "2026-10-16",
@@ -10053,7 +10053,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 6.08× 20-day average volume"
+          "reason": "Up day on 6.09× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -10814,7 +10814,7 @@
       "matchConfidence": 1,
       "price": 141,
       "changePct": 11.29,
-      "volumeRatio": 25.2,
+      "volumeRatio": 25.28,
       "dailySma21": 134.35,
       "dailySma30": 135.07,
       "marketDate": "2026-10-16",
@@ -10836,7 +10836,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 25.20× 20-day average volume"
+          "reason": "Up day on 25.28× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -13267,7 +13267,7 @@
       "matchConfidence": 0.92,
       "price": 322.6000061035156,
       "changePct": 0.5,
-      "volumeRatio": 0.59,
+      "volumeRatio": 0.61,
       "dailySma21": 339.79,
       "dailySma30": 352.21,
       "marketDate": "2026-10-16",
@@ -14382,7 +14382,7 @@
       "matchConfidence": 1,
       "price": 144,
       "changePct": 1.14,
-      "volumeRatio": 0.67,
+      "volumeRatio": 0.68,
       "dailySma21": 153.85,
       "dailySma30": 157.75,
       "marketDate": "2026-10-16",
@@ -14549,7 +14549,7 @@
       "matchConfidence": 1,
       "price": 131.0800018310547,
       "changePct": 1.6,
-      "volumeRatio": 0.42,
+      "volumeRatio": 0.43,
       "dailySma21": 134.94,
       "dailySma30": 135.77,
       "marketDate": "2026-10-16",
@@ -14825,7 +14825,7 @@
       "matchConfidence": 1,
       "price": 21.6200008392334,
       "changePct": 0.14,
-      "volumeRatio": 0.67,
+      "volumeRatio": 0.68,
       "dailySma21": 22.36,
       "dailySma30": 22.57,
       "marketDate": "2026-10-16",
