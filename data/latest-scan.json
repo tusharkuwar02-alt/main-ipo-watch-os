@@ -2,21 +2,21 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-10-23T17:54:57.840Z",
-    "lastSuccessfulScanAt": "2026-10-23T17:54:57.840Z",
+    "asOf": "2026-10-26T19:27:35.251Z",
+    "lastSuccessfulScanAt": "2026-10-26T19:27:35.251Z",
     "exchange": "NSE",
     "segment": "Mainboard",
-    "rollingWindowStart": "2021-10-23",
+    "rollingWindowStart": "2021-10-26",
     "marketDate": "2026-10-23",
-    "expectedMarketDate": "2026-10-23",
-    "dataFreshness": "fresh",
+    "expectedMarketDate": "2026-10-27",
+    "dataFreshness": "stale",
     "universeCount": 412,
     "qualifyingCount": 270,
     "latestSourceListingDate": "2026-11-05",
     "latestUniverseListingDate": "2026-10-23",
     "historyFailures": 0,
     "validationFailures": 0,
-    "durationMs": 23645,
+    "durationMs": 25611,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -835,7 +835,7 @@
       "matchConfidence": 1,
       "price": 478.45001220703125,
       "changePct": 3.86,
-      "volumeRatio": 1.62,
+      "volumeRatio": 1.63,
       "dailySma21": 474,
       "dailySma30": 472.06,
       "marketDate": "2026-10-23",
@@ -881,7 +881,7 @@
           "id": "volume-expansion",
           "name": "Volume Expansion",
           "family": "Volume",
-          "reason": "Up day on 1.62× 20-day average volume"
+          "reason": "Up day on 1.63× 20-day average volume"
         },
         {
           "id": "pocket-pivot",
@@ -2925,6 +2925,49 @@
       ]
     },
     {
+      "symbol": "BNALTD",
+      "company": "B & A Limited",
+      "listingDate": "2026-04-20",
+      "issuePrice": 270,
+      "matchConfidence": 0.92,
+      "price": 360.04998779296875,
+      "changePct": 0,
+      "volumeRatio": 0,
+      "dailySma21": 364.73,
+      "dailySma30": 367.67,
+      "marketDate": "2026-10-23",
+      "matchCount": 3,
+      "priority": 60,
+      "signalFamilies": [
+        "SMA Proximity",
+        "IPO Structure",
+        "Volume"
+      ],
+      "confluenceScore": 60,
+      "matches": [
+        {
+          "id": "daily-sma21",
+          "name": "Daily SMA 21 Proximity",
+          "family": "SMA Proximity",
+          "reason": "Price below SMA by 1.28%",
+          "distancePct": -1.28,
+          "smaDirection": "Rising"
+        },
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹270.00 reclaimed/held"
+        },
+        {
+          "id": "volume-dry-up",
+          "name": "Volume Dry-Up Pullback",
+          "family": "Volume",
+          "reason": "Volume 0.00× average while price is within ±2% of SMA21"
+        }
+      ]
+    },
+    {
       "symbol": "RSL",
       "company": "Rajputana Stainless Limited",
       "listingDate": "2026-03-19",
@@ -3857,7 +3900,7 @@
       "matchConfidence": 0.92,
       "price": 543.4500122070312,
       "changePct": -2.2,
-      "volumeRatio": 0.72,
+      "volumeRatio": 0.73,
       "dailySma21": 591.55,
       "dailySma30": 598.06,
       "marketDate": "2026-10-23",
@@ -4706,7 +4749,7 @@
       "matchConfidence": 1,
       "price": 4335.7998046875,
       "changePct": -5.6,
-      "volumeRatio": 1.71,
+      "volumeRatio": 1.72,
       "dailySma21": 4695.88,
       "dailySma30": 4716.88,
       "marketDate": "2026-10-23",
@@ -6276,42 +6319,6 @@
           "name": "Issue Price Reclaim / Hold",
           "family": "IPO Structure",
           "reason": "Issue price ₹171.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "BNALTD",
-      "company": "B & A Limited",
-      "listingDate": "2026-04-20",
-      "issuePrice": 270,
-      "matchConfidence": 0.92,
-      "price": 360.04998779296875,
-      "changePct": -4,
-      "volumeRatio": 6.57,
-      "dailySma21": 364.34,
-      "dailySma30": 368.17,
-      "marketDate": "2026-10-22",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "SMA Proximity",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 1.18%",
-          "distancePct": -1.18,
-          "smaDirection": "Rising"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹270.00 reclaimed/held"
         }
       ]
     },
@@ -9040,7 +9047,7 @@
       "matchConfidence": 1,
       "price": 89.55999755859375,
       "changePct": -4.98,
-      "volumeRatio": 0.71,
+      "volumeRatio": 0.72,
       "dailySma21": 102,
       "dailySma30": 103.62,
       "marketDate": "2026-10-23",
@@ -10272,7 +10279,7 @@
       "matchConfidence": 0.92,
       "price": 284.8500061035156,
       "changePct": -3.38,
-      "volumeRatio": 1.36,
+      "volumeRatio": 1.37,
       "dailySma21": 327,
       "dailySma30": 340.81,
       "marketDate": "2026-10-23",
@@ -10516,7 +10523,7 @@
       "matchConfidence": 1,
       "price": 221.86000061035156,
       "changePct": -5.45,
-      "volumeRatio": 1.03,
+      "volumeRatio": 1.04,
       "dailySma21": 237.08,
       "dailySma30": 242.18,
       "marketDate": "2026-10-23",
