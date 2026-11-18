@@ -29,6 +29,14 @@ async function fetchText(url, attempts = 3) {
   throw lastError;
 }
 
+async function fetchOptionalText(url) {
+  try {
+    return { text: await fetchText(url), status: "ok" };
+  } catch (error) {
+    return { text: "", status: `unavailable (${error.message})` };
+  }
+}
+
 async function history(symbol, range = "5y") {
   let lastError;
   for (const host of ["query2.finance.yahoo.com", "query1.finance.yahoo.com"]) {
@@ -68,10 +76,13 @@ async function main() {
   const now = new Date();
   const previousPath = new URL("../data/latest-scan.json", import.meta.url);
   const previous = JSON.parse(await fs.readFile(previousPath, "utf8"));
-  const [nseCsv, performanceHtml, listingHtml, hdfcPastIpoHtml, archive2021Html, niftyHistory, holidayResult] = await Promise.all([
-    fetchText(URLS.nseMaster), fetchText(URLS.ipoPerformance), fetchText(URLS.ipoListings), fetchText(URLS.hdfcPastIpo), fetchText(URLS.ipo2021), history("^NSEI")
-    , fetchText(URLS.nseHolidays, 2).then(text => ({ holidays: parseNseTradingHolidays(JSON.parse(text)), status: "ok" })).catch(() => ({ holidays: [], status: "fallback-weekdays" }))
+  const [nseCsv, performanceResult, listingResult, hdfcPastIpoHtml, archiveResult, niftyHistory, holidayResult] = await Promise.all([
+    fetchText(URLS.nseMaster), fetchOptionalText(URLS.ipoPerformance), fetchOptionalText(URLS.ipoListings), fetchText(URLS.hdfcPastIpo), fetchOptionalText(URLS.ipo2021), history("^NSEI"),
+    fetchText(URLS.nseHolidays, 2).then(text => ({ holidays: parseNseTradingHolidays(JSON.parse(text)), status: "ok" })).catch(() => ({ holidays: [], status: "fallback-weekdays" }))
   ]);
+  const performanceHtml = performanceResult.text;
+  const listingHtml = listingResult.text;
+  const archive2021Html = archiveResult.text;
   const niftyBars = niftyHistory.bars;
   const holidays = holidayResult.holidays;
   const marketDate = niftyBars.at(-1)?.date || "";
@@ -80,8 +91,12 @@ async function main() {
   const currentListings = parseIpoWatchListingPage(listingHtml);
   const hdfcPastIpos = parseHdfcPastIpo(hdfcPastIpoHtml);
   const archive2021 = parseIpoWatchListingPage(archive2021Html);
-  // IPOWatch's performance table can lag newly listed issues. Use every row with an
-  // explicit Listing Date as the current feed; NSE series remains the SME/mainboard gate.
+  if (!hdfcPastIpos.length && !currentListings.length && !archive2021.length) {
+    throw new Error("No usable IPO listing-date source: IPOWatch feeds unavailable and HDFC fallback returned no dated IPO rows");
+  }
+  // IPOWatch feeds are preferred, but may intermittently return malformed redirects.
+  // HDFC's independently sourced Date of Listing table remains the fallback.
+  // NSE series remains the authoritative SME/mainboard gate.
   const performanceRows = [
     ...hdfcPastIpos,
     ...currentListings,
@@ -127,7 +142,7 @@ async function main() {
       latestSourceListingDate, latestUniverseListingDate,
       historyFailures: historyFailures.length, validationFailures: built.failures.length,
       durationMs: Date.now() - started,
-      sourceStatus: { nseMaster: "ok", nseHolidayCalendar: holidayResult.status, ipoWatchPerformance: "ok", ipoWatchListingDate: "ok", hdfcActualListingDate: "ok", yahooHistory: historyFailures.length ? "partial" : fallbackHistories ? `ok (${fallbackHistories} fallback)` : "ok" },
+      sourceStatus: { nseMaster: "ok", nseHolidayCalendar: holidayResult.status, ipoWatchPerformance: performanceResult.status, ipoWatchListingDate: listingResult.status, ipoWatch2021Archive: archiveResult.status, hdfcActualListingDate: hdfcPastIpos.length ? "ok" : "empty", yahooHistory: historyFailures.length ? "partial" : fallbackHistories ? `ok (${fallbackHistories} fallback)` : "ok" },
       backtest: { status: "ready", lookbackSessions: 126, forwardHorizons: [5, 10, 20], note: "Indicative historical forward returns; not a guarantee" },
       rules: { oneMatchIncludes: true, noTopNCap: true, smeExcluded: true, smaTolerancePct: 2, ipoBaseMaxDepthPct: 12, independentFamilyScoring: true, safeSnapshotGuard: true, removedSystems: ["Monthly 51-Period High Breakout", "50-Day SMA Proximity"] }
     },
