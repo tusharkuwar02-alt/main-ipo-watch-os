@@ -2,8 +2,8 @@
   "meta": {
     "name": "Main IPO Watch OS",
     "frameworkVersion": "locked-20-v2.1",
-    "asOf": "2026-11-18T12:09:34.466Z",
-    "lastSuccessfulScanAt": "2026-11-18T12:09:34.466Z",
+    "asOf": "2026-11-18T12:15:43.406Z",
+    "lastSuccessfulScanAt": "2026-11-18T12:15:43.406Z",
     "exchange": "NSE",
     "segment": "Mainboard",
     "rollingWindowStart": "2021-11-18",
@@ -11,12 +11,12 @@
     "expectedMarketDate": "2026-11-18",
     "dataFreshness": "fresh",
     "universeCount": 412,
-    "qualifyingCount": 345,
+    "qualifyingCount": 344,
     "latestSourceListingDate": "2026-11-11",
     "latestUniverseListingDate": "2026-11-05",
     "historyFailures": 0,
     "validationFailures": 1,
-    "durationMs": 32123,
+    "durationMs": 41064,
     "sourceStatus": {
       "nseMaster": "ok",
       "nseHolidayCalendar": "ok",
@@ -4030,57 +4030,6 @@
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
           "reason": "Volume 0.39× average while price is within ±2% of SMA21"
-        }
-      ]
-    },
-    {
-      "symbol": "SSRETAIL",
-      "company": "SS Retail Limited",
-      "listingDate": "2026-09-23",
-      "issuePrice": 424,
-      "matchConfidence": 1,
-      "price": 675.7999877929688,
-      "changePct": -2.48,
-      "volumeRatio": 0.16,
-      "dailySma21": 664.42,
-      "dailySma30": 679.9,
-      "marketDate": "2026-11-18",
-      "matchCount": 4,
-      "priority": 62,
-      "signalFamilies": [
-        "SMA Proximity",
-        "IPO Structure",
-        "Volume"
-      ],
-      "confluenceScore": 62,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.71%",
-          "distancePct": 1.71,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.60%",
-          "distancePct": -0.6,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹424.00 reclaimed/held"
-        },
-        {
-          "id": "volume-dry-up",
-          "name": "Volume Dry-Up Pullback",
-          "family": "Volume",
-          "reason": "Volume 0.16× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -9299,142 +9248,6 @@
       ]
     },
     {
-      "symbol": "BONFIG",
-      "company": "Bonfiglioli Transmissions Limited",
-      "listingDate": "2026-10-23",
-      "issuePrice": 586,
-      "matchConfidence": 1,
-      "price": 800.0499877929688,
-      "changePct": 2,
-      "volumeRatio": null,
-      "dailySma21": null,
-      "dailySma30": null,
-      "marketDate": "2026-11-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹800.05 is above listing-day high ₹607.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹586.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "SMT",
-      "company": "Sahajanand Medical Technologies Limited",
-      "listingDate": "2026-10-23",
-      "issuePrice": 344,
-      "matchConfidence": 1,
-      "price": 546.7999877929688,
-      "changePct": -0.37,
-      "volumeRatio": null,
-      "dailySma21": null,
-      "dailySma30": null,
-      "marketDate": "2026-11-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹546.80 is above listing-day high ₹409.95"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹344.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "ZETWERK",
-      "company": "Zetwerk Manufacturing Businesses Limited",
-      "listingDate": "2026-10-23",
-      "issuePrice": 151,
-      "matchConfidence": 1,
-      "price": 166.69000244140625,
-      "changePct": -5.46,
-      "volumeRatio": null,
-      "dailySma21": null,
-      "dailySma30": null,
-      "marketDate": "2026-11-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹166.69 is above listing-day high ₹161.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹151.00 reclaimed/held"
-        }
-      ]
-    },
-    {
-      "symbol": "TONBO",
-      "company": "Tonbo Imaging India Limited",
-      "listingDate": "2026-10-23",
-      "issuePrice": 700,
-      "matchConfidence": 1,
-      "price": 1474.800048828125,
-      "changePct": -6.96,
-      "volumeRatio": null,
-      "dailySma21": null,
-      "dailySma30": null,
-      "marketDate": "2026-11-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "Breakout",
-        "IPO Structure"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "listing-high",
-          "name": "Listing High Breakout",
-          "family": "Breakout",
-          "reason": "Close ₹1474.80 is above listing-day high ₹1211.00"
-        },
-        {
-          "id": "issue-price",
-          "name": "Issue Price Reclaim / Hold",
-          "family": "IPO Structure",
-          "reason": "Issue price ₹700.00 reclaimed/held"
-        }
-      ]
-    },
-    {
       "symbol": "SHAHINVEST",
       "company": "Shah Investor's Home Limited",
       "listingDate": "2026-10-06",
@@ -9467,42 +9280,6 @@
           "name": "Volume Dry-Up Pullback",
           "family": "Volume",
           "reason": "Volume 0.22× average while price is within ±2% of SMA21"
-        }
-      ]
-    },
-    {
-      "symbol": "ACEVECTOR",
-      "company": "AceVector Limited",
-      "listingDate": "2026-10-05",
-      "issuePrice": 32,
-      "matchConfidence": 1,
-      "price": 20.34000015258789,
-      "changePct": -2.45,
-      "volumeRatio": 0.24,
-      "dailySma21": 20.36,
-      "dailySma30": 22.58,
-      "marketDate": "2026-11-18",
-      "matchCount": 2,
-      "priority": 40,
-      "signalFamilies": [
-        "SMA Proximity",
-        "Volume"
-      ],
-      "confluenceScore": 40,
-      "matches": [
-        {
-          "id": "daily-sma21",
-          "name": "Daily SMA 21 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price below SMA by 0.10%",
-          "distancePct": -0.1,
-          "smaDirection": "Falling"
-        },
-        {
-          "id": "volume-dry-up",
-          "name": "Volume Dry-Up Pullback",
-          "family": "Volume",
-          "reason": "Volume 0.24× average while price is within ±2% of SMA21"
         }
       ]
     },
@@ -12730,13 +12507,40 @@
       ]
     },
     {
+      "symbol": "BCSSL",
+      "company": "Bombay Coated and Special Steels Limited",
+      "listingDate": "2026-11-05",
+      "issuePrice": 82,
+      "matchConfidence": 1,
+      "price": 84.37000274658203,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹82.00 reclaimed/held"
+        }
+      ]
+    },
+    {
       "symbol": "SFCTECH",
       "company": "SFC Environmental Technologies Limited",
       "listingDate": "2026-11-03",
       "issuePrice": 330,
       "matchConfidence": 1,
       "price": 423.3999938964844,
-      "changePct": -2.1,
+      "changePct": 0,
       "volumeRatio": null,
       "dailySma21": null,
       "dailySma30": null,
@@ -12811,6 +12615,114 @@
       ]
     },
     {
+      "symbol": "BONFIG",
+      "company": "Bonfiglioli Transmissions Limited",
+      "listingDate": "2026-10-23",
+      "issuePrice": 586,
+      "matchConfidence": 1,
+      "price": 800.0499877929688,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹586.00 reclaimed/held"
+        }
+      ]
+    },
+    {
+      "symbol": "SMT",
+      "company": "Sahajanand Medical Technologies Limited",
+      "listingDate": "2026-10-23",
+      "issuePrice": 344,
+      "matchConfidence": 1,
+      "price": 546.7999877929688,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹344.00 reclaimed/held"
+        }
+      ]
+    },
+    {
+      "symbol": "ZETWERK",
+      "company": "Zetwerk Manufacturing Businesses Limited",
+      "listingDate": "2026-10-23",
+      "issuePrice": 151,
+      "matchConfidence": 1,
+      "price": 166.69000244140625,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹151.00 reclaimed/held"
+        }
+      ]
+    },
+    {
+      "symbol": "TONBO",
+      "company": "Tonbo Imaging India Limited",
+      "listingDate": "2026-10-23",
+      "issuePrice": 700,
+      "matchConfidence": 1,
+      "price": 1474.800048828125,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹700.00 reclaimed/held"
+        }
+      ]
+    },
+    {
       "symbol": "HDFIRE",
       "company": "HD Fire Protect Limited",
       "listingDate": "2026-10-21",
@@ -12844,10 +12756,10 @@
       "issuePrice": 272,
       "matchConfidence": 1,
       "price": 389.54998779296875,
-      "changePct": -1.45,
-      "volumeRatio": 0.53,
-      "dailySma21": 363.15,
-      "dailySma30": 374.9,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
       "marketDate": "2026-11-18",
       "matchCount": 1,
       "priority": 20,
@@ -12894,45 +12806,16 @@
       ]
     },
     {
-      "symbol": "GERMAN",
-      "company": "German Green Steel and Power Limited",
-      "listingDate": "2026-10-05",
-      "issuePrice": 139,
-      "matchConfidence": 0.89,
-      "price": 109.66000366210938,
-      "changePct": -0.05,
-      "volumeRatio": 0.19,
-      "dailySma21": 105.4,
-      "dailySma30": 108.49,
-      "marketDate": "2026-11-18",
-      "matchCount": 1,
-      "priority": 20,
-      "signalFamilies": [
-        "SMA Proximity"
-      ],
-      "confluenceScore": 20,
-      "matches": [
-        {
-          "id": "daily-sma30",
-          "name": "Daily SMA 30 Proximity",
-          "family": "SMA Proximity",
-          "reason": "Price above SMA by 1.08%",
-          "distancePct": 1.08,
-          "smaDirection": "Falling"
-        }
-      ]
-    },
-    {
       "symbol": "AONESTEELS",
       "company": "A-One Steels India Limited",
       "listingDate": "2026-10-01",
       "issuePrice": 405,
       "matchConfidence": 1,
       "price": 468.95001220703125,
-      "changePct": -0.12,
-      "volumeRatio": 0.3,
-      "dailySma21": 404.56,
-      "dailySma30": 403.54,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
       "marketDate": "2026-11-18",
       "matchCount": 1,
       "priority": 20,
@@ -12983,10 +12866,10 @@
       "issuePrice": 185,
       "matchConfidence": 1,
       "price": 191.2899932861328,
-      "changePct": -0.22,
-      "volumeRatio": 0.18,
-      "dailySma21": 200.11,
-      "dailySma30": 204.68,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
       "marketDate": "2026-11-18",
       "matchCount": 1,
       "priority": 20,
@@ -13056,6 +12939,33 @@
           "reason": "Price above SMA by 1.94%",
           "distancePct": 1.94,
           "smaDirection": "Falling"
+        }
+      ]
+    },
+    {
+      "symbol": "SSRETAIL",
+      "company": "SS Retail Limited",
+      "listingDate": "2026-09-23",
+      "issuePrice": 424,
+      "matchConfidence": 1,
+      "price": 675.7999877929688,
+      "changePct": 0,
+      "volumeRatio": null,
+      "dailySma21": null,
+      "dailySma30": null,
+      "marketDate": "2026-11-18",
+      "matchCount": 1,
+      "priority": 20,
+      "signalFamilies": [
+        "IPO Structure"
+      ],
+      "confluenceScore": 20,
+      "matches": [
+        {
+          "id": "issue-price",
+          "name": "Issue Price Reclaim / Hold",
+          "family": "IPO Structure",
+          "reason": "Issue price ₹424.00 reclaimed/held"
         }
       ]
     },
