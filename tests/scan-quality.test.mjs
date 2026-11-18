@@ -17,3 +17,30 @@ test("historical performance aggregation reports forward returns", () => {
   assert.equal(result.performance.winRate5d, 50);
   assert.equal(result.performance.avgReturn10d, 10);
 });
+
+test("scan guard rejects stale market data even when other checks pass", () => {
+  const scan = {
+    meta: {
+      universeCount: 400, historyFailures: 0, validationFailures: 0,
+      marketDate: "2026-11-05", expectedMarketDate: "2026-11-18",
+      dataFreshness: "stale"
+    },
+    stocks: [{ symbol: "TEST" }]
+  };
+  const quality = assessScanQuality(scan);
+  assert.equal(quality.healthy, false);
+  assert.ok(quality.warnings.some(warning => warning.includes("Market data is stale")));
+});
+
+test("scan guard accepts fresh market data when other checks pass", () => {
+  const scan = {
+    meta: {
+      universeCount: 400, historyFailures: 0, validationFailures: 0,
+      marketDate: "2026-11-18", expectedMarketDate: "2026-11-18",
+      dataFreshness: "fresh"
+    },
+    stocks: [{ symbol: "TEST" }]
+  };
+  const quality = assessScanQuality(scan);
+  assert.equal(quality.healthy, true);
+});
